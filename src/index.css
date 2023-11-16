@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+  font-family: Fontspring;
+  src: url("./assets/fonts/fontspring/Fontspring-DEMO-commuterssans-bold.otf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +15,10 @@
 
 .ffBarlow {
   font-family: 'Barlow', sans-serif;
+}
+
+.ff-fontspring {
+  font-size: Fontspring;
 }
 
 :root {
