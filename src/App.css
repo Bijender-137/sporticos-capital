@@ -18,3 +18,19 @@
     padding: 20px 0 18px 13px;
     outline: none;
 }
+
+.summit-btn {
+    border-radius: 6px;
+    padding: 17px 31px;
+}
+
+.footer-bg-img {
+    background-image: url("./assets/images/webp/Footer_bg_img.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-logo-w {
+    max-width: 237px;
+    height: 47px;
+}
