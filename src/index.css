@@ -66,19 +66,25 @@
 
 
 .navbars {
-  background-color: aqua;
   min-height: 100vh;
-  width: 300px;
-  color: #000;
+  width: 400px;
   position: relative;
 }
 
 .left_300 {
-  left: -300px;
-  position: absolute;
+  overflow: hidden !important;
+  right: -400px;
+  position: fixed;
+  transition: all linear 300ms;
 }
 
 .left_true {
-  left: 0;
-  position: absolute;
+  overflow: hidden !important;
+  right: 0;
+  position: fixed;
+  transition: all linear 300ms;
+}
+
+.cursor_pointer {
+  cursor: pointer;
 }
