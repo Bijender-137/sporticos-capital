@@ -60,7 +60,7 @@ const MyFooter = () => {
               </Row>
             </div>
           </Container>
-        </div>
+        </div> 
       </div>
     </>
   );

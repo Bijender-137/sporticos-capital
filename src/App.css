@@ -50,3 +50,7 @@
 .icons-bg:hover {
     transform: translateY(-5px);
 }
+
+.textarea-resize {
+    resize: none !important;
+}
