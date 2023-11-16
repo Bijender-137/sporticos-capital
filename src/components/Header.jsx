@@ -17,7 +17,10 @@ const Header = () => {
         <Container>
           <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`}>
             <div className="p-4 d-flex flex-column">
-              <Link className="text-black mb-4 ff-barlow fw-normal fs-xs opacity-07" onClick={() => setShow(false)}>Club Investments</Link>
+              <div>
+                
+              </div>
+              <Link className="text-black mb-4 ff-barlow fw-normal fs-xs opacity-07 w-100" onClick={() => setShow(false)}>Club Investments</Link>
               <Link className="text-black mb-4 ff-barlow fw-normal fs-xs opacity-07" onClick={() => setShow(false)}>Academy Partnerships</Link>
               <Link className="text-black mb-4 ff-barlow fw-normal fs-xs opacity-07" onClick={() => setShow(false)}>Scouting and Trials</Link>
               <Link className="text-black mb-4 ff-barlow fw-normal fs-xs opacity-07" onClick={() => setShow(false)}>E-Mentoring</Link>
