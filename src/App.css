@@ -8,6 +8,12 @@
     box-shadow: 0px 11px 37px 0px rgba(0, 0, 0, 0.10);
 }
 
+.input-border {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    background: #FCFCFC;
+}
+
 .input-padding {
     padding: 20px 0 18px 13px;
     outline: none;
