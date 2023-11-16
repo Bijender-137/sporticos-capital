@@ -26,12 +26,12 @@ const FormSubmission = () => {
     <>
       <div className="bg-white pt-5">
         <Container className="pt-3">
-          <h2 className="ff-fontspring fw-normal fs-md lh-42 text-center pt-5">
+          <h2 className="ff-fontspring fw-normal fs-md lh-42 text-center pt-5 pb-3">
             Submit your Information and a Member of our
             <span className="d-md-block"></span> Team will Follow Up As Soon As
             Possible
           </h2>
-          <div className="form-box-shadow pt-5">
+          <div className="form-box-shadow py-5 mt-4">
             <form
               className="d-flex flex-column px-3 px-md-5"
               onSubmit={Formsubmit}
@@ -90,20 +90,31 @@ const FormSubmission = () => {
               </select>
               <div className="pt-2 mt-1">
                 <textarea
+                  required
                   className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray"
                   cols="0"
                   rows="5"
                   placeholder="Describe your need:"
                 ></textarea>
               </div>
-              <form action="/action_page">
-                <input type="checkbox" name="check" id="checked" />
-                <label className="ps-2 clr-gray" for="vehicle1">
-                  I agree to Sporticos-Capital Terms of Use and Privacy Policy*
+              <form className="pt-3 mt-1" action="/action_page ">
+                <input required type="checkbox" name="check" id="checked" />
+                <label className="ps-2 clr-gray fw-normal fs-xs" for="vehicle1">
+                  I agree to Sporticos-Capital
+                  <span className="fw-semibold clr-blue">
+                    Terms of Use{" "}
+                  </span>{" "}
+                  and
+                  <span className="fw-semibold clr-blue"> Privacy Policy*</span>
                 </label>
               </form>
               <div className="mt-4">
-                <button type="submit">submit</button>
+                <button
+                  type="submit"
+                  className="fw-normal text-uppercase fs-xs text-black bg-yellow summit-btn border-0 ff-fontspring"
+                >
+                  submit
+                </button>
               </div>
             </form>
           </div>
