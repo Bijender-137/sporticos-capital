@@ -38,3 +38,15 @@
 .max-w-453 {
     max-width: 453px;
 }
+
+.icons-bg {
+    height: 40px;
+    width: 40px;
+    background-color: var(--clr-yellow);
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.icons-bg:hover {
+    transform: translateY(-5px);
+}
