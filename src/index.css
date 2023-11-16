@@ -34,6 +34,7 @@
   --fs--sm: 20px;
   --fs--md: 30px;
   --fs--lg: 80px;
+  
   --clr-gray: #979797;
   --clr-yellow: #d9e76c;
   --clr-white-400: #FCFCFC;
@@ -81,7 +82,7 @@
 .sideNavbar {
   width: 90%;
   min-height: 100vh;
-  position: relative;
+  /* position: relative; */
 }
 
 .nav-fix {
@@ -109,6 +110,12 @@
 
 .opacity-07 {
   opacity: 0.7;
+}
+
+.crossIcon {
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
 }
 
 @media (min-width:425px) {
