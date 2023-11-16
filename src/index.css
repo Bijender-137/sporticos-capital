@@ -29,6 +29,7 @@
   --clr-gray: #979797;
   --clr-yellow: #d9e76c;
   --clr-white-400: #FCFCFC;
+  --clr-blue: #0075F2;
 
 }
 
@@ -62,6 +63,10 @@
 
 .bg-white-400 {
   background-color: var(--clr-white-400);
+}
+
+.clr-blue {
+  color: var(--clr-blue);
 }
 
 
