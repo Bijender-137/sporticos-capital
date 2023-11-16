@@ -19,7 +19,7 @@ const MyFooter = () => {
                       alt="FooterLogo"
                     />
                   </a>
-                  <p className="text-white">
+                  <p className="text-white opacity-07 max-w-453 fs-xs fw-normal ffBarlow mt-3">
                     Sporticos Capital is a registered LLC with offices in
                     Bahrain, US and the UK. Our combined experience and diverse
                     team gives us an important vantage point to understand the
