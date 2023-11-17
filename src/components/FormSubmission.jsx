@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
+import { DropDown } from "./common/Icons";
 
 const FormSubmission = () => {
+  // form submission js
   const [myData, setData] = useState({
     Name: "",
     Email: "",
@@ -21,6 +23,19 @@ const FormSubmission = () => {
   const [show, setShow] = useState(false);
   const toggleField = () => {
     setShow(!show);
+  };
+
+  // dropdown js
+  const [open, setOpen] = useState(false);
+  const buttonClick = () => {
+    setOpen(!open);
+    // console.log(setOpen(!open));
+  };
+  const [option, setOption] = useState("Which best describes you?");
+  const data = ["Which best describes you?", "option 2", "option 3"];
+  const optionClick = (i) => {
+    setOption(i);
+    setOpen(false);
   };
   return (
     <>
@@ -80,14 +95,46 @@ const FormSubmission = () => {
                   value={myData.Password}
                 />
               </div>
+              <div className="pt-2 mt-1">
+                <div className="position-relative">
+                  <button
+                    onClick={buttonClick}
+                    className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray text-start d-flex justify-content-between pe-2 me-1"
+                  >
+                    {option}
+                    <span
+                      className={`${
+                        open ? "dropdown-open" : "dropdown-closed"
+                      }`}
+                    >
+                      <DropDown />
+                    </span>
+                  </button>
+                  <div className="position-absolute w-100">
+                    {open && (
+                      <ul className="p-0">
+                        {data.map((i, index) => (
+                          <li
+                            className="bg-gray w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray text-start cursor_pointer"
+                            key={index}
+                            onClick={() => optionClick(i)}
+                          >
+                            {i}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </div>
+              </div>
 
-              <select
+              {/* <select
                 className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray mt-3"
                 id="select"
               >
                 <option value="option">I would like to speak about:</option>
                 <option value="option">I would like to learn about:</option>
-              </select>
+              </select> */}
               <div className="pt-2 mt-1">
                 <textarea
                   required
@@ -97,15 +144,18 @@ const FormSubmission = () => {
                   placeholder="Describe your need:"
                 ></textarea>
               </div>
-              <form className="pt-3 mt-1" action="/action_page ">
+              <form
+                className="pt-3 mt-1 d-flex align-items-baseline"
+                action="/action_page "
+              >
                 <input required type="checkbox" name="check" id="checked" />
                 <label for="checked" className="ps-2 clr-gray fw-normal fs-xs">
                   I agree to Sporticos-Capital
-                  <a href="" className="fw-semibold clr-blue mx-1">
+                  <a href="#" className="fw-semibold clr-blue mx-1">
                     Terms of Use
                   </a>
                   and
-                  <a href="" className="fw-semibold clr-blue mx-1">
+                  <a href="#" className="fw-semibold clr-blue mx-1">
                     Privacy Policy*
                   </a>
                 </label>
