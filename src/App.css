@@ -74,3 +74,8 @@ input:-webkit-autofill:active {
 .dropdown-open {
     rotate: 180deg;
 }
+
+/* back to top */
+.transform_rotate {
+    transform: rotate(-90deg);
+}

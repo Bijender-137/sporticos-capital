@@ -30,19 +30,22 @@ const MyFooter = () => {
                     </p>
                     <div className="d-flex align-items-center gap-2 mt-3">
                       <a
-                        href="#"
+                        target="blank"
+                        href="https://www.linkedin.com/company/sporticos-capital/"
                         className="icons-bg d-flex justify-content-center align-items-center"
                       >
                         <Linkdin />
                       </a>
                       <a
-                        href="#"
+                        target="blank"
+                        href="https://www.facebook.com/SporticosCapital"
                         className="icons-bg d-flex justify-content-center align-items-center"
                       >
                         <Twitter />
                       </a>
                       <a
-                        href="#"
+                        target="blank"
+                        href="https://www.instagram.com/sporticoscapital/"
                         className="icons-bg d-flex justify-content-center align-items-center"
                       >
                         <Instagram />
@@ -61,7 +64,7 @@ const MyFooter = () => {
                           <li className="mt-3">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               About Us
                             </a>
@@ -69,7 +72,7 @@ const MyFooter = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               Wealth Management
                             </a>
@@ -77,7 +80,7 @@ const MyFooter = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               Debt Funding
                             </a>
@@ -85,7 +88,7 @@ const MyFooter = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               Club Investment
                             </a>
@@ -93,7 +96,7 @@ const MyFooter = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               Player Pathway
                             </a>
@@ -101,7 +104,7 @@ const MyFooter = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               E-Mentoring
                             </a>
@@ -118,7 +121,7 @@ const MyFooter = () => {
                           <li className="mt-3">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               About
                             </a>
@@ -126,7 +129,7 @@ const MyFooter = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               FAQ
                             </a>
@@ -134,7 +137,7 @@ const MyFooter = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               Contact us
                             </a>
@@ -151,7 +154,7 @@ const MyFooter = () => {
                           <li className="mt-3">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
                             >
                               Terms & Conditions <br /> Privacy Policy
                             </a>
