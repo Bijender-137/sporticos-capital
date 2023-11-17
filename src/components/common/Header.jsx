@@ -22,11 +22,11 @@ const Header = () => {
   return (
     <>
       <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden" onClick={() => setShow(false)}>
-        {show ? (
-          <div className="bg-yellow opacity-25 z-2 position-absolute top-0 start-0 w-100 h-100"></div>) : ("")}
         <nav className="bg-yellow position-relative z-2">
+          {show ? (
+            <div className="bg-yellow opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
           <Container>
-            <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`} onClick={(e) => e.stopPropagation()}>
+            <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white z-4`} onClick={(e) => e.stopPropagation()}>
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
                 <div onClick={() => setShow(false)} className="position-absolute crossIcon">
                   <CrossIcons />
@@ -47,7 +47,7 @@ const Header = () => {
               </div>
             </div>
             <div className="d-flex justify-content-between align-items-center py-3">
-              <a href="https://www.instagram.com/sporticoscapital/"><img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" /></a>
+              <a href="#" target="_"><img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" /></a>
               <div onClick={handleMenuClick} className="cursor_pointer">
                 <MenuIcons />
               </div>
