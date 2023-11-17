@@ -21,8 +21,8 @@ export const BackTop = () => {
             onClick={() => onTop()}
             className={
               first
-                ? "d-none end-0 bottom-0 me-md-5 me-2 mb-md-5 mb-3 transform_rotate bg-transparent border-0 position-fixed"
-                : "d-block end-0 bottom-0 me-md-5 me-2 mb-md-5 mb-3 transform_rotate bg-transparent border-0 position-fixed"
+                ? "d-none end-0 bottom-0 me-md-4 me-2 mb-md-4 mb-3 transform_rotate bg-transparent border-0 position-fixed"
+                : "d-block end-0 bottom-0 me-md-4 me-2 mb-md-4 mb-3 transform_rotate bg-transparent border-0 position-fixed"
             }
           >
             <svg

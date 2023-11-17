@@ -32,21 +32,21 @@ const MyFooter = () => {
                       <a
                         target="blank"
                         href="https://www.linkedin.com/company/sporticos-capital/"
-                        className="icons-bg d-flex justify-content-center align-items-center"
+                        className="icons-bg d-flex justify-content-center align-items-center transition_300"
                       >
                         <Linkdin />
                       </a>
                       <a
                         target="blank"
                         href="https://www.facebook.com/SporticosCapital"
-                        className="icons-bg d-flex justify-content-center align-items-center"
+                        className="icons-bg d-flex justify-content-center align-items-center transition_300"
                       >
                         <Twitter />
                       </a>
                       <a
                         target="blank"
                         href="https://www.instagram.com/sporticoscapital/"
-                        className="icons-bg d-flex justify-content-center align-items-center"
+                        className="icons-bg d-flex justify-content-center align-items-center transition_300"
                       >
                         <Instagram />
                       </a>
