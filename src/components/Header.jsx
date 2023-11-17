@@ -14,8 +14,8 @@ const Header = () => {
   }
   return (
     <>
-      <nav className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden">
-        <div className="bg-yellow position-relative z-2">
+      <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden">
+        <nav className="bg-yellow position-relative z-2">
           <Container>
             <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`}>
               <div className="p-4 d-flex flex-column position-relative align-items-start">
@@ -40,13 +40,13 @@ const Header = () => {
               </div>
             </div>
           </Container>
-        </div>
+        </nav>
         <div className=" flex-grow-1 d-flex align-items-lg-center position-relative z-1">
           <Container>
             <Hero />
           </Container>
         </div>
-      </nav>
+      </div>
 
     </>
   )
