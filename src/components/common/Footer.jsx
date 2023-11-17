@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import FooterLogo from "../assets/images/svg/footer_logo.svg";
-import { Instagram, Linkdin, Twitter } from "./common/Icons";
+import FooterLogo from "../../assets/images/svg/footer_logo.svg";
+import { Instagram, Linkdin, Twitter } from "../common/Icons";
 const Footer = () => {
   return (
     <>
