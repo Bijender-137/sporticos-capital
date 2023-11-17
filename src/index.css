@@ -172,10 +172,9 @@
   width: 100%;
 }
 
-
-.herofootballimg {
-  height: 390px;
-  max-width: 500px;
+.heroBtn {
+  padding: 17px 31px;
+  border-radius: 6px;
 }
 
 @media (min-width:425px) {
@@ -201,11 +200,6 @@
   .nav-fix {
     right: -70%;
   }
-
-  .herofootballimg {
-    height: 385px;
-    max-width: 550px;
-  }
 }
 
 @media (min-width:768px) {
@@ -224,11 +218,6 @@
 
   .lh-md-60 {
     line-height: 60px;
-  }
-
-  .herofootballimg {
-    height: 400px;
-    max-width: 650px;
   }
 }
 
@@ -251,15 +240,17 @@
   }
 
   .herofootballimg {
-    height: 500px;
-    max-width: 800px;
+    height: 565px;
+    max-width: 850px;
+    right: -11%;
   }
 }
 
 @media (min-width:1200px) {
   .herofootballimg {
-    height: 530px;
-    max-width: 980px;
+    height: 565px;
+    max-width: 1000px;
+    right: -5%;
   }
 }
 
@@ -267,5 +258,6 @@
   .herofootballimg {
     height: 565px;
     max-width: 1080px !important;
+    right: 0;
   }
 }
