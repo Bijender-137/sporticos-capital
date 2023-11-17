@@ -152,7 +152,7 @@ const FormSubmission = () => {
                   </a>
                 </label>
               </form>
-              <div className="mt-5 pt-3">
+              <div className="mt-4 mt-md-5 pt-lg-3">
                 <button
                   type="submit"
                   className="fw-normal text-uppercase fs-xs text-black bg-yellow summit-btn border-0 ff-fontspring mt-1"
