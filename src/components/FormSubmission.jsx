@@ -39,14 +39,14 @@ const FormSubmission = () => {
   };
   return (
     <>
-      <div className="bg-white pt-5">
-        <Container className="pt-3">
-          <h2 className="ff-fontspring fw-normal fs-md lh-42 text-center pt-5 pb-3 mb-0">
+      <div className="bg-white py-5">
+        <Container className="pt-lg-3">
+          <h2 className="ff-fontspring fw-normal fs-md lh-42 text-center pt-md-5 pb-sm-3 mb-0">
             Submit your Information and a Member of our
             <span className="d-md-block"></span> Team will Follow Up As Soon As
             Possible
           </h2>
-          <div className="form-box-shadow py-5 mt-4 mx-auto w-100">
+          <div className="form-box-shadow py-4 py-lg-5 mt-lg-4 mx-auto w-100">
             <form
               className="d-flex flex-column px-3 px-md-5"
               onSubmit={Formsubmit}

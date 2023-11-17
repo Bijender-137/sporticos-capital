@@ -5,10 +5,10 @@ import { Instagram, Linkdin, Twitter } from "./common/Icons";
 const MyFooter = () => {
   return (
     <>
-      <div className="pt-5 mt-4">
-        <div className="footer-bg-img mt-5 pb-5">
-          <Container className="pb-4">
-            <div className="pt-4">
+      <div className="pt-md-5 mt-lg-4">
+        <div className="footer-bg-img pb-sm-5">
+          <Container className="pb-lg-5">
+            <div className="pt-lg-4">
               <Row className="py-5 justify-content-between">
                 <Col lg={5}>
                   <div>
