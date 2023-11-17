@@ -27,7 +27,7 @@ const Header = () => {
         <nav className="bg-yellow position-relative z-2">
           <Container>
             <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`} onClick={(e) => e.stopPropagation()}>
-              <div className="p-4 d-flex flex-column position-relative align-items-start">
+              <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
                 <div onClick={() => setShow(false)} className="position-absolute crossIcon">
                   <CrossIcons />
                 </div>
@@ -38,8 +38,12 @@ const Header = () => {
                 <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>Venture Capital</Link>
                 <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>CSR</Link>
                 <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>About</Link>
-                <button className="px-3 py-2 fw-semibold text-uppercase rounded-1 text-black fs-xs bg-yellow navLink-button ffBarlow mb-3 mb-md-4" type="button" onClick={() => setShow(false)}>contant Us</button>
-                <button className="px-4 py-2 fw-semibold text-uppercase rounded-1 text-black fs-xs bg-yellow navLink-button ffBarlow" type="button" onClick={() => setShow(false)}>set an appointment</button>
+                <button className="heroBtn mb-3 mb-md-4 fw-semibold text-uppercase text-black fs-xs bg-yellow navLink-button ff-fontspring" type="button" onClick={() => setShow(false)}>
+                  contant Us
+                </button>
+                <button className="heroBtn px-3 px-sm-4 fw-semibold text-uppercase text-black fs-xs bg-yellow navLink-button ff-fontspring" type="button" onClick={() => setShow(false)}>
+                  set an appointment
+                </button>
               </div>
             </div>
             <div className="d-flex justify-content-between align-items-center py-3">
