@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
-
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none !important;
-  box-sizing: border-box;
-  list-style-type: none;
-}
+/* font-family: 'Barlow', sans-serif; */
 
 @font-face {
   font-family: Fontspring;
@@ -16,9 +9,9 @@
 * {
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  box-sizing: border-box;
-  text-decoration: none;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
 }
 
 .ffBarlow {
@@ -30,11 +23,13 @@
 }
 
 :root {
+  /* ------ font size ------*/
   --fs--xs: 16px;
   --fs--sm: 20px;
   --fs--md: 30px;
   --fs--lg: 80px;
 
+  /* ------ all color ------*/
   --clr-gray: #979797;
   --clr-yellow: #d9e76c;
   --clr-white-400: #FCFCFC;
@@ -108,7 +103,6 @@
   min-height: 100vh;
   transition: all linear 300ms !important;
   position: fixed;
-  /* position: relative; */
 }
 
 .nav-fix {
@@ -153,6 +147,8 @@
 }
 
 .navLink-button {
+  padding: 17px 31px;
+  border-radius: 6px;
   transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
 }
@@ -171,11 +167,8 @@
   height: 100%;
   width: 100%;
 }
-
-.heroBtn {
-  padding: 17px 31px;
-  border-radius: 6px;
-}
+/* 
+.heroBtn {} */
 
 @media (min-width:425.98px) {
   .sideNavbar {
@@ -243,6 +236,10 @@
     height: 565px;
     max-width: 850px;
     right: -11%;
+  }
+  
+  .lh-42{
+    line-height: 42px;
   }
 }
 
