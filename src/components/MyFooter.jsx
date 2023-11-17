@@ -50,17 +50,121 @@ const MyFooter = () => {
                     </div>
                   </div>
                 </Col>
-                <Col lg={5}>
-                  <div>
-                    <ul className="mb-0">
-                      <li className="clr-gray">Home</li>
-                    </ul>
-                  </div>
+                <Col lg={6} className="pt-4 pt-lg-0">
+                  <Row>
+                    <Col xs={6} sm={4}>
+                      <div className="d-lg-flex justify-content-end">
+                        <ul className="mb-0 p-0">
+                          <li className="clr-gray fs-sm fw-normal ff-fontspring">
+                            Home
+                          </li>
+                          <li className="mt-3">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              About Us
+                            </a>
+                          </li>
+                          <li className="mt-2">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              Wealth Management
+                            </a>
+                          </li>
+                          <li className="mt-2">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              Debt Funding
+                            </a>
+                          </li>
+                          <li className="mt-2">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              Club Investment
+                            </a>
+                          </li>
+                          <li className="mt-2">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              Player Pathway
+                            </a>
+                          </li>
+                          <li className="mt-2">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              E-Mentoring
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </Col>
+                    <Col xs={6} sm={4}>
+                      <div className="d-lg-flex justify-content-center">
+                        <ul className="mb-0 p-0">
+                          <li className="clr-gray fs-sm fw-normal ff-fontspring">
+                            About
+                          </li>
+                          <li className="mt-3">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              About
+                            </a>
+                          </li>
+                          <li className="mt-2">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              FAQ
+                            </a>
+                          </li>
+                          <li className="mt-2">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              Contact us
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </Col>
+                    <Col xs={6} sm={4}>
+                      <div className="d-lg-flex justify-content-end pt-4 pt-sm-0">
+                        <ul className="mb-0 p-0">
+                          <li className="clr-gray fs-sm fw-normal ff-fontspring">
+                            Legal
+                          </li>
+                          <li className="mt-3">
+                            <a
+                              href="#"
+                              className="fw-normal fs-xs ffBarlow text-white opacity-07"
+                            >
+                              Terms & Conditions <br /> Privacy Policy
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </Col>
+                  </Row>
                 </Col>
               </Row>
             </div>
           </Container>
-        </div> 
+        </div>
       </div>
     </>
   );

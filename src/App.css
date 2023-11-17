@@ -6,6 +6,7 @@
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 11px 37px 0px rgba(0, 0, 0, 0.10);
+    max-width: 1040px;
 }
 
 .input-border {
@@ -53,4 +54,13 @@
 
 .textarea-resize {
     resize: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--clr-gray);
+    transition: background-color 5000s ease-in-out 0s;
 }

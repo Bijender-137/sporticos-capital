@@ -31,7 +31,7 @@ const FormSubmission = () => {
             <span className="d-md-block"></span> Team will Follow Up As Soon As
             Possible
           </h2>
-          <div className="form-box-shadow py-5 mt-4">
+          <div className="form-box-shadow py-5 mt-4 mx-auto w-100">
             <form
               className="d-flex flex-column px-3 px-md-5"
               onSubmit={Formsubmit}
@@ -99,11 +99,7 @@ const FormSubmission = () => {
               </div>
               <form className="pt-3 mt-1" action="/action_page ">
                 <input required type="checkbox" name="check" id="checked" />
-                <label
-                  for="checked"
-                  className="ps-2 clr-gray fw-normal fs-xs"
-                 
-                >
+                <label for="checked" className="ps-2 clr-gray fw-normal fs-xs">
                   I agree to Sporticos-Capital
                   <a href="" className="fw-semibold clr-blue mx-1">
                     Terms of Use
