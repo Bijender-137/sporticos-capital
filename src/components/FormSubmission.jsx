@@ -41,7 +41,7 @@ const FormSubmission = () => {
     <>
       <div className="bg-white pt-5">
         <Container className="pt-3">
-          <h2 className="ff-fontspring fw-normal fs-md lh-42 text-center pt-5 pb-3">
+          <h2 className="ff-fontspring fw-normal fs-md lh-42 text-center pt-5 pb-3 mb-0">
             Submit your Information and a Member of our
             <span className="d-md-block"></span> Team will Follow Up As Soon As
             Possible
@@ -127,14 +127,6 @@ const FormSubmission = () => {
                   </div>
                 </div>
               </div>
-
-              {/* <select
-                className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray mt-3"
-                id="select"
-              >
-                <option value="option">I would like to speak about:</option>
-                <option value="option">I would like to learn about:</option>
-              </select> */}
               <div className="pt-2 mt-1">
                 <textarea
                   required
@@ -160,10 +152,10 @@ const FormSubmission = () => {
                   </a>
                 </label>
               </form>
-              <div className="mt-4">
+              <div className="mt-5 pt-3">
                 <button
                   type="submit"
-                  className="fw-normal text-uppercase fs-xs text-black bg-yellow summit-btn border-0 ff-fontspring"
+                  className="fw-normal text-uppercase fs-xs text-black bg-yellow summit-btn border-0 ff-fontspring mt-1"
                 >
                   submit
                 </button>

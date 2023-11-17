@@ -7,7 +7,7 @@ const MyFooter = () => {
     <>
       <div className="pt-5 mt-4">
         <div className="footer-bg-img mt-5 pb-5">
-          <Container>
+          <Container className="pb-4">
             <div className="pt-4">
               <Row className="py-5 justify-content-between">
                 <Col lg={5}>
@@ -164,6 +164,9 @@ const MyFooter = () => {
               </Row>
             </div>
           </Container>
+        </div>
+        <div className="bg-yellow ffBarlow fw-normal fs-xs text-black text-center py-3">
+          ©Copyright Sporticos-Capital. | All Rights Reserved.
         </div>
       </div>
     </>
