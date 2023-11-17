@@ -47,7 +47,7 @@ const Header = () => {
               </div>
             </div>
             <div className="d-flex justify-content-between align-items-center py-3">
-              <img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" />
+              <a href="https://www.instagram.com/sporticoscapital/"><img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" /></a>
               <div onClick={handleMenuClick} className="cursor_pointer">
                 <MenuIcons />
               </div>
