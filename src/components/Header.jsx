@@ -16,16 +16,14 @@ const Header = () => {
 
   const handleMenuClick = (e) => {
     e.stopPropagation(); // Prevent window click event from closing the menu
-    setShow(!show); // Toggle the menu visibility
-  };
-
-  const handleWindowClick = () => {
-    setShow(false); // Close the side menu when the window is clicked
+    setShow(!show);
   };
 
   return (
     <>
-      <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden" onClick={handleWindowClick}>
+      <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden" onClick={() => setShow(false)}>
+        {show ? (
+          <div className="bg-yellow opacity-25 z-2 position-absolute top-0 start-0 w-100 h-100"></div>) : ("")}
         <nav className="bg-yellow position-relative z-2">
           <Container>
             <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`} onClick={(e) => e.stopPropagation()}>
