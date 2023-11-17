@@ -34,7 +34,7 @@
   --fs--sm: 20px;
   --fs--md: 30px;
   --fs--lg: 80px;
-  
+
   --clr-gray: #979797;
   --clr-yellow: #d9e76c;
   --clr-white-400: #FCFCFC;
@@ -82,6 +82,8 @@
 .sideNavbar {
   width: 90%;
   min-height: 100vh;
+  transition: all linear 300ms !important;
+  position: fixed;
   /* position: relative; */
 }
 
@@ -89,14 +91,14 @@
   overflow: hidden !important;
   right: -90%;
   position: fixed;
-  transition: all linear 300ms;
+  transition: all linear 300ms !important;
 }
 
 .nav-show {
   overflow: hidden !important;
   right: 0;
   position: fixed;
-  transition: all linear 300ms;
+  transition: all linear 300ms !important;
 }
 
 .cursor_pointer {
@@ -116,6 +118,27 @@
   top: 20px;
   right: 20px;
   cursor: pointer;
+}
+
+.navlink {
+  transition: all linear 300ms;
+}
+
+.navlink:hover {
+  opacity: 1 !important;
+}
+
+.navLink-button {
+  transition: all linear 300ms;
+  border: 2px solid var(--clr-yellow);
+}
+
+.transition_300 {
+  transition: all linear 300ms !important;
+}
+
+.navLink-button:hover {
+  background-color: #fff;
 }
 
 @media (min-width:425px) {

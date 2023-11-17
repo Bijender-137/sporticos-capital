@@ -64,3 +64,13 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: var(--clr-gray);
     transition: background-color 5000s ease-in-out 0s;
 }
+
+/* dropdown css */
+.custom_dropdown:hover {
+    background-color: var(--clr-gray) !important;
+    cursor: pointer;
+}
+
+.dropdown-open {
+    rotate: 180deg;
+}
