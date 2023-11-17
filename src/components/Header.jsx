@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <>
-      <nav className="d-flex flex-column min-vh-100 bg-hero-img">
+      <nav className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden">
         <div className="bg-yellow position-relative z-2">
           <Container>
             <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`}>
