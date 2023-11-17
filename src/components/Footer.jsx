@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FooterLogo from "../assets/images/svg/footer_logo.svg";
 import { Instagram, Linkdin, Twitter } from "./common/Icons";
-const MyFooter = () => {
+const Footer = () => {
   return (
     <>
       <div className="pt-md-5 mt-lg-4">
@@ -176,4 +176,4 @@ const MyFooter = () => {
   );
 };
 
-export default MyFooter;
+export default Footer;

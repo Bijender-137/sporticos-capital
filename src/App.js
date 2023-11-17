@@ -3,16 +3,16 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "./App.css";
 import FormSubmission from "./components/FormSubmission";
 import Header from "./components/Header";
-import MyFooter from "./components/MyFooter";
 import { BackTop } from "./components/BackTop";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
       <FormSubmission />
-      <MyFooter />
-      <BackTop/>
+      <Footer />
+      <BackTop />
     </>
   );
 }
