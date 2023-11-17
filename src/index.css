@@ -252,6 +252,14 @@
     max-width: 1000px;
     right: -5%;
   }
+
+  .sideNavbar {
+    width: 35%;
+  }
+
+  .nav-fix {
+    right: -35%;
+  }
 }
 
 @media (min-width:1300px) {

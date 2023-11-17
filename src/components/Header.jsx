@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <>
       <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden" onClick={handleWindowClick}>
-        <nav className="bg-yellow position-relative z-2" onClick={(e) => e.stopPropagation()}>
+        <nav className="bg-yellow position-relative z-2">
           <Container>
             <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`} onClick={(e) => e.stopPropagation()}>
               <div className="p-4 d-flex flex-column position-relative align-items-start">
