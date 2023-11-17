@@ -20,7 +20,7 @@ export const MenuIcons = () => {
 export const CrossIcons = () => {
   return (
     <svg
-      class="opacity-50 coursor-pointer"
+      class="opacity-50 coursor-pointer navlink"
       width="30"
       height="30"
       viewBox="0 0 44 44"
