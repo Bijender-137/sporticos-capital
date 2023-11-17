@@ -7,17 +7,28 @@ import Hero from "./Hero";
 
 const Header = () => {
   const [show, setShow] = useState(false);
+
   if (show === true) {
     document.body.classList.add("overflow-hidden");
   } else {
     document.body.classList.remove("overflow-hidden");
   }
+
+  const handleMenuClick = (e) => {
+    e.stopPropagation(); // Prevent window click event from closing the menu
+    setShow(!show); // Toggle the menu visibility
+  };
+
+  const handleWindowClick = () => {
+    setShow(false); // Close the side menu when the window is clicked
+  };
+
   return (
     <>
-      <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden">
-        <nav className="bg-yellow position-relative z-2">
+      <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden" onClick={handleWindowClick}>
+        <nav className="bg-yellow position-relative z-2" onClick={(e) => e.stopPropagation()}>
           <Container>
-            <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`}>
+            <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white`} onClick={(e) => e.stopPropagation()}>
               <div className="p-4 d-flex flex-column position-relative align-items-start">
                 <div onClick={() => setShow(false)} className="position-absolute crossIcon">
                   <CrossIcons />
@@ -35,7 +46,7 @@ const Header = () => {
             </div>
             <div className="d-flex justify-content-between align-items-center py-3">
               <img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" />
-              <div onClick={() => setShow(true)} className="cursor_pointer">
+              <div onClick={handleMenuClick} className="cursor_pointer">
                 <MenuIcons />
               </div>
             </div>
