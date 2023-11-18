@@ -4,6 +4,7 @@ import { CrossIcons, MenuIcons } from "../common/Icons";
 import mainLogo from "../../assets/images/webp/main-logo.webp";
 import { Link } from "react-router-dom";
 import Hero from "../Hero";
+import { navLinks } from "./Helper";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -31,13 +32,19 @@ const Header = () => {
                 <div onClick={() => setShow(false)} className="position-absolute crossIcon">
                   <CrossIcons />
                 </div>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Club Investments</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Academy Partnerships</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Scouting and Trials</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>E-Mentoring</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Venture Capital</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>CSR</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>About</Link>
+                {navLinks.map((navlink) => {
+                  return (
+                    <div key={navlink.id} className="mb-3 mb-md-4">
+                      <Link onClick={() => setShow(false)}
+                        className="text-black  ffBarlow fw-normal fs-sm opacity-07 navlink"
+                        to={navlink.pathName}
+                      >
+                        {navlink.NavName}
+                      </Link>
+
+                    </div>
+                  );
+                })}
                 <button className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-semibold text-uppercase text-black fs-sm bg-yellow navLink-button ff-fontspring" type="button" onClick={() => setShow(false)}>
                   contant Us
                 </button>
