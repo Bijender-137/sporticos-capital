@@ -21,7 +21,7 @@ const Footer = () => {
                         alt="FooterLogo"
                       />
                     </a>
-                    <p className="text-white opacity-07 max-w-453 fs-xs fw-normal ffBarlow mt-3">
+                    <p className="text-white opacity-07 max-w-453 fs-sm fw-normal ffBarlow mt-3">
                       Sporticos Capital is a registered LLC with offices in
                       Bahrain, US and the UK. Our combined experience and
                       diverse team gives us an important vantage point to
@@ -58,13 +58,13 @@ const Footer = () => {
                     <Col xs={6} sm={4}>
                       <div className="d-lg-flex justify-content-end">
                         <ul className="mb-0 p-0">
-                          <li className="clr-gray fs-sm fw-normal ff-fontspring">
+                          <li className="text-white fs-md fw-normal ff-fontspring">
                             Home
                           </li>
                           <li className="mt-3">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               About Us
                             </a>
@@ -72,7 +72,7 @@ const Footer = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               Wealth Management
                             </a>
@@ -80,7 +80,7 @@ const Footer = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               Debt Funding
                             </a>
@@ -88,7 +88,7 @@ const Footer = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               Club Investment
                             </a>
@@ -96,7 +96,7 @@ const Footer = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               Player Pathway
                             </a>
@@ -104,7 +104,7 @@ const Footer = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               E-Mentoring
                             </a>
@@ -115,13 +115,13 @@ const Footer = () => {
                     <Col xs={6} sm={4}>
                       <div className="d-lg-flex justify-content-center">
                         <ul className="mb-0 p-0">
-                          <li className="clr-gray fs-sm fw-normal ff-fontspring">
+                          <li className="text-white fs-md fw-normal ff-fontspring">
                             About
                           </li>
                           <li className="mt-3">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               About
                             </a>
@@ -129,7 +129,7 @@ const Footer = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               FAQ
                             </a>
@@ -137,7 +137,7 @@ const Footer = () => {
                           <li className="mt-2">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               Contact us
                             </a>
@@ -148,13 +148,13 @@ const Footer = () => {
                     <Col xs={6} sm={4}>
                       <div className="d-lg-flex justify-content-end pt-4 pt-sm-0">
                         <ul className="mb-0 p-0">
-                          <li className="clr-gray fs-sm fw-normal ff-fontspring">
+                          <li className="text-white fs-md  fw-normal ff-fontspring">
                             Legal
                           </li>
                           <li className="mt-3">
                             <a
                               href="#"
-                              className="fw-normal fs-xs ffBarlow text-white opacity-07 navlink"
+                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
                             >
                               Terms & Conditions <br /> Privacy Policy
                             </a>

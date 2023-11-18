@@ -41,11 +41,11 @@ const FormSubmission = () => {
     <>
       <div className="bg-white py-5">
         <Container className="pt-lg-3">
-          <h2 className="ff-fontspring fw-normal fs-md lh-42 text-center pt-md-5 pb-sm-3 mb-0">
+          <p className="ff-fontspring fw-normal fs-xl lh-42 text-center pt-md-5 pb-sm-3 mb-0">
             Submit your Information and a Member of our
             <span className="d-md-block"></span> Team will Follow Up As Soon As
             Possible
-          </h2>
+          </p>
           <div className="form-box-shadow py-4 py-lg-5 mt-lg-4 mx-auto w-100">
             <form
               className="d-flex flex-column px-3 px-md-5"
@@ -53,7 +53,7 @@ const FormSubmission = () => {
             >
               <div>
                 <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
                   required
                   type="email"
                   placeholder="Email"
@@ -64,7 +64,7 @@ const FormSubmission = () => {
               </div>
               <div className="pt-2 mt-1">
                 <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
                   required
                   type="text"
                   placeholder="Name"
@@ -75,7 +75,7 @@ const FormSubmission = () => {
               </div>
               <div className="pt-2 mt-1">
                 <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
                   required
                   type="text"
                   placeholder="Subject"
@@ -86,7 +86,7 @@ const FormSubmission = () => {
               </div>
               <div className="pt-2 mt-1">
                 <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
                   required
                   type="text"
                   placeholder="Set an Appointment"
@@ -99,7 +99,7 @@ const FormSubmission = () => {
                 <div className="position-relative">
                   <button
                     onClick={buttonClick}
-                    className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray text-start d-flex justify-content-between pe-2 me-1"
+                    className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray text-start d-flex justify-content-between pe-2 me-1"
                   >
                     {option}
                     <span
@@ -115,7 +115,7 @@ const FormSubmission = () => {
                       <ul className="p-0">
                         {data.map((i, index) => (
                           <li
-                            className="bg-gray w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray text-start cursor_pointer"
+                            className="bg-gray w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray text-start cursor_pointer"
                             key={index}
                             onClick={() => optionClick(i)}
                           >
@@ -130,7 +130,7 @@ const FormSubmission = () => {
               <div className="pt-2 mt-1">
                 <textarea
                   required
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-xs clr-gray textarea-resize"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray textarea-resize"
                   cols="0"
                   rows="5"
                   placeholder="Describe your need:"
@@ -141,7 +141,7 @@ const FormSubmission = () => {
                 action="/action_page "
               >
                 <input required type="checkbox" name="check" id="checked" />
-                <label for="checked" className="ps-2 clr-gray fw-normal fs-xs">
+                <label for="checked" className="ps-2 clr-gray fw-normal fs-sm">
                   I agree to Sporticos-Capital
                   <a href="#" className="fw-semibold clr-blue mx-1">
                     Terms of Use
@@ -155,7 +155,7 @@ const FormSubmission = () => {
               <div className="mt-4 mt-md-5 pt-lg-3">
                 <button
                   type="submit"
-                  className="fw-normal text-uppercase fs-xs text-black bg-yellow ff-fontspring mt-1 navLink-button"
+                  className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 navLink-button"
                 >
                   submit
                 </button>
