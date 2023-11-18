@@ -21,9 +21,6 @@ const FormSubmission = () => {
     setData({ Name: "", Email: "", Subject: "", Appointment: "" });
   };
   const [show, setShow] = useState(false);
-  const toggleField = () => {
-    setShow(!show);
-  };
 
   // dropdown js
   const [open, setOpen] = useState(false);
@@ -48,27 +45,28 @@ const FormSubmission = () => {
           </p>
           <div className="form-box-shadow py-4 py-lg-5 mt-lg-4 mx-auto w-100">
             <form
+
               className="d-flex flex-column px-3 px-md-5"
               onSubmit={Formsubmit}
             >
-              <div>
-                <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
-                  required
-                  type="email"
-                  placeholder="Email"
-                  name="Email"
-                  onChange={Changing}
-                  value={myData.Email}
-                />
-              </div>
+              <input
+                className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
+                required
+                type="email"
+                placeholder="Email"
+                name="email"
+                id="email"
+                onChange={Changing}
+                value={myData.Email}
+              />
               <div className="pt-2 mt-1">
                 <input
                   className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
                   required
                   type="text"
                   placeholder="Name"
-                  name="Name"
+                  name="membername"
+                  id="membername"
                   onChange={Changing}
                   value={myData.Name}
                 />
@@ -80,6 +78,7 @@ const FormSubmission = () => {
                   type="text"
                   placeholder="Subject"
                   name="Subject"
+                  id="subject"
                   onChange={Changing}
                   value={myData.Password}
                 />
@@ -91,6 +90,7 @@ const FormSubmission = () => {
                   type="text"
                   placeholder="Set an Appointment"
                   name="Set an Appointment"
+                  id="Appointment"
                   onChange={Changing}
                   value={myData.Password}
                 />
@@ -103,9 +103,8 @@ const FormSubmission = () => {
                   >
                     {option}
                     <span
-                      className={`${
-                        open ? "dropdown-open" : "dropdown-closed"
-                      }`}
+                      className={`${open ? "dropdown-open" : "dropdown-closed"
+                        }`}
                     >
                       <DropDown />
                     </span>
@@ -133,15 +132,16 @@ const FormSubmission = () => {
                   className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray textarea-resize"
                   cols="0"
                   rows="5"
+                  id="message"
+                  name="message"
                   placeholder="Describe your need:"
                 ></textarea>
               </div>
-              <form
+              <div
                 className="pt-3 mt-1 d-flex align-items-baseline"
-                action="/action_page "
               >
                 <input required type="checkbox" name="check" id="checked" />
-                <label for="checked" className="ps-2 clr-gray fw-normal fs-sm">
+                <label htmlFor="checked" className="ps-2 clr-gray fw-normal fs-sm">
                   I agree to Sporticos-Capital
                   <a href="#" className="fw-semibold clr-blue mx-1">
                     Terms of Use
@@ -151,7 +151,7 @@ const FormSubmission = () => {
                     Privacy Policy*
                   </a>
                 </label>
-              </form>
+              </div>
               <div className="mt-4 mt-md-5 pt-lg-3">
                 <button
                   type="submit"
