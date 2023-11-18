@@ -31,17 +31,17 @@ const Header = () => {
                 <div onClick={() => setShow(false)} className="position-absolute crossIcon">
                   <CrossIcons />
                 </div>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>Club Investments</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>Academy Partnerships</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>Scouting and Trials</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>E-Mentoring</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>Venture Capital</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>CSR</Link>
-                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-xs opacity-07 navlink" onClick={() => setShow(false)}>About</Link>
-                <button className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-semibold text-uppercase text-black fs-xs bg-yellow navLink-button ff-fontspring" type="button" onClick={() => setShow(false)}>
+                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Club Investments</Link>
+                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Academy Partnerships</Link>
+                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Scouting and Trials</Link>
+                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>E-Mentoring</Link>
+                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>Venture Capital</Link>
+                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>CSR</Link>
+                <Link className="text-black mb-3 mb-md-4 ffBarlow fw-normal fs-sm opacity-07 navlink" onClick={() => setShow(false)}>About</Link>
+                <button className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-semibold text-uppercase text-black fs-sm bg-yellow navLink-button ff-fontspring" type="button" onClick={() => setShow(false)}>
                   contant Us
                 </button>
-                <button className="heroBtn px-3 px-sm-4 fw-semibold text-uppercase text-black fs-xs bg-yellow navLink-button ff-fontspring" type="button" onClick={() => setShow(false)}>
+                <button className="heroBtn px-3 px-sm-4 fw-semibold text-uppercase text-black fs-sm bg-yellow navLink-button ff-fontspring" type="button" onClick={() => setShow(false)}>
                   set an appointment
                 </button>
               </div>
