@@ -34,6 +34,7 @@ export const CrossIcons = () => {
     </svg>
   );
 };
+//LINKDIN ICON
 export const Linkdin = () => {
   return (
     <svg
@@ -50,6 +51,7 @@ export const Linkdin = () => {
     </svg>
   );
 };
+//TWITTER ICON
 export const Twitter = () => {
   return (
     <svg
@@ -66,6 +68,7 @@ export const Twitter = () => {
     </svg>
   );
 };
+//INSTAGRAM ICON
 export const Instagram = () => {
   return (
     <svg
@@ -82,7 +85,7 @@ export const Instagram = () => {
     </svg>
   );
 };
-
+//DROPDOWN ICON
 export const DropDown = () => {
   return (
     <svg
@@ -98,6 +101,23 @@ export const DropDown = () => {
           fill="black"
         />
       </g>
+    </svg>
+  );
+};
+//ADD-PLUS ICON
+export const PlusIcon = () => {
+  return (
+    <svg className="groupIconplus-nagetive" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M25.3346 15.668V16.3346C25.3346 16.7028 25.0362 17.0013 24.668 17.0013H17.0013V24.668C17.0013 25.0361 16.7028 25.3346 16.3346 25.3346H15.668C15.2998 25.3346 15.0013 25.0361 15.0013 24.668V17.0013H7.33464C6.96645 17.0013 6.66797 16.7028 6.66797 16.3346V15.668C6.66797 15.2998 6.96645 15.0013 7.33464 15.0013H15.0013V7.33463C15.0013 6.96644 15.2998 6.66797 15.668 6.66797H16.3346C16.7028 6.66797 17.0013 6.96644 17.0013 7.33463V15.0013H24.668C25.0362 15.0013 25.3346 15.2998 25.3346 15.668Z" fill="black" />
+    </svg>
+
+  );
+};
+//NEGATIVE ICON
+export const NegativeIcon = () => {
+  return (
+    <svg className="groupIconplus-nagetive" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6.66797 16H25.3346" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 };

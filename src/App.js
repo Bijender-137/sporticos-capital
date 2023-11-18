@@ -5,13 +5,18 @@ import FormSubmission from "./components/FormSubmission";
 import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
 import { BackTop } from "./components/common/BackTop";
+import { Route, Routes } from "react-router-dom";
+import Academy from "./pages/Academy";
 
 
 function App() {
   return (
     <>
       <Header />
-      <FormSubmission />
+      <Routes>
+        <Route exact path="/" Component={FormSubmission} />
+        <Route exact path="/academy" Component={Academy} />
+      </Routes>
       <Footer />
       <BackTop />
     </>

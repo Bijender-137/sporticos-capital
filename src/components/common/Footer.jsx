@@ -2,14 +2,18 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FooterLogo from "../../assets/images/svg/footer_logo.svg";
 import { Instagram, Linkdin, Twitter } from "../common/Icons";
+import { useLocation } from "react-router-dom";
+
 const Footer = () => {
+  const location = useLocation();
+  const isPathActive = (path) => location.pathname === path;
   return (
     <>
-      <div className="pt-md-5 mt-lg-4">
-        <div className="footer-bg-img pb-sm-5">
-          <Container className="pb-lg-5">
-            <div className="pt-lg-4">
-              <Row className="py-5 justify-content-between">
+      <div className={`footer-bg-img ${isPathActive('/academy') ? 'footer-padding-active' : ''}`}>
+        <div className="py-5">
+          <div className="py-sm-4">
+            <Container className="pb-md-4 pb-lg-5 mb-sm-3">
+              <Row className="justify-content-between">
                 <Col lg={5}>
                   <div>
                     <a href="#">
@@ -165,13 +169,16 @@ const Footer = () => {
                   </Row>
                 </Col>
               </Row>
-            </div>
-          </Container>
-        </div>
-        <div className="bg-yellow ffBarlow fw-normal fs-xs text-black text-center py-3">
-          ©Copyright Sporticos-Capital. | All Rights Reserved.
+            </Container>
+          </div>
         </div>
       </div>
+
+
+      <p className="bg-yellow ffBarlow fw-normal mb-0 fs-xs text-black text-center py-3">
+        ©Copyright Sporticos-Capital. | All Rights Reserved.
+      </p>
+
     </>
   );
 };

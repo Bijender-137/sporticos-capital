@@ -40,8 +40,8 @@ const FormSubmission = () => {
   return (
     <>
       <div className="bg-white py-5">
-        <Container className="pt-lg-3">
-          <p className="ff-fontspring fw-normal fs-xl lh-42 text-center pt-md-5 pb-sm-3 mb-0">
+        <Container className="py-lg-5 my-md-4">
+          <p className="ff-fontspring fw-normal fs-xl lh-42 text-center pb-sm-3 mb-0">
             Submit your Information and a Member of our
             <span className="d-md-block"></span> Team will Follow Up As Soon As
             Possible
