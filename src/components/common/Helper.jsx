@@ -1,6 +1,7 @@
 import PlayerFirst from "../../assets/images/webp/player-dreams-1.webp";
 import PlayerSecond from "../../assets/images/webp/player-dreams-2.webp";
 import PlayerThird from "../../assets/images/webp/player-dreams-3.webp";
+import { GrowIcon, PeopleIcon, PositiveIcon } from "./Icons";
 
 export const accordionItems = [
   {
@@ -156,4 +157,33 @@ export const dreams = [
     id: 3,
     pathName: "/scouting-3",
   },
+];
+
+export const nextlevelData = [
+  {
+    id: 1,
+    heading: "Guiding Players to the Next Level",
+    para: "While players within our athlete network focus on honing their ",
+    spanpara: "football skills, we:",
+    submap: [
+      {
+        icon: <PositiveIcon />,
+        paraBox: "Maintain positive exposure through our marketing packages",
+      },
+      {
+        icon: <PeopleIcon />,
+        paraBox: 'Outline the road to playing in international leagues',
+      },
+      {
+        icon: <GrowIcon />,
+        paraBox: 'Grow our clubs by focusing on existing talent',
+      },
+    ]
+  },
+  // {
+  //   id: 2,
+  // },
+  // {
+  //   id: 3,
+  // },
 ];

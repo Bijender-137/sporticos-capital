@@ -232,11 +232,12 @@
 }
 
 .nextlevel-box {
-  padding: 8px 20px 24px 22px;
+  padding: 8px 24px 24px 22px;
   border-bottom: 2px solid var(--clr-yellow);
 }
-.nextlevel-box:nth-last-child(){
-  border: 0px;
+
+.nextlevel-box.last-child {
+  border: none;
 }
 
 /* ------Accrodion section------ */
