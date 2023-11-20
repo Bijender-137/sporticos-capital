@@ -232,12 +232,15 @@
 }
 
 .nextlevel-box {
-  padding: 8px 24px 24px 22px;
-  border-bottom: 2px solid var(--clr-yellow);
+  padding: 8px 16px 16px 16px;
 }
 
 .nextlevel-box.last-child {
   border: none;
+}
+
+.opacity-08 {
+  opacity: 0.8;
 }
 
 /* ------Accrodion section------ */
@@ -283,6 +286,24 @@
   height: 24px !important;
 }
 
+.navLinkButton {
+  padding: 20px 1px;
+}
+
+.navLinkButton {
+  padding: 18px 16px;
+  border-radius: 6px;
+  transition: all linear 300ms;
+  border: 2px solid var(--clr-yellow);
+}
+
+.transition_300 {
+  transition: all linear 300ms !important;
+}
+
+.navLinkButton:hover {
+  background-color: #fff;
+}
 
 /* ------contentus section------ */
 .transfrom-contantus {
@@ -354,7 +375,7 @@
 
 @media (min-width:768px) {
   .nextlevel-box {
-    border-bottom: 0px;
+    padding: 8px 10px 10px 10px;
     border-right: 2px solid var(--clr-yellow);
   }
 
@@ -401,11 +422,11 @@
   }
 
   .sideNavbar {
-    width: 30%;
+    width: 35%;
   }
 
   .nav-fix {
-    right: -30%;
+    right: -35%;
   }
 
   .lh-lg-84 {
@@ -435,6 +456,10 @@
   .footer-padding-active {
     padding-top: 130px !important;
   }
+
+  .nextlevel-box {
+    padding: 8px 22px 24px 32px;
+  }
 }
 
 @media (min-width:1200px) {
@@ -463,8 +488,9 @@
   }
 
   .nextlevel-box {
-    min-height: 230px;
+    padding: 8px 10px 20px 16px;
   }
+
 
 }
 
@@ -484,6 +510,7 @@
 
 @media (min-width:1400px) {
   .nextlevel-box {
-    min-height: 100%;
+    padding: 8px 22px 24px 34px;
+
   }
 }

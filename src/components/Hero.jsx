@@ -5,9 +5,9 @@ const Hero = () => {
     return (
         <>
             <h1 className="fs-6xl ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 text-center text-lg-start pt-5 mt-4 mt-sm-0 pt-lg-0">Talk to The <span className='d-block clr-yellow'>Team</span></h1>
-            <div className="d-flex justify-content-center justify-content-lg-start position-relative z-2">
-                <button className="mt-4 mt-sm-3 mt-lg-4 heroBtn fw-semibold text-uppercase text-black fs-sm bg-yellow navLink-button ff-fontspring" type="button">
-                    set an appointment
+            <div className="d-flex justify-content-center justify-content-lg-start position-relative pt-2 z-2">
+                <button className="mt-4 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton ffBarlow" type="button">
+                    Book Appointment
                 </button>
             </div>
             <div className="d-none d-lg-block">

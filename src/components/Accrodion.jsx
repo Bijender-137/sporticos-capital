@@ -29,7 +29,7 @@ const Accordion = () => {
                                     </span>
                                 </div>
                                 <div className={`accordion-content ${index === activeIndex ? 'open' : ''}`}>
-                                    <p className='mb-0 ffBarlow fs-sm fw-normal text-black'>{item.content}</p>
+                                    <p className='mb-0 ffBarlow fs-sm fw-normal text-black opacity-08'>{item.content}</p>
                                 </div>
                             </div>
                         </div>
