@@ -7,7 +7,7 @@ import Footer from "./components/common/Footer";
 import { BackTop } from "./components/common/BackTop";
 import { Route, Routes } from "react-router-dom";
 import Academy from "./pages/Academy";
-
+import Scouting from "./pages/Scouting";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" Component={FormSubmission} />
         <Route exact path="/academy" Component={Academy} />
+        <Route exact path="/scouting" Component={Scouting} />
       </Routes>
       <Footer />
       <BackTop />
