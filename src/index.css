@@ -231,6 +231,11 @@
   background-repeat: no-repeat !important;
 }
 
+.nextlevel-box {
+  padding: 8px 20px 24px 22px;
+  border-bottom: 2px solid var(--clr-yellow);
+}
+
 
 /* ------Accrodion section------ */
 .max-w-1000 {
@@ -336,9 +341,15 @@
   .footer-padding-active {
     padding-top: 115px !important;
   }
+
 }
 
 @media (min-width:768px) {
+  .nextlevel-box {
+    border-bottom: 0px;
+    border-right: 2px solid var(--clr-yellow);
+  }
+
   .mainLogo {
     max-width: 261px;
     width: 100%;
@@ -427,6 +438,9 @@
     background-size: 100% 100%;
   }
 
+  .nextlevel-box {
+    min-height: 230px;
+  }
 
 }
 
@@ -435,5 +449,11 @@
     height: 565px;
     max-width: 1080px !important;
     right: 0;
+  }
+}
+
+@media (min-width:1400px) {
+  .nextlevel-box {
+    min-height: 100%;
   }
 }
