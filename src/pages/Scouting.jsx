@@ -1,11 +1,11 @@
 import React from "react";
 import FormSubmission from "../components/FormSubmission";
-import Nextlevel from "../components/Nextlevel";
+import Dreams from "../components/Dreams";
 
 const Scouting = () => {
   return (
     <div>
-      <Nextlevel />
+      <Dreams />
       <FormSubmission />
     </div>
   );

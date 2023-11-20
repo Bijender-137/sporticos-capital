@@ -1,3 +1,7 @@
+import PlayerFirst from "../../assets/images/webp/player-dreams-1.webp";
+import PlayerSecond from "../../assets/images/webp/player-dreams-2.webp";
+import PlayerThird from "../../assets/images/webp/player-dreams-3.webp";
+
 export const accordionItems = [
   {
     id: 1,
@@ -123,5 +127,33 @@ export const formsubmit = [
     pathName: "/scoutin",
     heading: "Secure Favorable Debt Funding Terms",
     para: "Submit the form below for more information about our debt funding solutions.",
+  },
+];
+export const dreams = [
+  {
+    id: 1,
+    pathName: "/scouting",
+    heading: "Bringing Player Dreams to Fruition",
+    para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
+    dremImg: PlayerFirst,
+    dremImg2: PlayerSecond,
+    dremImg3: PlayerThird,
+    subHead: "Club Synergies",
+    paragraph:
+      "Improving the ROI of our club investments by connecting budding players with opportunities for measurable growth.",
+    subHead2: "Enhanced Exposure",
+    paragraph2:
+      "Training players on media engagements while leveraging our marketing packages to improve public sentiment, scouting potential, and club branding.",
+    subHead3: "Player Ascensions",
+    paragraph3:
+      "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
+  },
+  {
+    id: 2,
+    pathName: "/scouting-2",
+  },
+  {
+    id: 3,
+    pathName: "/scouting-3",
   },
 ];
