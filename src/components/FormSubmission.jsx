@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { DropDown } from "./common/Icons";
+import { formsubmit } from "./common/Helper";
 
 const FormSubmission = () => {
   // form submission js
@@ -38,14 +39,23 @@ const FormSubmission = () => {
     <>
       <div className="bg-white py-5">
         <Container className="py-lg-5 my-md-4">
-          <p className="ff-fontspring fw-normal fs-xl lh-42 text-center pb-sm-3 mb-0">
-            Submit your Information and a Member of our
-            <span className="d-md-block"></span> Team will Follow Up As Soon As
-            Possible
-          </p>
+          <div className="pb-sm-3">
+            {formsubmit.map((formfunction) => {
+              return (
+                <div key={formfunction.id}>
+                  <p className="ff-fontspring fw-normal fs-xl lh-42 text-center mb-0 max-w-810 m-auto">
+                    {formfunction.id === 1 ? (
+                      <> {formfunction.heading}</>
+                    ) : (
+                      <></>
+                    )}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
           <div className="form-box-shadow py-4 py-lg-5 mt-lg-4 mx-auto w-100">
             <form
-
               className="d-flex flex-column px-3 px-md-5"
               onSubmit={Formsubmit}
             >
@@ -103,8 +113,9 @@ const FormSubmission = () => {
                   >
                     {option}
                     <span
-                      className={`${open ? "dropdown-open" : "dropdown-closed"
-                        }`}
+                      className={`${
+                        open ? "dropdown-open" : "dropdown-closed"
+                      }`}
                     >
                       <DropDown />
                     </span>
@@ -137,11 +148,12 @@ const FormSubmission = () => {
                   placeholder="Describe your need:"
                 ></textarea>
               </div>
-              <div
-                className="pt-3 mt-1 d-flex align-items-baseline"
-              >
+              <div className="pt-3 mt-1 d-flex align-items-baseline">
                 <input required type="checkbox" name="check" id="checked" />
-                <label htmlFor="checked" className="ps-2 clr-gray fw-normal fs-sm">
+                <label
+                  htmlFor="checked"
+                  className="ps-2 clr-gray fw-normal fs-sm"
+                >
                   I agree to Sporticos-Capital
                   <a href="#" className="fw-semibold clr-blue mx-1">
                     Terms of Use

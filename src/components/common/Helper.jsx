@@ -87,3 +87,41 @@ export const navLinks = [
     pathName: "/about",
   },
 ];
+export const formsubmit = [
+  {
+    id: 1,
+    pathName: "/",
+    heading:
+      "Submit your Information and a Member of our  Team will Follow Up As Soon As Possible",
+  },
+  {
+    id: 2,
+    pathName: "/academy",
+    heading: "Unlock Each Player’s Full Potential",
+    para: "To get in touch about our player pathways, we encourage you to submit the form below.",
+  },
+  {
+    id: 3,
+    pathName: "/academy",
+    heading: "Leave Your Portfolio In Trusted Hands",
+    para: "Take the first step toward our wealth management solutions by submitting the form below.",
+  },
+  {
+    id: 4,
+    pathName: "/academy",
+    heading: "Discover the Advantage of E-Mentoring",
+    para: "For more information about joining our e-mentoring program, simply fill out the form below.",
+  },
+  {
+    id: 5,
+    pathName: "/academy",
+    heading: "Winning Investment Portfolios Start Here",
+    para: "Fill out the form below to learn more about our club investment opportunities.",
+  },
+  {
+    id: 6,
+    pathName: "/academy",
+    heading: "Secure Favorable Debt Funding Terms",
+    para: "Submit the form below for more information about our debt funding solutions.",
+  },
+];
