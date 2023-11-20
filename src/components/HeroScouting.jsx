@@ -14,7 +14,7 @@ const HeroScouting = () => {
             <div className="d-none d-lg-block">
                 <img src={scouting} alt="football img team" loading='lazy' className='position-absolute bottom-0 herofootballimg' />
             </div>
-            <img src={scouting} alt="football img team" height={530} loading='lazy' className='w-100 pt-5 mt-3 mt-sm-0 d-lg-none object-fit-cover' />
+            <img src={scouting} alt="football img team" height={530} loading='lazy' className='w-100 pt-5 mt-3 mt-sm-0 d-lg-none object-fit-cover heroscoutingImg' />
         </>
     )
 }
