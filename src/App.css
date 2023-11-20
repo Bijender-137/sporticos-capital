@@ -10,6 +10,7 @@
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.14);
     background: #FCFCFC;
+    color: var(--clr-gray) !important;
 }
 
 .input-padding {
@@ -48,9 +49,7 @@
 .icons-bg:hover {
     -webkit-transform: translateY(-4px);
     -ms-transform: translateY(-4px);
-    transform: translateY(-4px);
-    background-color: white;
-    border: 2px solid var(--clr-yellow);
+    transform: translateY(-4px)
 }
 
 .textarea-resize {
@@ -87,6 +86,26 @@ input:-webkit-autofill:active {
 /* DREAM PLAYERS */
 .dreamPlayer-shadow {
     border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
     background: #FFF;
+    transition: 0.3s ease-in-out;
+}
+
+.dreamPlayer-shadow:hover {
     box-shadow: 0px 0px 33px -4px rgba(0, 0, 0, 0.12);
+    border: 1px solid transparent;
+}
+
+.dreamPlayer-shadow:hover img {
+    transform: scale(.97);
+    -webkit-transform: scale(.97);
+}
+
+.dreamPlayer-shadow,
+.dreamPlayer-shadow:hover {
+    transition: all .3s linear !important;
+}
+
+.cursor_pointer {
+    cursor: pointer;
 }
