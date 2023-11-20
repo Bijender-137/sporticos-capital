@@ -14,9 +14,9 @@ const Accordion = () => {
         <>
             <Container className='py-5'>
                 <div className='max-w-1000 mx-auto py-md-4 py-lg-5'>
-                    <h5 className='fs-xxl fw-semibold ff-fontspring text-center text-black mb-3 pb-4'>Frequently Asked Questions</h5>
+                    <h5 className='fs-xxl fw-semibold ff-fontspring text-center text-black mb-md-3 pb-lg-4 mb-0'>Frequently Asked Questions</h5>
                     {accordionItems.map((item, index) => (
-                        <div className="pt-3 mt-1" key={index}>
+                        <div className="pt-3" key={index}>
                             <div 
                                 className={`accordion p-2 py-3 p-sm-3 p-md-4 w-100 ${index === activeIndex ? 'active ' : ''}`}
                             >
