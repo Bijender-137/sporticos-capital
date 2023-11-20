@@ -235,7 +235,9 @@
   padding: 8px 20px 24px 22px;
   border-bottom: 2px solid var(--clr-yellow);
 }
-
+.nextlevel-box:nth-last-child(){
+  border: 0px;
+}
 
 /* ------Accrodion section------ */
 .max-w-1000 {
