@@ -54,8 +54,8 @@ const FormSubmission = () => {
                 required
                 type="email"
                 placeholder="Email"
-                name="email"
-                id="email"
+                name="Email"
+                id="userEmail"
                 onChange={Changing}
                 value={myData.Email}
               />
@@ -65,8 +65,8 @@ const FormSubmission = () => {
                   required
                   type="text"
                   placeholder="Name"
-                  name="membername"
-                  id="membername"
+                  name="Name"
+                  id="memberName"
                   onChange={Changing}
                   value={myData.Name}
                 />

@@ -225,6 +225,12 @@
   z-index: 4;
 }
 
+.bgImg {
+  background-size: cover !important;
+  /* background-position: 100% !important; */
+  background-repeat: no-repeat !important;
+}
+
 
 /* ------Accrodion section------ */
 .max-w-1000 {
