@@ -7,6 +7,8 @@ import mainbg1 from "../../assets/images/webp/hero-main-img-academy.webp";
 import { Link, useLocation } from "react-router-dom";
 import Hero from "../Hero";
 import { navLinks } from "./Helper";
+import HeroAcademy from "../HeroAcademy";
+import HeroScouting from "../HeroScouting";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -31,10 +33,22 @@ const Header = () => {
     e.stopPropagation(); // Prevent window click event from closing the menu
     setShow(!show);
   };
+  let currentHeroComponent;
+
+  switch (location.pathname) {
+    case "/academy":
+      currentHeroComponent = <HeroAcademy />;
+      break;
+    case "/scouting":
+      currentHeroComponent = <HeroScouting />;
+      break;
+    default:
+      currentHeroComponent = <Hero />;
+  }
 
   return (
     <>
-      <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})`}} onClick={() => setShow(false)}>
+      <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})` }} onClick={() => setShow(false)}>
         <nav className="bg-yellow position-relative z-2">
           {show ? (
             <div className="bg-yellow opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
@@ -75,7 +89,7 @@ const Header = () => {
         </nav>
         <div className=" flex-grow-1 d-flex align-items-lg-center position-relative z-1">
           <Container>
-            <Hero />
+            {currentHeroComponent}
           </Container>
         </div>
       </div>
