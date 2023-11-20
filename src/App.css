@@ -32,6 +32,10 @@
     max-width: 453px;
 }
 
+.max-w-810 {
+    max-width: 810px;
+}
+
 .icons-bg {
     height: 38px;
     width: 38px;
