@@ -409,6 +409,12 @@
     right: -11%;
   }
 
+  .heroimgacademy {
+    height: 550px;
+    max-width: 850px;
+    right: -11%;
+  }
+
   .lh-42 {
     line-height: 42px;
   }
@@ -425,6 +431,12 @@
 @media (min-width:1200px) {
   .herofootballimg {
     height: 565px;
+    max-width: 1000px;
+    right: 0%;
+  }
+
+  .heroimgacademy {
+    height: 580px;
     max-width: 1000px;
     right: -5%;
   }
@@ -451,6 +463,12 @@
   .herofootballimg {
     height: 565px;
     max-width: 1080px !important;
+    right: 0;
+  }
+
+  .heroimgacademy {
+    height: 680px;
+    max-width: 1000px;
     right: 0;
   }
 }

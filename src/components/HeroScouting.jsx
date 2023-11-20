@@ -1,5 +1,5 @@
 import React from 'react'
-import scouting from '../assets/images/webp/ScoutingImg.webp'
+import scouting from '../assets/images/webp/ScouactingImg.webp'
 
 const HeroScouting = () => {
     return (
