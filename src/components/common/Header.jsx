@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { CrossIcons, MenuIcons } from "../common/Icons";
 import mainLogo from "../../assets/images/webp/main-logo.webp";
-import { Link } from "react-router-dom";
+import mainbg from "../../assets/images/webp/hero-main-img.webp";
+import mainbg1 from "../../assets/images/webp/hero-main-img-academy.webp";
+import { Link, useLocation } from "react-router-dom";
 import Hero from "../Hero";
 import { navLinks } from "./Helper";
 
@@ -14,6 +16,16 @@ const Header = () => {
   } else {
     document.body.classList.remove("overflow-hidden");
   }
+  const [backgroundImage, setBackgroundImage] = useState(mainbg); // Replace with your default image
+  const location = useLocation();
+  useEffect(() => {
+    // Update the background image based on the current path
+    if (location.pathname === "/") {
+      setBackgroundImage(mainbg); // Replace with the image for the specific path
+    } else {
+      setBackgroundImage(mainbg1); // Default image for other paths
+    }
+  }, [location.pathname]);
 
   const handleMenuClick = (e) => {
     e.stopPropagation(); // Prevent window click event from closing the menu
@@ -22,7 +34,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="d-flex flex-column min-vh-100 bg-hero-img overflow-hidden" onClick={() => setShow(false)}>
+      <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})`}} onClick={() => setShow(false)}>
         <nav className="bg-yellow position-relative z-2">
           {show ? (
             <div className="bg-yellow opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
