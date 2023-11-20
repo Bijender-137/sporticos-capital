@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { DropDown } from "./common/Icons";
 import { formsubmit } from "./common/Helper";
+import { useLocation } from "react-router-dom";
 
 const FormSubmission = () => {
   // form submission js
@@ -35,23 +36,25 @@ const FormSubmission = () => {
     setOption(i);
     setOpen(false);
   };
+  const location = useLocation();
   return (
     <>
       <div className="bg-white py-5">
         <Container className="py-lg-5 my-md-4">
           <div className="pb-sm-3">
             {formsubmit.map((formfunction) => {
-              return (
+              const fromheadingchange =
+                formfunction.id === formfunction.id && location.pathname === formfunction.pathName;
+              return fromheadingchange ? (
                 <div key={formfunction.id}>
                   <p className="ff-fontspring fw-normal fs-xl lh-42 text-center mb-0 max-w-810 m-auto">
-                    {formfunction.id === 1 ? (
-                      <> {formfunction.heading}</>
-                    ) : (
-                      <></>
-                    )}
+                    {formfunction.heading}
+                  </p>
+                  <p className="ffBarlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto">
+                    {formfunction.para}
                   </p>
                 </div>
-              );
+              ) : null;
             })}
           </div>
           <div className="form-box-shadow py-4 py-lg-5 mt-lg-4 mx-auto w-100">
@@ -113,9 +116,8 @@ const FormSubmission = () => {
                   >
                     {option}
                     <span
-                      className={`${
-                        open ? "dropdown-open" : "dropdown-closed"
-                      }`}
+                      className={`${open ? "dropdown-open" : "dropdown-closed"
+                        }`}
                     >
                       <DropDown />
                     </span>
