@@ -8,7 +8,7 @@ const Dreams = () => {
   return (
     <>
       <div className="py-5">
-        <Container className="pt-5">
+        <Container className="py-lg-5">
           <div className="pb-sm-3">
             {dreams.map((dreamsplayer) => {
               const dreamplayerchange =
@@ -22,7 +22,7 @@ const Dreams = () => {
                   <p className="ffBarlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto">
                     {dreamsplayer.para}
                   </p>
-                  <Row className="pt-5 justify-content-center">
+                  <Row className="pt-3 pt-sm-4 pt-lg-5 justify-content-center">
                     <Col sm={6} lg={4}>
                       <div className="dreamPlayer-shadow p-3 h-100">
                         <img className="w-100" src={dreamsplayer.dremImg} alt="dream img" />
