@@ -5,7 +5,8 @@
   font-family: Fontspring;
   src: url("./assets/fonts/fontspring/Fontspring-DEMO-commuterssans-bold.otf");
 }
-body{
+
+body {
   font-family: Fontspring;
 }
 
@@ -326,7 +327,7 @@ body{
 }
 
 .footer-padding-active {
-  padding-top: 105px;
+  padding-top: 125px;
 }
 
 .bg-contentus {
@@ -362,6 +363,14 @@ body{
   transform: translateX(60px);
 }
 
+.gap-52 {
+  gap: 12px;
+}
+
+.bactotopHover:hover {
+  box-shadow: 1px -1.5px 13px -2px var(--clr-yellow) !important;
+}
+
 @media (min-width:400px) {
   .faq-img {
     max-width: 483px !important;
@@ -377,6 +386,14 @@ body{
 
   .talk-img {
     max-width: 570px;
+  }
+
+  .gap-52 {
+    gap: 80px !important;
+  }
+
+  .footer-padding-active {
+    padding-top: 108px !important;
   }
 }
 
@@ -399,6 +416,12 @@ body{
   }
 
 
+}
+
+@media (min-width:500px) {
+  .gap-52 {
+    gap: 110px !important;
+  }
 }
 
 @media (min-width:576px) {
@@ -441,9 +464,16 @@ body{
     padding-top: 115px !important;
   }
 
+  .gap-52 {
+    gap: 72px !important;
+  }
 }
 
 @media (min-width:768px) {
+  .gap-52 {
+    gap: 100px !important;
+  }
+
   .navLinkButton {
     padding: 20px 18px;
   }
@@ -503,6 +533,10 @@ body{
 }
 
 @media (min-width:992px) {
+  .gap-52 {
+    gap: 52px !important;
+  }
+
   .talk-img {
     max-width: 750px;
     right: -11%;
@@ -554,6 +588,9 @@ body{
     right: 0;
   }
 
+  .gap-52 {
+    gap: 52px !important;
+  }
 
   .heroimgacademy {
     height: 580px;
