@@ -10,8 +10,13 @@
 .input-border {
     border-radius: 4px !important;
     border: 1px solid rgba(0, 0, 0, 0.14) !important;
-    background: #FCFCFC !important;
+    background: #FCFCFC;
     color: black;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--clr-gray) ;
 }
 
 .input-padding {
@@ -33,9 +38,6 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
 }
 
-::placeholder {
-    color: #979797 !important;
-}
 
 /* footer */
 .footer-bg-img {

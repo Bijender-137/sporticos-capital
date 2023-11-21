@@ -117,9 +117,8 @@ const FormSubmission = () => {
                   >
                     {option}
                     <span
-                      className={`${
-                        open ? "dropdown-open" : "dropdown-closed"
-                      }`}
+                      className={`${open ? "dropdown-open" : "dropdown-closed"
+                        }`}
                     >
                       <DropDown />
                     </span>
@@ -162,16 +161,16 @@ const FormSubmission = () => {
                 />
                 <label
                   htmlFor="checked"
-                  className="ps-2 clr-gray fw-normal fs-sm cursor_pointer"
+                  className="ps-2 text-black opacity-70 w-100 fw-normal fs-sm cursor_pointer"
                 >
-                  I agree to Sporticos-Capital
-                  <a href="#" className="fw-semibold clr-blue mx-1">
-                    Terms of Use
-                  </a>
-                  and
-                  <a href="#" className="fw-semibold clr-blue mx-1">
+                  I agree to Sporticos-Capital <span>
+                    <a href="#" className="fw-semibold clr-blue">
+                      Terms of Use 
+                    </a>
+                  </span> and <span><a href="#" className="fw-semibold clr-blue">
                     Privacy Policy*
-                  </a>
+                  </a></span>
+                  
                 </label>
               </div>
               <div className="mt-4 mt-md-5 pt-lg-3">
