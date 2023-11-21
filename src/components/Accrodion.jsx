@@ -20,9 +20,8 @@ const Accordion = () => {
           {accordionItems.map((item, index) => (
             <div className="pt-3" key={index}>
               <div
-                className={`accordion p-2 py-3 p-sm-3 p-md-4 w-100 ${
-                  index === activeIndex ? "active " : ""
-                }`}
+                className={`accordion p-2 py-3 p-sm-3 p-md-4 w-100 ${index === activeIndex ? "active " : ""
+                  }`}
               >
                 <div
                   className="cursor_pointer d-flex justify-content-between align-items-center"
@@ -36,13 +35,10 @@ const Accordion = () => {
                   </span>
                 </div>
                 <div
-                  className={`accordion-content ${
-                    index === activeIndex ? "open" : ""
-                  }`}
+                  className={`accordion-content ${index === activeIndex ? "open" : ""
+                    }`}
                 >
-                  <p className="mb-0 ffBarlow fs-sm fw-normal text-black">
-                    {item.content}
-                  </p>
+                  <p className='mb-0 ffBarlow fs-sm fw-normal text-black opacity-08'>{item.content}</p>
                 </div>
               </div>
             </div>
