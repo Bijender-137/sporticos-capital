@@ -44,7 +44,8 @@ const FormSubmission = () => {
           <div className="pb-sm-3">
             {formsubmit.map((formfunction) => {
               const fromheadingchange =
-                formfunction.id === formfunction.id && location.pathname === formfunction.pathName;
+                formfunction.id === formfunction.id &&
+                location.pathname === formfunction.pathName;
               return fromheadingchange ? (
                 <div key={formfunction.id}>
                   <p className="ff-fontspring fw-normal fs-xl lh-42 text-center mb-0 max-w-810 m-auto">
@@ -66,7 +67,7 @@ const FormSubmission = () => {
                 className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
                 required
                 type="email"
-                placeholder="Email"
+                placeholder="Email*"
                 name="Email"
                 id="userEmail"
                 onChange={Changing}
@@ -112,12 +113,13 @@ const FormSubmission = () => {
                 <div className="position-relative">
                   <button
                     onClick={buttonClick}
-                    className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray text-start d-flex justify-content-between pe-2 me-1"
+                    className="w-100 input-padding ffBarlow fw-medium fs-sm clr-gray text-start d-flex justify-content-between pe-2 me-1"
                   >
                     {option}
                     <span
-                      className={`${open ? "dropdown-open" : "dropdown-closed"
-                        }`}
+                      className={`${
+                        open ? "dropdown-open" : "dropdown-closed"
+                      }`}
                     >
                       <DropDown />
                     </span>
@@ -150,11 +152,19 @@ const FormSubmission = () => {
                   placeholder="Describe your need:"
                 ></textarea>
               </div>
-              <div className="pt-3 mt-1 d-flex align-items-baseline">
-                <input required type="checkbox" name="check" id="checked" />
+              <div className="pt-3 mt-1 d-flex align-items-baseline ">
+                <input
+                  height={16}
+                  width={16}
+                  className="cursor_pointer"
+                  required
+                  type="checkbox"
+                  name="check"
+                  id="checked"
+                />
                 <label
                   htmlFor="checked"
-                  className="ps-2 clr-gray fw-normal fs-sm"
+                  className="ps-2 clr-gray fw-normal fs-sm cursor_pointer"
                 >
                   I agree to Sporticos-Capital
                   <a href="#" className="fw-semibold clr-blue mx-1">
