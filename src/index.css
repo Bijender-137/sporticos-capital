@@ -82,7 +82,7 @@
     --fs-3xl: 24px;
     --fs-4xl: 26px;
     --fs-5xl: 30px;
-    --fs-6xl: 40px;
+    --fs-6xl: 36px;
   }
 }
 
@@ -152,7 +152,7 @@
 
 
 .sideNavbar {
-  width: 90%;
+  width: 280px;
   min-height: 100vh;
   transition: all linear 300ms !important;
   position: fixed;
@@ -160,7 +160,7 @@
 
 .nav-fix {
   overflow: hidden !important;
-  right: -90%;
+  right: -280px;
   position: fixed;
   transition: all linear 300ms !important;
 }
@@ -287,11 +287,7 @@
 }
 
 .navLinkButton {
-  padding: 20px 1px;
-}
-
-.navLinkButton {
-  padding: 18px 16px;
+  padding: 10px 16px;
   border-radius: 6px;
   transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
@@ -328,9 +324,51 @@
   object-position: -393px;
 }
 
+.faq-img {
+  max-width: 374px !important;
+}
+
+.talk-img {
+  max-width: 520px;
+}
+
+.mt-62 {
+  margin-top: 62px;
+}
+
+.px-12 {
+  padding: 0px 12px;
+}
+
+.transfrom-60 {
+  transform: translateX(60px);
+}
+
+@media (min-width:400px) {
+  .faq-img {
+    max-width: 483px !important;
+  }
+
+  .pb-30 {
+    padding-bottom: 30px;
+  }
+
+  .transfrom-60 {
+    transform: translateX(0px);
+  }
+
+  .talk-img {
+    max-width: 570px;
+  }
+}
+
 @media (min-width:425px) {
   .sideNavbar {
-    width: 90%;
+    width: 370px;
+
+    .nav-fix {
+      right: -370px;
+    }
 
     .accordion.active .accordion-content {
       max-height: 100px;
@@ -341,20 +379,34 @@
   .nav-fix {
     right: -90%;
   }
+
+
 }
 
 @media (min-width:576px) {
+  .navLinkButton {
+    padding: 14px 16px;
+  }
+
+  .mt-sm-69 {
+    margin-top: 69px;
+  }
+
+  .faq-img {
+    max-width: 627px !important;
+  }
+
   .mainLogo {
     max-width: 200px;
     width: 100%;
   }
 
   .sideNavbar {
-    width: 70%;
+    width: 500px;
   }
 
   .nav-fix {
-    right: -70%;
+    right: -500px;
   }
 
   .accordion.active .accordion-content {
@@ -374,6 +426,27 @@
 }
 
 @media (min-width:768px) {
+  .navLinkButton {
+    padding: 18px 16px;
+  }
+
+  .mt-md-80 {
+    margin-top: 80px;
+  }
+
+  .faq-img {
+    max-width: 450px !important;
+  }
+
+  .talk-img {
+    max-width: 650px;
+  }
+
+  .common_hero_position,
+  .hero-position-img {
+    position: absolute;
+  }
+
   .nextlevel-box {
     padding: 8px 10px 10px 10px;
     border-right: 2px solid var(--clr-yellow);
@@ -382,14 +455,6 @@
   .mainLogo {
     max-width: 261px;
     width: 100%;
-  }
-
-  .sideNavbar {
-    width: 50%;
-  }
-
-  .nav-fix {
-    right: -50%;
   }
 
   .lh-md-60 {
@@ -416,27 +481,22 @@
 }
 
 @media (min-width:992px) {
+  .talk-img {
+    max-width: 750px;
+    right: -11%;
+  }
+
+  .faq-img {
+    max-width: 500px !important;
+  }
+
   .mainLogo {
     max-width: 261px;
     width: 100%;
   }
 
-  .sideNavbar {
-    width: 35%;
-  }
-
-  .nav-fix {
-    right: -35%;
-  }
-
   .lh-lg-84 {
     line-height: 84px;
-  }
-
-  .herofootballimg {
-    height: 565px;
-    max-width: 850px;
-    right: -11%;
   }
 
   .heroimgacademy {
@@ -463,24 +523,20 @@
 }
 
 @media (min-width:1200px) {
-  .herofootballimg {
-    height: 565px;
-    max-width: 1000px;
-    right: 0%;
+  .faq-img {
+    max-width: 740px !important;
   }
+
+  .talk-img {
+    max-width: 950px;
+    right: 0;
+  }
+
 
   .heroimgacademy {
     height: 580px;
     max-width: 1000px;
     right: 0%;
-  }
-
-  .sideNavbar {
-    width: 35%;
-  }
-
-  .nav-fix {
-    right: -35%;
   }
 
   .bg-hero-img {
@@ -495,9 +551,8 @@
 }
 
 @media (min-width:1300px) {
-  .herofootballimg {
-    height: 565px;
-    max-width: 1080px !important;
+  .talk-img {
+    max-width: 1000px;
     right: 0;
   }
 
@@ -512,5 +567,20 @@
   .nextlevel-box {
     padding: 8px 22px 24px 34px;
 
+  }
+
+  .faq-img {
+    max-width: 820px !important;
+  }
+
+  .talk-img {
+    max-width: 1080px;
+    right: 0;
+  }
+}
+
+@media (min-width:1700px) {
+  .faq-img {
+    max-width: 1050px !important;
   }
 }

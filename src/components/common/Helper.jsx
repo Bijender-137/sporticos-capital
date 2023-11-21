@@ -63,7 +63,7 @@ export const navLinks = [
   },
   {
     id: 2,
-    NavName: "Academy Partnerships",
+    NavName: "FAQ",
     pathName: "/academy",
   },
   {
