@@ -18,12 +18,7 @@ const Nextlevel = () => {
               </p>
               <Row className="d-flex justify-content-center pt-lg-3">
                 {nextlevel.submap.map((levelsub, columnindex) => (
-                  <Col
-                    key={columnindex}
-                    lg={3}
-                    md={6}
-                    className="p-sm-0 pt-3 pt-sm-3 pt-lg-0"
-                  >
+                  <Col key={columnindex} md={3} sm={6} className='p-sm-0 pt-3 pt-sm-3 pt-lg-0'>
                     <div
                       className={`nextlevel-box ${columnindex === nextlevel.submap.length - 1
                           ? "last-child"
@@ -32,9 +27,7 @@ const Nextlevel = () => {
                       <div className="d-flex justify-content-center justify-content-md-start">
                         {levelsub.icon}
                       </div>
-                      <p className="ffBarlow fs-base fw-normal text-black mb-0 pt-2 pt-md-4 mt-2 text-center text-md-start">
-                        {levelsub.paraBox}
-                      </p>
+                      <p className='ffBarlow fs-base fw-normal text-black mb-0 pt-4 mt-2 mt-md-0 mt-lg-2 text-center text-md-start'>{levelsub.paraBox}</p>
                     </div>
                   </Col>
                 ))}
