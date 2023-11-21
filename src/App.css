@@ -34,7 +34,7 @@ input:-webkit-autofill:active {
 }
 
 ::placeholder {
-    color: #979797;
+    color: #979797 !important;
 }
 
 /* footer */
