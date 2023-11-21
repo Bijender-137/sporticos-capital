@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { PositiveIcon } from "./common/Icons";
 import { nextlevelData } from "./common/Helper";
 
 const Nextlevel = () => {
@@ -26,12 +25,10 @@ const Nextlevel = () => {
                     className="p-sm-0 pt-3 pt-sm-3 pt-lg-0"
                   >
                     <div
-                      className={`nextlevel-box ${
-                        columnindex === nextlevel.submap.length - 1
+                      className={`nextlevel-box ${columnindex === nextlevel.submap.length - 1
                           ? "last-child"
                           : ""
-                      }`}
-                    >
+                        }`}>
                       <div className="d-flex justify-content-center justify-content-md-start">
                         {levelsub.icon}
                       </div>
