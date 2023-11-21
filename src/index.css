@@ -135,7 +135,7 @@
 }
 
 .clr-gray {
-  color: var(--clr-gray);
+  color: var(--clr-gray) !important;
 }
 
 .bg-yellow {

@@ -40,8 +40,8 @@ const FormSubmission = () => {
   return (
     <>
       <div className="bg-white py-5">
-        <Container className="py-lg-5 my-md-4">
-          <div className="pb-sm-3">
+        <Container className="py-lg-5 mt-md-3 mb-md-5">
+          <div className="pb-sm-1">
             {formsubmit.map((formfunction) => {
               const fromheadingchange =
                 formfunction.id === formfunction.id &&
@@ -64,7 +64,7 @@ const FormSubmission = () => {
               onSubmit={Formsubmit}
             >
               <input
-                className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
+                className="w-100 input-padding input-border text-black ffBarlow fw-medium fs-sm"
                 required
                 type="email"
                 placeholder="Email*"
@@ -75,7 +75,7 @@ const FormSubmission = () => {
               />
               <div className="pt-2 mt-1">
                 <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm"
                   required
                   type="text"
                   placeholder="Name"
@@ -87,7 +87,7 @@ const FormSubmission = () => {
               </div>
               <div className="pt-2 mt-1">
                 <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm"
                   required
                   type="text"
                   placeholder="Subject"
@@ -99,7 +99,7 @@ const FormSubmission = () => {
               </div>
               <div className="pt-2 mt-1">
                 <input
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray"
+                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm"
                   required
                   type="text"
                   placeholder="Set an Appointment"
@@ -113,7 +113,7 @@ const FormSubmission = () => {
                 <div className="position-relative">
                   <button
                     onClick={buttonClick}
-                    className="w-100 input-padding ffBarlow fw-medium fs-sm clr-gray text-start d-flex justify-content-between pe-2 me-1"
+                    className="w-100 input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 clr-gray border-0 input-border"
                   >
                     {option}
                     <span
@@ -129,7 +129,7 @@ const FormSubmission = () => {
                       <ul className="p-0">
                         {data.map((i, index) => (
                           <li
-                            className="bg-gray w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray text-start cursor_pointer"
+                            className="bg-gray w-100 input-padding input-border ffBarlow fw-medium fs-sm text-start cursor_pointer"
                             key={index}
                             onClick={() => optionClick(i)}
                           >
@@ -154,8 +154,6 @@ const FormSubmission = () => {
               </div>
               <div className="pt-3 mt-1 d-flex align-items-baseline ">
                 <input
-                  height={16}
-                  width={16}
                   className="cursor_pointer"
                   required
                   type="checkbox"
