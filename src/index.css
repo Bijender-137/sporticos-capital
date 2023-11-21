@@ -6,6 +6,10 @@
   src: url("./assets/fonts/fontspring/Fontspring-DEMO-commuterssans-bold.otf");
 }
 
+body {
+  font-family: Fontspring;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -152,7 +156,8 @@
 
 
 .sideNavbar {
-  width: 280px;
+  width: 300px;
+  background-color: white;
   min-height: 100vh;
   transition: all linear 300ms !important;
   position: fixed;
@@ -160,7 +165,7 @@
 
 .nav-fix {
   overflow: hidden !important;
-  right: -280px;
+  right: -301px;
   position: fixed;
   transition: all linear 300ms !important;
 }
@@ -290,15 +295,29 @@
   padding: 10px 16px;
   border-radius: 6px;
   transition: all linear 300ms;
+  border: 0px;
+}
+
+.navLinkButton-navsidebar {
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
 }
+
 
 .transition_300 {
   transition: all linear 300ms !important;
 }
 
-.navLinkButton:hover {
+.navLinkButton:hover,
+.navLinkButton-navsidebar:hover {
   background-color: #fff;
+}
+
+/* Webkit-specific styles */
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 /* ------contentus section------ */
@@ -308,7 +327,7 @@
 }
 
 .footer-padding-active {
-  padding-top: 105px;
+  padding-top: 125px;
 }
 
 .bg-contentus {
@@ -344,9 +363,26 @@
   transform: translateX(60px);
 }
 
+.gap-52 {
+  gap: 12px;
+}
+
+.bactotopHover:hover {
+  box-shadow: 1px -1.5px 13px -2px var(--clr-yellow) !important;
+}
+
+.opacityHover:hover {
+  opacity: 0.7;
+  color: red;
+}
+
 @media (min-width:400px) {
   .faq-img {
     max-width: 483px !important;
+  }
+
+  .pe-20 {
+    padding-right: 20px !important;
   }
 
   .pb-30 {
@@ -359,6 +395,14 @@
 
   .talk-img {
     max-width: 570px;
+  }
+
+  .gap-52 {
+    gap: 80px !important;
+  }
+
+  .footer-padding-active {
+    padding-top: 108px !important;
   }
 }
 
@@ -381,6 +425,12 @@
   }
 
 
+}
+
+@media (min-width:500px) {
+  .gap-52 {
+    gap: 110px !important;
+  }
 }
 
 @media (min-width:576px) {
@@ -423,10 +473,21 @@
     padding-top: 115px !important;
   }
 
+  .gap-52 {
+    gap: 72px !important;
+  }
 }
 
 @media (min-width:768px) {
+  .gap-52 {
+    gap: 100px !important;
+  }
+
   .navLinkButton {
+    padding: 20px 18px;
+  }
+
+  .navLinkButton-navsidebar {
     padding: 18px 16px;
   }
 
@@ -448,8 +509,9 @@
   }
 
   .nextlevel-box {
-    padding: 8px 10px 10px 10px;
-    border-right: 2px solid var(--clr-yellow);
+    padding: 8px 14px 14px 14px;
+    min-height: 210px;
+    border-right: 1px solid var(--clr-yellow);
   }
 
   .mainLogo {
@@ -481,6 +543,10 @@
 }
 
 @media (min-width:992px) {
+  .gap-52 {
+    gap: 52px !important;
+  }
+
   .talk-img {
     max-width: 750px;
     right: -11%;
@@ -519,6 +585,7 @@
 
   .nextlevel-box {
     padding: 8px 22px 24px 32px;
+    min-height: 100%;
   }
 }
 
@@ -532,6 +599,9 @@
     right: 0;
   }
 
+  .gap-52 {
+    gap: 52px !important;
+  }
 
   .heroimgacademy {
     height: 580px;

@@ -31,17 +31,20 @@ const FormSubmission = () => {
     // console.log(setOpen(!open));
   };
   const [option, setOption] = useState("Which best describes you?");
-  const data = ["Which best describes you?", "option 2", "option 3"];
+  const [selectedOption, setSelectedOption] = useState(null);
+  const data = ["option 1", "option 2"];
   const optionClick = (i) => {
     setOption(i);
+    setSelectedOption(i);
     setOpen(false);
   };
+
   const location = useLocation();
   return (
     <>
       <div className="bg-white py-5">
         <Container className="py-lg-5 mt-md-3 mb-md-5">
-          <div className="pb-sm-1">
+          <div className="pb-sm-2 pb-md-3">
             {formsubmit.map((formfunction) => {
               const fromheadingchange =
                 formfunction.id === formfunction.id &&
@@ -58,7 +61,8 @@ const FormSubmission = () => {
               ) : null;
             })}
           </div>
-          <div className="form-box-shadow py-4 py-lg-5 mt-lg-4 mx-auto w-100">
+          <div className="pt-3 pt-md-4">
+          <div className="form-box-shadow py-4 py-lg-5 mx-auto w-100">
             <form
               className="d-flex flex-column px-3 px-md-5"
               onSubmit={Formsubmit}
@@ -111,25 +115,24 @@ const FormSubmission = () => {
               </div>
               <div className="pt-2 mt-1">
                 <div className="position-relative">
-                  <button
+                  <div
                     onClick={buttonClick}
-                    className="w-100 input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 clr-gray border-0 input-border"
+                    className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border ${selectedOption ? 'text-black' : 'clr-gray'}`}
                   >
                     {option}
                     <span
-                      className={`${
-                        open ? "dropdown-open" : "dropdown-closed"
-                      }`}
+                      className={`${open ? "dropdown-open" : "dropdown-closed"
+                        }`}
                     >
                       <DropDown />
                     </span>
-                  </button>
+                  </div>
                   <div className="position-absolute w-100">
                     {open && (
                       <ul className="p-0">
                         {data.map((i, index) => (
                           <li
-                            className="bg-gray w-100 input-padding input-border ffBarlow fw-medium fs-sm text-start cursor_pointer"
+                            className="option transition_300 w-100 px-3 py-2 input-border ffBarlow fw-medium fs-sm text-start cursor_pointer"
                             key={index}
                             onClick={() => optionClick(i)}
                           >
@@ -144,7 +147,7 @@ const FormSubmission = () => {
               <div className="pt-2 mt-1">
                 <textarea
                   required
-                  className="w-100 input-padding input-border ffBarlow fw-medium fs-sm clr-gray textarea-resize"
+                  className="w-100 text-black input-padding input-border ffBarlow fw-medium fs-sm clr-gray textarea-resize"
                   cols="0"
                   rows="5"
                   id="message"
@@ -152,9 +155,9 @@ const FormSubmission = () => {
                   placeholder="Describe your need:"
                 ></textarea>
               </div>
-              <div className="pt-3 mt-1 d-flex align-items-baseline ">
+              <div className="pt-3 mt-1 d-flex align-items-sm-center">
                 <input
-                  className="cursor_pointer"
+                  className="cursor_pointer mt-1 mt-sm-0"
                   required
                   type="checkbox"
                   name="check"
@@ -162,16 +165,16 @@ const FormSubmission = () => {
                 />
                 <label
                   htmlFor="checked"
-                  className="ps-2 clr-gray fw-normal fs-sm cursor_pointer"
+                  className="ms-2 text-black opacity-70 fw-normal fs-sm"
                 >
-                  I agree to Sporticos-Capital
-                  <a href="#" className="fw-semibold clr-blue mx-1">
-                    Terms of Use
-                  </a>
-                  and
-                  <a href="#" className="fw-semibold clr-blue mx-1">
-                    Privacy Policy*
-                  </a>
+                  I agree to Sporticos-Capital <span>
+                    <a href="#" className="fw-semibold clr-blue opacityHover transition_300">
+                      Terms of Use
+                    </a>
+                    </span> and <span><a href="#" className="fw-semibold clr-blue opacityHover transition_300">
+                    Privacy Policy<span className="clr-red">*</span>
+                  </a></span>
+
                 </label>
               </div>
               <div className="mt-4 mt-md-5 pt-lg-3">
@@ -183,6 +186,7 @@ const FormSubmission = () => {
                 </button>
               </div>
             </form>
+            </div>
           </div>
         </Container>
       </div>

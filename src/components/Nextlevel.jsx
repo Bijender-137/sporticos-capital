@@ -18,7 +18,7 @@ const Nextlevel = () => {
               </p>
               <Row className="d-flex justify-content-center pt-lg-3">
                 {nextlevel.submap.map((levelsub, columnindex) => (
-                  <Col key={columnindex} md={3} sm={6} className='p-sm-0 pt-3 pt-sm-3 pt-lg-0'>
+                  <Col key={columnindex} md={4} lg={3} sm={6} className='p-sm-0 pt-3 pt-sm-3 pt-lg-0'>
                     <div
                       className={`nextlevel-box ${columnindex === nextlevel.submap.length - 1
                           ? "last-child"

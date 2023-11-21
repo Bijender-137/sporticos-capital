@@ -2,14 +2,14 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FooterLogo from "../../assets/images/svg/footer_logo.svg";
 import { Instagram, Linkdin, Twitter } from "../common/Icons";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
   const location = useLocation();
   const isPathActive = (path) => location.pathname === path;
   return (
     <>
-      <div className={`footer-bg-img ${isPathActive('/academy') ? 'footer-padding-active' : ''}`}>
+      <div className={`footer-bg-img ${isPathActive('/faq') ? 'footer-padding-active' : ''}`}>
         <div className="py-5">
           <div className="py-sm-4">
             <Container className="pb-md-4 pb-lg-5 mb-sm-3">
@@ -58,123 +58,75 @@ const Footer = () => {
                   </div>
                 </Col>
                 <Col lg={6} className="pt-4 pt-lg-0">
-                  <Row>
-                    <Col xs={6} sm={4}>
-                      <div className="d-lg-flex justify-content-end">
-                        <ul className="mb-0 p-0">
-                          <li className="text-white fs-md fw-normal ff-fontspring">
-                            Home
-                          </li>
-                          <li className="mt-3">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              About Us
-                            </a>
-                          </li>
-                          <li className="mt-2">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              Wealth Management
-                            </a>
-                          </li>
-                          <li className="mt-2">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              Debt Funding
-                            </a>
-                          </li>
-                          <li className="mt-2">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              Club Investment
-                            </a>
-                          </li>
-                          <li className="mt-2">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              Player Pathway
-                            </a>
-                          </li>
-                          <li className="mt-2">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              E-Mentoring
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </Col>
-                    <Col xs={6} sm={4}>
-                      <div className="d-lg-flex justify-content-center">
-                        <ul className="mb-0 p-0">
-                          <li className="text-white fs-md fw-normal ff-fontspring">
-                            About
-                          </li>
-                          <li className="mt-3">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              About
-                            </a>
-                          </li>
-                          <li className="mt-2">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              FAQ
-                            </a>
-                          </li>
-                          <li className="mt-2">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              Contact us
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </Col>
-                    <Col xs={6} sm={4}>
-                      <div className="d-lg-flex justify-content-end pt-4 pt-sm-0">
-                        <ul className="mb-0 p-0">
-                          <li className="text-white fs-md  fw-normal ff-fontspring">
-                            Legal
-                          </li>
-                          <li className="mt-3">
-                            <a
-                              href="#"
-                              className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"
-                            >
-                              Terms & Conditions <br /> Privacy Policy
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </Col>
-                  </Row>
+                  <div className="d-flex justify-content-between pe-20 pe-sm-0 justify-content-lg-end gap-52">
+                    <ul className="mb-0 p-0">
+                      <li className="text-white fs-md fw-normal ff-fontspring">
+                        Home
+                      </li>
+                      <li className="mt-3">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"> About Us</Link>
+                      </li>
+                      <li className="mt-2">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"> Wealth Management</Link>
+                      </li>
+                      <li className="mt-2">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Debt Funding</Link>
+                      </li>
+                      <li className="mt-2">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Club Investment</Link>
+                      </li>
+                      <li className="mt-2">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">  Player Pathway</Link>
+                      </li>
+                      <li className="mt-2">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">E-Mentoring</Link>
+                      </li>
+                    </ul>
+                    <div className="d-flex flex-column">
+                      <ul className="mb-0 p-0">
+                        <li className="text-white fs-md fw-normal ff-fontspring">
+                          About
+                        </li>
+                        <li className="mt-3">
+                          <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">About</Link>
+                        </li>
+                        <li className="mt-2">
+                          <Link to="/faq" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">FAQ</Link>
+                        </li>
+                        <li className="mt-2">
+                          <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Contact us</Link>
+                        </li>
+                      </ul>
+                      <ul className="mb-0 p-0 pt-4 pt-sm-0 d-sm-none">
+                        <li className="text-white fs-md  fw-normal ff-fontspring">
+                          Legal
+                        </li>
+                        <li className="mt-3">
+                          <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Terms & Conditions</Link>
+                        </li>
+                        <li className="mt-2">
+                          <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Privacy Policy</Link>
+                        </li>
+                      </ul>
+                    </div>
+                    <ul className="mb-0 p-0 d-none d-sm-block">
+                      <li className="text-white fs-md  fw-normal ff-fontspring">
+                        Legal
+                      </li>
+                      <li className="mt-3">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Terms & Conditions</Link>
+                      </li>
+                      <li className="mt-2">
+                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Privacy Policy</Link>
+                      </li>
+                    </ul>
+                  </div>
                 </Col>
               </Row>
             </Container>
           </div>
         </div>
       </div>
-
-
       <p className="bg-yellow ffBarlow fw-normal mb-0 fs-xs text-black text-center py-3">
         ©Copyright Sporticos-Capital. | All Rights Reserved.
       </p>

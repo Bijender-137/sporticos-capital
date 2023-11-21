@@ -23,7 +23,7 @@ const Dreams = () => {
                     {dreamsplayer.para}
                   </p>
                   <Row className="pt-3 pt-sm-4 pt-lg-5 justify-content-center">
-                    <Col sm={6} lg={4}>
+                    <Col sm={6} lg={4} className="d-flex justify-content-center">
                       <div className="dreamPlayer-shadow p-3 h-100">
                         <img
                           className="w-100 overflow-hidden transition_300"
@@ -38,7 +38,7 @@ const Dreams = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col sm={6} lg={4} className="pt-3 pt-sm-0">
+                    <Col sm={6} lg={4} className="pt-3 pt-sm-0 d-flex justify-content-center">
                       <div className="dreamPlayer-shadow p-3 h-100 ">
                         <img
                           className="w-100 overflow-hidden transition_300"
@@ -53,7 +53,7 @@ const Dreams = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col sm={6} lg={4} className="pt-3 pt-lg-0">
+                    <Col sm={6} lg={4} className="pt-3 pt-lg-0 d-flex justify-content-center">
                       <div className="dreamPlayer-shadow p-3 h-100 transition_300">
                         <img
                           className="w-100 overflow-hidden transition_300"

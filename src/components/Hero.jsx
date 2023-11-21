@@ -4,8 +4,8 @@ import footballImg from '../assets/images/webp/hero-football.webp'
 const Hero = () => {
     return (
         <>
-            <h1 className="px-12 fs-6xl ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 text-center text-md-start pt-5 mt-4 py-md-0 my-md-0">Talk to The <span className='d-block clr-yellow'>Team</span></h1>
-            <div className="d-flex justify-content-center justify-content-md-start position-relative pt-2 z-2 px-12 pb-30 pb-sm-0">
+            <h1 className="px-12 fs-6xl ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 pt-5 mt-4 py-md-0 my-md-0">Talk to The <span className='d-block clr-yellow'>Team</span></h1>
+            <div className="position-relative pt-2 z-2 px-12 pb-30 pb-sm-0">
                 <button className="mt-4 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton ffBarlow" type="button">
                     Book Appointment
                 </button>

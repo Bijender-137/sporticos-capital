@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" Component={FormSubmission} />
-        <Route exact path="/academy" Component={Academy} />
+        <Route exact path="/faq" Component={Academy} />
         <Route exact path="/scouting" Component={Scouting} />
       </Routes>
       <Footer />

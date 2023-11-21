@@ -10,8 +10,35 @@
 .input-border {
     border-radius: 4px !important;
     border: 1px solid rgba(0, 0, 0, 0.14) !important;
-    background: #FCFCFC !important;
+    background: #FCFCFC;
     color: black;
+    transition: all linear 300ms;
+}
+
+.option:hover {
+    background-color: var(--clr-yellow) !important;
+}
+
+.option {
+    background-color: white;
+}
+
+.input-border:hover {
+    border: 1px solid var(--clr-yellow) !important;
+}
+
+.clr-red {
+    color: red;
+}
+
+input[type="checkbox"] {
+    height: 16px !important;
+    min-width: 16px !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--clr-gray);
 }
 
 .input-padding {
@@ -33,9 +60,6 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
 }
 
-::placeholder {
-    color: #979797 !important;
-}
 
 /* footer */
 .footer-bg-img {
@@ -104,6 +128,7 @@ input:-webkit-autofill:active {
     border: 1px solid rgba(0, 0, 0, 0.20);
     background: #FFF;
     transition: 0.3s ease-in-out;
+    max-width: 360px;
 }
 
 .dreamPlayer-shadow:hover {
