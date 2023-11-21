@@ -58,7 +58,7 @@ const Footer = () => {
                   </div>
                 </Col>
                 <Col lg={6} className="pt-4 pt-lg-0">
-                  <div className="d-flex justify-content-lg-end gap-52">
+                  <div className="d-flex justify-content-between pe-20 pe-sm-0 justify-content-lg-end gap-52">
                     <ul className="mb-0 p-0">
                       <li className="text-white fs-md fw-normal ff-fontspring">
                         Home

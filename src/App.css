@@ -30,7 +30,8 @@
 .clr-red {
     color: red;
 }
-input[type="checkbox"]{
+
+input[type="checkbox"] {
     height: 16px !important;
     min-width: 16px !important;
 }
@@ -127,6 +128,7 @@ input:-webkit-autofill:active {
     border: 1px solid rgba(0, 0, 0, 0.20);
     background: #FFF;
     transition: 0.3s ease-in-out;
+    max-width: 360px;
 }
 
 .dreamPlayer-shadow:hover {

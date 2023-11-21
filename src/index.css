@@ -156,7 +156,7 @@ body {
 
 
 .sideNavbar {
-  width: 280px;
+  width: 300px;
   background-color: white;
   min-height: 100vh;
   transition: all linear 300ms !important;
@@ -165,7 +165,7 @@ body {
 
 .nav-fix {
   overflow: hidden !important;
-  right: -280px;
+  right: -301px;
   position: fixed;
   transition: all linear 300ms !important;
 }
@@ -371,9 +371,18 @@ body {
   box-shadow: 1px -1.5px 13px -2px var(--clr-yellow) !important;
 }
 
+.opacityHover:hover {
+  opacity: 0.7;
+  color: red;
+}
+
 @media (min-width:400px) {
   .faq-img {
     max-width: 483px !important;
+  }
+
+  .pe-20 {
+    padding-right: 20px !important;
   }
 
   .pb-30 {
@@ -500,7 +509,8 @@ body {
   }
 
   .nextlevel-box {
-    padding: 8px 10px 10px 10px;
+    padding: 8px 14px 14px 14px;
+    min-height: 210px;
     border-right: 1px solid var(--clr-yellow);
   }
 
@@ -575,6 +585,7 @@ body {
 
   .nextlevel-box {
     padding: 8px 22px 24px 32px;
+    min-height: 100%;
   }
 }
 

@@ -155,9 +155,9 @@ const FormSubmission = () => {
                   placeholder="Describe your need:"
                 ></textarea>
               </div>
-              <div className="pt-3 mt-1 d-flex align-items-center ">
+              <div className="pt-3 mt-1 d-flex align-items-sm-center">
                 <input
-                  className="cursor_pointer"
+                  className="cursor_pointer mt-1 mt-sm-0"
                   required
                   type="checkbox"
                   name="check"
@@ -165,13 +165,13 @@ const FormSubmission = () => {
                 />
                 <label
                   htmlFor="checked"
-                  className="ms-2 text-black opacity-70 w-100 fw-normal fs-sm cursor_pointer lh-1"
+                  className="ms-2 text-black opacity-70 fw-normal fs-sm"
                 >
                   I agree to Sporticos-Capital <span>
-                    <a href="#" className="fw-semibold clr-blue">
+                    <a href="#" className="fw-semibold clr-blue opacityHover transition_300">
                       Terms of Use
                     </a>
-                  </span> and <span><a href="#" className="fw-semibold clr-blue">
+                    </span> and <span><a href="#" className="fw-semibold clr-blue opacityHover transition_300">
                     Privacy Policy<span className="clr-red">*</span>
                   </a></span>
 
