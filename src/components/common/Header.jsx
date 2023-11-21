@@ -49,7 +49,7 @@ const Header = () => {
   return (
     <>
       <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})` }} onClick={() => setShow(false)}>
-        <nav className="bg-yellow position-relative z-2">
+        <nav className="bg-yellow position-fixed top-0 w-100 z-2">
           {show ? (
             <div className="bg-yellow opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
           <Container>
@@ -80,15 +80,15 @@ const Header = () => {
               </div>
             </div>
             <div className="d-flex justify-content-between align-items-center py-3">
-              <a href="#" target="_"><img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" /></a>
+              <Link to="/"><img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" /></Link>
               <div onClick={handleMenuClick} className="cursor_pointer">
                 <MenuIcons />
               </div>
             </div>
           </Container>
         </nav>
-        <div className=" flex-grow-1 d-flex align-items-lg-center position-relative z-1">
-          <Container>
+        <div className=" flex-grow-1 d-flex align-items-lg-center position-relative z-1 mt-62 mt-sm-69 mt-md-80">
+          <Container className="px-0">
             {currentHeroComponent}
           </Container>
         </div>
