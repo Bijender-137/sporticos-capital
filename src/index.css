@@ -82,7 +82,7 @@
     --fs-3xl: 24px;
     --fs-4xl: 26px;
     --fs-5xl: 30px;
-    --fs-6xl: 40px;
+    --fs-6xl: 36px;
   }
 }
 
@@ -287,11 +287,7 @@
 }
 
 .navLinkButton {
-  padding: 20px 1px;
-}
-
-.navLinkButton {
-  padding: 18px 16px;
+  padding: 10px 16px;
   border-radius: 6px;
   transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
@@ -332,8 +328,38 @@
   max-width: 374px !important;
 }
 
+.talk-img {
+  max-width: 520px;
+}
+
 .mt-62 {
   margin-top: 62px;
+}
+
+.px-12 {
+  padding: 0px 12px;
+}
+
+.transfrom-60 {
+  transform: translateX(60px);
+}
+
+@media (min-width:400px) {
+  .faq-img {
+    max-width: 483px !important;
+  }
+
+  .pb-30 {
+    padding-bottom: 30px;
+  }
+
+  .transfrom-60 {
+    transform: translateX(0px);
+  }
+
+  .talk-img {
+    max-width: 570px;
+  }
 }
 
 @media (min-width:425px) {
@@ -354,18 +380,16 @@
     right: -90%;
   }
 
-  .faq-img {
-    max-width: 463px !important;
-  }
+
 }
 
 @media (min-width:576px) {
-  .mt-sm-69 {
-    margin-top: 69px;
+  .navLinkButton {
+    padding: 14px 16px;
   }
 
-  .px-sm-12 {
-    padding: 0px 12px;
+  .mt-sm-69 {
+    margin-top: 69px;
   }
 
   .faq-img {
@@ -402,12 +426,20 @@
 }
 
 @media (min-width:768px) {
+  .navLinkButton {
+    padding: 18px 16px;
+  }
+
   .mt-md-80 {
     margin-top: 80px;
   }
 
   .faq-img {
     max-width: 450px !important;
+  }
+
+  .talk-img {
+    max-width: 650px;
   }
 
   .common_hero_position,
@@ -449,6 +481,11 @@
 }
 
 @media (min-width:992px) {
+  .talk-img {
+    max-width: 750px;
+    right: -11%;
+  }
+
   .faq-img {
     max-width: 500px !important;
   }
@@ -460,12 +497,6 @@
 
   .lh-lg-84 {
     line-height: 84px;
-  }
-
-  .herofootballimg {
-    height: 565px;
-    max-width: 850px;
-    right: -11%;
   }
 
   .heroimgacademy {
@@ -496,11 +527,11 @@
     max-width: 740px !important;
   }
 
-  .herofootballimg {
-    height: 565px;
-    max-width: 1000px;
-    right: 0%;
+  .talk-img {
+    max-width: 950px;
+    right: 0;
   }
+
 
   .heroimgacademy {
     height: 580px;
@@ -520,9 +551,8 @@
 }
 
 @media (min-width:1300px) {
-  .herofootballimg {
-    height: 565px;
-    max-width: 1080px !important;
+  .talk-img {
+    max-width: 1000px;
     right: 0;
   }
 
@@ -540,11 +570,16 @@
   }
 
   .faq-img {
-    max-width: 800px !important;
+    max-width: 820px !important;
+  }
+
+  .talk-img {
+    max-width: 1080px;
+    right: 0;
   }
 }
 
-@media (min-width:1600px) {
+@media (min-width:1700px) {
   .faq-img {
     max-width: 1050px !important;
   }
