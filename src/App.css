@@ -1,3 +1,4 @@
+/* form submission */
 .form-box-shadow {
     border-radius: 8px;
     background: #FFF;
@@ -7,10 +8,10 @@
 }
 
 .input-border {
-    border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.14);
-    background: #FCFCFC;
-    color: var(--clr-gray) !important;
+    border-radius: 4px !important;
+    border: 1px solid rgba(0, 0, 0, 0.14) !important;
+    background: #FCFCFC !important;
+    color: black;
 }
 
 .input-padding {
@@ -18,6 +19,25 @@
     outline: none;
 }
 
+.textarea-resize {
+    resize: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--clr-gray);
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+::placeholder {
+    color: #979797;
+}
+
+/* footer */
 .footer-bg-img {
     background: url('./assets/images/webp/Footer_bg_img.webp');
     background-size: cover !important;
@@ -27,14 +47,6 @@
 .footer-logo-w {
     max-width: 237px;
     height: 47px;
-}
-
-.max-w-453 {
-    max-width: 453px;
-}
-
-.max-w-810 {
-    max-width: 810px;
 }
 
 .icons-bg {
@@ -52,18 +64,17 @@
     transform: translateY(-4px)
 }
 
-.textarea-resize {
-    resize: none !important;
+/* max-width */
+.max-w-453 {
+    max-width: 453px;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: var(--clr-gray);
-    -webkit-transition: background-color 5000s ease-in-out 0s;
-    transition: background-color 5000s ease-in-out 0s;
+.max-w-810 {
+    max-width: 810px;
+}
+
+.max-w-500 {
+    max-width: 500px;
 }
 
 /* dropdown css */
@@ -81,6 +92,10 @@ input:-webkit-autofill:active {
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 49px;
+    width: 49px;
 }
 
 /* DREAM PLAYERS */
