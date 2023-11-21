@@ -12,11 +12,32 @@
     border: 1px solid rgba(0, 0, 0, 0.14) !important;
     background: #FCFCFC;
     color: black;
+    transition: all linear 300ms;
+}
+
+.option:hover {
+    background-color: var(--clr-yellow) !important;
+}
+
+.option {
+    background-color: white;
+}
+
+.input-border:hover {
+    border: 1px solid var(--clr-yellow) !important;
+}
+
+.clr-red {
+    color: red;
+}
+input[type="checkbox"]{
+    height: 16px !important;
+    min-width: 16px !important;
 }
 
 input::placeholder,
 textarea::placeholder {
-    color: var(--clr-gray) ;
+    color: var(--clr-gray);
 }
 
 .input-padding {

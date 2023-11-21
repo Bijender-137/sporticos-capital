@@ -5,6 +5,9 @@
   font-family: Fontspring;
   src: url("./assets/fonts/fontspring/Fontspring-DEMO-commuterssans-bold.otf");
 }
+body{
+  font-family: Fontspring;
+}
 
 * {
   padding: 0;
@@ -153,6 +156,7 @@
 
 .sideNavbar {
   width: 280px;
+  background-color: white;
   min-height: 100vh;
   transition: all linear 300ms !important;
   position: fixed;
@@ -290,15 +294,29 @@
   padding: 10px 16px;
   border-radius: 6px;
   transition: all linear 300ms;
+  border: 0px;
+}
+
+.navLinkButton-navsidebar {
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
 }
+
 
 .transition_300 {
   transition: all linear 300ms !important;
 }
 
-.navLinkButton:hover {
+.navLinkButton:hover,
+.navLinkButton-navsidebar:hover {
   background-color: #fff;
+}
+
+/* Webkit-specific styles */
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 /* ------contentus section------ */
@@ -427,6 +445,10 @@
 
 @media (min-width:768px) {
   .navLinkButton {
+    padding: 20px 18px;
+  }
+
+  .navLinkButton-navsidebar {
     padding: 18px 16px;
   }
 
@@ -449,7 +471,7 @@
 
   .nextlevel-box {
     padding: 8px 10px 10px 10px;
-    border-right: 2px solid var(--clr-yellow);
+    border-right: 1px solid var(--clr-yellow);
   }
 
   .mainLogo {

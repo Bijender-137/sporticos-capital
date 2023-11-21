@@ -51,7 +51,7 @@ const Header = () => {
       <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})` }} onClick={() => setShow(false)}>
         <nav className="bg-yellow position-fixed top-0 w-100 z-2">
           {show ? (
-            <div className="bg-yellow opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
+            <div className="bg-black opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
           <Container>
             <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white z-4`} onClick={(e) => e.stopPropagation()}>
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
@@ -71,10 +71,10 @@ const Header = () => {
                     </div>
                   );
                 })}
-                <button className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton ffBarlow" type="button" onClick={() => setShow(false)}>
+                <button className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton-navsidebar ffBarlow" type="button" onClick={() => setShow(false)}>
                   contant Us
                 </button>
-                <button className="heroBtn px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton ffBarlow" type="button" onClick={() => setShow(false)}>
+                <button className="heroBtn px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton-navsidebar ffBarlow" type="button" onClick={() => setShow(false)}>
                   set an appointment
                 </button>
               </div>
