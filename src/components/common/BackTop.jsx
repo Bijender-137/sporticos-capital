@@ -14,7 +14,7 @@ export const BackTop = () => {
     }
   });
   return (
-    <section>
+    <>
       <Container className="container">
         <div className="z_index_10 position-relative">
           <button
@@ -30,6 +30,6 @@ export const BackTop = () => {
           </button>
         </div>
       </Container>
-    </section>
+    </>
   );
 };
