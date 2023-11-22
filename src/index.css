@@ -339,9 +339,6 @@ body {
   box-shadow: 0px -11px 57px 0px rgba(0, 0, 0, 0.06);
 }
 
-.heroscoutingImg {
-  object-position: -393px;
-}
 
 .faq-img {
   max-width: 374px !important;
@@ -361,10 +358,6 @@ body {
 
 .transfrom-60 {
   transform: translateX(60px);
-}
-
-.gap-52 {
-  gap: 12px;
 }
 
 .bactotopHover:hover {
@@ -396,11 +389,6 @@ body {
   .talk-img {
     max-width: 570px;
   }
-
-  .gap-52 {
-    gap: 80px !important;
-  }
-
   .footer-padding-active {
     padding-top: 108px !important;
   }
@@ -425,12 +413,6 @@ body {
   }
 
 
-}
-
-@media (min-width:500px) {
-  .gap-52 {
-    gap: 110px !important;
-  }
 }
 
 @media (min-width:576px) {
@@ -537,9 +519,6 @@ body {
     padding-top: 122px !important;
   }
 
-  .heroscoutingImg {
-    object-position: -300px;
-  }
 }
 
 @media (min-width:992px) {
