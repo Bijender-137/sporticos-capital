@@ -150,9 +150,37 @@ input:-webkit-autofill:active {
     cursor: pointer;
 }
 
+/* commom team */
+
+.clr_lite_green {
+    color: #429EA6;
+}
+
+.clr_blue {
+    color: #0075F2;
+}
+
+.common_team_card_shadow {
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #FFF;
+    transition: 0.3s ease-in-out;
+}
+
+.common_team_card_shadow:hover {
+    box-shadow: 0px 0px 33px -4px rgba(0, 0, 0, 0.12);
+    border: 1px solid transparent;
+}
+
 /* media quarry */
 @media (min-width:576px) {
     .dreamPlayer-shadow {
         max-width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .max_w_535 {
+        max-width: 535px;
     }
 }
