@@ -13,7 +13,9 @@ import Investment3 from "../../assets/images/webp/investment_3.webp";
 import Funding1 from "../../assets/images/webp/funding_1.webp";
 import Funding2 from "../../assets/images/webp/funding_2.webp";
 import Funding3 from "../../assets/images/webp/funding_3.webp";
-// form submission
+import TeamMember1 from "../../assets/images/webp/team_member_1.webp";
+import TeamMember2 from "../../assets/images/webp/team_member_2.webp";
+// form submission data heading
 
 export const formdata = [
   {
@@ -55,6 +57,7 @@ export const formdata = [
     path: "/debt-funding",
   },
 ];
+// form submission enputs
 export const inputdata = [
   {
     id: 1,
@@ -110,7 +113,7 @@ export const inputdata = [
     path: "/debt-funding",
   },
 ];
-// dreams player
+// common cards data
 export const dreams = [
   {
     maxW: "500px",
@@ -207,5 +210,21 @@ export const dreams = [
     subHead3: "Reputable Underwriters",
     paragraph3:
       "Leaning on our partnerships with vetted underwriters to evaluate risk and determine the appropriate terms.",
+  },
+];
+// sporticose team data
+export const sporticoseTeam = [
+  {
+    id: 1,
+    mainheading: "The Sporticos Team",
+    manImg: TeamMember1,
+    heading: "Wael Khattab",
+    subheading: "Founder & Executive Director",
+    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
+    girlImg: TeamMember2,
+    heading2: "Dr. Hussa K. Al-Khalifa",
+    subheading2: "Founder & Executive Director",
+    para2:
+      "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
   },
 ];
