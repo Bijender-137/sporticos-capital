@@ -104,7 +104,7 @@ export const navLinks = [
 export const nextlevelData = [
   {
     id: 1,
-    path: "/paly-pathwa",
+    path: "/play-pathwa",
     heading: "Guiding Players to the Next Level",
     para: "While players within our athlete network focus on honing their ",
     spanpara: "football skills, we:",
@@ -353,3 +353,30 @@ export const heroData = [
 
 ];
 
+export const contactData = [
+  {
+    id: 1,
+    path: "/",
+    heading: "Discover the Advantage of Sporticos Capital",
+    paragraph: "We invite growth-minded investors, club executives, and players to reach out today for ",
+    paragraph1: " accelerated growth tomorrow.",
+    btn: "CONTACT  US",
+  },
+  {
+    id: 2,
+    path: "/about-us",
+    heading: "Reach Out",
+    paragraph: "For inquiries, investment opportunities, and general questions, we ",
+    paragraph1: " invite you to get in touch today.",
+    btn: "CONTACT  US",
+  },
+  {
+    id: 3,
+    path: "/faq",
+    heading: "My question isn’t listed above...",
+    paragraph: "We encourage you to reach out using the button below for",
+    paragraph1: "additional questions. Thank you",
+    btn: "CONTACT  US",
+  },
+
+];
