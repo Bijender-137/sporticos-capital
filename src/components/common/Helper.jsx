@@ -9,6 +9,7 @@ import ememtoringImg from '../../assets/images/webp/hero-ememtoring-img.webp'
 import wealthImg from '../../assets/images/webp/hero-wealth-img.webp'
 import playpathwaImg from '../../assets/images/webp/hero-play-pathwa-img.webp'
 import faqImg from '../../assets/images/webp/hero-faq-img.webp'
+import homepageImg from '../../assets/images/webp/herohomepage-img.webp'
 
 export const accordionItems = [
   {
@@ -131,8 +132,9 @@ export const nextlevelData = [
 export const heroData = [
   {
     id: 1,
-    path: "///",
-    maxW: "550px",
+    path: "/",
+    maxW: "628px",
+    maxW1:"550px",
     mainheading: "",
     heading: "Unlocking High Impact Sports ",
     heading1: "Investment",
@@ -140,7 +142,7 @@ export const heroData = [
     subheading: "With a global reach, Sporticos Capital offers solutions for growth in the sports industry with players and clubs at heart.",
     button: "Book Appointment",
     buttonhero: "Get in touch",
-    img: "",
+    img: homepageImg,
   },
   {
     id: 2,
