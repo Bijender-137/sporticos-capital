@@ -13,7 +13,7 @@ const Dreams = () => {
             {dreams.map((dreamsplayer) => {
               const dreamplayerchange =
                 dreamsplayer.id === dreamsplayer.id &&
-                location.pathname === dreamsplayer.pathName;
+                location.pathname === dreamsplayer.path;
               return dreamplayerchange ? (
                 <div key={dreamsplayer.id}>
                   <p className="ff-fontspring fw-normal fs-xxl lh-42 text-center text-capitalize mb-0">
