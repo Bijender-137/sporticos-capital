@@ -1,14 +1,14 @@
 import React from 'react'
-import Accordion from '../components/Accrodion'
+import Nextlevel from '../components/Nextlevel'
 import ContactUs from '../components/ContactUs'
 
-const Academy = () => {
+const AboutUs = () => {
     return (
         <>
-            <Accordion />
+            <Nextlevel />
             <ContactUs />
         </>
     )
 }
 
-export default Academy
+export default AboutUs

@@ -57,7 +57,7 @@ export const navLinks = [
   {
     id: 1,
     NavName: "Club Investments",
-    path: "/",
+    path: "/club-investments",
   },
   {
     id: 2,

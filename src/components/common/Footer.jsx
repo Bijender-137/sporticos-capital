@@ -64,22 +64,22 @@ const Footer = () => {
                         Home
                       </li>
                       <li className="mt-3">
-                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"> About Us</Link>
+                        <Link to="/about-us" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"> About Us</Link>
                       </li>
                       <li className="mt-2">
-                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"> Wealth Management</Link>
+                        <Link to="/wealth-management" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink"> Wealth Management</Link>
                       </li>
                       <li className="mt-2">
-                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Debt Funding</Link>
+                        <Link to="/debt-funding" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Debt Funding</Link>
                       </li>
                       <li className="mt-2">
-                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Club Investment</Link>
+                        <Link to="/club-investments" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Club Investment</Link>
                       </li>
                       <li className="mt-2">
-                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">  Player Pathway</Link>
+                        <Link to="/play-pathwa" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Player Pathway</Link>
                       </li>
                       <li className="mt-2">
-                        <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">E-Mentoring</Link>
+                        <Link to="/e-mentoring" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">E-Mentoring</Link>
                       </li>
                     </ul>
                     <div className="d-flex flex-column">

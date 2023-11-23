@@ -3,7 +3,7 @@ import FormSubmission from "../components/FormSubmission";
 import Dreams from "../components/Dreams";
 import Nextlevel from "../components/Nextlevel";
 
-const Scouting = () => {
+const Playpathwa = () => {
   return (
     <div>
       <Dreams />
@@ -13,4 +13,4 @@ const Scouting = () => {
   );
 };
 
-export default Scouting;
+export default Playpathwa;
