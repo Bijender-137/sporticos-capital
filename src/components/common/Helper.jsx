@@ -1,6 +1,3 @@
-import PlayerFirst from "../../assets/images/webp/player-dreams-1.webp";
-import PlayerSecond from "../../assets/images/webp/player-dreams-2.webp";
-import PlayerThird from "../../assets/images/webp/player-dreams-3.webp";
 import { GrowIcon, PeopleIcon, PositiveIcon } from "./Icons";
 
 export const accordionItems = [
@@ -92,72 +89,6 @@ export const navLinks = [
     pathName: "/about",
   },
 ];
-export const formsubmit = [
-  {
-    id: 1,
-    pathName: "/",
-    heading:
-      "Submit your Information and a Member of our  Team will Follow Up As Soon As Possible",
-  },
-  {
-    id: 2,
-    pathName: "/scouting",
-    heading: "Unlock Each Player’s Full Potential",
-    para: "To get in touch about our player pathways, we encourage you to submit the form below.",
-  },
-  {
-    id: 3,
-    pathName: "/scoutin",
-    heading: "Leave Your Portfolio In Trusted Hands",
-    para: "Take the first step toward our wealth management solutions by submitting the form below.",
-  },
-  {
-    id: 4,
-    pathName: "/scoutin",
-    heading: "Discover the Advantage of E-Mentoring",
-    para: "For more information about joining our e-mentoring program, simply fill out the form below.",
-  },
-  {
-    id: 5,
-    pathName: "/scoutin",
-    heading: "Winning Investment Portfolios Start Here",
-    para: "Fill out the form below to learn more about our club investment opportunities.",
-  },
-  {
-    id: 6,
-    pathName: "/scoutin",
-    heading: "Secure Favorable Debt Funding Terms",
-    para: "Submit the form below for more information about our debt funding solutions.",
-  },
-];
-export const dreams = [
-  {
-    id: 1,
-    pathName: "/scouting",
-    heading: "Bringing Player Dreams to Fruition",
-    para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
-    dremImg: PlayerFirst,
-    dremImg2: PlayerSecond,
-    dremImg3: PlayerThird,
-    subHead: "Club Synergies",
-    paragraph:
-      "Improving the ROI of our club investments by connecting budding players with opportunities for measurable growth.",
-    subHead2: "Enhanced Exposure",
-    paragraph2:
-      "Training players on media engagements while leveraging our marketing packages to improve public sentiment, scouting potential, and club branding.",
-    subHead3: "Player Ascensions",
-    paragraph3:
-      "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
-  },
-  {
-    id: 2,
-    pathName: "/scouting-2",
-  },
-  {
-    id: 3,
-    pathName: "/scouting-3",
-  },
-];
 
 export const nextlevelData = [
   {
@@ -172,13 +103,13 @@ export const nextlevelData = [
       },
       {
         icon: <PeopleIcon />,
-        paraBox: 'Outline the road to playing in international leagues',
+        paraBox: "Outline the road to playing in international leagues",
       },
       {
         icon: <GrowIcon />,
-        paraBox: 'Grow our clubs by focusing on existing talent',
+        paraBox: "Grow our clubs by focusing on existing talent",
       },
-    ]
+    ],
   },
   // {
   //   id: 2,
