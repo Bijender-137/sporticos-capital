@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { dreams } from "./common/Helper2";
+import { dreams } from "./Helper2";
 import { useLocation } from "react-router-dom";
 
-const Dreams = () => {
+const CommonCards = () => {
   const location = useLocation();
   return (
     <>
@@ -23,7 +23,8 @@ const Dreams = () => {
                     style={{ maxWidth: dreamsplayer.maxW }}
                     className={`ffBarlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
                   >
-                    {dreamsplayer.para} <span className="fw-bold">{dreamsplayer.para1}</span>
+                    {dreamsplayer.para}{" "}
+                    <span className="fw-bold">{dreamsplayer.para1}</span>
                   </p>
                   <Row className="pt-3 pt-sm-4 pt-lg-5 justify-content-center">
                     <Col
@@ -94,4 +95,4 @@ const Dreams = () => {
   );
 };
 
-export default Dreams;
+export default CommonCards;

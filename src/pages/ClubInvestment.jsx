@@ -1,14 +1,14 @@
-import React from 'react'
-import Dreams from '../components/Dreams'
-import FormSubmission from '../components/FormSubmission'
+import React from "react";
+import CommonCards from "../components/common/CommonCards";
+import FormSubmission from "../components/FormSubmission";
 
 const ClubInvestment = () => {
   return (
     <>
-      <Dreams />
+      <CommonCards />
       <FormSubmission />
     </>
-  )
-}
+  );
+};
 
-export default ClubInvestment
+export default ClubInvestment;
