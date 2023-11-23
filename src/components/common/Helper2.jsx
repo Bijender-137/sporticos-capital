@@ -28,19 +28,19 @@ export const formdata = [
     id: 4,
     heading: "Unlock Each Player’s Full Potential",
     para: "To get in touch about our player pathways, we encourage you to submit the form below.",
-    path: "/play-pathwa",
+    path: "/e-mentoring",
   },
   {
     id: 5,
-    heading: "Unlock Each Player’s Full Potential",
-    para: "To get in touch about our player pathways, we encourage you to submit the form below.",
-    path: "/play-pathwa",
+    heading: "Winning Investment Portfolios Start Here",
+    para: "Fill out the form below to learn more about our club investment opportunities.",
+    path: "/club-investments",
   },
   {
     id: 6,
-    heading: "Unlock Each Player’s Full Potential",
-    para: "To get in touch about our player pathways, we encourage you to submit the form below.",
-    path: "/play-pathwa",
+    heading: "Secure Favorable Debt Funding Terms",
+    para: "Submit the form below for more information about our debt funding solutions.",
+    path: "/debt-funding",
   },
 ];
 export const inputdata = [
@@ -67,41 +67,41 @@ export const inputdata = [
     email: "Email*",
     name: "Name",
     subject: "Subject",
-    apointment: "Player Pathway - Potential",
-
-    path: "/play-pathwa",
+    apointment: "Wealth Management - Potential",
+    path: "/wealth-management",
   },
   {
     id: 4,
     email: "Email*",
     name: "Name",
     subject: "Subject",
-    apointment: "Player Pathway - Potential",
+    apointment: "Mentoring - Potential",
 
-    path: "/play-pathwa",
+    path: "/e-mentoring",
   },
   {
     id: 5,
     email: "Email*",
     name: "Name",
     subject: "Subject",
-    apointment: "Player Pathway - Potential",
+    apointment: "Club Investment - Potential",
 
-    path: "/play-pathwa",
+    path: "/club-investments",
   },
   {
     id: 6,
     email: "Email*",
     name: "Name",
     subject: "Subject",
-    apointment: "Player Pathway - Potential",
+    apointment: "Private Lending - Potential",
 
-    path: "/play-pathwa",
+    path: "/debt-funding",
   },
 ];
 // dreams player
 export const dreams = [
   {
+    maxW: "500px",
     id: 1,
     path: "/play-pathwa",
     heading: "Bringing Player Dreams to Fruition",
@@ -136,5 +136,59 @@ export const dreams = [
     subHead3: "Player Ascensions",
     paragraph3:
       "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
+  },
+  {
+    id: 3,
+    path: "/e-mentoringt",
+    heading: "Bringing Player Dreams to Fruition",
+    para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
+    dremImg: PlayerFirst,
+    dremImg2: PlayerSecond,
+    dremImg3: PlayerThird,
+    subHead: "Club Synergies",
+    paragraph:
+      "Improving the ROI of our club investments by connecting budding players with opportunities for measurable growth.",
+    subHead2: "Enhanced Exposure",
+    paragraph2:
+      "Training players on media engagements while leveraging our marketing packages to improve public sentiment, scouting potential, and club branding.",
+    subHead3: "Player Ascensions",
+    paragraph3:
+      "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
+  },
+  {
+    id: 4,
+    path: "/club-investments",
+    heading: "Bringing Player Dreams to Fruition",
+    para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
+    dremImg: PlayerFirst,
+    dremImg2: PlayerSecond,
+    dremImg3: PlayerThird,
+    subHead: "Club Synergies",
+    paragraph:
+      "Improving the ROI of our club investments by connecting budding players with opportunities for measurable growth.",
+    subHead2: "Enhanced Exposure",
+    paragraph2:
+      "Training players on media engagements while leveraging our marketing packages to improve public sentiment, scouting potential, and club branding.",
+    subHead3: "Player Ascensions",
+    paragraph3:
+      "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
+  },
+  {
+    id: 5,
+    path: "/debt-funding",
+    heading: "Ensuring Ongoing Club Growth",
+    para: "Through fair rates for clubs and attractive interest income for our investors, we facilitate mutually agreeable debt funding terms.",
+    dremImg: PlayerFirst,
+    dremImg2: PlayerSecond,
+    dremImg3: PlayerThird,
+    subHead: "Strategic Financing",
+    paragraph:
+      "Supporting high-impact activities such as player transfers to sharpen the competitive edge of the clubs we work with.",
+    subHead2: "Revenue Sharing",
+    paragraph2:
+      "Allocating working capital into revenue-generating operations to secure meaningful value for both parties.",
+    subHead3: "Reputable Underwriters",
+    paragraph3:
+      "Leaning on our partnerships with vetted underwriters to evaluate risk and determine the appropriate terms.",
   },
 ];
