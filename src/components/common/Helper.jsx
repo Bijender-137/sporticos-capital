@@ -1,5 +1,14 @@
 import { GrowIcon, PeopleIcon, PositiveIcon } from "./Icons";
+
+//All Heros Pages Images
 import talkImg from '../../assets/images/webp/hero-football.webp'
+import aboutUsImg from '../../assets/images/webp/hero-aboutus-img.webp'
+import clubImg from '../../assets/images/webp/hero-culbinvestment-img.webp'
+import debtfundingImg from '../../assets/images/webp/hero-debtfunding-img.webp'
+import ememtoringImg from '../../assets/images/webp/hero-ememtoring-img.webp'
+import wealthImg from '../../assets/images/webp/hero-wealth-img.webp'
+import playpathwaImg from '../../assets/images/webp/hero-play-pathwa-img.webp'
+import faqImg from '../../assets/images/webp/hero-faq-img.webp'
 
 export const accordionItems = [
   {
@@ -138,7 +147,7 @@ export const heroData = [
     subheading: "At Sporticos Capital, we embrace decades of combined private equity and sports management expertise to put previously inaccessible sports investment opportunities within reach for those we serve.",
     button: "Book Appointment",
     buttonhero: "Get in touch",
-    img: "",
+    img: aboutUsImg,
   },
 
   {
@@ -149,7 +158,7 @@ export const heroData = [
     subheading: "We support key operational expenses, player transfers, and beyond by making working capital available through our debt funding solutions.",
     button: "Book Appointment",
     buttonhero: "",
-    img: "",
+    img: debtfundingImg,
   },
   {
     id: 4,
@@ -159,7 +168,7 @@ export const heroData = [
     subheading: "Our portfolio of high-potential clubs, leagues, and adjacent real estate drives ROI for investors while making a noteworthy impact.",
     button: "Book Appointment",
     buttonhero: "",
-    img: "",
+    img: clubImg,
   },
   {
     id: 5,
@@ -169,7 +178,7 @@ export const heroData = [
     subheading: "Through the power of unity, our e-mentorship platform sparks significant player growth with connections to professionals and former players who have been in their shoes.",
     button: "Book Appointment",
     buttonhero: "",
-    img: "",
+    img: ememtoringImg,
   },
   {
     id: 6,
@@ -179,7 +188,7 @@ export const heroData = [
     subheading: "We empower football players, executives, and staff alike to invest with confidence through our personalized wealth management solutions.",
     button: "Book Appointment",
     buttonhero: "",
-    img: "",
+    img: wealthImg,
   },
   {
     id: 7,
@@ -189,7 +198,7 @@ export const heroData = [
     subheading: "We believe in the power of well-rounded players both on and off the field to support thriving football clubs.",
     button: "Book Appointment",
     buttonhero: "",
-    img: "",
+    img: playpathwaImg,
   },
   {
     id: 8,
@@ -201,7 +210,7 @@ export const heroData = [
     subheading: "",
     button: "",
     buttonhero: "",
-    img: "",
+    img1: faqImg,
   },
   {
     id: 9,
