@@ -26,7 +26,7 @@ function App() {
       <Routes>
         <Route exact path="/" Component={FormSubmission} />
         <Route exact path="/faq" Component={Academy} />
-        <Route exact path="/scouting" Component={Scouting} />
+        <Route exact path="/play-pathwa" Component={Scouting} />
       </Routes>
       <Footer />
       <BackTop />

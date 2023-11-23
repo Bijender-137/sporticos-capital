@@ -1,4 +1,5 @@
 import { GrowIcon, PeopleIcon, PositiveIcon } from "./Icons";
+import talkImg from '../../assets/images/webp/hero-football.webp'
 
 export const accordionItems = [
   {
@@ -56,37 +57,37 @@ export const navLinks = [
   {
     id: 1,
     NavName: "Club Investments",
-    pathName: "/",
+    path: "/",
   },
   {
     id: 2,
-    NavName: "FAQ",
-    pathName: "/faq",
+    NavName: "E-Mentoring",
+    path: "/e-mentoring",
   },
   {
     id: 3,
-    NavName: "Scouting and Trials",
-    pathName: "/scouting",
+    NavName: "About",
+    path: "/about-us",
   },
   {
     id: 4,
-    NavName: "E-Mentoring",
-    pathName: "/mentoring",
+    NavName: "FAQ",
+    path: "/faq",
   },
   {
     id: 5,
-    NavName: "Venture Capital",
-    pathName: "/venture",
+    NavName: "Play Pathwa",
+    path: "/play-pathwa",
   },
   {
     id: 6,
-    NavName: "CSR",
-    pathName: "/csr",
+    NavName: "Wealth Management",
+    path: "/wealth-management",
   },
   {
     id: 7,
-    NavName: "About",
-    pathName: "/about",
+    NavName: "Debt Funding",
+    path: "/debt-funding",
   },
 ];
 
@@ -118,3 +119,101 @@ export const nextlevelData = [
   //   id: 3,
   // },
 ];
+export const heroData = [
+  {
+    id: 1,
+    path: "///",
+    mainheading: "",
+    heading: "Unlocking High Impact Sports Investment Opportunities ",
+    subheading: "With a global reach, Sporticos Capital offers solutions for growth in the sports industry with players and clubs at heart.",
+    button: "Book Appointment",
+    buttonhero: "Get in touch",
+    img: "",
+  },
+  {
+    id: 2,
+    path: "/about-us",
+    mainheading: "",
+    heading: "A Thriving Ecosystem of Sports Investment Opportunities ",
+    subheading: "At Sporticos Capital, we embrace decades of combined private equity and sports management expertise to put previously inaccessible sports investment opportunities within reach for those we serve.",
+    button: "Book Appointment",
+    buttonhero: "Get in touch",
+    img: "",
+  },
+
+  {
+    id: 3,
+    path: "/debt-funding",
+    mainheading: "",
+    heading: "Facilitating Seamless Club Operations ",
+    subheading: "We support key operational expenses, player transfers, and beyond by making working capital available through our debt funding solutions.",
+    button: "Book Appointment",
+    buttonhero: "",
+    img: "",
+  },
+  {
+    id: 4,
+    path: "/club-investments",
+    mainheading: "",
+    heading: "Invest In Vetted Football Clubs",
+    subheading: "Our portfolio of high-potential clubs, leagues, and adjacent real estate drives ROI for investors while making a noteworthy impact.",
+    button: "Book Appointment",
+    buttonhero: "",
+    img: "",
+  },
+  {
+    id: 5,
+    path: "/e-mentoring",
+    mainheading: "",
+    heading: "Bringing Players and Mentors Together ",
+    subheading: "Through the power of unity, our e-mentorship platform sparks significant player growth with connections to professionals and former players who have been in their shoes.",
+    button: "Book Appointment",
+    buttonhero: "",
+    img: "",
+  },
+  {
+    id: 6,
+    path: "/wealth-management",
+    mainheading: "",
+    heading: "Investments Tailored to Your Financial Goals ",
+    subheading: "We empower football players, executives, and staff alike to invest with confidence through our personalized wealth management solutions.",
+    button: "Book Appointment",
+    buttonhero: "",
+    img: "",
+  },
+  {
+    id: 7,
+    path: "/play-pathwa",
+    mainheading: "",
+    heading: "Proudly Prioritizing Player Performance ",
+    subheading: "We believe in the power of well-rounded players both on and off the field to support thriving football clubs.",
+    button: "Book Appointment",
+    buttonhero: "",
+    img: "",
+  },
+  {
+    id: 8,
+    path: "/faq",
+    mainheading: "Frequently",
+    mainheading1: " Asked",
+    mainheading2: "Questions",
+    heading: "",
+    subheading: "",
+    button: "",
+    buttonhero: "",
+    img: "",
+  },
+  {
+    id: 9,
+    path: "/",
+    mainheading: "Talk to The",
+    mainheading1: " Team",
+    heading: "",
+    subheading: "",
+    button: "Book Appointment",
+    buttonhero: "",
+    img: talkImg,
+  },
+
+];
+
