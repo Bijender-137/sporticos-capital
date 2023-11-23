@@ -22,7 +22,7 @@ export const formdata = [
     id: 1,
     heading:
       "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
-    path: "/",
+    path: "/contant",
   },
 
   {
@@ -65,7 +65,7 @@ export const inputdata = [
     name: "Name",
     subject: "Subject",
     apointment: "Set an Appointment",
-    path: "/",
+    path: "/contant",
   },
 
   {

@@ -244,7 +244,7 @@ export const heroData = [
   },
   {
     id: 9,
-    path: "/",
+    path: "/contant",
     maxW: "100%",
     mainheading: "Talk to The",
     mainheading1: " Team",
