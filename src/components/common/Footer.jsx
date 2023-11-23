@@ -9,7 +9,7 @@ const Footer = () => {
   const [footerPaddingActive, setFooterPaddingActive] = useState(false);
 
   useEffect(() => {
-    setFooterPaddingActive(location.pathname === '/about-us' || location.pathname === '/faq');
+    setFooterPaddingActive(location.pathname === '/' || location.pathname === '/about-us' || location.pathname === '/faq');
   }, [location.pathname]);
   return (
     <>
@@ -98,7 +98,7 @@ const Footer = () => {
                           <Link to="/faq" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">FAQ</Link>
                         </li>
                         <li className="mt-2">
-                          <Link to="/" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Contact us</Link>
+                          <Link to="/contant" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Contact us</Link>
                         </li>
                       </ul>
                       <ul className="mb-0 p-0 pt-4 pt-sm-0 d-sm-none">

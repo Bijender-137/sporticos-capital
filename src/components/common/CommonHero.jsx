@@ -28,7 +28,7 @@ const CommonHero = () => {
                 </h2>
                 }
                 {currentData?.subheading &&
-                    <p className="mb-0 ffBarlow text-white z-2 position-relative pt-2 fw-normal fs-lg">
+                    <p style={{ maxWidth: currentData.maxW1 }} className="mb-0 ffBarlow text-white z-2 position-relative pt-2 fw-normal fs-lg">
                         {currentData.subheading}
                     </p>
                 }

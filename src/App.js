@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "./App.css";
-import FormSubmission from "./components/FormSubmission";
 import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
 import { BackTop } from "./components/common/BackTop";
@@ -14,6 +13,8 @@ import Ementoring from "./pages/Ementoring";
 import ClubInvestment from "./pages/ClubInvestment";
 import DebtFunding from "./pages/DebtFunding";
 import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
+import FormSubmission from "./components/FormSubmission";
 
 function App() {
   const { pathname } = useLocation();
@@ -29,7 +30,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" Component={FormSubmission} />
+        <Route exact path="/" Component={Home} />
         <Route exact path="/faq" Component={Faq} />
         <Route exact path="/play-pathwa" Component={Playpathwa} />
         <Route exact path="/wealth-management" Component={Wealth} />
@@ -37,6 +38,7 @@ function App() {
         <Route exact path="/club-investments" Component={ClubInvestment} />
         <Route exact path="/debt-funding" Component={DebtFunding} />
         <Route exact path="/about-us" Component={AboutUs} />
+        <Route exact path="/contant" Component={FormSubmission} />
       </Routes>
       <Footer />
       <BackTop />
