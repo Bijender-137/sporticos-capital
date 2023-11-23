@@ -94,11 +94,11 @@ const FormSubmission = () => {
       <div className="bg-white py-5">
         <Container className="py-lg-5 mt-md-3 mb-md-5">
           <div className="pb-sm-2 pb-md-3 text-center">
-            <h2 className="fw-semibold fs-xxl text-black max-w-810 px-lg-4 m-auto">
+            <h2 className="fw-bold ff-fontspring fs-xxl text-black max-w-810 px-lg-4 m-auto">
               {currentheading?.heading}
             </h2>
             {currentheading?.para && (
-              <p className="ffBarlow fs-base text-black fw-normal mb-0 pt-1">
+              <p className="ffBarlow fs-base text-black fw-normal mb-0 pt-1 opacity-07">
                 {currentheading.para}
               </p>
             )}
@@ -211,7 +211,7 @@ const FormSubmission = () => {
                   />
                   <label
                     htmlFor="checked"
-                    className="ms-2 text-black opacity-70 fw-normal fs-sm"
+                    className="ms-2 text-black opacity-07 ffBarlow fw-normal fs-sm"
                   >
                     I agree to Sporticos-Capital{" "}
                     <span>

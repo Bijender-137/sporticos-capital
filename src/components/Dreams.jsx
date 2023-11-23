@@ -19,11 +19,18 @@ const Dreams = () => {
                   <p className="ff-fontspring fw-normal fs-xxl lh-42 text-center text-capitalize mb-0">
                     {dreamsplayer.heading}
                   </p>
-                  <p className="ffBarlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto max-w-500">
+                  <p
+                    style={{ maxWidth: dreamsplayer.maxW }}
+                    className={`ffBarlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
+                  >
                     {dreamsplayer.para}
                   </p>
                   <Row className="pt-3 pt-sm-4 pt-lg-5 justify-content-center">
-                    <Col sm={6} lg={4} className="d-flex justify-content-center">
+                    <Col
+                      sm={6}
+                      lg={4}
+                      className="d-flex justify-content-center"
+                    >
                       <div className="dreamPlayer-shadow p-3 h-100">
                         <img
                           className="w-100 overflow-hidden transition_300"
@@ -38,7 +45,11 @@ const Dreams = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col sm={6} lg={4} className="pt-3 pt-sm-0 d-flex justify-content-center">
+                    <Col
+                      sm={6}
+                      lg={4}
+                      className="pt-3 pt-sm-0 d-flex justify-content-center"
+                    >
                       <div className="dreamPlayer-shadow p-3 h-100 ">
                         <img
                           className="w-100 overflow-hidden transition_300"
@@ -53,7 +64,11 @@ const Dreams = () => {
                         </p>
                       </div>
                     </Col>
-                    <Col sm={6} lg={4} className="pt-3 pt-lg-0 d-flex justify-content-center">
+                    <Col
+                      sm={6}
+                      lg={4}
+                      className="pt-3 pt-lg-0 d-flex justify-content-center"
+                    >
                       <div className="dreamPlayer-shadow p-3 h-100 transition_300">
                         <img
                           className="w-100 overflow-hidden transition_300"
