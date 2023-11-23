@@ -20,7 +20,7 @@ const Header = () => {
   const location = useLocation();
   useEffect(() => {
     // Update the background image based on the current path
-    if (location.pathname === "/") {
+    if (location.pathname === "/contant") {
       setBackgroundImage(mainbg); // Replace with the image for the specific path
     } else {
       setBackgroundImage(mainbg1); // Default image for other paths
