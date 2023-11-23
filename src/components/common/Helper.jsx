@@ -1,4 +1,4 @@
-import { GrowIcon, PeopleIcon, PositiveIcon } from "./Icons";
+import { AccountabilityIcon, ArrangeIcon, BulbIcon, CommunicationIcon, DevelopIcon, FactorIcon, GrowIcon, IdentifyIcon, MaintainIcon, MitigateIcon, PeopleIcon, PositiveIcon, PreventIcon, ServeIcon, SherpenIcon, SupportIcon, TransparencyIcon, UnderStandIcon } from "./Icons";
 
 //All Heros Pages Images
 import talkImg from '../../assets/images/webp/hero-football.webp'
@@ -104,6 +104,7 @@ export const navLinks = [
 export const nextlevelData = [
   {
     id: 1,
+    path: "/paly-pathwa",
     heading: "Guiding Players to the Next Level",
     para: "While players within our athlete network focus on honing their ",
     spanpara: "football skills, we:",
@@ -122,19 +123,114 @@ export const nextlevelData = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  // },
-  // {
-  //   id: 3,
-  // },
+  {
+    id: 2,
+    path: "/e-mentoring",
+    heading: "Fostering Community, One Player at a Time",
+    para: "Our e-mentorship platform connects mentors with mentees who",
+    spanpara: "",
+    submap: [
+      {
+        icon: <SupportIcon />,
+        paraBox: "Support new player acquisitions and transfers alike",
+      },
+      {
+        icon: <DevelopIcon />,
+        paraBox: "Develop versatile players on and off the field",
+      },
+      {
+        icon: <SherpenIcon />,
+        paraBox: "Sharpen the competitive edge of our clubs",
+      },
+      {
+        icon: <PreventIcon />,
+        paraBox: "Prevent mental health obstacles from derailing player focus",
+      },
+    ],
+  },
+  {
+    id: 3,
+    path: "/debt-funding",
+    heading: "Going Beyond Capital Alone",
+    para: "Our background in private equity and sports management uniquely",
+    spanpara: "positions us to:",
+    submap: [
+      {
+        icon: <IdentifyIcon />,
+        paraBox: "Identify and cover essential club operations",
+      },
+      {
+        icon: <ArrangeIcon />,
+        paraBox: "Arrange win-win financing solutions",
+      },
+      {
+        icon: <MitigateIcon />,
+        paraBox: "Mitigate and manage financing risks",
+      },
+      {
+        icon: <ServeIcon />,
+        paraBox: "Serve in the best interests of both clubs and investors",
+      },
+    ],
+  },
+  {
+    id: 4,
+    path: "/about-us",
+    heading: "United By Our Mission",
+    para: "Our mission is to make a lasting positive impact on the clubs, players, fans, and communities we invest in. We couple our proven managerial and operational strategies with our commitment to preserving club traditions, upholding responsible ESG practices, and developing underserved areas such as women’s football. Our core values include:",
+    spanpara: "",
+    submap: [
+      {
+        icon: <TransparencyIcon />,
+        paraBox: "Transparency for those we serve",
+      },
+      {
+        icon: <ArrangeIcon />,
+        paraBox: "Integrity with our value-driven approach",
+      },
+      {
+        icon: <CommunicationIcon />,
+        paraBox: "Communication with the utmost respect",
+      },
+      {
+        icon: <AccountabilityIcon />,
+        paraBox: "Accountability through measurable performance",
+      },
+    ],
+  },
+  {
+    id: 5,
+    path: "/wealth-management",
+    heading: "Combining Expertise and Personalization",
+    para: "Through our tailored wealth management solutions, we:",
+    spanpara: "",
+    submap: [
+      {
+        icon: <UnderStandIcon />,
+        paraBox: "Understand your unique financial aspirations",
+      },
+      {
+        icon: <FactorIcon />,
+        paraBox: "Factor your time horizon into each investment decision",
+      },
+      {
+        icon: <BulbIcon />,
+        paraBox: "Maximize your ROI through strategic products",
+      },
+      {
+        icon: <MaintainIcon />,
+        paraBox: "Maintain a diversified and well-balanced portfolio",
+      },
+    ],
+  },
+
 ];
 export const heroData = [
   {
     id: 1,
     path: "/",
     maxW: "628px",
-    maxW1:"550px",
+    maxW1: "550px",
     mainheading: "",
     heading: "Unlocking High Impact Sports ",
     heading1: "Investment",
