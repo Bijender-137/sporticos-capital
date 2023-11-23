@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FooterLogo from "../../assets/images/svg/footer_logo.svg";
 import { Instagram, Linkdin, Twitter } from "../common/Icons";
@@ -6,10 +6,14 @@ import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
   const location = useLocation();
-  const isPathActive = (path) => location.pathname === path;
+  const [footerPaddingActive, setFooterPaddingActive] = useState(false);
+
+  useEffect(() => {
+    setFooterPaddingActive(location.pathname === '/about-us' || location.pathname === '/faq');
+  }, [location.pathname]);
   return (
     <>
-      <div className={`footer-bg-img ${isPathActive('/faq') ? 'footer-padding-active' : ''}`}>
+      <div className={`footer-bg-img ${footerPaddingActive ? 'footer-padding-active' : ''}`}>
         <div className="py-5">
           <div className="py-sm-4">
             <Container className="pb-md-4 pb-lg-5 mb-sm-3">

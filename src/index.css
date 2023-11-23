@@ -298,6 +298,18 @@ body {
   border: 0px;
 }
 
+.inline-btn {
+  padding: 9px 15px;
+  border-radius: 6px;
+  transition: all linear 300ms;
+  border: 1px solid white;
+}
+
+.inline-btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
 .navLinkButton-navsidebar {
   padding: 10px 16px;
   border-radius: 6px;
@@ -389,6 +401,7 @@ body {
   .talk-img {
     max-width: 570px;
   }
+
   .footer-padding-active {
     padding-top: 108px !important;
   }
@@ -418,6 +431,10 @@ body {
 @media (min-width:576px) {
   .navLinkButton {
     padding: 14px 16px;
+  }
+
+  .inline-btn {
+    padding: 13px 15px;
   }
 
   .mt-sm-69 {
@@ -467,6 +484,10 @@ body {
 
   .navLinkButton {
     padding: 20px 18px;
+  }
+
+  .inline-btn {
+    padding: 19px 17px;
   }
 
   .navLinkButton-navsidebar {
