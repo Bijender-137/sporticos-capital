@@ -216,8 +216,24 @@ export const dreams = [
 export const sporticoseTeam = [
   {
     id: 1,
+    path: "/about-us",
     mainheading: "The Sporticos Team",
-    manImg: TeamMember1,
+    manimg: TeamMember1,
+    heading: "Wael Khattab",
+    subheading: "Founder & Executive Director",
+    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
+    girlImg: TeamMember2,
+    heading2: "Dr. Hussa K. Al-Khalifa",
+    subheading2: "Founder & Executive Director",
+    para2:
+      "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
+  },
+  {
+    id: 2,
+    path: "/",
+    mainheading: "The Sporticos Team",
+    para: "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
+    manimg: TeamMember1,
     heading: "Wael Khattab",
     subheading: "Founder & Executive Director",
     para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
