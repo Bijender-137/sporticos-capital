@@ -149,3 +149,10 @@ input:-webkit-autofill:active {
 .cursor_pointer {
     cursor: pointer;
 }
+
+/* media quarry */
+@media (min-width:576px) {
+    .dreamPlayer-shadow {
+        max-width: 100%;
+    }
+}
