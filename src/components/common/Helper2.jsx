@@ -1,6 +1,7 @@
 import PlayerFirst from "../../assets/images/webp/player-dreams-1.webp";
 import PlayerSecond from "../../assets/images/webp/player-dreams-2.webp";
 import PlayerThird from "../../assets/images/webp/player-dreams-3.webp";
+import ManagmentPlay1 from "../../assets/images/webp/player-dreams-3.webp";
 // form submission
 
 export const formdata = [
