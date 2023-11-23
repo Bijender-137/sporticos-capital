@@ -23,7 +23,7 @@ const Dreams = () => {
                     style={{ maxWidth: dreamsplayer.maxW }}
                     className={`ffBarlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
                   >
-                    {dreamsplayer.para}
+                    {dreamsplayer.para} <span className="fw-bold">{dreamsplayer.para1}</span>
                   </p>
                   <Row className="pt-3 pt-sm-4 pt-lg-5 justify-content-center">
                     <Col
