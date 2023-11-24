@@ -55,7 +55,7 @@ const FormSubmission = () => {
   const submit = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    // setOption("");
+    setOption("Which best describes you?");
     setSubject("");
     setName("");
     setApointment("");
@@ -155,15 +155,13 @@ const FormSubmission = () => {
                   <div className="position-relative">
                     <div
                       onClick={buttonClick}
-                      className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border ${
-                        selectedOption ? "text-black" : "clr-gray"
-                      }`}
+                      className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border ${selectedOption ? "clr-gray" : "clr-gray"
+                        }`}
                     >
                       {option}
                       <span
-                        className={`${
-                          open ? "dropdown-open" : "dropdown-closed"
-                        }`}
+                        className={`${open ? "dropdown-open" : "dropdown-closed"
+                          }`}
                       >
                         <DropDown />
                       </span>
