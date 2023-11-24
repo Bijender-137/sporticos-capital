@@ -196,23 +196,58 @@ input:-webkit-autofill:active {
     max-width: 730px;
 }
 
+/* performance */
+.bg_clr_performance {
+    background: rgba(217, 231, 108, 0.15);
+}
+
+.performance_img_w {
+    max-width: 240px;
+}
+
 /* media quarry */
 @media (min-width:576px) {
     .dreamPlayer-shadow {
         max-width: 100%;
     }
+
+    .performance_img_w {
+        max-width: 280px;
+    }
 }
 
-@media (min-width:992px) {
+@media (min-width:991.98px) {
     .max_w_535 {
         max-width: 535px;
+    }
+
+    .performance_img_w {
+        max-width: 320px;
     }
 
     .common_img_w {
         max-width: 142px;
     }
 
+    .performance_text_w {
+        max-width: 240px;
+    }
+
+    .performance_text_w_320 {
+        max-width: 320px;
+    }
+
+    .performance_text_270 {
+        max-width: 270px;
+    }
+
     .common_card_w {
         max-width: 100%;
+    }
+}
+
+@media (min-width:1199.98px) {
+    .performance_img_w {
+        max-width: 380px;
     }
 }

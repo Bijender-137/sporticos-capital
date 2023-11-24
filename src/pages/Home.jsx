@@ -1,14 +1,16 @@
-import React from 'react'
-import ContactUs from '../components/ContactUs'
-import CommonTeam from '../components/common/CommonTeam'
+import React from "react";
+import ContactUs from "../components/ContactUs";
+import CommonTeam from "../components/common/CommonTeam";
+import Performance from "../components/Performance";
 
 const Home = () => {
-    return (
-        <>
-            <CommonTeam/>
-            <ContactUs />
-        </>
-    )
-}
+  return (
+    <>
+      <Performance />
+      <CommonTeam />
+      <ContactUs />
+    </>
+  );
+};
 
-export default Home
+export default Home;
