@@ -51,7 +51,7 @@ const CommonHero = () => {
             </div>
             {currentData?.img &&
                 <div className="mt-5 pt-4 mt-lg-0 d-flex justify-content-end ">
-                    <img className={`end-0 bottom-0 common_hero_position z-0 talk-img ${isPathActive('/') ? 'transfrom-60' : ''} 
+                    <img className={`end-0 bottom-0 common_hero_position z-0 talk-img ${isPathActive('/contant') ? 'transfrom-60' : ''} 
                     ${isPathActive('/about-us') ? 'about-usImg' : ''}
                     ${imgset ? 'clubImg-max-w' : ''}
                     `} src={currentData.img} alt="hero-right-charactors"></img>

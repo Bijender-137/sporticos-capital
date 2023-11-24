@@ -385,6 +385,10 @@ body {
   gap: 16px !important;
 }
 
+.max-w-1005 {
+  max-width: 1005px;
+}
+
 @media (max-width:360px) {
   .gap-max-2 {
     gap: 8px !important;
@@ -531,7 +535,11 @@ body {
 
   .nextlevel-box {
     padding: 8px 14px 14px 14px;
-    min-height: 210px;
+    min-height: 100%;
+
+  }
+
+  .border-end-yellow {
     border-right: 1px solid var(--clr-yellow);
   }
 
@@ -612,6 +620,10 @@ body {
 
   .about-usImg {
     max-width: 610px;
+  }
+
+  .max-w-790 {
+    max-width: 790px !important;
   }
 }
 
