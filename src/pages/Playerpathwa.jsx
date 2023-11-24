@@ -3,7 +3,7 @@ import FormSubmission from "../components/FormSubmission";
 import CommonCards from "../components/common/CommonCards";
 import Nextlevel from "../components/Nextlevel";
 
-const Playpathwa = () => {
+const Playerpathwa = () => {
   return (
     <div>
       <CommonCards />
@@ -13,4 +13,4 @@ const Playpathwa = () => {
   );
 };
 
-export default Playpathwa;
+export default Playerpathwa;

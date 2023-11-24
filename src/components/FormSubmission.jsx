@@ -13,12 +13,6 @@ const FormSubmission = () => {
   const currentheading = formdata.find((i) => i.path === paragraph);
   // form validation
   const form = inputdata.find((i) => i.path === paragraph);
-  // form value massage
-  const [message, setMessage] = useState("");
-  const handleChange = (event) => {
-    const result = event.target.value.replace(/[^a-z\s]/gi, "");
-    setMessage(result);
-  };
   // name change
   const [name, setName] = useState("");
   const handleChangeName = (e) => {
@@ -58,12 +52,10 @@ const FormSubmission = () => {
   //   setNumber(result);
   // };
   // email js
-  const [selection1, setSelection1] = useState("");
   const submit = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    setMessage("");
-    // setNumber("");
+    // setOption("");
     setSubject("");
     setName("");
     setApointment("");

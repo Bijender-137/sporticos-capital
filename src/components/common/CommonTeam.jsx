@@ -25,9 +25,8 @@ const CommonTeam = () => {
                   </h5>
 
                   <p
-                    className={` fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
-                      home ? "pt-2 mt-1  " : ""
-                    }`}
+                    className={` fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${home ? "pt-2 mt-1  " : ""
+                      }`}
                   >
                     {teams.mainpara}
                   </p>
@@ -82,12 +81,16 @@ const CommonTeam = () => {
                     </div>
                   </Col>
                 </Row>
-                <Link
-                  to="/about-us"
-                  className="heroBtn fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow"
-                >
-                  contact us
-                </Link>
+                {home && (
+                  <div className="d-flex justify-content-center pt-3 pt-sm-4 pt-lg-5">
+                    <Link
+                      to="/about-us"
+                      className="heroBtn fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow"
+                    >
+                      {teams.btn}
+                    </Link>
+                  </div>
+                )}
               </div>
             ) : null;
           })}

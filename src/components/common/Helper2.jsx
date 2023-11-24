@@ -22,14 +22,14 @@ export const formdata = [
     id: 1,
     heading:
       "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
-    path: "/contant",
+    path: "/contact",
   },
 
   {
     id: 2,
     heading: "Unlock Each Player’s Full Potential",
     para: "To get in touch about our player pathways, we encourage you to submit the form below.",
-    path: "/play-pathwa",
+    path: "/player-pathwa",
   },
   {
     id: 3,
@@ -65,7 +65,7 @@ export const inputdata = [
     name: "Name",
     subject: "Subject",
     apointment: "Set an Appointment",
-    path: "/contant",
+    path: "/contact",
   },
 
   {
@@ -75,7 +75,7 @@ export const inputdata = [
     subject: "Subject",
     apointment: "Player Pathway - Potential",
 
-    path: "/play-pathwa",
+    path: "/player-pathwa",
   },
   {
     id: 3,
@@ -118,7 +118,7 @@ export const dreams = [
   {
     maxW: "500px",
     id: 1,
-    path: "/play-pathwa",
+    path: "/player-pathwa",
     heading: "Bringing Player Dreams to Fruition",
     para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
     dremImg: PlayerFirst,
@@ -242,6 +242,7 @@ export const sporticoseTeam = [
     girlImg: TeamMember2,
     heading2: "Dr. Hussa K. Al-Khalifa",
     subheading2: "Founder & Executive Director",
+    btn: "about us",
     para2:
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
   },

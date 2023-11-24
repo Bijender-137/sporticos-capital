@@ -20,7 +20,7 @@ const Footer = () => {
               <Row className="justify-content-between">
                 <Col lg={5}>
                   <div>
-                    <a href="#">
+                    <Link to="/">
                       <img
                         width={237}
                         height={47}
@@ -28,7 +28,7 @@ const Footer = () => {
                         src={FooterLogo}
                         alt="FooterLogo"
                       />
-                    </a>
+                    </Link>
                     <p className="text-white opacity-07 max-w-453 fs-sm fw-normal ffBarlow mt-3">
                       Sporticos Capital is a registered LLC with offices in
                       Bahrain, US and the UK. Our combined experience and
@@ -46,7 +46,7 @@ const Footer = () => {
                       </a>
                       <a
                         target="blank"
-                        href="https://www.facebook.com/SporticosCapital"
+                        href="https://www.twitter.com/SporticosCapital"
                         className="icons-bg d-flex justify-content-center align-items-center transition_300"
                       >
                         <Twitter />
@@ -80,7 +80,7 @@ const Footer = () => {
                         <Link to="/club-investments" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Club Investment</Link>
                       </li>
                       <li className="mt-2">
-                        <Link to="/play-pathwa" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Player Pathway</Link>
+                        <Link to="/player-pathwa" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Player Pathway</Link>
                       </li>
                       <li className="mt-2">
                         <Link to="/e-mentoring" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">E-Mentoring</Link>
@@ -98,7 +98,7 @@ const Footer = () => {
                           <Link to="/faq" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">FAQ</Link>
                         </li>
                         <li className="mt-2">
-                          <Link to="/contant" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Contact us</Link>
+                          <Link to="/contact" className="fw-normal fs-sm ffBarlow text-white opacity-07 navlink">Contact us</Link>
                         </li>
                       </ul>
                       <ul className="mb-0 p-0 pt-4 pt-sm-0 d-sm-none">
