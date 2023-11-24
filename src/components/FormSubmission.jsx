@@ -155,7 +155,7 @@ const FormSubmission = () => {
                   <div className="position-relative">
                     <div
                       onClick={buttonClick}
-                      className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border ${selectedOption ? "clr-gray" : "clr-gray"
+                      className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border ${selectedOption ? "text-black" : "clr-gray"
                         }`}
                     >
                       {option}
