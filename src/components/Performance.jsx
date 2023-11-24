@@ -4,7 +4,7 @@ const Performance = () => {
   return (
     <>
       <div className="bg_clr_performance py-5">
-        <div className="container py-lg-4 my-1">
+        <div className="container pt-2 pb-lg-4 mt-xl-5">
           <div className="text-center">
             <h2 className="fs-xxl ff-fontspring fw-semibold text-black mb-0">
               Where Passion Meets Performance

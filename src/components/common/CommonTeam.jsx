@@ -14,11 +14,11 @@ const CommonTeam = () => {
   return (
     <>
       <Container>
-        <div className={`${about ? "py-5 my-md-5" : "py-5 my-5"}`}>
+        <div className={`${about ? "py-5 my-md-5" : "py-5 mt-md-5"}`}>
           {sporticoseTeam.map((teams) => {
             const commonteamchange = location.pathname === teams.path;
             return commonteamchange ? (
-              <div className="pb-5 pt-4" key={teams.id}>
+              <div className="pb-lg-5 pt-2" key={teams.id}>
                 <div className="text-center mb-5">
                   <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
                     {teams.mainheading}
@@ -31,7 +31,7 @@ const CommonTeam = () => {
                     {teams.mainpara}
                   </p>
                 </div>
-                <Row className="mb-4">
+                <Row>
                   <Col lg={6}>
                     <div className="common_team_card_shadow p-4 h-100 transition-300 common_card_w m-auto">
                       <div className="d-flex  align-items-center">
