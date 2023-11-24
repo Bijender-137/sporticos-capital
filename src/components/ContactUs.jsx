@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { contactData } from './common/Helper';
 
 const ContactUs = () => {
@@ -21,9 +21,9 @@ const ContactUs = () => {
                                 {currentData.paragraph}
                                 <span className="d-md-block">{currentData.paragraph1}</span>
                             </p>
-                            <button className="heroBtn fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow" type="button">
+                            <Link to="/contant" className="heroBtn fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow">
                                 {currentData.btn}
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </Container>
