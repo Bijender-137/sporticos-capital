@@ -160,6 +160,10 @@ input:-webkit-autofill:active {
     color: #0075F2;
 }
 
+.common_card_w {
+    max-width: 620px;
+}
+
 .common_team_card_shadow {
     border-radius: 16px;
     border: 1px solid rgba(0, 0, 0, 0.08);
@@ -180,9 +184,16 @@ input:-webkit-autofill:active {
 }
 
 .common_team_card_shadow:hover .common_team_border {
-
     border: 6px solid rgba(66, 158, 166, 0.38);
     background: lightgray 50% / contain no-repeat, #D9D9D9;
+}
+
+.common_img_w {
+    max-width: 100px;
+}
+
+.home_mainpara_w {
+    max-width: 730px;
 }
 
 /* media quarry */
@@ -195,5 +206,13 @@ input:-webkit-autofill:active {
 @media (min-width:992px) {
     .max_w_535 {
         max-width: 535px;
+    }
+
+    .common_img_w {
+        max-width: 142px;
+    }
+
+    .common_card_w {
+        max-width: 100%;
     }
 }
