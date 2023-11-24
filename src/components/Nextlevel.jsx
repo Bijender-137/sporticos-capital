@@ -17,11 +17,11 @@ const Nextlevel = () => {
 
   useEffect(() => {
     setShow(location.pathname === '/about-us' || location.pathname === '/debt-funding');
-    setAbout(location.pathname === '/about-us');
-    setFunding(location.pathname === '/debt-funding');
     setEdatashow(location.pathname === '/e-mentoring');
     setWealth(location.pathname === '/wealth-management');
     setPlayer(location.pathname === '/play-pathwa');
+    setAbout(location.pathname === '/about-us');
+    setFunding(location.pathname === '/debt-funding');
   }, [location.pathname]);
 
   return (
@@ -53,6 +53,7 @@ const Nextlevel = () => {
                    ${edatashow ? 'px-xl-3 mx-xl-2 mx-xxl-3' : ''}
                    ${wealth && columnindex !== 1 ? 'mx-xl-3 px-xl-4' : ''}
                    ${wealth && columnindex === 1 ? 'ms-xl-3 px-xl-4' : ''}
+                   ${wealth ? 'px-xxl-5' : ''}
                    ${player ? 'ms-xl-3 px-xl-3' : ''}
                    `}
                 >
@@ -62,6 +63,7 @@ const Nextlevel = () => {
                   <p className={`ffBarlow fs-base fw-normal text-black text-center text-md-start mb-0
                    ${show ? 'pt-2 mb-0' : ''}
                    ${edatashow && columnindex !== 0 ? 'pe-xl-4 pb-2 me-xxl-4' : ''}
+                   ${edatashow && columnindex !== 0 && columnindex !== 3 ? 'pe-xxl-5' : ''}
                    ${wealth ? 'py-3 py-xl-4' : ''}
                    ${player ? 'py-3 pt-lg-4 mt-2' : ''}
                    ${about ? 'pb-3 pb-lg-4 ' : ''}
@@ -69,7 +71,8 @@ const Nextlevel = () => {
                    ${funding && columnindex !== 3 ? 'pe-xl-4' : ''}
                    ${funding && columnindex === 3 ? 'pe-xl-3 me-xl-1' : ''}
                   `}>
-                    {levelsub.paraBox}
+                    <span className={`${about ? 'fw-medium' : ''}`}>{levelsub.paraBox.split(' ')[0]} </span>
+                    {levelsub.paraBox.slice(levelsub.paraBox.indexOf(' ') + 1)}
                   </p>
                 </div>
               </Col>
