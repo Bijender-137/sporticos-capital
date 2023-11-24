@@ -218,6 +218,7 @@ export const sporticoseTeam = [
     id: 1,
     path: "/about-us",
     mainheading: "The Sporticos Team",
+    mainpara: "",
     manimg: TeamMember1,
     heading: "Wael Khattab",
     subheading: "Founder & Executive Director",
@@ -231,8 +232,9 @@ export const sporticoseTeam = [
   {
     id: 2,
     path: "/",
-    mainheading: "The Sporticos Team",
-    para: "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
+    mainheading: "Founding Team",
+    mainpara:
+      "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
     manimg: TeamMember1,
     heading: "Wael Khattab",
     subheading: "Founder & Executive Director",
