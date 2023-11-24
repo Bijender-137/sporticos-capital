@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { sporticoseTeam } from "./Helper2";
 
 const CommonTeam = () => {
@@ -23,11 +23,14 @@ const CommonTeam = () => {
                   <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
                     {teams.mainheading}
                   </h5>
-                  
-                  <p className={` fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${home ? "pt-2 mt-1  " : ""}`}>
-                      {teams.mainpara}
-                    </p>
-                  
+
+                  <p
+                    className={` fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
+                      home ? "pt-2 mt-1  " : ""
+                    }`}
+                  >
+                    {teams.mainpara}
+                  </p>
                 </div>
                 <Row className="mb-4">
                   <Col lg={6}>
@@ -79,6 +82,12 @@ const CommonTeam = () => {
                     </div>
                   </Col>
                 </Row>
+                <Link
+                  to="/about-us"
+                  className="heroBtn fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow"
+                >
+                  contact us
+                </Link>
               </div>
             ) : null;
           })}
