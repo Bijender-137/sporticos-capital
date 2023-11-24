@@ -80,7 +80,7 @@ const FormSubmission = () => {
     });
     e.target.reset();
   };
-
+  const [isSubmitted, setIsSubmitted] = useState(false);
   return (
     <>
       <div className="bg-white py-5">
