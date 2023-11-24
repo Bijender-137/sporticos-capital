@@ -19,7 +19,7 @@ const CommonTeam = () => {
             const commonteamchange = location.pathname === teams.path;
             return commonteamchange ? (
               <div className="pb-lg-5 pt-2" key={teams.id}>
-                <div className="text-center mb-5">
+                <div className="text-center mb-4 mb-md-5">
                   <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
                     {teams.mainheading}
                   </h5>
@@ -31,7 +31,7 @@ const CommonTeam = () => {
                     {teams.mainpara}
                   </p>
                 </div>
-                <Row>
+                <Row className="py-4">
                   <Col lg={6}>
                     <div className="common_team_card_shadow p-4 h-100 transition-300 common_card_w m-auto">
                       <div className="d-flex  align-items-center">
