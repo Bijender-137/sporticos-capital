@@ -531,7 +531,10 @@ body {
 
   .nextlevel-box {
     padding: 8px 14px 14px 14px;
-    min-height: 210px;
+    min-height: 100%;
+
+  }
+  .border-end-yellow{
     border-right: 1px solid var(--clr-yellow);
   }
 
@@ -612,6 +615,9 @@ body {
 
   .about-usImg {
     max-width: 610px;
+  }
+  .max-w-790{
+    max-width: 790px !important;
   }
 }
 
