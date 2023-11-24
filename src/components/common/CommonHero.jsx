@@ -21,7 +21,7 @@ const CommonHero = () => {
                 }
                 {currentData?.heading && <h2 className="fs-5xl ff-fontspring text-white z-2 position-relative mb-0">
                     {currentData.heading}
-                    <span className={`clr-yellow ${isPathActive('/play-pathwa') ? 'd-lg-block' : ''}`}>{currentData.heading1}<span className='text-white'>{currentData.headingspan}</span> </span>
+                    <span className={`clr-yellow ${isPathActive('/player-pathwa') ? 'd-lg-block' : ''}`}>{currentData.heading1}<span className='text-white'>{currentData.headingspan}</span> </span>
                     <span> {currentData.heading2}</span>
                     <span className='clr-yellow'>{currentData.heading3}</span>
                     <span> {currentData.heading4}</span>

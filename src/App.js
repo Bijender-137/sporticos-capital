@@ -7,7 +7,7 @@ import Footer from "./components/common/Footer";
 import { BackTop } from "./components/common/BackTop";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Faq from "./pages/Faq";
-import Playpathwa from "./pages/Playpathwa";
+import Playerpathwa from "./pages/Playerpathwa";
 import Wealth from "./pages/Wealth";
 import Ementoring from "./pages/Ementoring";
 import ClubInvestment from "./pages/ClubInvestment";
@@ -32,13 +32,13 @@ function App() {
       <Routes>
         <Route exact path="/" Component={Home} />
         <Route exact path="/faq" Component={Faq} />
-        <Route exact path="/play-pathwa" Component={Playpathwa} />
+        <Route exact path="/player-pathwa" Component={Playerpathwa} />
         <Route exact path="/wealth-management" Component={Wealth} />
         <Route exact path="/e-mentoring" Component={Ementoring} />
         <Route exact path="/club-investments" Component={ClubInvestment} />
         <Route exact path="/debt-funding" Component={DebtFunding} />
         <Route exact path="/about-us" Component={AboutUs} />
-        <Route exact path="/contant" Component={FormSubmission} />
+        <Route exact path="/contact" Component={FormSubmission} />
       </Routes>
       <Footer />
       <BackTop />

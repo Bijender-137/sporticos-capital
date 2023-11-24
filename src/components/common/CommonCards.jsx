@@ -12,7 +12,6 @@ const CommonCards = () => {
           <div className="py-md-3">
             {dreams.map((dreamsplayer) => {
               const dreamplayerchange =
-                dreamsplayer.id === dreamsplayer.id &&
                 location.pathname === dreamsplayer.path;
               return dreamplayerchange ? (
                 <div key={dreamsplayer.id}>

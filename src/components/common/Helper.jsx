@@ -76,7 +76,7 @@ export const navLinks = [
   },
   {
     id: 3,
-    NavName: "About",
+    NavName: "About Us",
     path: "/about-us",
   },
   {
@@ -86,8 +86,8 @@ export const navLinks = [
   },
   {
     id: 5,
-    NavName: "Play Pathwa",
-    path: "/play-pathwa",
+    NavName: "Player Pathwa",
+    path: "/player-pathwa",
   },
   {
     id: 6,
@@ -104,7 +104,7 @@ export const navLinks = [
 export const nextlevelData = [
   {
     id: 1,
-    path: "/play-pathwa",
+    path: "/player-pathwa",
     heading: "Guiding Players to the Next Level",
     para: "While players within our athlete network focus on honing their ",
     spanpara: "football skills, we:",
@@ -313,7 +313,7 @@ export const heroData = [
   },
   {
     id: 7,
-    path: "/play-pathwa",
+    path: "/player-pathwa",
     maxW: "571px",
     mainheading: "",
     heading: "Proudly ",
@@ -340,7 +340,7 @@ export const heroData = [
   },
   {
     id: 9,
-    path: "/contant",
+    path: "/contact",
     maxW: "100%",
     mainheading: "Talk to The",
     mainheading1: " Team",

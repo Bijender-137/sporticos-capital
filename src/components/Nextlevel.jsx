@@ -19,7 +19,7 @@ const Nextlevel = () => {
     setShow(location.pathname === '/about-us' || location.pathname === '/debt-funding');
     setEdatashow(location.pathname === '/e-mentoring');
     setWealth(location.pathname === '/wealth-management');
-    setPlayer(location.pathname === '/play-pathwa');
+    setPlayer(location.pathname === '/player-pathwa');
     setAbout(location.pathname === '/about-us');
     setFunding(location.pathname === '/debt-funding');
   }, [location.pathname]);
