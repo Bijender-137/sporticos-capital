@@ -48,7 +48,7 @@ const Header = () => {
                   return (
                     <div key={navlink.id} className="mb-3 mb-md-4">
                       <Link onClick={() => setShow(false)}
-                        className="text-black  ffBarlow fw-normal fs-sm opacity-07 navlink"
+                        className={`text-black ffBarlow fw-normal fs-sm ${location.pathname === navlink.path ? '' : 'opacity-07'} navlink`}
                         to={navlink.path}
                       >
                         {navlink.NavName}

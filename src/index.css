@@ -135,7 +135,7 @@ body {
 }
 
 .clr-yellow {
-  color: var(--clr-yellow);
+  color: var(--clr-yellow) !important;
 }
 
 .clr-gray {
