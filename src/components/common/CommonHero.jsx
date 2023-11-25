@@ -14,7 +14,7 @@ const CommonHero = () => {
     }, [location.pathname]);
     return (
         <>
-            <div style={{ maxWidth: currentData.maxW }} className='px-12 pt-5 py-md-0 my-md-0 mb-md-4'>
+            <div style={{ maxWidth: currentData.maxW }} className='px-12 pt-5 pb-sm-5 mb-sm-5 py-sm-0 my-md-0 mb-md-4'>
                 {currentData?.mainheading && <h1 className="fs-6xl ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 ">
                     {currentData.mainheading}<span className='clr-yellow d-md-block'>{currentData.mainheading1}</span> <span>{currentData.mainheading2}</span>
                 </h1>
@@ -28,7 +28,7 @@ const CommonHero = () => {
                 </h2>
                 }
                 {currentData?.subheading &&
-                    <p style={{ maxWidth: currentData.maxW1 }} className="mb-0 ffBarlow text-white z-2 position-relative pt-2 fw-normal fs-lg">
+                    <p style={{ maxWidth: currentData.maxW1 }} className="mb-0 opacity-07 ffBarlow text-white z-2 position-relative pt-2 fw-normal fs-lg">
                         {currentData.subheading}
                     </p>
                 }

@@ -31,9 +31,7 @@ const Nextlevel = () => {
           <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-1">
             {currentData.heading}
           </p>
-          <p className={`fs-base ffBarlow opacity-07 text-black fw-normal text-center
-          ${show ? 'max-w-790 mx-auto mb-md-4' : ''}
-          `}>
+          <p className={`fs-base ffBarlow opacity-07 text-black fw-normal text-center ${currentData.className}`}>
             {currentData.para}
             <span className="d-lg-block">{currentData.spanpara}</span>
           </p>

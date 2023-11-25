@@ -82,7 +82,7 @@ const CommonTeam = () => {
                   </Col>
                 </Row>
                 {home && (
-                  <div className="d-flex justify-content-center pt-3 pt-sm-4 pt-lg-5">
+                  <div className="d-flex justify-content-center pt-4 mt-4 mt-lg-0 pt-lg-5">
                     <Link
                       to="/about-us"
                       className="heroBtn fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow"
