@@ -99,7 +99,7 @@ const FormSubmission = () => {
               </p>
             )}
           </div>
-          <div className="pt-2 mt-1">
+          <div className="pt-4">
             <div className="form-box-shadow py-4 py-lg-5 mx-auto w-100">
               <form
                 className="d-flex flex-column px-3 px-md-5"

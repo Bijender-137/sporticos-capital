@@ -25,7 +25,7 @@ const CommonCards = () => {
                     {dreamsplayer.para}{" "}
                     <span className="fw-bold">{dreamsplayer.para1}</span>
                   </p>
-                  <Row className="pt-3 pt-sm-4 pt-lg-5 justify-content-center">
+                  <Row className="pt-4 pt-lg-5 justify-content-center">
                     <Col
                       sm={6}
                       lg={4}
@@ -48,7 +48,7 @@ const CommonCards = () => {
                     <Col
                       sm={6}
                       lg={4}
-                      className="pt-3 pt-sm-0 d-flex justify-content-center"
+                      className="pt-4 pt-sm-0 d-flex justify-content-center"
                     >
                       <div className="dreamPlayer-shadow p-3 h-100 ">
                         <img
@@ -67,7 +67,7 @@ const CommonCards = () => {
                     <Col
                       sm={6}
                       lg={4}
-                      className="pt-3 pt-lg-0 d-flex justify-content-center"
+                      className="pt-4 pt-lg-0 d-flex justify-content-center"
                     >
                       <div className="dreamPlayer-shadow p-3 h-100 transition_300">
                         <img

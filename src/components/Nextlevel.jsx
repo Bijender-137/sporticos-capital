@@ -35,7 +35,7 @@ const Nextlevel = () => {
             {currentData.para}
             <span className="d-lg-block">{currentData.spanpara}</span>
           </p>
-          <div className={`${wealth ? 'pt-3' : ''}`}></div>
+          <div className={`${wealth ? 'pt-xl-3' : ''}`}></div>
           <Row className={`d-flex justify-content-center pt-lg-4`}>
             {currentData.submap.map((levelsub, columnindex) => (
               <Col
@@ -52,7 +52,7 @@ const Nextlevel = () => {
                    ${wealth && columnindex !== 1 ? 'mx-xl-3 px-xl-4' : ''}
                    ${wealth && columnindex === 1 ? 'ms-xl-3 px-xl-4' : ''}
                    ${wealth ? 'px-xxl-5' : ''}
-                   ${player ? 'ms-xl-3 px-xl-3' : ''}
+                   ${player ? 'ms-xxl-3 px-xxl-3' : ''}
                    `}
                 >
                   <div className="d-flex justify-content-center justify-content-md-start">

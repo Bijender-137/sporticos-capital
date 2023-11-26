@@ -57,7 +57,7 @@ const Slider = () => {
                                         <div className="dreamPlayer-shadow p-3 h-100 transition_300 mx-auto">
                                             <img src={data.img} alt="sliderImg" className='w-100 img-br-7 transition_300' />
                                             <p className="pt-3 mb-0 ff-fontspring fs-base fw-semibold">{data.sliderHeading}</p>
-                                            <p className="pt-2 mb-0 ffBarlow fs-base fw-normal text-black opacity-07">{data.sliderpara}</p>
+                                            <p className="pt-2 mb-0 ffBarlow fs-base fw-normal text-black opacity-07 pe-xl-3 pe-xxl-4 me-xxl-3">{data.sliderpara}</p>
                                         </div>
                                     </SwiperSlide>
                                 )

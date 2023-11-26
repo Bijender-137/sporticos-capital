@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { heroData } from './Helper';
 import { useLocation } from 'react-router-dom';
+import "../../assets/style/Commonhero.css"
 
 const CommonHero = () => {
     const location = useLocation();
@@ -14,7 +15,7 @@ const CommonHero = () => {
     }, [location.pathname]);
     return (
         <>
-            <div style={{ maxWidth: currentData.maxW }} className='px-12 pt-5 pb-sm-5 mb-sm-5 py-sm-0 my-md-0 mb-md-4'>
+            <div style={{ maxWidth: currentData.maxW }} className='px-12 pt-5 pb-sm-5 mb-sm-5 pt-sm-0 pb-md-0 my-md-0 mb-md-4'>
                 {currentData?.mainheading && <h1 className="fs-6xl ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 ">
                     {currentData.mainheading}<span className='clr-yellow d-md-block'>{currentData.mainheading1}</span> <span>{currentData.mainheading2}</span>
                 </h1>
@@ -50,19 +51,16 @@ const CommonHero = () => {
                 </div>
             </div>
             {currentData?.img &&
-                <div className="mt-5 pt-4 mt-lg-0 d-flex justify-content-end ">
-                    <img className={`end-0 bottom-0 common_hero_position z-0 talk-img ${isPathActive('/contant') ? 'transfrom-60' : ''} 
-                    ${isPathActive('/about-us') ? 'about-usImg' : ''}
-                    ${imgset ? 'clubImg-max-w' : ''}
-                    `} src={currentData.img} alt="hero-right-charactors"></img>
+                <div className="mt-5 mt-lg-0 d-flex justify-content-end ">
+                    <img
+                        className={`end-0 bottom-0 common_hero_position z-0 ${currentData.className}`}
+                        //     className={`end-0 bottom-0 common_hero_position z-0 talk-img ${isPathActive('/contant') ? 'transfrom-60' : ''} 
+                        // ${isPathActive('/about-us') ? 'about-usImg' : ''}
+                        // ${imgset ? 'clubImg-max-w' : ''}
+                        // `}
+                        src={currentData.img} alt="hero-right-charactors"></img>
                 </div>
             }
-            {currentData?.img1 &&
-                <div className="mt-5 pt-5 mt-lg-0 d-flex justify-content-end">
-                    <img className="end-0 bottom-0 common_hero_position z-0 faq-img" src={currentData.img1} alt="hero-right-charactors"></img>
-                </div>
-            }
-
         </>
     )
 }

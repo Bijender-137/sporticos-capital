@@ -12,7 +12,7 @@ const Accordion = () => {
 
   return (
     <>
-      <Container className="py-5">
+      <Container className="py-5 mb-3 mb-md-1 my-lg-2">
         <div className="max-w-1000 mx-auto py-md-4 py-lg-5">
           <h5 className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-md-3 pb-lg-4 mb-0">
             Frequently Asked Questions
