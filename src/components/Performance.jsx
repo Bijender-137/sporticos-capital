@@ -58,16 +58,14 @@ const Performance = () => {
             </div>
             <div className="col-md-4">
               <div className="d-flex flex-column h-100 justify-content-md-between text-md-end align-items-md-end">
-                <div className="col-md-4">
-                  <div className="d-flex align-items-center mt-4 mt-md-0">
-                    <div className="d-md-none">
-                      <DollarbulbIcon />
-                    </div>
-                    <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_270 mb-0 ps-3 ps-md-0">
-                      Equitable, ESG-oriented opportunities that include women’s
-                      football
-                    </p>
+                <div className="d-flex align-items-center mt-4 mt-md-0 w-100">
+                  <div className="d-md-none">
+                    <DollarbulbIcon />
                   </div>
+                  <p className="fs-lg ffBarlow fw-normal text-black opacity-07 mb-0 ps-3 ps-md-0">
+                    Equitable, ESG-oriented opportunities that include women’s
+                    football
+                  </p>
                 </div>
                 <div className="d-flex align-items-center mt-4 mt-md-0">
                   <div className="d-md-none">
