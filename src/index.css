@@ -487,6 +487,10 @@ body {
   .mb-30 {
     margin-bottom: 24px !important;
   }
+
+  .homepaddingtop {
+    padding-top: 20px;
+  }
 }
 
 @media (min-width:424.98px) {
@@ -508,6 +512,10 @@ body {
 }
 
 @media (min-width:575.98px) {
+  .homepaddingtop {
+    padding-top: 0px;
+  }
+
   .sliderBox {
     max-width: 100%;
   }
@@ -799,6 +807,7 @@ body {
     width: 44px !important;
     position: absolute !important;
     top: 50% !important;
+    transform: translateY(-50%) !important;
   }
 
   .transfrom-contantus {
@@ -819,6 +828,7 @@ body {
     width: 40px !important;
     position: absolute !important;
     top: 50% !important;
+    transform: translateY(-50%) !important;
   }
 
   .nextlevel-box {
