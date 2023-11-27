@@ -54,7 +54,6 @@ const FormSubmission = () => {
     setSubject("");
     setName("");
     setApointment("");
-
     emailjs.sendForm(
       "service_xhk3l5d",
       "template_xwxdo2t",
@@ -75,7 +74,6 @@ const FormSubmission = () => {
     });
     e.target.reset();
   };
-
   return (
     <>
       <div className="py-5 backgroundImg">
@@ -205,7 +203,7 @@ const FormSubmission = () => {
                     htmlFor="checked"
                     className="ms-2 text-black opacity-07 ffBarlow fw-normal fs-sm"
                   >
-                    I agree to Sporticos-Capital{" "}
+                    I agree to Sporticos-Capital
                     <span>
                       <a
                         href="#"
@@ -213,8 +211,8 @@ const FormSubmission = () => {
                       >
                         Terms of Use
                       </a>
-                    </span>{" "}
-                    and{" "}
+                    </span>
+                    and
                     <span>
                       <a
                         href="#"
