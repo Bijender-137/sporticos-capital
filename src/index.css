@@ -418,28 +418,34 @@ body {
   position: absolute !important;
   top: 95% !important;
   z-index: 2 !important;
+
 }
 
 .swiper-button-next {
   right: 38% !important;
   margin-top: -10px !important;
+  border: 1px solid var(--clr-yellow);
+  background-color: var(--clr-yellow);
 }
 
 .swiper-button-prev {
   left: 38% !important;
   margin-top: -10px !important;
+  border: 1px solid #000000;
+}
+
+.swiper-button-prev:hover {
+  border: 1px solid var(--clr-yellow);
+  background-color: var(--clr-yellow);
+}
+
+.swiper-button-prev:hover+.swiper-button-next {
+  border: 1px solid #000000;
+  background-color: transparent;
 }
 
 .border-radius-50 {
   border-radius: 50% !important;
-}
-
-.iconHover-next {
-  background-color: var(--clr-yellow);
-}
-
-.iconHover-next .border-clr-next {
-  stroke: #d9e76c !important;
 }
 
 .pt_lg_0 {

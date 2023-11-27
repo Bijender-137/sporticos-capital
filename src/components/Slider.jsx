@@ -63,10 +63,10 @@ const Slider = () => {
                                 )
                             })}
                         </Swiper>
-                        <div className="swiper-button-prev" onClick={handlePrev}>
+                        <div className="swiper-button-prev transition_300" onClick={handlePrev}>
                             <PrevIcon />
                         </div>
-                        <div className="swiper-button-next" onClick={handleNext}>
+                        <div className="swiper-button-next transition_300" onClick={handleNext}>
                             <NextIcon />
                         </div>
                     </div>
