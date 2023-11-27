@@ -210,6 +210,10 @@ input:-webkit-autofill:active {
     max-width: 240px;
 }
 
+.performance_icons_width {
+    max-width: 60px !important;
+}
+
 /* media quarry */
 @media (min-width:576px) {
     .dreamPlayer-shadow {
@@ -222,6 +226,13 @@ input:-webkit-autofill:active {
 
     .input-padding {
         padding: 16px 8px 16px 13px;
+    }
+}
+
+@media (min-width:767.98px) {
+
+    .performance_img_h {
+        min-height: 225px;
     }
 }
 
@@ -264,5 +275,9 @@ input:-webkit-autofill:active {
 @media (min-width:1199.98px) {
     .performance_img_w {
         max-width: 380px;
+    }
+
+    .performance_img_h {
+        min-height: 100%;
     }
 }
