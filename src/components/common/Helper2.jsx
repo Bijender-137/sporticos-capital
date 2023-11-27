@@ -238,12 +238,12 @@ export const sporticoseTeam = [
     manimg: TeamMember1,
     heading: "Wael Khattab",
     subheading: "Founder & Executive Director",
-    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
+    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
     girlImg: TeamMember2,
     heading2: "Dr. Hussa K. Al-Khalifa",
     subheading2: "Founder & Executive Director",
     btn: "about us",
     para2:
-      "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
+      "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions.",
   },
 ];

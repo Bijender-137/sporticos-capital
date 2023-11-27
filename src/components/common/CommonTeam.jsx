@@ -18,13 +18,22 @@ const CommonTeam = () => {
           {sporticoseTeam.map((teams) => {
             const commonteamchange = location.pathname === teams.path;
             return commonteamchange ? (
-              <div className={`${about ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-4" : "pt-lg-2 pb-lg-3"}`} key={teams.id}>
+              <div
+                className={`${
+                  about
+                    ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-4"
+                    : "pt-lg-2 pb-lg-3"
+                }`}
+                key={teams.id}
+              >
                 <div className="text-center pb-4 pb-lg-5">
                   <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
                     {teams.mainheading}
                   </h5>
 
-                  <p className={`fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${home ? "pt-2 mt-1  " : ""
+                  <p
+                    className={`fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
+                      home ? "pt-2 mt-1  " : ""
                     }`}
                   >
                     {teams.mainpara}
@@ -33,7 +42,7 @@ const CommonTeam = () => {
                 <Row className="py-4">
                   <Col lg={6}>
                     <div className="common_team_card_shadow p-4 h-100 transition-300 common_card_w m-auto">
-                      <div className="d-flex  align-items-center">
+                      <div className="d-flex align-items-center">
                         <div className="common_team_border common_img_w">
                           <img
                             className="transition-300 w-100"
