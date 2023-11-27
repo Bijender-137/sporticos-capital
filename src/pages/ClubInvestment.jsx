@@ -6,9 +6,11 @@ import Captical from "../components/Captical";
 const ClubInvestment = () => {
   return (
     <>
-      <CommonCards />
-      <Captical />
-      <FormSubmission />
+      <div className="position-relative backgroundImg">
+        <CommonCards />
+        <Captical />
+        <FormSubmission />
+      </div>
     </>
   );
 };

@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 const Captical = () => {
     return (
         <>
-            <div className='py-lg-5'>
+            <div className='pt-lg-5'>
                 <Container className='pt-lg-4 mt-xl-2'>
                     <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-0">Propelling Your Capital Forward</p>
                     <p className="fs-base ffBarlow opacity-07 text-black fw-normal text-center mb-0">

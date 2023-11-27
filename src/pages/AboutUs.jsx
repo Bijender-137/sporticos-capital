@@ -7,10 +7,12 @@ import Location from "../components/Location";
 const AboutUs = () => {
   return (
     <>
-      <Nextlevel />
-      <Location />
-      <CommonTeam />
-      <ContactUs />
+      <div className="position-relative backgroundImg">
+        <Nextlevel />
+        <Location />
+        <CommonTeam />
+        <ContactUs />
+      </div>
     </>
   );
 };

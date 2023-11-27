@@ -8,15 +8,25 @@ import { NextIcon, PrevIcon } from './common/Icons';
 import { Link } from 'react-router-dom';
 
 const Slider = () => {
+    let prevButtonRef = null;
+    let nextButtonRef = null;
     const handlePrev = () => {
         if (swiper) {
             swiper.slidePrev();
+            prevButtonRef.style.backgroundColor = '#d9e76c';
+            nextButtonRef.style.backgroundColor = 'white';
+            nextButtonRef.style.border = '1px solid black';
+            prevButtonRef.style.border = '1px solid #d9e76c';
         }
     };
 
     const handleNext = () => {
         if (swiper) {
             swiper.slideNext();
+            prevButtonRef.style.backgroundColor = 'white';
+            nextButtonRef.style.backgroundColor = '#d9e76c';
+            prevButtonRef.style.border = '1px solid black';
+            nextButtonRef.style.border = '1px solid #d9e76c';
         }
     };
 
@@ -24,8 +34,8 @@ const Slider = () => {
 
     return (
         <>
-            <div className='py-5 my-lg-5'>
-                <Container>
+            <div className='py-5'>
+                <Container className='my-lg-5'>
                     <h5 className='text-center fs-xxl ff-fontspring fw-semibold text-black mb-0'>Driving Value with Our Integrated Approach</h5>
                     <p className='text-center fs-base fw-normal text-black opacity-07 ffBarlow mb-0 pt-1'>Through diversified verticals focused on the football industry, we empower investors, <span className="d-md-block">clubs, and players alike to thrive. <span className='fw-bold'>Here's how:</span></span></p>
                     <div className="position-relative">
@@ -63,12 +73,14 @@ const Slider = () => {
                                 )
                             })}
                         </Swiper>
-                        <div className="swiper-button-prev transition_300 d-flex justify-content-center" onClick={handlePrev}>
+                        <div
+                            ref={(ref) => { prevButtonRef = ref; }} className="swiper-button-prev transition_300 d-flex justify-content-center" onClick={handlePrev}>
                             <div className='icons-slider'>
                                 <PrevIcon />
                             </div>
                         </div>
-                        <div className="swiper-button-next transition_300 d-flex justify-content-center" onClick={handleNext}>
+                        <div
+                            ref={(ref) => { nextButtonRef = ref; }} className="swiper-button-next transition_300 d-flex justify-content-center" onClick={handleNext}>
                             <div className='icons-slider'>
                                 <NextIcon />
                             </div>
@@ -79,8 +91,8 @@ const Slider = () => {
                             reach out
                         </Link>
                     </div>
-                </Container>
-            </div>
+                </Container >
+            </div >
         </>
     );
 };

@@ -5,11 +5,13 @@ import Nextlevel from "../components/Nextlevel";
 
 const Playerpathwa = () => {
   return (
-    <div>
-      <CommonCards />
-      <Nextlevel />
-      <FormSubmission />
-    </div>
+    <>
+      <div className="position-relative backgroundImg">
+        <CommonCards />
+        <Nextlevel />
+        <FormSubmission />
+      </div>
+    </>
   );
 };
 

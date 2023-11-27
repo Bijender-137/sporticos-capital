@@ -7,10 +7,14 @@ import Slider from "../components/Slider";
 const Home = () => {
   return (
     <>
-      <Slider />
+      <div className="position-relative backgroundImg">
+        <Slider />
+      </div>
       <Performance />
-      <CommonTeam />
-      <ContactUs />
+      <div className="position-relative backgroundImg">
+        <CommonTeam />
+        <ContactUs />
+      </div>
     </>
   );
 };

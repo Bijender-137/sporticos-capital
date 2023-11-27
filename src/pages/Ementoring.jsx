@@ -6,9 +6,11 @@ import FormSubmission from "../components/FormSubmission";
 const Ementoring = () => {
   return (
     <>
-      <CommonCards />
-      <Nextlevel />
-      <FormSubmission />
+      <div className="position-relative backgroundImg">
+        <CommonCards />
+        <Nextlevel />
+        <FormSubmission />
+      </div>
     </>
   );
 };
