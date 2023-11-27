@@ -19,28 +19,28 @@ const Performance = () => {
             </p>
           </div>
           <div className="row mt-md-5 pt-4">
-            <div className="col-lg-4">
-              <div className="d-flex flex-column justify-content-between h-100">
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w mb-0 pt-xl-5">
+            <div className="col-md-4">
+              <div className="d-flex flex-column justify-content-md-between h-100">
+                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w mb-0">
                   Global exposure to the international football industry
                 </p>
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0 pt-3 pt-md-5 pt-xxl-0">
+                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0">
                   Founders with decades of combined private equity and sports
                   management expertise
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="performance_img_w py-4 py-md-5 py-lg-0 m-auto">
-                <img className="w-100" src={PerformanceImg} alt="PerformanceImg" />
+            <div className="col-md-4">
+              <div className="performance_img_w m-auto">
+                <img className="w-100 performance_img_h" src={PerformanceImg} alt="PerformanceImg" />
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="d-flex flex-column h-100 justify-content-between text-lg-end align-items-lg-end">
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_270 mb-0 pt-xl-5">
+            <div className="col-md-4">
+              <div className="d-flex flex-column h-100 justify-content-md-between text-lg-end align-items-lg-end">
+                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_270 mb-0">
                 Equitable, ESG-oriented opportunities that include women’s football
                 </p>
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0 pt-3 pt-md-5 pt-xxl-0">
+                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0">
                 Purposeful investments with strategic, growth-oriented partnerships
                 </p>
               </div>

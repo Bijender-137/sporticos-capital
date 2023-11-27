@@ -225,6 +225,13 @@ input:-webkit-autofill:active {
     }
 }
 
+@media (min-width:767.98px) {
+
+    .performance_img_h {
+        min-height: 225px;
+    }
+}
+
 @media (min-width:991.98px) {
     .input-padding {
         padding: 20px 8px 18px 13px;
@@ -264,5 +271,8 @@ input:-webkit-autofill:active {
 @media (min-width:1199.98px) {
     .performance_img_w {
         max-width: 380px;
+    }
+    .performance_img_h {
+        min-height: 100%;
     }
 }
