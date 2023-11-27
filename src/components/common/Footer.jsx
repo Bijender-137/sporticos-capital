@@ -20,7 +20,7 @@ const Footer = () => {
               <Row className="justify-content-between">
                 <Col lg={5}>
                   <div>
-                    <Link to="/">
+                    <Link to="#">
                       <img
                         width={237}
                         height={47}

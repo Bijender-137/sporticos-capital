@@ -57,9 +57,9 @@ const Header = () => {
                     </div>
                   );
                 })}
-                <button className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton-navsidebar ffBarlow" type="button" onClick={() => setShow(false)}>
+                <Link to="/contact" className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton-navsidebar ffBarlow" onClick={() => setShow(false)}>
                   contant Us
-                </button>
+                </Link>
                 <button className="heroBtn px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton-navsidebar ffBarlow" type="button" onClick={() => setShow(false)}>
                   set an appointment
                 </button>
