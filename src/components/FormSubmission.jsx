@@ -45,12 +45,6 @@ const FormSubmission = () => {
     setSelectedOption(i);
     setOpen(false);
   };
-  // number
-  // const [number, setNumber] = useState("");
-  // const handleChangeNumber = (n) => {
-  //   const result = n.target.value.replace(/[^0-9\s]/gi, "");
-  //   setNumber(result);
-  // };
   // email js
   const submit = useRef();
   const sendEmail = (e) => {
@@ -108,7 +102,7 @@ const FormSubmission = () => {
               >
                 <div>
                   <input
-                    className="w-100 input-padding input-border text-black ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 text-black ffBarlow fw-medium fs-sm"
                     type="email"
                     id="useremail"
                     name="useremail"
@@ -118,7 +112,7 @@ const FormSubmission = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 ffBarlow fw-medium fs-sm"
                     type="text"
                     id="name"
                     name="fname"
@@ -130,7 +124,7 @@ const FormSubmission = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 ffBarlow fw-medium fs-sm"
                     type="text"
                     id="subject"
                     name="fname"
@@ -142,7 +136,7 @@ const FormSubmission = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 ffBarlow fw-medium fs-sm"
                     type="text"
                     id="apointment"
                     name="fname"
@@ -156,13 +150,15 @@ const FormSubmission = () => {
                   <div className="position-relative">
                     <div
                       onClick={buttonClick}
-                      className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border ${selectedOption ? "text-black" : "clr-gray"
-                        }`}
+                      className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border transition_300 ${
+                        selectedOption ? "text-black" : "clr-gray"
+                      }`}
                     >
                       {selectedOption || "Which best describes you?"}
                       <span
-                        className={`${open ? "dropdown-open" : "dropdown-closed"
-                          }`}
+                        className={`${
+                          open ? "dropdown-open" : "dropdown-closed"
+                        }`}
                       >
                         <DropDown />
                       </span>
@@ -172,8 +168,9 @@ const FormSubmission = () => {
                         <ul className="p-0">
                           {data.map((i, index) => (
                             <li
-                              className={`option transition_300 w-100 px-3 py-2 input-border ffBarlow fw-medium fs-sm text-start cursor_pointer ${selectedOption === i ? "" : ""
-                                }`}
+                              className={`option transition_300 w-100 px-3 py-2 input-border transition_300 ffBarlow fw-medium fs-sm text-start cursor_pointer ${
+                                selectedOption === i ? "" : ""
+                              }`}
                               key={index}
                               onClick={() => optionClick(i)}
                             >
@@ -188,7 +185,7 @@ const FormSubmission = () => {
                 <div className="pt-2 mt-1">
                   <textarea
                     required
-                    className="w-100 text-black input-padding input-border ffBarlow fw-medium fs-sm clr-gray textarea-resize"
+                    className="w-100 text-black input-padding input-border transition_300 ffBarlow fw-medium fs-sm clr-gray textarea-resize"
                     cols="0"
                     rows="5"
                     id="message"
@@ -221,9 +218,9 @@ const FormSubmission = () => {
                     <span>
                       <a
                         href="#"
-                        className="fw-semibold clr-blue opacityHover transition_300"
+                        className="fw-semibold clr-blue opacityHover transition_300 tc"
                       >
-                        Privacy Policy<span className="clr-red">*</span>
+                        Privacy Policy<span className="text-danger">*</span>
                       </a>
                     </span>
                   </label>

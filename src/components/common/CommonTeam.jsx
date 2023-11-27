@@ -51,7 +51,7 @@ const CommonTeam = () => {
                           />
                         </div>
                         <div className="text-start ps-md-4 ms-3 ms-md-2">
-                          <p className="ff-fontspring fs-lg clr_lite_green fw-normal mb-0">
+                          <p className="ff-fontspring fs-lg clr_blue fw-normal mb-0">
                             {teams.heading}
                           </p>
                           <p className="ffBarlow mb-0 fw-normal text-black opacity-07 fs-base pt-1">
