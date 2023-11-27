@@ -7,20 +7,22 @@ import { Link, useLocation } from "react-router-dom";
 const Footer = () => {
   const location = useLocation();
   const [footerPaddingActive, setFooterPaddingActive] = useState(false);
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     setFooterPaddingActive(location.pathname === '/' || location.pathname === '/about-us' || location.pathname === '/faq');
+    setShow(location.pathname === '/');
   }, [location.pathname]);
   return (
     <>
       <div className={`footer-bg-img ${footerPaddingActive ? 'footer-padding-active' : ''}`}>
         <div className="py-5">
           <div className="py-sm-4">
-            <Container className="pb-md-4 pb-lg-5 mb-sm-3">
+            <Container className={`pb-md-4 pb-lg-5 mb-sm-3 ${show ? 'homepaddingtop' : ''}`}>
               <Row className="justify-content-between">
                 <Col lg={5}>
                   <div>
-                    <Link to="#">
+                    <Link to="/">
                       <img
                         width={237}
                         height={47}
