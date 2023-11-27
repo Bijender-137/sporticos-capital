@@ -8,7 +8,9 @@ const Wealth = () => {
     <>
       <CommonCards />
       <Nextlevel />
-      <FormSubmission />
+      <div className="pt-xl-5 mt-lg-3">
+        <FormSubmission />
+      </div>
     </>
   );
 };

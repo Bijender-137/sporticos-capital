@@ -11,6 +11,11 @@ import playpathwaImg from '../../assets/images/webp/hero-play-pathwa-img.webp'
 import faqImg from '../../assets/images/webp/hero-faq-img.webp'
 import homepageImg from '../../assets/images/webp/herohomepage-img.webp'
 
+//slider Images
+import sliderimg1 from '../../assets/images/webp/hero-slider-img1.webp'
+import sliderimg2 from '../../assets/images/webp/hero-slider-img2.webp'
+import sliderimg3 from '../../assets/images/webp/hero-slider-img3.webp'
+
 export const accordionItems = [
   {
     id: 1,
@@ -108,6 +113,7 @@ export const nextlevelData = [
     heading: "Guiding Players to the Next Level",
     para: "While players within our athlete network focus on honing their ",
     spanpara: "football skills, we:",
+    className: "",
     submap: [
       {
         icon: <PositiveIcon />,
@@ -231,6 +237,7 @@ export const heroData = [
     path: "/",
     maxW: "628px",
     maxW1: "550px",
+    className: "homepageImg",
     mainheading: "",
     heading: "Unlocking High Impact Sports ",
     heading1: "Investment",
@@ -244,6 +251,7 @@ export const heroData = [
     id: 2,
     path: "/about-us",
     maxW: "625px",
+    className: "abotusImg",
     mainheading: "",
     heading: "A Thriving Ecosystem of",
     heading1: " Sports ",
@@ -259,6 +267,7 @@ export const heroData = [
     id: 3,
     path: "/debt-funding",
     maxW: "525px",
+    className: "debtImg",
     mainheading: "",
     heading: " ",
     heading1: "Facilitating ",
@@ -273,6 +282,7 @@ export const heroData = [
     id: 4,
     path: "/club-investments",
     maxW: "516px",
+    className: "culbImg",
     mainheading: "",
     heading: "Invest In",
     heading1: " Vetted Football",
@@ -286,6 +296,7 @@ export const heroData = [
     id: 5,
     path: "/e-mentoring",
     maxW: "600px",
+    className: "ementoringImg",
     mainheading: "",
     heading: "Bringing",
     heading1: " Players",
@@ -301,6 +312,7 @@ export const heroData = [
     id: 6,
     path: "/wealth-management",
     maxW: "525px",
+    className: "wealthImg",
     mainheading: "",
     heading: "Investments",
     heading1: " Tailored",
@@ -315,6 +327,7 @@ export const heroData = [
     id: 7,
     path: "/player-pathwa",
     maxW: "571px",
+    className: "playerImg",
     mainheading: "",
     heading: "Proudly ",
     heading1: "Prioritizing ",
@@ -329,6 +342,7 @@ export const heroData = [
     id: 8,
     path: "/faq",
     maxW: "100%",
+    className: "faqImg",
     mainheading: "Frequently",
     mainheading1: " Asked",
     mainheading2: "Questions",
@@ -336,12 +350,13 @@ export const heroData = [
     subheading: "",
     button: "",
     buttonhero: "",
-    img1: faqImg,
+    img: faqImg,
   },
   {
     id: 9,
     path: "/contact",
     maxW: "100%",
+    className: "contactImg",
     mainheading: "Talk to The",
     mainheading1: " Team",
     heading: "",
@@ -380,3 +395,30 @@ export const contactData = [
   },
 
 ];
+
+export const sliderData = [
+  {
+    id: 1,
+    img: sliderimg1,
+    sliderHeading: "Club Investments",
+    sliderpara: "Delivering meaningful returns to investors by taking a direct stake in a network of under-exposed clubs with high potential.",
+  },
+  {
+    id: 2,
+    img: sliderimg2,
+    sliderHeading: "Debt Funding",
+    sliderpara: "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
+  },
+  {
+    id: 3,
+    img: sliderimg3,
+    sliderHeading: "Player Pathways",
+    sliderpara: "Nurturing holistic player development to support each club’s success, creating a win-win for players and investors alike.",
+  },
+  {
+    id: 4,
+    img: sliderimg2,
+    sliderHeading: "Debt Funding",
+    sliderpara: "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
+  },
+]

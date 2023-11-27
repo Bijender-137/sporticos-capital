@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <>
       <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})` }} onClick={() => setShow(false)}>
-        <nav className="bg-yellow position-fixed top-0 w-100 z-2">
+        <nav className="bg-yellow position-fixed top-0 w-100 z-100">
           {show ? (
             <div className="bg-black opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
           <Container>

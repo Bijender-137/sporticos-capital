@@ -42,7 +42,7 @@ textarea::placeholder {
 }
 
 .input-padding {
-    padding: 20px 8px 18px 13px;
+    padding: 10px 8px 10px 10px;
     outline: none;
 }
 
@@ -112,14 +112,19 @@ input:-webkit-autofill:active {
 }
 
 /* back to top */
-.transform_rotate {
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    border: 2px solid white;
+.bactotopHover {
+    height: 46px;
+    width: 46px;
     border-radius: 50%;
-    height: 49px;
-    width: 49px;
+}
+
+.mb-30 {
+    margin-bottom: 32px;
+}
+
+.bactotopHover:hover {
+
+    box-shadow: 1px -1.5px 13px -2px var(--clr-yellow) !important;
 }
 
 /* DREAM PLAYERS */
@@ -213,6 +218,16 @@ input:-webkit-autofill:active {
 
     .performance_img_w {
         max-width: 280px;
+    }
+
+    .input-padding {
+        padding: 16px 8px 16px 13px;
+    }
+}
+
+@media (min-width:991.98px) {
+    .input-padding {
+        padding: 20px 8px 18px 13px;
     }
 }
 

@@ -37,7 +37,7 @@ const FormSubmission = () => {
     setOpen(!open);
     // console.log(setOpen(!open));
   };
-  const [option, setOption] = useState("Which best describes you?");
+  const [option, setOption] = useState("");
   const [selectedOption, setSelectedOption] = useState(null);
   const data = ["option 1", "option 2"];
   const optionClick = (i) => {
@@ -55,7 +55,8 @@ const FormSubmission = () => {
   const submit = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    setOption("Which best describes you?");
+    setSelectedOption(null);
+    setOption("");
     setSubject("");
     setName("");
     setApointment("");
@@ -80,7 +81,7 @@ const FormSubmission = () => {
     });
     e.target.reset();
   };
-  const [isSubmitted, setIsSubmitted] = useState(false);
+
   return (
     <>
       <div className="bg-white py-5">
@@ -98,7 +99,7 @@ const FormSubmission = () => {
               </p>
             )}
           </div>
-          <div className="pt-2 mt-1">
+          <div className="pt-4">
             <div className="form-box-shadow py-4 py-lg-5 mx-auto w-100">
               <form
                 className="d-flex flex-column px-3 px-md-5"
@@ -158,7 +159,7 @@ const FormSubmission = () => {
                       className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border ${selectedOption ? "text-black" : "clr-gray"
                         }`}
                     >
-                      {option}
+                      {selectedOption || "Which best describes you?"}
                       <span
                         className={`${open ? "dropdown-open" : "dropdown-closed"
                           }`}
@@ -171,7 +172,8 @@ const FormSubmission = () => {
                         <ul className="p-0">
                           {data.map((i, index) => (
                             <li
-                              className="option transition_300 w-100 px-3 py-2 input-border ffBarlow fw-medium fs-sm text-start cursor_pointer"
+                              className={`option transition_300 w-100 px-3 py-2 input-border ffBarlow fw-medium fs-sm text-start cursor_pointer ${selectedOption === i ? "" : ""
+                                }`}
                               key={index}
                               onClick={() => optionClick(i)}
                             >
