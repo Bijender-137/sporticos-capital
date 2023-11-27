@@ -39,7 +39,29 @@
     transform: translateX(80px);
 }
 
-@media (min-width:400px) {
+.hero-inlineBtn {
+    border: 2px solid var(--clr-yellow);
+    border-radius: 6px;
+    padding: 10px 8px;
+}
+
+.hero-outlineBtn {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px 8px;
+}
+
+.hero-inlineBtn:hover {
+    background-color: transparent;
+    color: white !important;
+}
+
+.hero-outlineBtn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+@media (min-width:399.98px) {
     .homepageImg {
         max-width: 750px;
     }
@@ -80,9 +102,17 @@
         max-width: 670px;
         transform: translateX(80px);
     }
+
+    .hero-inlineBtn {
+        padding: 10px 10px;
+    }
+
+    .hero-outlineBtn {
+        padding: 10px 10px;
+    }
 }
 
-@media (min-width:576px) {
+@media (min-width:575.98px) {
     .homepageImg {
         max-width: 600px;
     }
@@ -116,7 +146,7 @@
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:767.98px) {
     .homepageImg {
         max-width: 700px;
     }
@@ -149,9 +179,14 @@
         max-width: 740px;
         transform: translateX(0px);
     }
+
+    .hero-inlineBtn,
+    .hero-outlineBtn {
+        padding: 12px;
+    }
 }
 
-@media (min-width:992px) {
+@media (min-width:991.98px) {
     .homepageImg {
         max-width: 830px;
     }
@@ -187,9 +222,14 @@
     .contactImg {
         max-width: 760px;
     }
+
+    .hero-inlineBtn,
+    .hero-outlineBtn {
+        padding: 15px 14px;
+    }
 }
 
-@media (min-width:1100px) {
+@media (min-width:1099.98px) {
     .homepageImg {
         max-width: 870px;
     }
@@ -227,7 +267,7 @@
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1199.98px) {
     .homepageImg {
         max-width: 900px;
     }
@@ -257,7 +297,7 @@
     }
 }
 
-@media (min-width:1300px) {
+@media (min-width:1299.98px) {
     .homepageImg {
         max-width: 950px;
     }
@@ -295,7 +335,7 @@
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1399.98px) {
     .homepageImg {
         max-width: 1050px;
     }
@@ -337,6 +377,4 @@
     .homepageImg {
         max-width: 1120px;
     }
-
-
 }
