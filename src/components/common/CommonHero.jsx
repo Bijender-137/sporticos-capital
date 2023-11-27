@@ -36,14 +36,14 @@ const CommonHero = () => {
                 <div className="d-flex gap-sm-3 gap-max-2">
                     {currentData?.button &&
                         <div className="position-relative pt-2 z-2 pb-30 pb-sm-0">
-                            <button className="mt-4 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton ffBarlow" type="button">
+                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ffBarlow" type="button">
                                 {currentData.button}
                             </button>
                         </div>
                     }
                     {currentData?.buttonhero &&
                         <div className="position-relative pt-2 z-2 pb-30 pb-sm-0">
-                            <button className="mt-4 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-white fs-sm bg-transparent inline-btn ffBarlow" type="button">
+                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ffBarlow" type="button">
                                 {currentData.buttonhero}
                             </button>
                         </div>
@@ -52,12 +52,7 @@ const CommonHero = () => {
             </div>
             {currentData?.img &&
                 <div className="mt-5 mt-lg-0 d-flex justify-content-end ">
-                    <img
-                        className={`end-0 bottom-0 common_hero_position z-0 ${currentData.className}`}
-                        //     className={`end-0 bottom-0 common_hero_position z-0 talk-img ${isPathActive('/contant') ? 'transfrom-60' : ''} 
-                        // ${isPathActive('/about-us') ? 'about-usImg' : ''}
-                        // ${imgset ? 'clubImg-max-w' : ''}
-                        // `}
+                    <img className={`end-0 bottom-0 common_hero_position z-0 ${currentData.className}`}
                         src={currentData.img} alt="hero-right-charactors"></img>
                 </div>
             }

@@ -401,16 +401,6 @@ body {
   width: 0px !important;
 }
 
-/* .swiper-button-prev:hover {
-  border: 1px solid var(--clr-yellow) !important;
-  background-color: var(--clr-yellow);
-}
-
-.swiper-button-prev:hover+.swiper-button-next {
-  border: 1px solid black !important;
-  background-color: transparent;
-} */
-
 .swiper-button-next,
 .swiper-button-prev {
   height: 30px !important;
@@ -467,7 +457,7 @@ body {
 
 }
 
-@media (min-width:400px) {
+@media (min-width:399.98px) {
   .swiper-button-next {
     right: 40% !important;
     margin-top: -5px !important;
@@ -502,7 +492,7 @@ body {
 
 }
 
-@media (min-width:425px) {
+@media (min-width:424.98px) {
   .sideNavbar {
     width: 370px;
   }
@@ -520,7 +510,7 @@ body {
   }
 }
 
-@media (min-width:576px) {
+@media (min-width:575.98px) {
   .sliderBox {
     max-width: 100%;
   }
@@ -600,7 +590,7 @@ body {
 
 }
 
-@media (min-width:768px) {
+@media (min-width:767.98px) {
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -689,7 +679,7 @@ body {
   }
 }
 
-@media (min-width:800px) {
+@media (min-width:799.98px) {
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -715,9 +705,14 @@ body {
   .transfrom-contantus {
     margin-top: -128px;
   }
+
+  .icons-slider {
+    width: 24px;
+    height: 28px;
+  }
 }
 
-@media (min-width:992px) {
+@media (min-width:991.98px) {
   .pt_lg_0 {
     padding-top: 36px;
   }
@@ -775,7 +770,7 @@ body {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1023.98px) {
   .swiper-button-next {
     right: -38px !important;
   }
@@ -795,9 +790,14 @@ body {
   .pt_lg_0 {
     padding-top: 0px;
   }
+
+  .icons-slider {
+    width: 18px;
+    height: 28px;
+  }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1199.98px) {
   .gap-52 {
     gap: 52px !important;
   }
@@ -819,7 +819,7 @@ body {
   }
 }
 
-@media (min-width:1300px) {
+@media (min-width:1299.98px) {
 
   .swiper-button-next {
     right: -63px !important;
@@ -840,9 +840,14 @@ body {
   .transfrom-contantus {
     margin-top: -128px;
   }
+
+  .icons-slider {
+    width: 24px;
+    height: 28px;
+  }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1399.98px) {
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -864,9 +869,14 @@ body {
   .swiper-button-prev {
     left: -48px !important;
   }
+
+  .icons-slider {
+    width: 20px;
+    height: 28px;
+  }
 }
 
-@media (min-width:1440px) {
+@media (min-width:1439.98px) {
   .swiper-button-next {
     right: -63px !important;
   }
@@ -879,5 +889,10 @@ body {
   .swiper-button-prev {
     height: 44px !important;
     width: 44px !important;
+  }
+
+  .icons-slider {
+    width: 24px;
+    height: 28px;
   }
 }
