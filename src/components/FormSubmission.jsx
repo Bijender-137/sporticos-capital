@@ -84,7 +84,7 @@ const FormSubmission = () => {
 
   return (
     <>
-      <div className="bg-white py-5">
+      <div className="py-5 backgroundImg">
         <Container className="py-lg-5 mt-md-3 mb-md-5">
           <div className="pb-sm-2 pb-md-3 text-center">
             <h2 className="fw-bold ff-fontspring fs-xxl text-black max-w-810  m-auto">
