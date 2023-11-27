@@ -8,15 +8,25 @@ import { NextIcon, PrevIcon } from './common/Icons';
 import { Link } from 'react-router-dom';
 
 const Slider = () => {
+    let prevButtonRef = null;
+    let nextButtonRef = null;
     const handlePrev = () => {
         if (swiper) {
             swiper.slidePrev();
+            prevButtonRef.style.backgroundColor = '#d9e76c';
+            nextButtonRef.style.backgroundColor = 'white';
+            nextButtonRef.style.border = '1px solid black';
+            prevButtonRef.style.border = '1px solid #d9e76c';
         }
     };
 
     const handleNext = () => {
         if (swiper) {
             swiper.slideNext();
+            prevButtonRef.style.backgroundColor = 'white';
+            nextButtonRef.style.backgroundColor = '#d9e76c';
+            prevButtonRef.style.border = '1px solid black';
+            nextButtonRef.style.border = '1px solid #d9e76c';
         }
     };
 
@@ -63,12 +73,14 @@ const Slider = () => {
                                 )
                             })}
                         </Swiper>
-                        <div className="swiper-button-prev transition_300 d-flex justify-content-center" onClick={handlePrev}>
+                        <div
+                            ref={(ref) => { prevButtonRef = ref; }} className="swiper-button-prev transition_300 d-flex justify-content-center" onClick={handlePrev}>
                             <div className='icons-slider'>
                                 <PrevIcon />
                             </div>
                         </div>
-                        <div className="swiper-button-next transition_300 d-flex justify-content-center" onClick={handleNext}>
+                        <div
+                            ref={(ref) => { nextButtonRef = ref; }} className="swiper-button-next transition_300 d-flex justify-content-center" onClick={handleNext}>
                             <div className='icons-slider'>
                                 <NextIcon />
                             </div>
@@ -79,8 +91,8 @@ const Slider = () => {
                             reach out
                         </Link>
                     </div>
-                </Container>
-            </div>
+                </Container >
+            </div >
         </>
     );
 };
