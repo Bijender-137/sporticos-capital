@@ -183,18 +183,18 @@ input:-webkit-autofill:active {
 
 .common_team_border {
     border-radius: 142px;
-    border: 6px solid rgba(0, 117, 242, 0.38);
+    border: 3px solid rgba(0, 117, 242, 0.38);
     background: lightgray 50% / cover no-repeat;
     transition: 0.3s ease-in-out;
 }
 
 .common_team_card_shadow:hover .common_team_border {
-    border: 6px solid rgba(66, 158, 166, 0.38);
+    border: 3px solid rgba(66, 158, 166, 0.38);
     background: lightgray 50% / contain no-repeat, #D9D9D9;
 }
 
 .common_img_w {
-    max-width: 100px;
+    max-width: 50px;
 }
 
 .home_mainpara_w {
@@ -207,12 +207,14 @@ input:-webkit-autofill:active {
 }
 
 .performance_img_w {
-    max-width: 240px;
+    max-width: 230px;
 }
 
+
 .performance_icons_width {
-    max-width: 60px !important;
+    max-width: 40px !important;
 }
+
 
 /* media quarry */
 @media (min-width:576px) {
@@ -227,12 +229,27 @@ input:-webkit-autofill:active {
     .input-padding {
         padding: 16px 8px 16px 13px;
     }
+
+    .common_img_w {
+        max-width: 90px;
+    }
 }
 
 @media (min-width:767.98px) {
 
     .performance_img_h {
         min-height: 225px;
+    }
+
+    .common_team_border {
+        border: 6px solid rgba(0, 117, 242, 0.38);
+    }
+    .common_img_w {
+        max-width: 100px;
+    }
+
+    .common_team_card_shadow:hover .common_team_border {
+        border: 6px solid rgba(66, 158, 166, 0.38);
     }
 }
 
