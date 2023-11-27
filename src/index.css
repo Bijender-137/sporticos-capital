@@ -452,6 +452,10 @@ body {
   padding-top: 20px;
 }
 
+.icons-slider {
+  width: 24px;
+}
+
 @media (max-width:360px) {
   .gap-max-2 {
     gap: 8px !important;
