@@ -12,7 +12,6 @@
     border: 1px solid rgba(0, 0, 0, 0.14) !important;
     background: #FCFCFC;
     color: black;
-    transition: all linear 300ms;
 }
 
 .option:hover {
@@ -25,10 +24,6 @@
 
 .input-border:hover {
     border: 1px solid var(--clr-yellow) !important;
-}
-
-.clr-red {
-    color: red;
 }
 
 input[type="checkbox"] {
@@ -60,7 +55,6 @@ input:-webkit-autofill:active {
     -webkit-transition: background-color 5000s ease-in-out 0s;
 }
 
-
 /* footer */
 .footer-bg-img {
     background: url('./assets/images/webp/Footer_bg_img.webp');
@@ -80,7 +74,6 @@ input:-webkit-autofill:active {
     border-radius: 50%;
     border: 2px transparent;
 }
-
 
 .icons-bg:hover {
     -webkit-transform: translateY(-4px);
@@ -151,15 +144,7 @@ input:-webkit-autofill:active {
     transition: all .3s linear !important;
 }
 
-.cursor_pointer {
-    cursor: pointer;
-}
-
 /* commom team */
-
-.clr_lite_green {
-    color: #429EA6;
-}
 
 .clr_blue {
     color: #0075F2;
@@ -193,6 +178,10 @@ input:-webkit-autofill:active {
     background: lightgray 50% / contain no-repeat, #D9D9D9;
 }
 
+.common_team_card_shadow:hover .clr_blue {
+    color: #429EA6;
+}
+
 .common_img_w {
     max-width: 50px;
 }
@@ -210,11 +199,9 @@ input:-webkit-autofill:active {
     max-width: 230px;
 }
 
-
 .performance_icons_width {
     max-width: 40px !important;
 }
-
 
 /* media quarry */
 @media (min-width:576px) {
@@ -236,7 +223,6 @@ input:-webkit-autofill:active {
 }
 
 @media (min-width:767.98px) {
-
     .performance_img_h {
         min-height: 225px;
     }
@@ -244,6 +230,7 @@ input:-webkit-autofill:active {
     .common_team_border {
         border: 6px solid rgba(0, 117, 242, 0.38);
     }
+
     .common_img_w {
         max-width: 100px;
     }
@@ -254,14 +241,12 @@ input:-webkit-autofill:active {
 }
 
 @media (min-width:991.98px) {
-    .input-padding {
-        padding: 20px 8px 18px 13px;
-    }
-}
-
-@media (min-width:991.98px) {
     .max_w_535 {
         max-width: 535px;
+    }
+
+    .input-padding {
+        padding: 20px 8px 18px 13px;
     }
 
     .performance_img_w {
