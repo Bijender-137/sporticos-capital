@@ -434,11 +434,11 @@ body {
   border-radius: 50% !important;
 }
 
-.iconHover:hover {
+.iconHover-next {
   background-color: var(--clr-yellow);
 }
 
-.iconHover:hover .border-clr {
+.iconHover-next .border-clr-next {
   stroke: #d9e76c !important;
 }
 
