@@ -210,6 +210,10 @@ input:-webkit-autofill:active {
     max-width: 240px;
 }
 
+.performance_icons_width {
+    max-width: 60px !important;
+}
+
 /* media quarry */
 @media (min-width:576px) {
     .dreamPlayer-shadow {
@@ -272,6 +276,7 @@ input:-webkit-autofill:active {
     .performance_img_w {
         max-width: 380px;
     }
+
     .performance_img_h {
         min-height: 100%;
     }

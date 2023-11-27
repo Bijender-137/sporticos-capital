@@ -1,5 +1,12 @@
 import React from "react";
 import PerformanceImg from "../assets/images/webp/performance_img.webp";
+import {
+  DollarbulbIcon,
+  FootballIcon,
+  GrowIcon,
+  GrowthIcon,
+  HandspeopleIcon,
+} from "./common/Icons";
 const Performance = () => {
   return (
     <>
@@ -21,28 +28,56 @@ const Performance = () => {
           <div className="row mt-md-5 pt-4">
             <div className="col-md-4">
               <div className="d-flex flex-column justify-content-md-between h-100">
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w mb-0">
-                  Global exposure to the international football industry
-                </p>
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0">
-                  Founders with decades of combined private equity and sports
-                  management expertise
-                </p>
+                <div className="d-flex align-items-center">
+                  <div className="d-md-none">
+                    <FootballIcon />
+                  </div>
+                  <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w mb-0 ps-3 ps-md-0">
+                    Global exposure to the international football industry
+                  </p>
+                </div>
+                <div className="d-flex align-items-center mt-4 mt-md-0">
+                  <div className="d-md-none">
+                    <HandspeopleIcon />
+                  </div>
+                  <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0 ps-3 ps-md-0">
+                    Founders with decades of combined private equity and sports
+                    management expertise
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 d-none d-md-block">
               <div className="performance_img_w m-auto">
-                <img className="w-100 performance_img_h" src={PerformanceImg} alt="PerformanceImg" />
+                <img
+                  className="w-100 performance_img_h"
+                  src={PerformanceImg}
+                  alt="PerformanceImg"
+                />
               </div>
             </div>
             <div className="col-md-4">
-              <div className="d-flex flex-column h-100 justify-content-md-between text-lg-end align-items-lg-end">
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_270 mb-0">
-                Equitable, ESG-oriented opportunities that include women’s football
-                </p>
-                <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0">
-                Purposeful investments with strategic, growth-oriented partnerships
-                </p>
+              <div className="d-flex flex-column h-100 justify-content-md-between text-md-end align-items-md-end">
+                <div className="col-md-4">
+                  <div className="d-flex align-items-center mt-4 mt-md-0">
+                    <div className="d-md-none">
+                      <DollarbulbIcon />
+                    </div>
+                    <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_270 mb-0 ps-3 ps-md-0">
+                      Equitable, ESG-oriented opportunities that include women’s
+                      football
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center mt-4 mt-md-0">
+                  <div className="d-md-none">
+                    <GrowthIcon />
+                  </div>
+                  <p className="fs-lg ffBarlow fw-normal text-black opacity-07 performance_text_w_320 mb-0 ps-3 ps-md-0 ">
+                    Purposeful investments with strategic, growth-oriented
+                    partnerships
+                  </p>
+                </div>
               </div>
             </div>
           </div>
