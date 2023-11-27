@@ -487,9 +487,6 @@ body {
   .mb-30 {
     margin-bottom: 24px !important;
   }
-
-
-
 }
 
 @media (min-width:424.98px) {
@@ -676,39 +673,6 @@ body {
 
   .transfrom-contantus {
     margin-top: -136px;
-  }
-}
-
-@media (min-width:799.98px) {
-
-  .swiper-button-next,
-  .swiper-button-prev {
-    height: 44px !important;
-    width: 44px !important;
-    position: absolute !important;
-    top: 50% !important;
-
-  }
-
-  .swiper-button-next {
-    right: -50px !important;
-  }
-
-  .swiper-button-prev {
-    left: -50px !important;
-  }
-
-  .pt_lg_0 {
-    padding-top: 0px;
-  }
-
-  .transfrom-contantus {
-    margin-top: -128px;
-  }
-
-  .icons-slider {
-    width: 24px;
-    height: 28px;
   }
 }
 

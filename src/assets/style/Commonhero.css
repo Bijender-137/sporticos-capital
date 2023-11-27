@@ -42,7 +42,7 @@
 .hero-inlineBtn {
     border: 2px solid var(--clr-yellow);
     border-radius: 6px;
-    padding: 10px 8px;
+    padding: 10px 9px;
 }
 
 .hero-outlineBtn {
@@ -376,5 +376,45 @@
 @media (min-width:1600px) {
     .homepageImg {
         max-width: 1120px;
+    }
+}
+
+@media (min-width:1900px) {
+    .homepageImg {
+        max-width: 1450px !important;
+    }
+
+    .abotusImg {
+        max-width: 1340px;
+    }
+
+    .debtImg {
+        max-width: 1500px;
+    }
+
+    .culbImg {
+        max-width: 1550px;
+    }
+
+    .ementoringImg {
+        max-width: 1550px;
+        height: 70%;
+    }
+
+    .wealthImg {
+        max-width: 1440px;
+        height: 80%;
+    }
+
+    .playerImg {
+        max-width: 1440px;
+    }
+
+    .faqImg {
+        max-width: 940px;
+    }
+
+    .contactImg {
+        max-width: 1380px;
     }
 }
