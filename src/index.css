@@ -366,6 +366,10 @@ body {
   max-width: 1005px;
 }
 
+.max-w-750 {
+  max-width: 750px;
+}
+
 .z-100 {
   z-index: 100 !important;
 }
