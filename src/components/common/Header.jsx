@@ -32,6 +32,10 @@ const Header = () => {
     setShow(!show);
   };
 
+  const handleLogoClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})` }} onClick={() => setShow(false)}>
@@ -66,7 +70,9 @@ const Header = () => {
               </div>
             </div>
             <div className="d-flex justify-content-between align-items-center py-3">
-              <Link to="/"><img loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" /></Link>
+              <Link to="/">
+                <img onClick={handleLogoClick} loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" />
+              </Link>
               <div onClick={handleMenuClick} className="cursor_pointer">
                 <MenuIcons />
               </div>

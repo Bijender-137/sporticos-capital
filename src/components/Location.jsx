@@ -6,8 +6,8 @@ const Location = () => {
     return (
         <>
             <Container>
-                <div className='max-w-1005 mx-auto'>
-                    <img loading='lazy' src={loactionImg} alt="loaction img about us" className='w-100' />
+                <div className='max-w-1005 mx-auto' >
+                    <img data-aos="fade-up" data-aos-duration="500" loading='lazy' src={loactionImg} alt="loaction img about us" className='w-100' />
                 </div>
             </Container>
         </>

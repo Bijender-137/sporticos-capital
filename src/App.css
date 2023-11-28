@@ -117,7 +117,7 @@ input:-webkit-autofill:active {
 
 .bactotopHover:hover {
 
-    box-shadow: 1px -1.5px 13px -2px var(--clr-yellow) !important;
+    box-shadow: 1px 2px 10px 2px var(--clr-gray) !important;
 }
 
 /* DREAM PLAYERS */
