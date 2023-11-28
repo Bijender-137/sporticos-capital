@@ -26,7 +26,7 @@ const Performance = () => {
             </p>
           </div>
           <div className="row mt-md-5 pt-4">
-            <div className="col-md-4">
+            <div className="col-md-4 pe-md-0">
               <div className="d-flex flex-column justify-content-md-between h-100">
                 <div className="d-flex align-items-center">
                   <div className="d-md-none">

@@ -12,17 +12,16 @@ const CommonTeam = () => {
   }, [location.pathname]);
   return (
     <>
-      <Container>
-        <div className={`${about ? "py-5 my-lg-5" : "py-5 my-lg-5"}`}>
+      <Container className="py-5">
+        <div className="py-5">
           {sporticoseTeam.map((teams) => {
             const commonteamchange = location.pathname === teams.path;
             return commonteamchange ? (
               <div
-                className={`${
-                  about
-                    ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-4"
-                    : "pt-lg-2 pb-lg-3"
-                }`}
+                className={`${about
+                  ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-4"
+                  : "pt-lg-2 pb-lg-3"
+                  }`}
                 key={teams.id}
               >
                 <div className="text-center pb-4 pb-lg-5">
@@ -30,9 +29,8 @@ const CommonTeam = () => {
                     {teams.mainheading}
                   </h5>
                   <p
-                    className={`fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
-                      home ? "pt-2 mt-1  " : ""
-                    }`}
+                    className={`fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${home ? "pt-2 mt-1  " : ""
+                      }`}
                   >
                     {teams.mainpara}
                   </p>

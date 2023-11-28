@@ -61,6 +61,20 @@
     color: black !important;
 }
 
+@media (min-width:370px) {
+    .faqImg {
+        max-width: 530px;
+        transform: translateX(70px);
+    }
+}
+
+@media (min-width:387px) {
+    .faqImg {
+        max-width: 530px;
+        transform: translateX(60px);
+    }
+}
+
 @media (min-width:399.98px) {
     .homepageImg {
         max-width: 750px;
