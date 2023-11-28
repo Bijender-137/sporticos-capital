@@ -200,7 +200,8 @@ input:-webkit-autofill:active {
 }
 
 .performance_icons_width {
-    max-width: 40px !important;
+    max-width: 42px !important;
+    height: 47px;
 }
 
 /* media quarry */

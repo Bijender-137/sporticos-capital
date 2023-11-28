@@ -15,16 +15,17 @@ import DebtFunding from "./pages/DebtFunding";
 import AboutUs from "./pages/AboutUs";
 import Home from "./pages/Home";
 import FormSubmission from "./components/FormSubmission";
-import Aos from 'aos'
+import Aos from "aos";
 import "aos/dist/aos.css";
 
-
 function App() {
-
   useEffect(() => {
-    Aos.init();
+    Aos.init({
+      once: true,
+      duration: 1500,
+    });
     Aos.refresh();
-  }, [])
+  }, []);
 
   const { pathname } = useLocation();
 
@@ -34,7 +35,7 @@ function App() {
     };
     const timeout = setTimeout(scrollToTop, 300);
     return () => clearTimeout(timeout);
-  }, [pathname])
+  }, [pathname]);
   return (
     <>
       <Header />
