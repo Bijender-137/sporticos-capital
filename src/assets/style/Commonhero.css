@@ -39,7 +39,8 @@
     transform: translateX(80px);
 }
 
-.hero-inlineBtn {
+.hero-inlineBtn,
+.navLinkButton-navsidebar {
     border: 2px solid var(--clr-yellow);
     border-radius: 6px;
     padding: 10px 9px;
@@ -54,6 +55,11 @@
 .hero-inlineBtn:hover {
     background-color: transparent;
     color: white !important;
+}
+
+.navLinkButton-navsidebar:hover {
+    background-color: white !important;
+    color: black !important;
 }
 
 .hero-outlineBtn:hover {
@@ -117,7 +123,8 @@
         transform: translateX(80px);
     }
 
-    .hero-inlineBtn {
+    .hero-inlineBtn,
+    .navLinkButton-navsidebar {
         padding: 10px 10px;
     }
 
@@ -195,6 +202,7 @@
     }
 
     .hero-inlineBtn,
+    .navLinkButton-navsidebar,
     .hero-outlineBtn {
         padding: 12px;
     }
@@ -238,6 +246,7 @@
     }
 
     .hero-inlineBtn,
+    .navLinkButton-navsidebar,
     .hero-outlineBtn {
         padding: 15px 14px;
     }

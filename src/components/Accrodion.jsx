@@ -20,8 +20,8 @@ const Accordion = () => {
           {accordionItems.map((item, index) => (
             <div className="pt-3" key={index}>
               <div
-                className={`accordion p-2 py-3 p-sm-3 p-md-4 w-100 ${
-                  index === activeIndex ? "active " : ""
+                className={`accordion transition_300 p-2 py-3 p-sm-3 p-md-4 w-100 ${
+                  index === activeIndex ? "active transition_300" : ""
                 }`}
               >
                 <div
@@ -36,7 +36,7 @@ const Accordion = () => {
                   </span>
                 </div>
                 <div
-                  className={`accordion-content ${
+                  className={`accordion-content transition_300 ${
                     index === activeIndex ? "open" : ""
                   }`}
                 >

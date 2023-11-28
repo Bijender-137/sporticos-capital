@@ -43,7 +43,7 @@ const Header = () => {
           {show ? (
             <div className="bg-black opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
           <Container>
-            <div className={`${show ? "nav-show " : "nav-fix"} sideNavbar bg-white z-4`} onClick={(e) => e.stopPropagation()}>
+            <div className={`${show ? "nav-show transition_300" : "nav-fix transition_300"} sideNavbar transition_300 bg-white z-4`} onClick={(e) => e.stopPropagation()}>
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
                 <div onClick={() => setShow(false)} className="position-absolute crossIcon">
                   <CrossIcons />
@@ -61,10 +61,10 @@ const Header = () => {
                     </div>
                   );
                 })}
-                <Link to="/contact" className="heroBtn mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton-navsidebar ffBarlow" onClick={() => setShow(false)}>
+                <Link to="/contact" className="navLinkButton-navsidebar transition_300 mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ffBarlow" onClick={() => setShow(false)}>
                   contant Us
                 </Link>
-                <button className="heroBtn px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow navLinkButton-navsidebar ffBarlow" type="button" onClick={() => setShow(false)}>
+                <button className="navLinkButton-navsidebar transition_300 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ffBarlow" type="button" onClick={() => setShow(false)}>
                   set an appointment
                 </button>
               </div>
