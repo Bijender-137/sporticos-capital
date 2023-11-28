@@ -14,6 +14,7 @@ body {
   padding: 0;
   margin: 0;
   list-style-type: none !important;
+  -webkit-box-sizing: border-box !important;
   box-sizing: border-box !important;
   text-decoration: none !important;
 }
@@ -165,6 +166,8 @@ body {
   width: 300px;
   background-color: white;
   min-height: 100vh;
+  -webkit-transition: all linear 300ms !important;
+  -o-transition: all linear 300ms !important;
   transition: all linear 300ms !important;
   position: fixed;
 }
@@ -173,6 +176,8 @@ body {
   overflow: hidden !important;
   right: -301px;
   position: fixed;
+  -webkit-transition: all linear 300ms !important;
+  -o-transition: all linear 300ms !important;
   transition: all linear 300ms !important;
 }
 
@@ -180,6 +185,8 @@ body {
   overflow: hidden !important;
   right: 0;
   position: fixed;
+  -webkit-transition: all linear 300ms !important;
+  -o-transition: all linear 300ms !important;
   transition: all linear 300ms !important;
 }
 
@@ -203,6 +210,8 @@ body {
 }
 
 .navlink {
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
 }
 
@@ -213,11 +222,15 @@ body {
 .navLink-button {
   padding: 15px 29px;
   border-radius: 6px;
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
 }
 
 .transition_300 {
+  -webkit-transition: all linear 300ms !important;
+  -o-transition: all linear 300ms !important;
   transition: all linear 300ms !important;
 }
 
@@ -260,22 +273,30 @@ body {
 }
 
 .accordion {
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
   border-bottom: 1px solid rgba(0, 0, 0, 0.10);
 }
 
 .active {
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
 }
 
 .accordion.active {
   border-bottom: 2px solid var(--clr-yellow);
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
 }
 
 .accordion-content {
   max-height: 0px;
   overflow: hidden;
+  -webkit-transition: 300ms linear !important;
+  -o-transition: 300ms linear !important;
   transition: 300ms linear !important;
 }
 
@@ -284,10 +305,14 @@ body {
   overflow: hidden;
   padding-top: 12px;
   max-height: 280px;
+  -webkit-transition: all 300ms linear !important;
+  -o-transition: all 300ms linear !important;
   transition: all 300ms linear !important;
 }
 
 .accordion.active .accordion-toggle {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -300,6 +325,8 @@ body {
 .navLinkButton {
   padding: 8px 14px;
   border-radius: 6px;
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
   border: 1px solid var(--clr-yellow);
 }
@@ -307,6 +334,8 @@ body {
 .inline-btn {
   padding: 9px 15px;
   border-radius: 6px;
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
   border: 1px solid white;
 }
@@ -319,12 +348,16 @@ body {
 .navLinkButton-navsidebar {
   padding: 10px 16px;
   border-radius: 6px;
+  -webkit-transition: all linear 300ms;
+  -o-transition: all linear 300ms;
   transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
 }
 
 
 .transition_300 {
+  -webkit-transition: all linear 300ms !important;
+  -o-transition: all linear 300ms !important;
   transition: all linear 300ms !important;
 }
 
@@ -344,6 +377,8 @@ body {
 
 /* ------contentus section------ */
 .transfrom-contantus {
+  -webkit-transform: translateY(47%);
+  -ms-transform: translateY(47%);
   transform: translateY(47%);
   margin-top: -128px;
 }
@@ -358,6 +393,7 @@ body {
 
 .contactus-box {
   border-radius: 16px;
+  -webkit-box-shadow: 0px -11px 57px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 0px -11px 57px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -370,6 +406,8 @@ body {
 }
 
 .transfrom-60 {
+  -webkit-transform: translateX(60px);
+  -ms-transform: translateX(60px);
   transform: translateX(60px);
 }
 
@@ -488,6 +526,8 @@ body {
   }
 
   .transfrom-60 {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
     transform: translateX(0px);
   }
 
@@ -823,6 +863,8 @@ body {
     width: 44px !important;
     position: absolute !important;
     top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
     transform: translateY(-50%) !important;
   }
 
@@ -844,6 +886,8 @@ body {
     width: 40px !important;
     position: absolute !important;
     top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
     transform: translateY(-50%) !important;
   }
 
