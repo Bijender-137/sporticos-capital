@@ -101,7 +101,7 @@ const CommonTeam = () => {
                   <div className="d-flex justify-content-center pt-4 mt-2 mt-lg-0 pt-lg-5">
                     <Link
                       to="/about-us"
-                      className="heroBtn fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow"
+                      className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow"
                     >
                       {teams.btn}
                     </Link>

@@ -166,9 +166,6 @@ body {
   width: 300px;
   background-color: white;
   min-height: 100vh;
-  -webkit-transition: all linear 300ms !important;
-  -o-transition: all linear 300ms !important;
-  transition: all linear 300ms !important;
   position: fixed;
 }
 
@@ -176,18 +173,12 @@ body {
   overflow: hidden !important;
   right: -301px;
   position: fixed;
-  -webkit-transition: all linear 300ms !important;
-  -o-transition: all linear 300ms !important;
-  transition: all linear 300ms !important;
 }
 
 .nav-show {
   overflow: hidden !important;
   right: 0;
   position: fixed;
-  -webkit-transition: all linear 300ms !important;
-  -o-transition: all linear 300ms !important;
-  transition: all linear 300ms !important;
 }
 
 .cursor_pointer {
@@ -209,7 +200,7 @@ body {
   cursor: pointer;
 }
 
-.navlink {
+/* .navlink {
   -webkit-transition: all linear 300ms;
   -o-transition: all linear 300ms;
   transition: all linear 300ms;
@@ -217,7 +208,7 @@ body {
 
 .navlink:hover {
   opacity: 1 !important;
-}
+} */
 
 .navLink-button {
   padding: 15px 29px;
@@ -251,7 +242,6 @@ body {
 
 .bgImg {
   background-size: cover !important;
-  /* background-position: 100% !important; */
   background-repeat: no-repeat !important;
 }
 
@@ -273,31 +263,16 @@ body {
 }
 
 .accordion {
-  -webkit-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
-  transition: all linear 300ms;
   border-bottom: 1px solid rgba(0, 0, 0, 0.10);
-}
-
-.active {
-  -webkit-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
-  transition: all linear 300ms;
 }
 
 .accordion.active {
   border-bottom: 2px solid var(--clr-yellow);
-  -webkit-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
-  transition: all linear 300ms;
 }
 
 .accordion-content {
   max-height: 0px;
   overflow: hidden;
-  -webkit-transition: 300ms linear !important;
-  -o-transition: 300ms linear !important;
-  transition: 300ms linear !important;
 }
 
 
@@ -305,9 +280,6 @@ body {
   overflow: hidden;
   padding-top: 12px;
   max-height: 280px;
-  -webkit-transition: all 300ms linear !important;
-  -o-transition: all 300ms linear !important;
-  transition: all 300ms linear !important;
 }
 
 .accordion.active .accordion-toggle {
@@ -320,15 +292,6 @@ body {
   min-width: 24px !important;
   width: 100%;
   height: 24px !important;
-}
-
-.navLinkButton {
-  padding: 8px 14px;
-  border-radius: 6px;
-  -webkit-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
-  transition: all linear 300ms;
-  border: 1px solid var(--clr-yellow);
 }
 
 .inline-btn {
@@ -345,29 +308,8 @@ body {
   color: black !important;
 }
 
-.navLinkButton-navsidebar {
-  padding: 10px 16px;
-  border-radius: 6px;
-  -webkit-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
-  transition: all linear 300ms;
-  border: 2px solid var(--clr-yellow);
-}
-
-
-.transition_300 {
-  -webkit-transition: all linear 300ms !important;
-  -o-transition: all linear 300ms !important;
-  transition: all linear 300ms !important;
-}
-
-.navLinkButton:hover {
-  background-color: transparent;
-  color: white !important;
-}
-
 .navLinkButton-navsidebar:hover {
-  background-color: #fff;
+  color: black !important;
 }
 
 /* Webkit-specific styles */
@@ -496,10 +438,6 @@ body {
     gap: 8px !important;
   }
 
-  .navLinkButton {
-    padding: 10px 8px !important;
-  }
-
   .inline-btn {
     padding: 9px 9px !important;
   }
@@ -587,10 +525,6 @@ body {
     margin: 0;
   }
 
-  .navLinkButton {
-    padding: 12px 14px;
-  }
-
   .inline-btn {
     padding: 13px 15px;
   }
@@ -664,16 +598,8 @@ body {
     gap: 100px !important;
   }
 
-  .navLinkButton {
-    padding: 18px 16px;
-  }
-
   .inline-btn {
     padding: 19px 17px;
-  }
-
-  .navLinkButton-navsidebar {
-    padding: 18px 16px;
   }
 
   .mt-md-80 {

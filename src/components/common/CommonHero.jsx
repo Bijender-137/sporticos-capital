@@ -36,14 +36,14 @@ const CommonHero = () => {
                 <div className="d-flex gap-sm-3 gap-max-2">
                     {currentData?.button &&
                         <div className="position-relative pt-2 z-2 pb-30 pb-sm-0">
-                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ffBarlow" type="button">
+                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ffBarlow" type="button">
                                 {currentData.button}
                             </button>
                         </div>
                     }
                     {currentData?.buttonhero &&
                         <div className="position-relative pt-2 z-2 pb-30 pb-sm-0">
-                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 heroBtn fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ffBarlow" type="button">
+                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ffBarlow" type="button">
                                 {currentData.buttonhero}
                             </button>
                         </div>
