@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import { sporticoseTeam } from "./Helper2";
-
 const CommonTeam = () => {
   const location = useLocation();
   const [about, setAbout] = useState(false);
@@ -30,7 +29,6 @@ const CommonTeam = () => {
                   <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
                     {teams.mainheading}
                   </h5>
-
                   <p
                     className={`fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
                       home ? "pt-2 mt-1  " : ""
