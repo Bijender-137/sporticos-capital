@@ -17,11 +17,11 @@ const ContactUs = () => {
                             <h5 className='fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1'>
                                 {currentData.heading}
                             </h5>
-                            <p className='text-center text-black opacity-07 ffBarlow fs-base fw-normal'>
+                            <p className='text-center text-black opacity-07 ff-barlow fs-base fw-normal'>
                                 {currentData.paragraph}
                                 <span className="d-md-block">{currentData.paragraph1}</span>
                             </p>
-                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow">
+                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow">
                                 {currentData.btn}
                             </Link>
                         </div>

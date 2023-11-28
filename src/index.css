@@ -19,7 +19,7 @@ body {
   text-decoration: none !important;
 }
 
-.ffBarlow {
+.ff-barlow {
   font-family: 'Barlow', sans-serif;
 }
 
@@ -85,7 +85,6 @@ body {
 
 @media (max-width:575.98px) {
   :root {
-    --fs-base: 16px;
     --fs-md: 16px;
     --fs-lg: 16px;
     --fs-xl: 20px;

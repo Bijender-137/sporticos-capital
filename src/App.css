@@ -211,7 +211,7 @@ input:-webkit-autofill:active {
 
 /* performance */
 .bg_clr_performance {
-    background: rgba(217, 231, 108, 0.15);
+    background-color: #F9FBE9;
 }
 
 .performance_img_w {
@@ -258,14 +258,15 @@ input:-webkit-autofill:active {
     .common_team_card_shadow:hover .common_team_border {
         border: 6px solid rgba(66, 158, 166, 0.38);
     }
+
     .max-w-453 {
         max-width: 453px;
     }
-    
+
     .max-w-810 {
         max-width: 810px;
     }
-    
+
     .max-w-500 {
         max-width: 500px;
     }

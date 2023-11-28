@@ -52,7 +52,7 @@ const Header = () => {
                   return (
                     <div key={navlink.id} className="mb-3 mb-md-4">
                       <Link onClick={() => setShow(false)}
-                        className={`text-black ffBarlow fw-normal fs-sm ${location.pathname === navlink.path ? '' : 'opacity-07'} navlink`}
+                        className={`text-black ff-barlow fw-normal fs-sm ${location.pathname === navlink.path ? '' : 'opacity-07'} navlink`}
                         to={navlink.path}
                       >
                         {navlink.NavName}
@@ -61,10 +61,10 @@ const Header = () => {
                     </div>
                   );
                 })}
-                <Link to="/contact" className="navLinkButton-navsidebar transition_300 mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ffBarlow" onClick={() => setShow(false)}>
+                <Link to="/contact" className="navLinkButton-navsidebar transition_300 mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow" onClick={() => setShow(false)}>
                   contant Us
                 </Link>
-                <button className="navLinkButton-navsidebar transition_300 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ffBarlow" type="button" onClick={() => setShow(false)}>
+                <button className="navLinkButton-navsidebar transition_300 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow" type="button" onClick={() => setShow(false)}>
                   set an appointment
                 </button>
               </div>

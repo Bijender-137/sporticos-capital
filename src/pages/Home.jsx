@@ -9,9 +9,7 @@ const Home = () => {
     <>
       <div className="position-relative backgroundImg">
         <Slider />
-      </div>
-      <Performance />
-      <div className="position-relative backgroundImg">
+        <Performance />
         <CommonTeam />
         <ContactUs />
       </div>
