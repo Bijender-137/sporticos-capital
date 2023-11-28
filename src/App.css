@@ -101,19 +101,6 @@ input:-webkit-autofill:active {
     transform: translateY(-4px)
 }
 
-/* max-width */
-.max-w-453 {
-    max-width: 453px;
-}
-
-.max-w-810 {
-    max-width: 810px;
-}
-
-.max-w-500 {
-    max-width: 500px;
-}
-
 /* dropdown css */
 .custom_dropdown:hover {
     background-color: var(--clr-gray) !important;
@@ -138,9 +125,7 @@ input:-webkit-autofill:active {
 }
 
 .bactotopHover:hover {
-
     -webkit-box-shadow: 1px 2px 10px 2px var(--clr-gray) !important;
-
     box-shadow: 1px 2px 10px 2px var(--clr-gray) !important;
 }
 
@@ -175,7 +160,6 @@ input:-webkit-autofill:active {
 }
 
 /* commom team */
-
 .clr_blue {
     color: #0075F2;
 }
@@ -273,6 +257,17 @@ input:-webkit-autofill:active {
 
     .common_team_card_shadow:hover .common_team_border {
         border: 6px solid rgba(66, 158, 166, 0.38);
+    }
+    .max-w-453 {
+        max-width: 453px;
+    }
+    
+    .max-w-810 {
+        max-width: 810px;
+    }
+    
+    .max-w-500 {
+        max-width: 500px;
     }
 }
 

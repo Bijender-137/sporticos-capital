@@ -3,7 +3,6 @@ import PerformanceImg from "../assets/images/webp/performance_img.webp";
 import {
   DollarbulbIcon,
   FootballIcon,
-  GrowIcon,
   GrowthIcon,
   HandspeopleIcon,
 } from "./common/Icons";
