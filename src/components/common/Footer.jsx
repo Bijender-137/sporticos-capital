@@ -13,6 +13,11 @@ const Footer = () => {
     setFooterPaddingActive(location.pathname === '/' || location.pathname === '/about-us' || location.pathname === '/faq');
     setShow(location.pathname === '/');
   }, [location.pathname]);
+
+  const handleLogoClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div className={`footer-bg-img ${footerPaddingActive ? 'footer-padding-active' : ''}`}>
@@ -24,6 +29,7 @@ const Footer = () => {
                   <div>
                     <Link to="/">
                       <img
+                        onClick={handleLogoClick}
                         width={237}
                         height={47}
                         className="footer-logo-w  w-100"
