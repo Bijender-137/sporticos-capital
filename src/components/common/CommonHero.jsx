@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { heroData } from './Helper';
 import { useLocation } from 'react-router-dom';
 import "../../assets/style/Commonhero.css"
@@ -8,11 +8,7 @@ const CommonHero = () => {
     const currentPathname = location.pathname;
     const currentData = heroData.find((e) => e.path === currentPathname);
     const isPathActive = (path) => location.pathname === path;
-    const [imgset, setImgset] = useState(false);
 
-    useEffect(() => {
-        setImgset(location.pathname === '/club-investments' || location.pathname === '/e-mentoring');
-    }, [location.pathname]);
     return (
         <>
             <div style={{ maxWidth: currentData.maxW }} className='px-12 pt-5 pb-sm-5 mb-sm-5 pt-sm-0 pb-md-0 my-md-0 mb-md-4'>
