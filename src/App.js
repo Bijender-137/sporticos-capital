@@ -15,8 +15,17 @@ import DebtFunding from "./pages/DebtFunding";
 import AboutUs from "./pages/AboutUs";
 import Home from "./pages/Home";
 import FormSubmission from "./components/FormSubmission";
+import Aos from 'aos'
+import "aos/dist/aos.css";
+
 
 function App() {
+
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, [])
+
   const { pathname } = useLocation();
 
   useEffect(() => {

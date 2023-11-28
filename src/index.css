@@ -442,6 +442,11 @@ body {
   background-size: 100%;
 }
 
+.icons-h-w {
+  height: 80px;
+  width: 80px;
+}
+
 @media (max-width:360px) {
   .gap-max-2 {
     gap: 8px !important;
@@ -681,6 +686,11 @@ body {
 
   .transfrom-contantus {
     margin-top: -136px;
+  }
+
+  .icons-h-w {
+    height: 85px;
+    width: 85px;
   }
 }
 
