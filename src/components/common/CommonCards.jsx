@@ -10,8 +10,7 @@ const CommonCards = () => {
         <Container className="py-lg-5">
           <div className="py-md-3">
             {dreams.map((dreamsplayer) => {
-              const dreamplayerchange =
-                location.pathname === dreamsplayer.path;
+              const dreamplayerchange = location.pathname === dreamsplayer.path;
               return dreamplayerchange ? (
                 <div key={dreamsplayer.id}>
                   <p className="ff-fontspring fw-normal fs-xxl lh-42 text-center text-capitalize mb-0">
@@ -28,6 +27,9 @@ const CommonCards = () => {
                     <Col
                       sm={6}
                       lg={4}
+                      data-aos="fade-down"
+                      data-aos-delay="200"
+                      data-aos-ease="linear"
                       className="d-flex justify-content-center"
                     >
                       <div className="dreamPlayer-shadow p-3 h-100">
@@ -46,6 +48,9 @@ const CommonCards = () => {
                     </Col>
                     <Col
                       sm={6}
+                      data-aos="fade-down"
+                      data-aos-delay="400"
+                      data-aos-ease="linear"
                       lg={4}
                       className="pt-4 pt-sm-0 d-flex justify-content-center"
                     >
@@ -66,6 +71,9 @@ const CommonCards = () => {
                     <Col
                       sm={6}
                       lg={4}
+                      data-aos="fade-down"
+                      data-aos-delay="600"
+                      data-aos-ease="linear"
                       className="pt-4 pt-lg-0 d-flex justify-content-center"
                     >
                       <div className="dreamPlayer-shadow p-3 h-100 transition_300">

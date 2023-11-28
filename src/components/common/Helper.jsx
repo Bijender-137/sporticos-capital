@@ -1,20 +1,39 @@
-import { AccountabilityIcon, ArrangeIcon, BulbIcon, CommunicationIcon, DevelopIcon, FactorIcon, GrowIcon, IdentifyIcon, MaintainIcon, MitigateIcon, PeopleIcon, PositiveIcon, PreventIcon, ServeIcon, SherpenIcon, SupportIcon, TransparencyIcon, UnderStandIcon } from "./Icons";
+import {
+  AccountabilityIcon,
+  ArrangeIcon,
+  BulbIcon,
+  CommunicationIcon,
+  DevelopIcon,
+  FactorIcon,
+  GrowIcon,
+  IdentifyIcon,
+  MaintainIcon,
+  MitigateIcon,
+  PeopleIcon,
+  PositiveIcon,
+  PreventIcon,
+  ServeIcon,
+  SherpenIcon,
+  SupportIcon,
+  TransparencyIcon,
+  UnderStandIcon,
+} from "./Icons";
 
 //All Heros Pages Images
-import talkImg from '../../assets/images/webp/hero-football.webp'
-import aboutUsImg from '../../assets/images/webp/hero-aboutus-img.webp'
-import clubImg from '../../assets/images/webp/hero-culbinvestment-img.webp'
-import debtfundingImg from '../../assets/images/webp/hero-debtfunding-img.webp'
-import ememtoringImg from '../../assets/images/webp/hero-ememtoring-img.webp'
-import wealthImg from '../../assets/images/webp/hero-wealth-img.webp'
-import playpathwaImg from '../../assets/images/webp/hero-play-pathwa-img.webp'
-import faqImg from '../../assets/images/webp/hero-faq-img.webp'
-import homepageImg from '../../assets/images/webp/herohomepage-img.webp'
+import talkImg from "../../assets/images/webp/hero-football.webp";
+import aboutUsImg from "../../assets/images/webp/hero-aboutus-img.webp";
+import clubImg from "../../assets/images/webp/hero-culbinvestment-img.webp";
+import debtfundingImg from "../../assets/images/webp/hero-debtfunding-img.webp";
+import ememtoringImg from "../../assets/images/webp/hero-ememtoring-img.webp";
+import wealthImg from "../../assets/images/webp/hero-wealth-img.webp";
+import playpathwaImg from "../../assets/images/webp/hero-play-pathwa-img.webp";
+import faqImg from "../../assets/images/webp/hero-faq-img.webp";
+import homepageImg from "../../assets/images/webp/herohomepage-img.webp";
 
 //slider Images
-import sliderimg1 from '../../assets/images/webp/hero-slider-img1.webp'
-import sliderimg2 from '../../assets/images/webp/hero-slider-img2.webp'
-import sliderimg3 from '../../assets/images/webp/hero-slider-img3.webp'
+import sliderimg1 from "../../assets/images/webp/hero-slider-img1.webp";
+import sliderimg2 from "../../assets/images/webp/hero-slider-img2.webp";
+import sliderimg3 from "../../assets/images/webp/hero-slider-img3.webp";
 
 export const accordionItems = [
   {
@@ -116,14 +135,17 @@ export const nextlevelData = [
     className: "",
     submap: [
       {
+        aosDelay: "200",
         icon: <PositiveIcon />,
         paraBox: "Maintain positive exposure through our marketing packages",
       },
       {
+        aosDelay: "400",
         icon: <PeopleIcon />,
         paraBox: "Outline the road to playing in international leagues",
       },
       {
+        aosDelay: "600",
         icon: <GrowIcon />,
         paraBox: "Grow our clubs by focusing on existing talent",
       },
@@ -137,18 +159,22 @@ export const nextlevelData = [
     spanpara: "",
     submap: [
       {
+        aosDelay: "200",
         icon: <SupportIcon />,
         paraBox: "Support new player acquisitions and transfers alike",
       },
       {
+        aosDelay: "400",
         icon: <DevelopIcon />,
         paraBox: "Develop versatile players on and off the field",
       },
       {
+        aosDelay: "600",
         icon: <SherpenIcon />,
         paraBox: "Sharpen the competitive edge of our clubs",
       },
       {
+        aosDelay: "800",
         icon: <PreventIcon />,
         paraBox: "Prevent mental health obstacles from derailing player focus",
       },
@@ -162,18 +188,22 @@ export const nextlevelData = [
     spanpara: "positions us to:",
     submap: [
       {
+        aosDelay: "200",
         icon: <IdentifyIcon />,
         paraBox: "Identify and cover essential club operations",
       },
       {
+        aosDelay: "400",
         icon: <ArrangeIcon />,
         paraBox: "Arrange win-win financing solutions",
       },
       {
+         aosDelay: "600",
         icon: <MitigateIcon />,
         paraBox: "Mitigate and manage financing risks",
       },
       {
+         aosDelay: "800",
         icon: <ServeIcon />,
         paraBox: "Serve in the best interests of both clubs and investors",
       },
@@ -187,18 +217,22 @@ export const nextlevelData = [
     spanpara: "",
     submap: [
       {
+         aosDelay: "200",
         icon: <TransparencyIcon />,
         paraBox: "Transparency for those we serve",
       },
       {
+         aosDelay: "400",
         icon: <ArrangeIcon />,
         paraBox: "Integrity with our value-driven approach",
       },
       {
+         aosDelay: "600",
         icon: <CommunicationIcon />,
         paraBox: "Communication with the utmost respect",
       },
       {
+         aosDelay: "800",
         icon: <AccountabilityIcon />,
         paraBox: "Accountability through measurable performance",
       },
@@ -212,24 +246,27 @@ export const nextlevelData = [
     spanpara: "",
     submap: [
       {
+         aosDelay: "200",
         icon: <UnderStandIcon />,
         paraBox: "Understand your unique financial aspirations",
       },
       {
+         aosDelay: "400",
         icon: <FactorIcon />,
         paraBox: "Factor your time horizon into each investment decision",
       },
       {
+         aosDelay: "600",
         icon: <BulbIcon />,
         paraBox: "Maximize your ROI through strategic products",
       },
       {
+         aosDelay: "800",
         icon: <MaintainIcon />,
         paraBox: "Maintain a diversified and well-balanced portfolio",
       },
     ],
   },
-
 ];
 export const heroData = [
   {
@@ -242,7 +279,8 @@ export const heroData = [
     heading: "Unlocking High Impact Sports ",
     heading1: "Investment",
     heading2: " Opportunities ",
-    subheading: "With a global reach, Sporticos Capital offers solutions for growth in the sports industry with players and clubs at heart.",
+    subheading:
+      "With a global reach, Sporticos Capital offers solutions for growth in the sports industry with players and clubs at heart.",
     button: "Book Appointment",
     buttonhero: "Get in touch",
     img: homepageImg,
@@ -257,7 +295,8 @@ export const heroData = [
     heading1: " Sports ",
     heading2: " Investment ",
     heading3: " Opportunities",
-    subheading: "At Sporticos Capital, we embrace decades of combined private equity and sports management expertise to put previously inaccessible sports investment opportunities within reach for those we serve.",
+    subheading:
+      "At Sporticos Capital, we embrace decades of combined private equity and sports management expertise to put previously inaccessible sports investment opportunities within reach for those we serve.",
     button: "Book Appointment",
     buttonhero: "Get in touch",
     img: aboutUsImg,
@@ -273,7 +312,8 @@ export const heroData = [
     heading1: "Facilitating ",
     heading2: " Seamless Club",
     heading3: " Operations",
-    subheading: "We support key operational expenses, player transfers, and beyond by making working capital available through our debt funding solutions.",
+    subheading:
+      "We support key operational expenses, player transfers, and beyond by making working capital available through our debt funding solutions.",
     button: "Book Appointment",
     buttonhero: "",
     img: debtfundingImg,
@@ -287,7 +327,8 @@ export const heroData = [
     heading: "Invest In",
     heading1: " Vetted Football",
     heading2: " Clubs",
-    subheading: "Our portfolio of high-potential clubs, leagues, and adjacent real estate drives ROI for investors while making a noteworthy impact.",
+    subheading:
+      "Our portfolio of high-potential clubs, leagues, and adjacent real estate drives ROI for investors while making a noteworthy impact.",
     button: "Book Appointment",
     buttonhero: "",
     img: clubImg,
@@ -303,7 +344,8 @@ export const heroData = [
     heading2: " And",
     heading3: " Mentors",
     heading4: " Together ",
-    subheading: "Through the power of unity, our e-mentorship platform sparks significant player growth with connections to professionals and former players who have been in their shoes.",
+    subheading:
+      "Through the power of unity, our e-mentorship platform sparks significant player growth with connections to professionals and former players who have been in their shoes.",
     button: "Book Appointment",
     buttonhero: "",
     img: ememtoringImg,
@@ -318,7 +360,8 @@ export const heroData = [
     heading1: " Tailored",
     heading2: " to Your Financial",
     heading3: " Goals ",
-    subheading: "We empower football players, executives, and staff alike to invest with confidence through our personalized wealth management solutions.",
+    subheading:
+      "We empower football players, executives, and staff alike to invest with confidence through our personalized wealth management solutions.",
     button: "Book Appointment",
     buttonhero: "",
     img: wealthImg,
@@ -333,7 +376,8 @@ export const heroData = [
     heading1: "Prioritizing ",
     headingspan: "Player ",
     heading2: "Performance ",
-    subheading: "We believe in the power of well-rounded players both on and off the field to support thriving football clubs.",
+    subheading:
+      "We believe in the power of well-rounded players both on and off the field to support thriving football clubs.",
     button: "Book Appointment",
     buttonhero: "",
     img: playpathwaImg,
@@ -365,7 +409,6 @@ export const heroData = [
     buttonhero: "",
     img: talkImg,
   },
-
 ];
 
 export const contactData = [
@@ -373,7 +416,8 @@ export const contactData = [
     id: 1,
     path: "/",
     heading: "Discover the Advantage of Sporticos Capital",
-    paragraph: "We invite growth-minded investors, club executives, and players to reach out today for ",
+    paragraph:
+      "We invite growth-minded investors, club executives, and players to reach out today for ",
     paragraph1: " accelerated growth tomorrow.",
     btn: "CONTACT  US",
   },
@@ -381,7 +425,8 @@ export const contactData = [
     id: 2,
     path: "/about-us",
     heading: "Reach Out",
-    paragraph: "For inquiries, investment opportunities, and general questions, we ",
+    paragraph:
+      "For inquiries, investment opportunities, and general questions, we ",
     paragraph1: " invite you to get in touch today.",
     btn: "CONTACT  US",
   },
@@ -393,7 +438,6 @@ export const contactData = [
     paragraph1: "additional questions. Thank you",
     btn: "CONTACT  US",
   },
-
 ];
 
 export const sliderData = [
@@ -401,24 +445,28 @@ export const sliderData = [
     id: 1,
     img: sliderimg1,
     sliderHeading: "Club Investments",
-    sliderpara: "Delivering meaningful returns to investors by taking a direct stake in a network of under-exposed clubs with high potential.",
+    sliderpara:
+      "Delivering meaningful returns to investors by taking a direct stake in a network of under-exposed clubs with high potential.",
   },
   {
     id: 2,
     img: sliderimg2,
     sliderHeading: "Debt Funding",
-    sliderpara: "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
+    sliderpara:
+      "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
   },
   {
     id: 3,
     img: sliderimg3,
     sliderHeading: "Player Pathways",
-    sliderpara: "Nurturing holistic player development to support each club’s success, creating a win-win for players and investors alike.",
+    sliderpara:
+      "Nurturing holistic player development to support each club’s success, creating a win-win for players and investors alike.",
   },
   {
     id: 4,
     img: sliderimg2,
     sliderHeading: "Debt Funding",
-    sliderpara: "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
+    sliderpara:
+      "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
   },
-]
+];

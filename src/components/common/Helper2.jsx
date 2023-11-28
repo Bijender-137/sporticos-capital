@@ -24,7 +24,6 @@ export const formdata = [
       "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
     path: "/contact",
   },
-
   {
     id: 2,
     heading: "Unlock Each Player’s Full Potential",
@@ -67,14 +66,12 @@ export const inputdata = [
     apointment: "Set an Appointment",
     path: "/contact",
   },
-
   {
     id: 2,
     email: "Email*",
     name: "Name",
     subject: "Subject",
     apointment: "Player Pathway - Potential",
-
     path: "/player-pathwa",
   },
   {
@@ -91,7 +88,6 @@ export const inputdata = [
     name: "Name",
     subject: "Subject",
     apointment: "Mentoring - Potential",
-
     path: "/e-mentoring",
   },
   {
@@ -100,7 +96,6 @@ export const inputdata = [
     name: "Name",
     subject: "Subject",
     apointment: "Club Investment - Potential",
-
     path: "/club-investments",
   },
   {
@@ -109,7 +104,6 @@ export const inputdata = [
     name: "Name",
     subject: "Subject",
     apointment: "Private Lending - Potential",
-
     path: "/debt-funding",
   },
 ];

@@ -3,14 +3,13 @@ import PerformanceImg from "../assets/images/webp/performance_img.webp";
 import {
   DollarbulbIcon,
   FootballIcon,
-  GrowIcon,
   GrowthIcon,
   HandspeopleIcon,
 } from "./common/Icons";
 const Performance = () => {
   return (
     <>
-      <div className="bg_clr_performance py-5">
+      <div className="bg_clr_performance py-5 overflow-hidden">
         <div className="container pt-2 pb-lg-4 mt-xl-5">
           <div className="text-center">
             <h5 className="fs-xxl ff-fontspring fw-semibold text-black mb-0">
@@ -26,7 +25,7 @@ const Performance = () => {
             </p>
           </div>
           <div className="row mt-md-5 pt-4">
-            <div className="col-md-4 pe-md-0">
+            <div className="col-md-4 pe-md-0" data-aos="fade-right">
               <div className="d-flex flex-column justify-content-md-between h-100">
                 <div className="d-flex align-items-center">
                   <div className="d-md-none">
@@ -50,13 +49,14 @@ const Performance = () => {
             <div className="col-md-4 d-none d-md-block">
               <div className="performance_img_w m-auto">
                 <img
+                  data-aos="zoom-in"
                   className="w-100 performance_img_h"
                   src={PerformanceImg}
                   alt="PerformanceImg"
                 />
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-left">
               <div className="d-flex flex-column h-100 justify-content-md-between text-md-end align-items-md-end">
                 <div className="d-flex align-items-center mt-4 mt-md-0">
                   <div className="d-md-none">

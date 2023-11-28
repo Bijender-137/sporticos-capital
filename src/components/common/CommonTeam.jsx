@@ -18,10 +18,11 @@ const CommonTeam = () => {
             const commonteamchange = location.pathname === teams.path;
             return commonteamchange ? (
               <div
-                className={`${about
-                  ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-4"
-                  : "pt-lg-2 pb-lg-3"
-                  }`}
+                className={`${
+                  about
+                    ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-4"
+                    : "pt-lg-2 pb-lg-3"
+                }`}
                 key={teams.id}
               >
                 <div className="text-center pb-4 pb-lg-5">
@@ -29,14 +30,20 @@ const CommonTeam = () => {
                     {teams.mainheading}
                   </h5>
                   <p
-                    className={`fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${home ? "pt-2 mt-1  " : ""
-                      }`}
+                    className={`fw-normal ffBarlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
+                      home ? "pt-2 mt-1  " : ""
+                    }`}
                   >
                     {teams.mainpara}
                   </p>
                 </div>
                 <Row className="py-4">
-                  <Col lg={6}>
+                  <Col
+                    lg={6}
+                    data-aos="fade-down"
+                    data-aos-delay="200"
+                    data-aos-ease="linear"
+                  >
                     <div className="common_team_card_shadow p-4 h-100 transition-300 common_card_w m-auto">
                       <div className="d-flex align-items-center">
                         <div className="common_team_border common_img_w">
@@ -60,7 +67,12 @@ const CommonTeam = () => {
                       </p>
                     </div>
                   </Col>
-                  <Col lg={6}>
+                  <Col
+                    lg={6}
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                    data-aos-ease="linear"
+                  >
                     <div className="common_team_card_shadow p-4 transition-300 mt-4 mt-lg-0 common_card_w m-auto">
                       <div className="d-flex align-items-center">
                         <div className="common_team_border common_img_w">
