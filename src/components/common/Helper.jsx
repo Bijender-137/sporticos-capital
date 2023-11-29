@@ -20,15 +20,15 @@ import {
 } from "./Icons";
 
 //All Heros Pages Images
-import talkImg from "../../assets/images/webp/hero-football.webp";
-import aboutUsImg from "../../assets/images/webp/hero-aboutus-img.webp";
-import clubImg from "../../assets/images/webp/hero-culbinvestment-img.webp";
-import debtfundingImg from "../../assets/images/webp/hero-debtfunding-img.webp";
-import ememtoringImg from "../../assets/images/webp/hero-ememtoring-img.webp";
-import wealthImg from "../../assets/images/webp/hero-wealth-img.webp";
-import playpathwaImg from "../../assets/images/webp/hero-play-pathwa-img.webp";
-import faqImg from "../../assets/images/webp/hero-faq-img.webp";
-import homepageImg from "../../assets/images/webp/herohomepage-img.webp";
+import talkimage from "../../assets/images/webp/hero-football.webp";
+import aboutUsimage from "../../assets/images/webp/hero-aboutus-img.webp";
+import clubimage from "../../assets/images/webp/hero-culbinvestment-img.webp";
+import debtfundingimage from "../../assets/images/webp/hero-debtfunding-img.webp";
+import ememtoringimage from "../../assets/images/webp/hero-ememtoring-img.webp";
+import wealthimage from "../../assets/images/webp/hero-wealth-img.webp";
+import playpathwaimage from "../../assets/images/webp/hero-play-pathwa-img.webp";
+import faqimage from "../../assets/images/webp/hero-faq-img.webp";
+import homepageimage from "../../assets/images/webp/herohomepage-img.webp";
 
 //slider Images
 import sliderimg1 from "../../assets/images/webp/club-drivingslider-image.webp";
@@ -61,7 +61,7 @@ export const accordionItems = [
   },
   {
     title: "How do you minimize risks for sports investors?",
-    content:                                                                              
+    content:
       "We diversify positions in under-exposed clubs, conduct due diligence, and employ proven strategies to minimize financial risks.",
   },
   {
@@ -267,7 +267,7 @@ export const heroData = [
     path: "/",
     maxW: "628px",
     maxW1: "550px",
-    className: "homepageImg ",
+    className: "homepage-image ",
     heading: (
       <>
         Unlocking High Impact Sports
@@ -278,12 +278,12 @@ export const heroData = [
       "With a global reach, Sporticos Capital offers solutions for growth in the sports industry with players and clubs at heart.",
     button: "Book Appointment",
     buttonhero: "Get in touch",
-    img: homepageImg,
+    img: homepageimage,
   },
   {
     path: "/about-us",
     maxW: "625px",
-    className: "abotusImg",
+    className: "abotus-image",
     heading: (
       <>
         A Thriving <span className="clr-yellow">{" "}Ecosystem</span> of
@@ -296,13 +296,13 @@ export const heroData = [
       "At Sporticos Capital, we embrace decades of combined private equity and sports management expertise to put previously inaccessible sports investment opportunities within reach for those we serve.",
     button: "Book Appointment",
     buttonhero: "Get in touch",
-    img: aboutUsImg,
+    img: aboutUsimage,
   },
 
   {
     path: "/debt-funding",
     maxW: "525px",
-    className: "debtImg",
+    className: "debt-image",
     heading: (
       <>
         <span className="clr-yellow">Facilitating</span> Seamless Club
@@ -312,12 +312,12 @@ export const heroData = [
     subheading:
       "We support key operational expenses, player transfers, and beyond by making working capital available through our debt funding solutions.",
     button: "Book Appointment",
-    img: debtfundingImg,
+    img: debtfundingimage,
   },
   {
     path: "/club-investments",
     maxW: "516px",
-    className: "culbImg",
+    className: "culb-image",
     heading: (
       <>
         Invest In <span className="clr-yellow">Vetted Football</span> Clubs
@@ -326,27 +326,27 @@ export const heroData = [
     subheading:
       "Our portfolio of high-potential clubs, leagues, and adjacent real estate drives ROI for investors while making a noteworthy impact.",
     button: "Book Appointment",
-    img: clubImg,
+    img: clubimage,
   },
   {
     path: "/e-mentoring",
     maxW: "600px",
-    className: "ementoringImg",
+    className: "ementoring-image",
     heading: (
       <>
         Bringing <span className="clr-yellow">Players</span> and
-        <span className="clr-yellow">Mentors</span> Together
+        <span className="clr-yellow">{" "}Mentors</span> Together
       </>
     ),
     subheading:
       "Through the power of unity, our e-mentorship platform sparks significant player growth with connections to professionals and former players who have been in their shoes.",
     button: "Book Appointment",
-    img: ememtoringImg,
+    img: ememtoringimage,
   },
   {
     path: "/wealth-management",
     maxW: "525px",
-    className: "wealthImg",
+    className: "wealth-image",
     heading: (
       <>
         Investments <span className="clr-yellow">Tailored</span> to Your
@@ -356,48 +356,47 @@ export const heroData = [
     subheading:
       "We empower football players, executives, and staff alike to invest with confidence through our personalized wealth management solutions.",
     button: "Book Appointment",
-    img: wealthImg,
+    img: wealthimage,
   },
   {
     path: "/player-pathwa",
     maxW: "571px",
-    className: "playerImg",
+    className: "player-image",
+    headingStyle: "pe-lg-5",
     heading: (
       <>
         Proudly
-        <span className="d-lg-block">
-          <span className="clr-yellow">Prioritizing</span> Player
-        </span>
+        <span className="clr-yellow">{" "}Prioritizing</span> Player
         Performance
       </>
     ),
     subheading:
       "We believe in the power of well-rounded players both on and off the field to support thriving football clubs.",
     button: "Book Appointment",
-    img: playpathwaImg,
+    img: playpathwaimage,
   },
   {
     path: "/faq",
     maxW: "548px",
-    className: "faqImg",
+    className: "faq-image",
     mainheading: (
       <>
         Frequently <span className="clr-yellow">Asked</span> Questions
       </>
     ),
-    img: faqImg,
+    img: faqimage,
   },
   {
     path: "/contact",
     maxW: "545px",
-    className: "contactImg",
+    className: "contact-image",
     mainheading: (
       <>
         Talk to The <span className="clr-yellow">Team</span>
       </>
     ),
     button: "Book Appointment",
-    img: talkImg,
+    img: talkimage,
   },
 ];
 
@@ -638,7 +637,7 @@ export const sporticoseTeam = [
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
     imageGirl: TeamMember2,
-    titlename2: "Dr. Hussa K. Al-Khalifa",
+    titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
     subtitle: "Founder & Executive Director",
     descriptionpara:
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
@@ -656,7 +655,7 @@ export const sporticoseTeam = [
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
     imageGirl: TeamMember2,
-    titlename2: "Dr. Hussa K. Al-Khalifa",
+    titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
     subtitle: "Founder & Executive Director",
     buttonAbout: "about us",
     descriptionpara:

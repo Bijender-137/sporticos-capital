@@ -17,7 +17,7 @@ const CommonHero = () => {
                         {currentData.mainheading}
                     </h1>
                     }
-                    {currentData?.heading && <h2 className="fs-5xl ff-fontspring text-white z-2 position-relative mb-0">
+                    {currentData?.heading && <h2 className={`fs-5xl ff-fontspring text-white z-2 position-relative mb-0 ${currentData.headingStyle}`}>
                         {currentData.heading}
                     </h2>
                     }

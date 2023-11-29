@@ -50,11 +50,11 @@ const DrivingSlider = () => {
           <div className="position-relative">
             <Swiper
               spaceBetween={24}
-              slidesPerView={3}
               navigation={{
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
               }}
+              className="px-3"
               loop={true}
               onSwiper={(swiperInstance) => {
                 // Save the Swiper instance to use it later
@@ -72,10 +72,10 @@ const DrivingSlider = () => {
                 },
               }}
             >
-              {sliderData.map((data, id) => {
+              {sliderData.map((data, index) => {
                 return (
-                  <SwiperSlide key={id} className="pt-4 pb-5 py-md-5">
-                    <div className="dreamPlayer-shadow  p-3 h-100 transition_300 mx-auto">
+                  <SwiperSlide key={index} className="pt-4 pb-5 py-sm-4 py-md-5 d-flex gap-2">
+                    <div className="dreamPlayer-shadow p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
                       <img
                         src={data.img}
                         alt="sliderImg"
@@ -84,7 +84,7 @@ const DrivingSlider = () => {
                       <p className="pt-3 mb-0 ff-fontspring fs-base fw-semibold">
                         {data.sliderHeading}
                       </p>
-                      <p className="pt-2 mb-0 ff-barlow fs-base fw-normal text-black opacity-07 pe-xl-3 pe-xxl-4 me-xxl-3">
+                      <p className="pt-2 mb-0 ff-barlow fs-base fw-normal text-black opacity-07 pe-md-2 pe-xl-3 pe-xxl-3 me-xxl-3">
                         {data.sliderpara}
                       </p>
                     </div>
@@ -93,9 +93,7 @@ const DrivingSlider = () => {
               })}
             </Swiper>
             <div
-              ref={(ref) => {
-                prevButtonRef = ref;
-              }}
+              ref={(ref) => { prevButtonRef = ref; }}
               className="swiper-button-prev transition_300 d-flex justify-content-center"
               onClick={handlePrev}
             >
@@ -104,9 +102,7 @@ const DrivingSlider = () => {
               </div>
             </div>
             <div
-              ref={(ref) => {
-                nextButtonRef = ref;
-              }}
+              ref={(ref) => { nextButtonRef = ref; }}
               className="swiper-button-next transition_300 d-flex justify-content-center"
               onClick={handleNext}
             >
@@ -115,7 +111,7 @@ const DrivingSlider = () => {
               </div>
             </div>
           </div>
-          <div className="d-flex justify-content-center pt_lg_0">
+          <div className="d-flex justify-content-center pt-4 pt-sm-0">
             <Link
               to="/about-us"
               className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow"

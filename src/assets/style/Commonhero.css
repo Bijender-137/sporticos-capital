@@ -1,48 +1,48 @@
-.homepageImg {
+.homepage-image {
     max-width: 470px;
     min-height: 230px;
 }
 
-.abotusImg {
+.abotus-image {
     max-width: 380px;
     min-height: 190px;
 }
 
-.debtImg {
+.debt-image {
     max-width: 570px;
     min-height: 280px;
 }
 
-.culbImg {
+.culb-image {
     max-width: 520px;
     min-height: 200px;
 }
 
-.ementoringImg {
+.ementoring-image {
     max-width: 570px;
     transform: translateX(30px);
     min-height: 220px;
 }
 
-.wealthImg {
+.wealth-image {
     max-width: 530px;
     transform: translateX(20px);
     min-height: 270px;
 }
 
-.playerImg {
+.player-image {
     max-width: 550px;
     transform: translateX(20px);
     min-height: 250px;
 }
 
-.faqImg {
+.faq-image {
     max-width: 430px;
     transform: translateX(45px);
     min-height: 330px;
 }
 
-.contactImg {
+.contact-image {
     max-width: 560px;
     transform: translateX(80px);
     min-height: 270px;
@@ -77,58 +77,58 @@
 }
 
 /* @media (min-width:370px) {
-    .faqImg {
+    .faq-image {
         max-width: 530px;
         transform: translate(80px, 30px);
     }
 }
 
 @media (min-width:385px) {
-    .faqImg {
+    .faq-image {
         max-width: 530px;
         transform: translate(65px, 30px);
     }
 } */
 
 @media (min-width:400px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 610px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 500px;
     }
 
-    .debtImg {
+    .debt-image {
         max-width: 630px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 680px;
         transform: translateX(18px);
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 770px;
         transform: translateX(60px);
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 600px;
         transform: translateX(40px);
     }
 
-    .playerImg {
+    .player-image {
         max-width: 650px;
         transform: translateX(50px);
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 480px;
         transform: translateX(10px);
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 670px;
         transform: translateX(80px);
     }
@@ -144,70 +144,70 @@
 }
 
 @media (min-width:576px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 620px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 480px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 730px;
         transform: translateX(0px);
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 770px;
         transform: translateX(0px);
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 600px;
         transform: translateX(0px);
     }
 
-    .playerImg {
+    .player-image {
         max-width: 650px;
         transform: translateX(0px);
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 400px;
         transform: translate(0px);
     }
 }
 
 @media (min-width:768px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 700px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 530px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 800px;
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 800px;
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 580px;
     }
 
-    .playerImg {
+    .player-image {
         max-width: 700px;
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 470px;
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 740px;
         transform: translateX(0px);
     }
@@ -220,39 +220,39 @@
 }
 
 @media (min-width:992px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 830px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 620px;
     }
 
-    .debtImg {
+    .debt-image {
         max-width: 950px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 1000px;
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 885px;
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 880px;
     }
 
-    .playerImg {
+    .player-image {
         max-width: 780px;
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 570px;
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 760px;
     }
 
@@ -264,191 +264,191 @@
 }
 
 @media (min-width:1100px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 870px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 690px;
     }
 
-    .debtImg {
+    .debt-image {
         max-width: 1000px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 1000px;
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 900px;
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 950px;
     }
 
-    .playerImg {
+    .player-image {
         max-width: 850px;
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 600px;
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 820px;
     }
 }
 
 @media (min-width:1200px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 900px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 900px;
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 1100px;
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 1020px;
     }
 
-    .playerImg {
+    .player-image {
         max-width: 1020px;
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 700px;
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 920px;
     }
 }
 
 @media (min-width:1300px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 950px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 970px;
     }
 
-    .debtImg {
+    .debt-image {
         max-width: 1100px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 1170px;
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 1170px;
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 1100px;
     }
 
-    .playerImg {
+    .player-image {
         max-width: 1100px;
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 730px;
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 1000px;
     }
 }
 
 @media (min-width:1400px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 1050px;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 1040px;
     }
 
-    .debtImg {
+    .debt-image {
         max-width: 1215px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 1250px;
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 1250px;
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 1140px;
     }
 
-    .playerImg {
+    .player-image {
         max-width: 1140px;
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 820px;
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 1080px;
     }
 }
 
 @media (min-width:1600px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 1120px;
     }
 }
 
 @media (min-width:1900px) {
-    .homepageImg {
+    .homepage-image {
         max-width: 1450px !important;
     }
 
-    .abotusImg {
+    .abotus-image {
         max-width: 1340px;
     }
 
-    .debtImg {
+    .debt-image {
         max-width: 1500px;
     }
 
-    .culbImg {
+    .culb-image {
         max-width: 1550px;
     }
 
-    .ementoringImg {
+    .ementoring-image {
         max-width: 1550px;
         height: 70%;
     }
 
-    .wealthImg {
+    .wealth-image {
         max-width: 1440px;
         height: 80%;
     }
 
-    .playerImg {
+    .player-image {
         max-width: 1440px;
     }
 
-    .faqImg {
+    .faq-image {
         max-width: 940px;
     }
 
-    .contactImg {
+    .contact-image {
         max-width: 1380px;
     }
 }
