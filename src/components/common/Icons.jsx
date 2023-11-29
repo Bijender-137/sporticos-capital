@@ -108,7 +108,7 @@ export const DropDown = () => {
 export const PlusIcon = () => {
   return (
     <svg
-      className="groupIconplus-nagetive"
+      className="groupiconplus-nagetive"
       width="32"
       height="32"
       viewBox="0 0 32 32"
@@ -126,7 +126,7 @@ export const PlusIcon = () => {
 export const NegativeIcon = () => {
   return (
     <svg
-      className="groupIconplus-nagetive"
+      className="groupiconplus-nagetive"
       width="32"
       height="32"
       viewBox="0 0 32 32"

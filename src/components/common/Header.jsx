@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { CrossIcons, MenuIcons } from "../common/Icons";
-import mainLogo from "../../assets/images/webp/page-logo.webp";
+import pagelogo from "../../assets/images/webp/page-logo.webp";
 import mainbg from "../../assets/images/webp/hero-main-img.webp";
 import mainbg1 from "../../assets/images/webp/hero-main-img-academy.webp";
 import { Link, useLocation } from "react-router-dom";
@@ -52,7 +52,7 @@ const Header = () => {
           <Container>
             <div
               className={`${show ? "nav-show transition_300" : "nav-fix transition_300"
-                } sideNavbar transition_300 bg-white z-4`}
+                } side-nav-bar transition_300 bg-white z-4`}
               onClick={(e) => e.stopPropagation()}
             >
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
@@ -97,9 +97,9 @@ const Header = () => {
                 <img
                   onClick={handleLogoClick}
                   loading="lazy"
-                  src={mainLogo}
-                  alt="mainlogo-page"
-                  className="mainLogo"
+                  src={pagelogo}
+                  alt="pagelogo-page"
+                  className="pagelogo"
                 />
               </Link>
               <div onClick={handleMenuClick} className="cursor_pointer">
