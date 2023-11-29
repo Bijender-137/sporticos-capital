@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { CrossIcons, MenuIcons } from "../common/Icons";
-import mainLogo from "../../assets/images/webp/main-logo.webp";
+import mainLogo from "../../assets/images/webp/page-logo.webp";
 import mainbg from "../../assets/images/webp/hero-main-img.webp";
 import mainbg1 from "../../assets/images/webp/hero-main-img-academy.webp";
 import { Link, useLocation } from "react-router-dom";
@@ -79,8 +79,8 @@ const Header = () => {
             </div>
           </Container>
         </nav>
-        <div className="flex-grow-1 d-flex align-items-center align-items-md-center position-relative z-1 mt-62 mt-sm-69 mt-md-80">
-          <Container className="px-0 d-flex flex-column justify-content-between">
+        <div className="flex-grow-1 h-100 d-flex align-items-center align-items-md-center position-relative z-1 mt-62 mt-sm-69 mt-md-80">
+          <Container className="px-0">
             <CommonHero />
           </Container>
         </div>

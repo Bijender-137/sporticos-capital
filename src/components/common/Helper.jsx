@@ -31,9 +31,9 @@ import faqImg from "../../assets/images/webp/hero-faq-img.webp";
 import homepageImg from "../../assets/images/webp/herohomepage-img.webp";
 
 //slider Images
-import sliderimg1 from "../../assets/images/webp/hero-slider-img1.webp";
-import sliderimg2 from "../../assets/images/webp/hero-slider-img2.webp";
-import sliderimg3 from "../../assets/images/webp/hero-slider-img3.webp";
+import sliderimg1 from "../../assets/images/webp/club-drivingslider-image.webp";
+import sliderimg2 from "../../assets/images/webp/debt-drivingslider-image.webp";
+import sliderimg3 from "../../assets/images/webp/player-drivingslider-image.webp";
 
 export const accordionItems = [
   {

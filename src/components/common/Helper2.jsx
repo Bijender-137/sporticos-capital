@@ -1,20 +1,20 @@
-import PlayerFirst from "../../assets/images/webp/player-dreams-1.webp";
-import PlayerSecond from "../../assets/images/webp/player-dreams-2.webp";
-import PlayerThird from "../../assets/images/webp/player-dreams-3.webp";
-import ManagmentPlay1 from "../../assets/images/webp/managment_play_1.webp";
-import ManagmentPlay2 from "../../assets/images/webp/managment_play_2.webp";
-import ManagmentPlay3 from "../../assets/images/webp/managment_play_3.webp";
-import Mentoring1 from "../../assets/images/webp/mentoring_1.webp";
-import Mentoring2 from "../../assets/images/webp/mentoring_2.webp";
-import Mentoring3 from "../../assets/images/webp/mentoring_3.webp";
-import Investment1 from "../../assets/images/webp/investment_1.webp";
-import Investment2 from "../../assets/images/webp/investment_2.webp";
-import Investment3 from "../../assets/images/webp/investment_3.webp";
-import Funding1 from "../../assets/images/webp/funding_1.webp";
-import Funding2 from "../../assets/images/webp/funding_2.webp";
-import Funding3 from "../../assets/images/webp/funding_3.webp";
-import TeamMember1 from "../../assets/images/webp/team_member_1.webp";
-import TeamMember2 from "../../assets/images/webp/team_member_2.webp";
+import PlayerFirst from "../../assets/images/webp/player-dreamscard-club-image.webp";
+import PlayerSecond from "../../assets/images/webp/player-dreamscard-enchanced-image.webp";
+import PlayerThird from "../../assets/images/webp/player-dreamscard-playerascensions-image.webp";
+import ManagmentPlay1 from "../../assets/images/webp/wealth-offeringcard-risk-image.webp";
+import ManagmentPlay2 from "../../assets/images/webp/wealth-offeringcard-flexible-image.webp";
+import ManagmentPlay3 from "../../assets/images/webp/wealth-offeringcard-shariah-image.webp";
+import Mentoring1 from "../../assets/images/webp/ementoring-puttingcard-resiliency-image.webp";
+import Mentoring2 from "../../assets/images/webp/ementoring-puttingcard-learning-image.webp";
+import Mentoring3 from "../../assets/images/webp/ementoring-puttingcard-optimal-image.webp";
+import Investment1 from "../../assets/images/webp/club-upsidecard-minimized-image.webp";
+import Investment2 from "../../assets/images/webp/club-upsidecard-meticulous-image.webp";
+import Investment3 from "../../assets/images/webp/club-upsidecard-holistic-image.webp";
+import Funding1 from "../../assets/images/webp/debfunding-ongoingclub-financing-image.webp";
+import Funding2 from "../../assets/images/webp/debfunding-ongoingclub-sharing-image.webp";
+import Funding3 from "../../assets/images/webp/debfunding-ongoingclub-underwrite-image.webp";
+import TeamMember1 from "../../assets/images/webp/wael-khattab-team-image.webp";
+import TeamMember2 from "../../assets/images/webp/dr-hussa-team-image.webp";
 // form submission data heading
 
 export const formdata = [
