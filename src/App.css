@@ -234,6 +234,16 @@ input:-webkit-autofill:active {
     border-radius: 50%;
 }
 
+/* PRELOADER */
+.loading {
+    z-index: 2000;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: #D9E76C;
+    position: fixed;
+}
+
 /* media quarry */
 @media (min-width:576px) {
     .dreamPlayer-shadow {

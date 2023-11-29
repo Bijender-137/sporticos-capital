@@ -38,40 +38,71 @@ const Header = () => {
 
   return (
     <>
-      <div className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`} style={{ background: `url(${backgroundImage})` }} onClick={() => setShow(false)}>
+      <div
+        className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`}
+        style={{ background: `url(${backgroundImage})` }}
+        onClick={() => setShow(false)}
+      >
         <nav className="bg-yellow position-fixed top-0 w-100 z-100">
           {show ? (
-            <div className="bg-black opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>) : ("")}
+            <div className="bg-black opacity-25 z-3 position-absolute top-0 start-0 w-100 h-100 min-vh-100"></div>
+          ) : (
+            ""
+          )}
           <Container>
-            <div className={`${show ? "nav-show transition_300" : "nav-fix transition_300"} sideNavbar transition_300 bg-white z-4`} onClick={(e) => e.stopPropagation()}>
+            <div
+              className={`${
+                show ? "nav-show transition_300" : "nav-fix transition_300"
+              } sideNavbar transition_300 bg-white z-4`}
+              onClick={(e) => e.stopPropagation()}
+            >
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
-                <div onClick={() => setShow(false)} className="position-absolute crossIcon">
+                <div
+                  onClick={() => setShow(false)}
+                  className="position-absolute crossIcon"
+                >
                   <CrossIcons />
                 </div>
                 {navLinks.map((navlink) => {
                   return (
                     <div key={navlink.id} className="mb-3 mb-md-4">
-                      <Link onClick={() => setShow(false)}
-                        className={`text-black ff-barlow fw-normal fs-sm ${location.pathname === navlink.path ? '' : 'opacity-07'} navlink`}
+                      <Link
+                        onClick={() => setShow(false)}
+                        className={`text-black ff-barlow fw-normal fs-sm ${
+                          location.pathname === navlink.path ? "" : "opacity-07"
+                        } navlink`}
                         to={navlink.path}
                       >
                         {navlink.NavName}
                       </Link>
-
                     </div>
                   );
                 })}
-                <Link to="/contact" className="navLinkButton-navsidebar transition_300 mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow" onClick={() => setShow(false)}>
+                <Link
+                  to="/contact"
+                  className="navLinkButton-navsidebar transition_300 mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow"
+                  onClick={() => setShow(false)}
+                >
                   contant Us
                 </Link>
-                <button className="navLinkButton-navsidebar transition_300 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow" type="button" onClick={() => setShow(false)}>
+                <Link
+                  to="/contact"
+                  className="navLinkButton-navsidebar transition_300 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow"
+                  onClick={() => setShow(false)}
+                >
                   set an appointment
-                </button>
+                </Link>
               </div>
             </div>
             <div className="d-flex justify-content-between align-items-center py-3">
               <Link to="/">
-                <img onClick={handleLogoClick} loading="lazy" src={mainLogo} alt="mainlogo-page" className="mainLogo" />
+                <img
+                  onClick={handleLogoClick}
+                  loading="lazy"
+                  src={mainLogo}
+                  alt="mainlogo-page"
+                  className="mainLogo"
+                />
               </Link>
               <div onClick={handleMenuClick} className="cursor_pointer">
                 <MenuIcons />
@@ -85,9 +116,8 @@ const Header = () => {
           </Container>
         </div>
       </div>
-
     </>
-  )
-}
+  );
+};
 
 export default Header;

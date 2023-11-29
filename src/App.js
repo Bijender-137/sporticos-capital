@@ -17,6 +17,7 @@ import Home from "./pages/Home";
 import FormSubmission from "./components/FormSubmission";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Preloader } from "./components/Preloader";
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
   }, [pathname]);
   return (
     <>
+      <Preloader/>
       <Header />
       <Routes>
         <Route exact path="/" Component={Home} />
