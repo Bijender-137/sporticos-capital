@@ -142,14 +142,14 @@ input:-webkit-autofill:active {
 
 .dreamPlayer-shadow:hover {
     -webkit-box-shadow: 0px 0px 33px -4px rgba(0, 0, 0, 0.12);
-    box-shadow: 0px 0px 33px -4px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 23px -4px rgba(0, 0, 0, 0.12);
     border: 1px solid transparent;
 }
 
 .dreamPlayer-shadow:hover img {
-    -ms-transform: scale(.97);
-    transform: scale(.97);
-    -webkit-transform: scale(.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97);
+    -webkit-transform: scale(0.97);
 }
 
 .dreamPlayer-shadow,

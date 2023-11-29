@@ -362,12 +362,11 @@ export const heroData = [
     path: "/player-pathwa",
     maxW: "571px",
     className: "player-image",
+    headingStyle: "pe-lg-5",
     heading: (
       <>
         Proudly
-        <span className="d-lg-block">
-          <span className="clr-yellow">{" "}Prioritizing</span> Player
-        </span>{" "}
+        <span className="clr-yellow">{" "}Prioritizing</span> Player
         Performance
       </>
     ),
@@ -638,7 +637,7 @@ export const sporticoseTeam = [
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
     imageGirl: TeamMember2,
-    titlename2: "Dr. Hussa K. Al-Khalifa",
+    titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
     subtitle: "Founder & Executive Director",
     descriptionpara:
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
@@ -656,7 +655,7 @@ export const sporticoseTeam = [
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
     imageGirl: TeamMember2,
-    titlename2: "Dr. Hussa K. Al-Khalifa",
+    titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
     subtitle: "Founder & Executive Director",
     buttonAbout: "about us",
     descriptionpara:

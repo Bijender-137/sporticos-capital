@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <>
       <div
-        className={`d-flex flex-column min-vh-100 overflow-hidden bgImg`}
+        className={`d-flex flex-column min-vh-100 overflow-hidden hero-bg-image`}
         style={{ background: `url(${backgroundImage})` }}
         onClick={() => setShow(false)}
       >
@@ -52,7 +52,7 @@ const Header = () => {
           <Container>
             <div
               className={`${show ? "nav-show transition_300" : "nav-fix transition_300"
-                } side-nav-bar transition_300 bg-white z-4`}
+                } side-nav-bar min-vh-100 position-fixed transition_300 bg-white z-4`}
               onClick={(e) => e.stopPropagation()}
             >
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
@@ -99,7 +99,7 @@ const Header = () => {
                   loading="lazy"
                   src={pagelogo}
                   alt="pagelogo-page"
-                  className="pagelogo"
+                  className="pagelogo-image"
                 />
               </Link>
               <div onClick={handleMenuClick} className="cursor_pointer">

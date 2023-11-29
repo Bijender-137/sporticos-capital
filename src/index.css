@@ -160,11 +160,10 @@ body {
   color: var(--clr-blue);
 }
 
+/* ------Navsiderbar-------- */
+
 .side-nav-bar {
   width: 300px;
-  background-color: white;
-  min-height: 100vh;
-  position: fixed;
 }
 
 .nav-fix {
@@ -179,25 +178,41 @@ body {
   position: fixed;
 }
 
-.cursor_pointer {
-  cursor: pointer;
-}
-
-.pagelogo {
-  max-width: 170px;
-  width: 100%;
-}
-
-.opacity-07 {
-  opacity: 0.7;
-}
-
 .crossIcon {
   top: 20px;
   right: 20px;
   cursor: pointer;
 }
 
+.pagelogo-image {
+  max-width: 170px;
+  width: 100%;
+}
+
+/* -----Common Classes------ */
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.opacity-07 {
+  opacity: 0.7;
+}
+
+.transition_300 {
+  -webkit-transition: all linear 300ms !important;
+  -o-transition: all linear 300ms !important;
+  transition: all linear 300ms !important;
+}
+
+.opacity-08 {
+  opacity: 0.8;
+}
+
+.z-4 {
+  z-index: 4;
+}
+
+/* -----common button-------- */
 .navLink-button {
   padding: 15px 29px;
   border-radius: 6px;
@@ -207,42 +222,13 @@ body {
   border: 2px solid var(--clr-yellow);
 }
 
-.transition_300 {
-  -webkit-transition: all linear 300ms !important;
-  -o-transition: all linear 300ms !important;
-  transition: all linear 300ms !important;
-}
-
 .navLink-button:hover {
   background-color: #fff;
 }
 
-.bg-hero-img {
-  background: url("./assets/images/webp/hero-main-img.webp") no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.z-4 {
-  z-index: 4;
-}
-
-.bgImg {
+.hero-bg-image {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-}
-
-.nextlevel-box {
-  padding: 8px 16px 16px 16px;
-}
-
-.nextlevel-box.last-child {
-  border: none;
-}
-
-.opacity-08 {
-  opacity: 0.8;
 }
 
 /* ------Accrodion section------ */
@@ -530,7 +516,7 @@ body {
     margin-top: 69px;
   }
 
-  .pagelogo {
+  .pagelogo-image {
     max-width: 200px;
     width: 100%;
   }
@@ -580,17 +566,11 @@ body {
     position: absolute;
   }
 
-  .nextlevel-box {
-    padding: 8px 14px 14px 14px;
-    min-height: 100%;
-
-  }
-
   .border-end-yellow {
     border-right: 1px solid var(--clr-yellow);
   }
 
-  .pagelogo {
+  .pagelogo-image {
     max-width: 261px;
     width: 100%;
   }
@@ -628,7 +608,7 @@ body {
     gap: 52px !important;
   }
 
-  .pagelogo {
+  .pagelogo-image {
     max-width: 261px;
     width: 100%;
   }
@@ -649,11 +629,6 @@ body {
     padding-top: 130px !important;
   }
 
-  .nextlevel-box {
-    padding: 8px 22px 24px 32px;
-    min-height: 100%;
-  }
-
   .max-w-790 {
     max-width: 790px;
   }
@@ -663,14 +638,6 @@ body {
 @media (min-width:1200px) {
   .gap-52 {
     gap: 52px !important;
-  }
-
-  .bg-hero-img {
-    background-size: 100% 100%;
-  }
-
-  .nextlevel-box {
-    padding: 8px 10px 20px 16px;
   }
 
   .swiper-button-next {
@@ -688,11 +655,6 @@ body {
   .swiper-button-prev {
     height: 44px !important;
     width: 44px !important;
-  }
-
-  .nextlevel-box {
-    padding: 8px 22px 24px 34px;
-
   }
 
   .swiper-button-next {
