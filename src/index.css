@@ -73,7 +73,6 @@ body {
   :root {
     --fs-base: 16px;
     --fs-md: 16px;
-    --fs-lg: 17px;
     --fs-xl: 25px;
     --fs-xxl: 26px;
     --fs-3xl: 28px;
@@ -85,9 +84,9 @@ body {
 
 @media (max-width:575.98px) {
   :root {
-    --fs-base: 15px;
-    --fs-md: 16px;
-    --fs-lg: 16px;
+    --fs-base: 14px;
+    --fs-md: 14px;
+    --fs-lg: 14px;
     --fs-xl: 20px;
     --fs-xxl: 22px;
     --fs-3xl: 24px;
