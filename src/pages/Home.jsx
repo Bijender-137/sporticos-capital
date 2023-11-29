@@ -1,14 +1,14 @@
 import React from "react";
 import CommonTeam from "../components/common/CommonTeam";
 import Performance from "../components/Performance";
-import Slider from "../components/Slider";
+import DrivingSlider from "../components/DrivingSlider";
 import CommonContactUs from "../components/common/CommonContactUs";
 
 const Home = () => {
   return (
     <>
       <div className="position-relative backgroundImg">
-        <Slider />
+        <DrivingSlider />
         <Performance />
         <CommonTeam />
         <CommonContactUs />
