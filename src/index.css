@@ -85,6 +85,7 @@ body {
 
 @media (max-width:575.98px) {
   :root {
+    --fs-base: 15px;
     --fs-md: 16px;
     --fs-lg: 16px;
     --fs-xl: 20px;

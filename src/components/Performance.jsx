@@ -39,7 +39,7 @@ const Performance = () => {
                   <div className="d-md-none">
                     <HandspeopleIcon />
                   </div>
-                  <p className="fs-lg ff-barlow fw-normal text-black opacity-07 performance_text_w_320 mb-0 ps-3 ps-md-0">
+                  <p className="fs-lg ff-barlow fw-normal text-black opacity-07 performance_text_w_para mb-0 ps-3 ps-md-0">
                     Founders with decades of combined private equity and sports
                     management expertise
                   </p>
@@ -62,7 +62,7 @@ const Performance = () => {
                   <div className="d-md-none">
                     <DollarbulbIcon />
                   </div>
-                  <p className="fs-lg ff-barlow fw-normal text-black opacity-07 mb-0 ps-3 ps-md-0 performance_text_270">
+                  <p className="fs-lg ff-barlow fw-normal text-black opacity-07 mb-0 ps-3 ps-md-0 performance_text_width">
                     Equitable, ESG-oriented opportunities that include women’s
                     football
                   </p>
@@ -71,7 +71,7 @@ const Performance = () => {
                   <div className="d-md-none">
                     <GrowthIcon />
                   </div>
-                  <p className="fs-lg ff-barlow fw-normal text-black opacity-07 performance_text_w_320 mb-0 ps-3 ps-md-0 ">
+                  <p className="fs-lg ff-barlow fw-normal text-black opacity-07 performance_text_w_para mb-0 ps-3 ps-md-0 ">
                     Purposeful investments with strategic, growth-oriented
                     partnerships
                   </p>

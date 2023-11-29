@@ -324,11 +324,11 @@ input:-webkit-autofill:active {
         max-width: 240px;
     }
 
-    .performance_text_w_320 {
+    .performance_text_w_para {
         max-width: 320px;
     }
 
-    .performance_text_270 {
+    .performance_text_width {
         max-width: 270px;
     }
 
