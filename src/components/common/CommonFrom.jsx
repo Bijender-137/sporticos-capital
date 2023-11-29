@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import { formdata, inputdata } from "./Helper";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
-import { DropDown } from "./common/Icons";
+import { DropDown } from "./Icons";
 
 const CommonFrom = () => {
   // heading--para***
