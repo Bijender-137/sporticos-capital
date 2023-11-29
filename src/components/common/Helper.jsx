@@ -55,50 +55,42 @@ import TeamMember2 from "../../assets/images/webp/dr-hussa-team-image.webp";
 
 export const accordionItems = [
   {
-    id: 1,
     title: "What is the primary focus of your club investments?",
     content:
       "We invest in high-potential football clubs, leagues, and adjacent real estate with meaningful upside potential for investors. Fill out the form on our Club Investments page or book an appointment to learn more.",
   },
   {
-    id: 2,
     title: "How do you minimize risks for sports investors?",
     content:
       "We diversify positions in under-exposed clubs, conduct due diligence, and employ proven strategies to minimize financial risks.",
   },
   {
-    id: 3,
     title: "How does your e-mentoring platform work?",
     content:
       "By connecting players with a network of mentors, including staff and former players, we foster player growth, resiliency, and well-being.",
   },
   {
-    id: 4,
     title: "What is your philosophy in terms of wealth management?",
     content:
       "We understand the lifecycle of an athlete’s career. In turn, we tailor our approach to lifestyle goals, time horizon, and values.",
   },
   {
-    id: 5,
     title:
       "Which investments are included as part of your wealth management offering?",
     content:
       "We offer personalized wealth management, including Shariah-compliant products, real estate, and frontier investments tailored to financial goals",
   },
   {
-    id: 6,
     title: "Who can benefit from your wealth management solutions?",
     content:
       "Whether you’re a football player, executive, or staff member, we empower individuals across any stage of their career to invest with confidence",
   },
   {
-    id: 7,
     title: "What is the objective of your player pathways program?",
     content:
       "Our program supports well-rounded player development while factoring into the ecosystem we use to build more competitive clubs.",
   },
   {
-    id: 8,
     title: "How do your debt funding solutions work?",
     content:
       "We provide working capital for operational expenses and player transfers through fair and attractive debt funding solutions checked by reputable underwriters",
@@ -107,37 +99,30 @@ export const accordionItems = [
 
 export const navLinks = [
   {
-    id: 1,
     NavName: "Club Investments",
     path: "/club-investments",
   },
   {
-    id: 2,
     NavName: "E-Mentoring",
     path: "/e-mentoring",
   },
   {
-    id: 3,
     NavName: "About Us",
     path: "/about-us",
   },
   {
-    id: 4,
     NavName: "FAQ",
     path: "/faq",
   },
   {
-    id: 5,
     NavName: "Player Pathwa",
     path: "/player-pathwa",
   },
   {
-    id: 6,
     NavName: "Wealth Management",
     path: "/wealth-management",
   },
   {
-    id: 7,
     NavName: "Debt Funding",
     path: "/debt-funding",
   },
@@ -145,7 +130,6 @@ export const navLinks = [
 
 export const nextlevelData = [
   {
-    id: 1,
     path: "/player-pathwa",
     heading: "Guiding Players to the Next Level",
     para: "While players within our athlete network focus on honing their ",
@@ -169,7 +153,6 @@ export const nextlevelData = [
     ],
   },
   {
-    id: 2,
     path: "/e-mentoring",
     heading: "Fostering Community, One Player at a Time",
     para: "Our e-mentorship platform connects mentors with mentees who",
@@ -197,7 +180,6 @@ export const nextlevelData = [
     ],
   },
   {
-    id: 3,
     path: "/debt-funding",
     heading: "Going Beyond Capital Alone",
     para: "Our background in private equity and sports management uniquely",
@@ -226,7 +208,6 @@ export const nextlevelData = [
     ],
   },
   {
-    id: 4,
     path: "/about-us",
     heading: "United By Our Mission",
     para: "Our mission is to make a lasting positive impact on the clubs, players, fans, and communities we invest in. We couple our proven managerial and operational strategies with our commitment to preserving club traditions, upholding responsible ESG practices, and developing underserved areas such as women’s football. Our core values include:",
@@ -254,7 +235,6 @@ export const nextlevelData = [
     ],
   },
   {
-    id: 5,
     path: "/wealth-management",
     heading: "Combining Expertise and Personalization",
     para: "Through our tailored wealth management solutions, we:",
@@ -284,7 +264,6 @@ export const nextlevelData = [
 ];
 export const heroData = [
   {
-    id: 1,
     path: "/",
     maxW: "628px",
     maxW1: "550px",
@@ -302,7 +281,6 @@ export const heroData = [
     img: homepageImg,
   },
   {
-    id: 2,
     path: "/about-us",
     maxW: "625px",
     className: "abotusImg",
@@ -322,7 +300,6 @@ export const heroData = [
   },
 
   {
-    id: 3,
     path: "/debt-funding",
     maxW: "525px",
     className: "debtImg",
@@ -338,7 +315,6 @@ export const heroData = [
     img: debtfundingImg,
   },
   {
-    id: 4,
     path: "/club-investments",
     maxW: "516px",
     className: "culbImg",
@@ -353,7 +329,6 @@ export const heroData = [
     img: clubImg,
   },
   {
-    id: 5,
     path: "/e-mentoring",
     maxW: "600px",
     className: "ementoringImg",
@@ -369,7 +344,6 @@ export const heroData = [
     img: ememtoringImg,
   },
   {
-    id: 6,
     path: "/wealth-management",
     maxW: "525px",
     className: "wealthImg",
@@ -385,7 +359,6 @@ export const heroData = [
     img: wealthImg,
   },
   {
-    id: 7,
     path: "/player-pathwa",
     maxW: "571px",
     className: "playerImg",
@@ -404,7 +377,6 @@ export const heroData = [
     img: playpathwaImg,
   },
   {
-    id: 8,
     path: "/faq",
     maxW: "548px",
     className: "faqImg",
@@ -416,7 +388,6 @@ export const heroData = [
     img: faqImg,
   },
   {
-    id: 9,
     path: "/contact",
     maxW: "545px",
     className: "contactImg",
@@ -432,7 +403,6 @@ export const heroData = [
 
 export const contactData = [
   {
-    id: 1,
     path: "/",
     heading: "Discover the Advantage of Sporticos Capital",
     paragraph:
@@ -441,7 +411,6 @@ export const contactData = [
     btn: "CONTACT  US",
   },
   {
-    id: 2,
     path: "/about-us",
     heading: "Reach Out",
     paragraph:
@@ -450,7 +419,6 @@ export const contactData = [
     btn: "CONTACT  US",
   },
   {
-    id: 3,
     path: "/faq",
     heading: "My question isn’t listed above...",
     paragraph: "We encourage you to reach out using the button below for",
@@ -461,28 +429,24 @@ export const contactData = [
 
 export const sliderData = [
   {
-    id: 1,
     img: sliderimg1,
     sliderHeading: "Club Investments",
     sliderpara:
       "Delivering meaningful returns to investors by taking a direct stake in a network of under-exposed clubs with high potential.",
   },
   {
-    id: 2,
     img: sliderimg2,
     sliderHeading: "Debt Funding",
     sliderpara:
       "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
   },
   {
-    id: 3,
     img: sliderimg3,
     sliderHeading: "Player Pathways",
     sliderpara:
       "Nurturing holistic player development to support each club’s success, creating a win-win for players and investors alike.",
   },
   {
-    id: 4,
     img: sliderimg2,
     sliderHeading: "Debt Funding",
     sliderpara:
@@ -493,38 +457,32 @@ export const sliderData = [
 
 export const formdata = [
   {
-    id: 1,
     heading:
       "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
     path: "/contact",
   },
   {
-    id: 2,
     heading: "Unlock Each Player’s Full Potential",
     para: "To get in touch about our player pathways, we encourage you to submit the form below.",
     path: "/player-pathwa",
   },
   {
-    id: 3,
     maxW: "600px",
     heading: "Leave Your Portfolio In Trusted Hands",
     para: "Take the first step toward our wealth management solutions by submitting the form below.",
     path: "/wealth-management",
   },
   {
-    id: 4,
     heading: "Discover the Advantage of E-Mentoring",
     para: "For more information about joining our e-mentoring program, simply fill out the form below.",
     path: "/e-mentoring",
   },
   {
-    id: 5,
     heading: "Winning Investment Portfolios Start Here",
     para: "Fill out the form below to learn more about our club investment opportunities.",
     path: "/club-investments",
   },
   {
-    id: 6,
     heading: "Secure Favorable Debt Funding Terms",
     para: "Submit the form below for more information about our debt funding solutions.",
     path: "/debt-funding",
@@ -533,7 +491,6 @@ export const formdata = [
 // form submission enputs
 export const inputdata = [
   {
-    id: 1,
     email: "Email*",
     name: "Name",
     subject: "Subject",
@@ -541,7 +498,6 @@ export const inputdata = [
     path: "/contact",
   },
   {
-    id: 2,
     email: "Email*",
     name: "Name",
     subject: "Subject",
@@ -549,7 +505,6 @@ export const inputdata = [
     path: "/player-pathwa",
   },
   {
-    id: 3,
     email: "Email*",
     name: "Name",
     subject: "Subject",
@@ -557,7 +512,6 @@ export const inputdata = [
     path: "/wealth-management",
   },
   {
-    id: 4,
     email: "Email*",
     name: "Name",
     subject: "Subject",
@@ -565,7 +519,6 @@ export const inputdata = [
     path: "/e-mentoring",
   },
   {
-    id: 5,
     email: "Email*",
     name: "Name",
     subject: "Subject",
@@ -573,7 +526,6 @@ export const inputdata = [
     path: "/club-investments",
   },
   {
-    id: 6,
     email: "Email*",
     name: "Name",
     subject: "Subject",
@@ -585,7 +537,6 @@ export const inputdata = [
 export const dreams = [
   {
     maxW: "500px",
-    id: 1,
     path: "/player-pathwa",
     heading: "Bringing Player Dreams to Fruition",
     para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
@@ -603,7 +554,6 @@ export const dreams = [
       "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
   },
   {
-    id: 2,
     maxW: "600px",
     path: "/wealth-management",
     heading: "Offering a Mosaic of Investment Options",
@@ -622,7 +572,6 @@ export const dreams = [
       "Mitigating risk while elevating potential returns through reputable, diversified investments with a track record of high performance.",
   },
   {
-    id: 3,
     maxW: "620px",
     path: "/e-mentoring",
     heading: "Putting Wisdom Within Reach",
@@ -641,7 +590,6 @@ export const dreams = [
       "Fortifying player mental health, recovery and growth through our dedicated network of leading sports professionals.",
   },
   {
-    id: 4,
     maxW: "750px",
     path: "/club-investments",
     heading: "Maximizing Your Upside Potential",
@@ -661,7 +609,6 @@ export const dreams = [
       "Leveraging synergies to develop players, cultivate exposure, and engage fans in an ecosystem of sustainable growth.",
   },
   {
-    id: 5,
     maxW: "680px",
     path: "/debt-funding",
     heading: "Ensuring Ongoing Club Growth",
@@ -683,35 +630,36 @@ export const dreams = [
 // sporticose team data
 export const sporticoseTeam = [
   {
-    id: 1,
     path: "/about-us",
-    mainheading: "The Sporticos Team",
-    mainpara: "",
-    manimg: TeamMember1,
-    heading: "Wael Khattab",
-    subheading: "Founder & Executive Director",
-    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
-    girlImg: TeamMember2,
-    heading2: "Dr. Hussa K. Al-Khalifa",
-    subheading2: "Founder & Executive Director",
-    para2:
+    title: "The Sporticos Team",
+    image: TeamMember1,
+    titlename: "Wael Khattab",
+    subtitle: "Founder & Executive Director",
+    subdescription:
+      "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
+    imageGirl: TeamMember2,
+    titlename2: "Dr. Hussa K. Al-Khalifa",
+    subtitle: "Founder & Executive Director",
+    descriptionpara:
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
   },
+
+  // home
   {
-    id: 2,
     path: "/",
-    mainheading: "Founding Team",
-    mainpara:
+    title: "Founding Team",
+    description:
       "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
-    manimg: TeamMember1,
-    heading: "Wael Khattab",
-    subheading: "Founder & Executive Director",
-    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
-    girlImg: TeamMember2,
-    heading2: "Dr. Hussa K. Al-Khalifa",
-    subheading2: "Founder & Executive Director",
-    btn: "about us",
-    para2:
+    image: TeamMember1,
+    titlename: "Wael Khattab",
+    subtitle: "Founder & Executive Director",
+    subdescription:
+      "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
+    imageGirl: TeamMember2,
+    titlename2: "Dr. Hussa K. Al-Khalifa",
+    subtitle: "Founder & Executive Director",
+    buttonAbout: "about us",
+    descriptionpara:
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions.",
   },
 ];

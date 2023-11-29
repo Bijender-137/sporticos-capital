@@ -23,27 +23,27 @@ const CommonTeam = () => {
         )}
         <Container className="py-lg-5">
           <div className="py-5">
-            {sporticoseTeam.map((teams) => {
-              const commonteamchange = location.pathname === teams.path;
+            {sporticoseTeam.map((data, index) => {
+              const commonteamchange = location.pathname === data.path;
               return commonteamchange ? (
                 <div
                   className={`${
                     about
-                      ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-4"
-                      : "pt-lg-2 pb-lg-3"
+                      ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-2"
+                      : "pt-lg-2"
                   }`}
-                  key={teams.id}
+                  key={index}
                 >
                   <div className="text-center pb-4 pb-lg-5">
                     <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
-                      {teams.mainheading}
+                      {data.title}
                     </h5>
                     <p
                       className={`fw-normal ff-barlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
                         home ? "pt-2 mt-1  " : ""
                       }`}
                     >
-                      {teams.mainpara}
+                      {data.description}
                     </p>
                   </div>
                   <Row className="py-4">
@@ -58,21 +58,21 @@ const CommonTeam = () => {
                           <div className="common_team_border common_img_w">
                             <img
                               className="transition-300 w-100"
-                              src={teams.manimg}
+                              src={data.image}
                               alt="founder img"
                             />
                           </div>
                           <div className="text-start ps-md-4 ms-3 ms-md-2">
                             <p className="ff-fontspring fs-lg clr_blue fw-normal mb-0">
-                              {teams.heading}
+                              {data.titlename}
                             </p>
                             <p className="ff-barlow mb-0 fw-normal text-black opacity-07 fs-base pt-1">
-                              {teams.subheading}
+                              {data.subtitle}
                             </p>
                           </div>
                         </div>
                         <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 max_w_535 pt-4 pb-md-3 mb-0">
-                          {teams.para}
+                          {data.subdescription}
                         </p>
                       </div>
                     </Col>
@@ -87,32 +87,32 @@ const CommonTeam = () => {
                           <div className="common_team_border common_img_w">
                             <img
                               className="transition-300 w-100"
-                              src={teams.girlImg}
+                              src={data.imageGirl}
                               alt="founder img"
                             />
                           </div>
                           <div className="text-start ps-md-4 ms-3 ms-md-2">
                             <p className="ff-fontspring fs-lg clr_blue fw-normal mb-0">
-                              {teams.heading2}
+                              {data.titlename2}
                             </p>
                             <p className="ff-barlow fw-normal text-black opacity-07 fs-base pt-1 mb-0">
-                              {teams.subheading2}
+                              {data.subtitle}
                             </p>
                           </div>
                         </div>
                         <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 max_w_535 pt-4 pb-md-3 mb-0">
-                          {teams.para2}
+                          {data.descriptionpara}
                         </p>
                       </div>
                     </Col>
                   </Row>
                   {home && (
-                    <div className="d-flex justify-content-center pt-4 mt-2 mt-lg-0 pt-lg-5">
+                    <div className="d-flex justify-content-center pt-4 mt-md-2 mt-lg-0 pt-lg-5">
                       <Link
                         to="/about-us"
                         className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow"
                       >
-                        {teams.btn}
+                        {data.buttonAbout}
                       </Link>
                     </div>
                   )}
