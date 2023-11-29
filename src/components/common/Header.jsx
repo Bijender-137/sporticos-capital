@@ -51,9 +51,8 @@ const Header = () => {
           )}
           <Container>
             <div
-              className={`${
-                show ? "nav-show transition_300" : "nav-fix transition_300"
-              } sideNavbar transition_300 bg-white z-4`}
+              className={`${show ? "nav-show transition_300" : "nav-fix transition_300"
+                } sideNavbar transition_300 bg-white z-4`}
               onClick={(e) => e.stopPropagation()}
             >
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
@@ -68,9 +67,8 @@ const Header = () => {
                     <div key={navlink.id} className="mb-3 mb-md-4">
                       <Link
                         onClick={() => setShow(false)}
-                        className={`text-black ff-barlow fw-normal fs-sm ${
-                          location.pathname === navlink.path ? "" : "opacity-07"
-                        } navlink`}
+                        className={`text-black ff-barlow fw-normal fs-sm ${location.pathname === navlink.path ? "" : "opacity-07"
+                          } navlink`}
                         to={navlink.path}
                       >
                         {navlink.NavName}
@@ -110,10 +108,8 @@ const Header = () => {
             </div>
           </Container>
         </nav>
-        <div className="flex-grow-1 h-100 d-flex align-items-center align-items-md-center position-relative z-1 mt-62 mt-sm-69 mt-md-80">
-          <Container className="px-0 pb-sm-5 pb-lg-0">
-            <CommonHero />
-          </Container>
+        <div className="flex-grow-1 h-100 d-flex flex-column justify-content-around flex-md-row align-items-md-center position-relative z-1 mt-62 mt-sm-69 mt-md-80">
+          <CommonHero />
         </div>
       </div>
     </>

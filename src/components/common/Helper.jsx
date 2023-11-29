@@ -271,7 +271,7 @@ export const heroData = [
     heading: (
       <>
         Unlocking High Impact Sports
-        <span className="clr-yellow">Investment</span> Opportunities
+        <span className="clr-yellow">{" "}Investment</span> Opportunities
       </>
     ),
     subheading:
@@ -286,9 +286,9 @@ export const heroData = [
     className: "abotusImg",
     heading: (
       <>
-        A Thriving <span className="clr-yellow">Ecosystem</span> of
-        <span className="clr-yellow">Sports</span> Investment
-        <span className="clr-yellow">Opportunities</span>
+        A Thriving <span className="clr-yellow">{" "}Ecosystem</span> of
+        <span className="clr-yellow">{" "}Sports</span> Investment
+        <span className="clr-yellow">{" "}Opportunities</span>
       </>
     ),
 
@@ -306,7 +306,7 @@ export const heroData = [
     heading: (
       <>
         <span className="clr-yellow">Facilitating</span> Seamless Club
-        <span className="clr-yellow">Operations</span>
+        <span className="clr-yellow">{" "}Operations</span>
       </>
     ),
     subheading:
@@ -379,7 +379,7 @@ export const heroData = [
   {
     path: "/faq",
     maxW: "548px",
-    className: ["faqImg","pt-5"],
+    className: "faqImg",
     mainheading: (
       <>
         Frequently <span className="clr-yellow">Asked</span> Questions
