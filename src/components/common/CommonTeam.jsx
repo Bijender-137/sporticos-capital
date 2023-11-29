@@ -110,7 +110,7 @@ const CommonTeam = () => {
                     <div className="d-flex justify-content-center pt-4 mt-md-2 mt-lg-0 pt-lg-5">
                       <Link
                         to="/about-us"
-                        className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow"
+                        className="fw-normal text-uppercase text-black fs-sm bg-yellow transition_300 navLink-button ff-barlow"
                       >
                         {data.buttonAbout}
                       </Link>

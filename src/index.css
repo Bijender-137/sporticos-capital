@@ -167,21 +167,12 @@ body {
 }
 
 .nav-fix {
-  overflow: hidden !important;
   right: -301px;
-  position: fixed;
 }
 
-.nav-show {
-  overflow: hidden !important;
-  right: 0;
-  position: fixed;
-}
-
-.crossIcon {
+.cross-icon {
   top: 20px;
   right: 20px;
-  cursor: pointer;
 }
 
 .pagelogo-image {
@@ -189,6 +180,14 @@ body {
   width: 100%;
 }
 
+.cross-iconhover:hover {
+  opacity: 1 !important;
+}
+
+.hero-bg-image {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
 /* -----Common Classes------ */
 .cursor_pointer {
   cursor: pointer;
@@ -216,9 +215,6 @@ body {
 .navLink-button {
   padding: 15px 29px;
   border-radius: 6px;
-  -webkit-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
-  transition: all linear 300ms;
   border: 2px solid var(--clr-yellow);
 }
 
@@ -226,12 +222,7 @@ body {
   background-color: #fff;
 }
 
-.hero-bg-image {
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-}
-
-/* ------Accrodion section------ */
+/* ------Faq Accrodion section------ */
 .max-w-1000 {
   max-width: 1000px !important;
 }
@@ -246,12 +237,9 @@ body {
 
 .accordion-content {
   max-height: 0px;
-  overflow: hidden;
 }
 
-
 .accordion.active .accordion-content {
-  overflow: hidden;
   padding-top: 12px;
   max-height: 280px;
 }
@@ -264,29 +252,11 @@ body {
 
 .groupiconplus-nagetive {
   min-width: 24px !important;
-  width: 100%;
   height: 24px !important;
 }
 
-.inline-btn {
-  padding: 9px 15px;
-  border-radius: 6px;
-  -webkit-transition: all linear 300ms;
-  -o-transition: all linear 300ms;
-  transition: all linear 300ms;
-  border: 1px solid white;
-}
 
-.inline-btn:hover {
-  background-color: white !important;
-  color: black !important;
-}
-
-.navLinkButton-navsidebar:hover {
-  color: black !important;
-}
-
-/* Webkit-specific styles */
+/* ------Webkit-specific styles remove------- */
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -411,17 +381,6 @@ body {
   width: 80px;
 }
 
-@media (max-width:360px) {
-  .gap-max-2 {
-    gap: 8px !important;
-  }
-
-  .inline-btn {
-    padding: 9px 9px !important;
-  }
-
-}
-
 @media (min-width:400px) {
   .swiper-button-next {
     right: 40% !important;
@@ -508,10 +467,6 @@ body {
     height: 28px;
   }
 
-  .inline-btn {
-    padding: 13px 15px;
-  }
-
   .mt-sm-69 {
     margin-top: 69px;
   }
@@ -551,10 +506,6 @@ body {
 @media (min-width:768px) {
   .gap-52 {
     gap: 100px !important;
-  }
-
-  .inline-btn {
-    padding: 19px 17px;
   }
 
   .mt-md-80 {

@@ -114,7 +114,7 @@ const DrivingSlider = () => {
           <div className="d-flex justify-content-center pt-4 pt-sm-0">
             <Link
               to="/about-us"
-              className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow"
+              className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button transition_300 ff-barlow"
             >
               reach out
             </Link>

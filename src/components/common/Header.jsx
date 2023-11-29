@@ -51,14 +51,14 @@ const Header = () => {
           )}
           <Container>
             <div
-              className={`${show ? "nav-show transition_300" : "nav-fix transition_300"
+              className={`${show ? "nav-show transition_300 position-fixed overflow-hidden end-0" : "nav-fix transition_300 position-fixed overflow-hidden"
                 } side-nav-bar min-vh-100 position-fixed transition_300 bg-white z-4`}
               onClick={(e) => e.stopPropagation()}
             >
               <div className="p-3 ps-sm-4 d-flex flex-column position-relative align-items-start">
                 <div
                   onClick={() => setShow(false)}
-                  className="position-absolute crossIcon"
+                  className="position-absolute cross-icon"
                 >
                   <CrossIcons />
                 </div>

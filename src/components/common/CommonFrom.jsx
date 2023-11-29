@@ -222,7 +222,7 @@ const CommonFrom = () => {
                 </div>
                 <div className="mt-4 mt-md-5 pt-lg-3">
                   <input
-                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 navLink-button"
+                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 navLink-button transition_300"
                     type="submit"
                     required
                     value="Submit"
