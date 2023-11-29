@@ -62,9 +62,9 @@ const Header = () => {
                 >
                   <CrossIcons />
                 </div>
-                {navLinks.map((navlink) => {
+                {navLinks.map((navlink, index) => {
                   return (
-                    <div key={navlink.id} className="mb-3 mb-md-4">
+                    <div key={index} className="mb-3 mb-md-4">
                       <Link
                         onClick={() => setShow(false)}
                         className={`text-black ff-barlow fw-normal fs-sm ${location.pathname === navlink.path ? "" : "opacity-07"

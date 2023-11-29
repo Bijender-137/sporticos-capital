@@ -9,10 +9,10 @@ const CommonCards = () => {
       <div className="py-5">
         <Container className="py-lg-5">
           <div className="py-md-3">
-            {dreams.map((dreamsplayer) => {
+            {dreams.map((dreamsplayer, index) => {
               const dreamplayerchange = location.pathname === dreamsplayer.path;
               return dreamplayerchange ? (
-                <div key={dreamsplayer.id}>
+                <div key={index}>
                   <p className="ff-fontspring fw-normal fs-xxl lh-42 text-center text-capitalize mb-0">
                     {dreamsplayer.heading}
                   </p>
