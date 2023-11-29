@@ -1,12 +1,12 @@
 import React, { useRef, useState } from "react";
 import { Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
-import { formdata, inputdata } from "./common/Helper";
+import { formdata, inputdata } from "./Helper";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import { DropDown } from "./common/Icons";
 
-const FormSubmission = () => {
+const CommonFrom = () => {
   // heading--para***
   const locatio = useLocation();
   const paragraph = locatio.pathname;
@@ -237,4 +237,4 @@ const FormSubmission = () => {
   );
 };
 
-export default FormSubmission;
+export default CommonFrom;

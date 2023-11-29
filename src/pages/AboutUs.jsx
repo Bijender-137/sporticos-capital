@@ -1,8 +1,8 @@
 import React from "react";
-import ContactUs from "../components/ContactUs";
 import CommonTeam from "../components/common/CommonTeam";
 import Location from "../components/Location";
 import CommonBorderCards from "../components/common/CommonBorderCards";
+import CommonContactUs from "../components/common/CommonContactUs";
 
 const AboutUs = () => {
   return (
@@ -11,7 +11,7 @@ const AboutUs = () => {
         <CommonBorderCards />
         <Location />
         <CommonTeam />
-        <ContactUs />
+        <CommonContactUs />
       </div>
     </>
   );

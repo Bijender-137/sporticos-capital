@@ -3,7 +3,7 @@ import { accordionItems } from "./common/Helper";
 import { Container } from "react-bootstrap";
 import { NegativeIcon, PlusIcon } from "./common/Icons";
 
-const Accordion = () => {
+const FaqAccrodion = () => {
   const [activeIndex, setActiveIndex] = useState(0); // Initialize with 0 to make the first item active
 
   const handleItemClick = (index) => {
@@ -51,4 +51,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default FaqAccrodion;

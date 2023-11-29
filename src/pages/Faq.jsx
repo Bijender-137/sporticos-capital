@@ -1,12 +1,12 @@
 import React from 'react'
-import Accordion from '../components/Accrodion'
-import ContactUs from '../components/ContactUs'
+import FaqAccrodion from '../components/FaqAccrodion'
+import CommonContactUs from '../components/common/CommonContactUs'
 
 const Faq = () => {
     return (
         <>
-            <Accordion />
-            <ContactUs />
+            <FaqAccrodion />
+            <CommonContactUs />
         </>
     )
 }

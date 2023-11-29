@@ -1,15 +1,14 @@
 import React from "react";
-import CommonCards from "../components/common/CommonCards";
-import FormSubmission from "../components/FormSubmission";
 import Captical from "../components/Captical";
+import CommonFrom from "../components/common/CommonFrom";
 
 const ClubInvestment = () => {
   return (
     <>
       <div className="position-relative backgroundImg">
-        <CommonCards />
+        <CommonFrom />
         <Captical />
-        <FormSubmission />
+        <CommonFrom />
       </div>
     </>
   );
