@@ -14,10 +14,10 @@ import ClubInvestment from "./pages/ClubInvestment";
 import DebtFunding from "./pages/DebtFunding";
 import AboutUs from "./pages/AboutUs";
 import Home from "./pages/Home";
-import FormSubmission from "./components/FormSubmission";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Preloader } from "./components/Preloader";
+// import { Preloader } from "./components/Preloader";
+import CommonFrom from "./components/common/CommonFrom";
 
 function App() {
   useEffect(() => {
@@ -39,7 +39,7 @@ function App() {
   }, [pathname]);
   return (
     <>
-      <Preloader/>
+      {/* <Preloader/> */}
       <Header />
       <Routes>
         <Route exact path="/" Component={Home} />
@@ -50,7 +50,7 @@ function App() {
         <Route exact path="/club-investments" Component={ClubInvestment} />
         <Route exact path="/debt-funding" Component={DebtFunding} />
         <Route exact path="/about-us" Component={AboutUs} />
-        <Route exact path="/contact" Component={FormSubmission} />
+        <Route exact path="/contact" Component={CommonFrom} />
       </Routes>
       <Footer />
       <BackTop />
