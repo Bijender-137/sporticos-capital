@@ -223,6 +223,16 @@ input:-webkit-autofill:active {
     height: 47px;
 }
 
+.position_chat_box {
+    top: 30px;
+    right: 15px;
+}
+
+.chatbox_width {
+    width: 40px;
+    height: 40px;
+}
+
 /* media quarry */
 @media (min-width:576px) {
     .dreamPlayer-shadow {
@@ -270,6 +280,10 @@ input:-webkit-autofill:active {
     .max-w-500 {
         max-width: 500px;
     }
+    .chatbox_width {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 @media (min-width:991.98px) {
@@ -283,6 +297,11 @@ input:-webkit-autofill:active {
 
     .performance_img_w {
         max-width: 320px;
+    }
+
+    .position_chat_box {
+        top: 74px;
+        right: 25px;
     }
 
     .common_img_w {
@@ -303,6 +322,10 @@ input:-webkit-autofill:active {
 
     .common_card_w {
         max-width: 100%;
+    }
+    .chatbox_width {
+        width: 81px;
+        height: 81px;
     }
 }
 
