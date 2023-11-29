@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import { sporticoseTeam } from "./Helper2";
+import { sporticoseTeam } from "./Helper";
 import { ChatBox } from "./Icons";
 const CommonTeam = () => {
   const location = useLocation();
