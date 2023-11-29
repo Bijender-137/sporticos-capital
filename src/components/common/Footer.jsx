@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import FooterLogo from "../../assets/images/svg/footer_logo.svg";
+import FooterLogo from "../../assets/images/webp/footer_logo.webp";
 import { Instagram, Linkdin, Twitter } from "../common/Icons";
 import { Link, useLocation } from "react-router-dom";
 
