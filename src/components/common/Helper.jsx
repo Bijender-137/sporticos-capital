@@ -61,7 +61,7 @@ export const accordionItems = [
   },
   {
     title: "How do you minimize risks for sports investors?",
-    content:
+    content:                                                                              
       "We diversify positions in under-exposed clubs, conduct due diligence, and employ proven strategies to minimize financial risks.",
   },
   {
