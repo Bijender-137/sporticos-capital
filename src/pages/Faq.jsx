@@ -1,11 +1,11 @@
 import React from 'react'
-import Accordion from '../components/Accrodion'
+import FaqAccrodion from '../components/FaqAccrodion'
 import ContactUs from '../components/ContactUs'
 
 const Faq = () => {
     return (
         <>
-            <Accordion />
+            <FaqAccrodion />
             <ContactUs />
         </>
     )
