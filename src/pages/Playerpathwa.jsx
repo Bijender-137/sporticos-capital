@@ -1,7 +1,7 @@
 import React from "react";
-import FormSubmission from "../components/FormSubmission";
 import CommonCards from "../components/common/CommonCards";
 import CommonBorderCards from "../components/common/CommonBorderCards";
+import CommonFrom from "../components/common/CommonFrom";
 
 const Playerpathwa = () => {
   return (
@@ -9,7 +9,7 @@ const Playerpathwa = () => {
       <div className="position-relative backgroundImg">
         <CommonCards />
         <CommonBorderCards />
-        <FormSubmission />
+        <CommonFrom />
       </div>
     </>
   );

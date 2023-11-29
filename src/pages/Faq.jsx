@@ -1,12 +1,12 @@
 import React from 'react'
 import FaqAccrodion from '../components/FaqAccrodion'
-import ContactUs from '../components/ContactUs'
+import CommonContactUs from '../components/common/CommonContactUs'
 
 const Faq = () => {
     return (
         <>
             <FaqAccrodion />
-            <ContactUs />
+            <CommonContactUs />
         </>
     )
 }

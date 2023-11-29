@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
-import { contactData } from './common/Helper';
+import { contactData } from './Helper';
 
-const ContactUs = () => {
+const CommonContactUs = () => {
     const location = useLocation();
     const currentPathname = location.pathname;
     const currentData = contactData.find((e) => e.path === currentPathname);
@@ -32,4 +32,4 @@ const ContactUs = () => {
     );
 };
 
-export default ContactUs;
+export default CommonContactUs;
