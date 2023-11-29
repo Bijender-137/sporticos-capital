@@ -11,7 +11,7 @@
 }
 
 .culbImg {
-    max-width: 550px;
+    max-width: 520px;
 }
 
 .ementoringImg {
@@ -31,7 +31,7 @@
 
 .faqImg {
     max-width: 460px;
-    transform: translateX(70px);
+    transform: translate(70px, 40px);
 }
 
 .contactImg {
@@ -70,14 +70,14 @@
 @media (min-width:370px) {
     .faqImg {
         max-width: 530px;
-        transform: translateX(70px);
+        transform: translate(80px, 30px);
     }
 }
 
-@media (min-width:387px) {
+@media (min-width:385px) {
     .faqImg {
         max-width: 530px;
-        transform: translateX(60px);
+        transform: translate(65px, 30px);
     }
 }
 
@@ -115,7 +115,7 @@
 
     .faqImg {
         max-width: 580px;
-        transform: translateX(90px);
+        transform: translate(85px, 30px);
     }
 
     .contactImg {
@@ -163,7 +163,7 @@
 
     .faqImg {
         max-width: 400px;
-        transform: translateX(0px);
+        transform: translate(0px);
     }
 }
 
