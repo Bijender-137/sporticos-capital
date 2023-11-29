@@ -379,7 +379,7 @@ export const heroData = [
   {
     path: "/faq",
     maxW: "548px",
-    className: ["faqImg","pt-5"],
+    className: "faqImg",
     mainheading: (
       <>
         Frequently <span className="clr-yellow">Asked</span> Questions
