@@ -20,15 +20,14 @@ const Accordion = () => {
           {accordionItems.map((item, index) => (
             <div className="pt-3" key={index}>
               <div
-                className={`accordion transition_300 p-2 py-3 p-sm-3 p-md-4 w-100 ${
-                  index === activeIndex ? "active transition_300" : ""
-                }`}
+                className={`accordion transition_300 p-2 py-3 p-sm-3 p-md-4 w-100 ${index === activeIndex ? "active transition_300" : ""
+                  }`}
               >
                 <div
                   className="cursor_pointer d-flex justify-content-between align-items-center"
                   onClick={() => handleItemClick(index)}
                 >
-                  <p className="mb-0 text-black ffBarlow fw-semibold fs-base pe-1">
+                  <p className="mb-0 text-black ff-barlow fw-semibold fs-base pe-1">
                     {item.title}
                   </p>
                   <span className="accordion-toggle transition_300">
@@ -36,11 +35,10 @@ const Accordion = () => {
                   </span>
                 </div>
                 <div
-                  className={`accordion-content transition_300 ${
-                    index === activeIndex ? "open" : ""
-                  }`}
+                  className={`accordion-content transition_300 ${index === activeIndex ? "open" : ""
+                    }`}
                 >
-                  <p className="mb-0 ffBarlow fs-sm fw-normal text-black opacity-08">
+                  <p className="mb-0 ff-barlow fs-sm fw-normal text-black opacity-08">
                     {item.content}
                   </p>
                 </div>

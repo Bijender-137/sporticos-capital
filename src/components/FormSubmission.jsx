@@ -85,7 +85,7 @@ const FormSubmission = () => {
             {currentheading?.para && (
               <p
                 style={{ maxWidth: currentheading.maxW }}
-                className="ffBarlow fs-base text-black fw-normal mb-0 pt-1 opacity-07 m-auto"
+                className="ff-barlow fs-base text-black fw-normal mb-0 pt-1 opacity-07 m-auto"
               >
                 {currentheading.para}
               </p>
@@ -100,7 +100,7 @@ const FormSubmission = () => {
               >
                 <div>
                   <input
-                    className="w-100 input-padding input-border transition_300 text-black ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 text-black ff-barlow fw-medium fs-sm"
                     type="email"
                     id="useremail"
                     name="useremail"
@@ -110,7 +110,7 @@ const FormSubmission = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border transition_300 ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 ff-barlow fw-medium fs-sm"
                     type="text"
                     id="name"
                     name="fname"
@@ -122,7 +122,7 @@ const FormSubmission = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border transition_300 ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 ff-barlow fw-medium fs-sm"
                     type="text"
                     id="subject"
                     name="fname"
@@ -134,7 +134,7 @@ const FormSubmission = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border transition_300 ffBarlow fw-medium fs-sm"
+                    className="w-100 input-padding input-border transition_300 ff-barlow fw-medium fs-sm"
                     type="text"
                     id="apointment"
                     name="fname"
@@ -148,15 +148,13 @@ const FormSubmission = () => {
                   <div className="position-relative">
                     <div
                       onClick={buttonClick}
-                      className={`w-100 cursor_pointer input-padding ffBarlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border transition_300 ${
-                        selectedOption ? "text-black" : "clr-gray"
-                      }`}
+                      className={`w-100 cursor_pointer input-padding ff-barlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border transition_300 ${selectedOption ? "text-black" : "clr-gray"
+                        }`}
                     >
                       {selectedOption || "Which best describes you?"}
                       <span
-                        className={`${
-                          open ? "dropdown-open" : "dropdown-closed"
-                        }`}
+                        className={`${open ? "dropdown-open" : "dropdown-closed"
+                          }`}
                       >
                         <DropDown />
                       </span>
@@ -166,9 +164,8 @@ const FormSubmission = () => {
                         <ul className="p-0">
                           {data.map((i, index) => (
                             <li
-                              className={`option transition_300 w-100 px-3 py-2 input-border transition_300 ffBarlow fw-medium fs-sm text-start cursor_pointer ${
-                                selectedOption === i ? "" : ""
-                              }`}
+                              className={`option transition_300 w-100 px-3 py-2 input-border transition_300 ff-barlow fw-medium fs-sm text-start cursor_pointer ${selectedOption === i ? "" : ""
+                                }`}
                               key={index}
                               onClick={() => optionClick(i)}
                             >
@@ -183,7 +180,7 @@ const FormSubmission = () => {
                 <div className="pt-2 mt-1">
                   <textarea
                     required
-                    className="w-100 text-black input-padding input-border transition_300 ffBarlow fw-medium fs-sm clr-gray textarea-resize"
+                    className="w-100 text-black input-padding input-border transition_300 ff-barlow fw-medium fs-sm clr-gray textarea-resize"
                     cols="0"
                     rows="5"
                     id="message"
@@ -201,7 +198,7 @@ const FormSubmission = () => {
                   />
                   <label
                     htmlFor="checked"
-                    className="ms-2 text-black opacity-07 ffBarlow fw-normal fs-sm"
+                    className="ms-2 text-black opacity-07 ff-barlow fw-normal fs-sm"
                   >
                     I agree to Sporticos-Capital
                     <span>

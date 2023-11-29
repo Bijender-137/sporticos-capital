@@ -18,28 +18,24 @@ const CommonHero = () => {
                 }
                 {currentData?.heading && <h2 className="fs-5xl ff-fontspring text-white z-2 position-relative mb-0">
                     {currentData.heading}
-                    <span className={`clr-yellow ${isPathActive('/player-pathwa') ? 'd-lg-block' : ''}`}>{currentData.heading1}<span className='text-white'>{currentData.headingspan}</span> </span>
-                    <span> {currentData.heading2}</span>
-                    <span className='clr-yellow'>{currentData.heading3}</span>
-                    <span> {currentData.heading4}</span>
                 </h2>
                 }
                 {currentData?.subheading &&
-                    <p style={{ maxWidth: currentData.maxW1 }} className="mb-0 opacity-07 ffBarlow text-white z-2 position-relative pt-2 fw-normal fs-lg">
+                    <p style={{ maxWidth: currentData.maxW1 }} className="mb-0 opacity-07 ff-barlow text-white z-2 position-relative pt-2 fw-normal fs-lg">
                         {currentData.subheading}
                     </p>
                 }
                 <div className="d-flex gap-sm-3 gap-max-2">
                     {currentData?.button &&
                         <div className="position-relative pt-2 z-2 pb-30 pb-sm-0">
-                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ffBarlow" type="button">
+                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ff-barlow" type="button">
                                 {currentData.button}
                             </button>
                         </div>
                     }
                     {currentData?.buttonhero &&
                         <div className="position-relative pt-2 z-2 pb-30 pb-sm-0">
-                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ffBarlow" type="button">
+                            <button className="mt-4 transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ff-barlow" type="button">
                                 {currentData.buttonhero}
                             </button>
                         </div>

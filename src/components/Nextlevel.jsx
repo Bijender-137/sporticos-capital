@@ -34,7 +34,7 @@ const Nextlevel = () => {
             {currentData.heading}
           </p>
           <p
-            className={`fs-base ffBarlow opacity-07 text-black fw-normal text-center max-w-750 mx-auto ${currentData.className}`}
+            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center max-w-750 mx-auto ${currentData.className}`}
           >
             {currentData.para}
             <span className="d-lg-block">{currentData.spanpara}</span>
@@ -51,8 +51,8 @@ const Nextlevel = () => {
                 lg={player ? 3 : 3}
                 xs={6}
                 className={`pt-3 pt-md-0 ${columnindex === currentData.submap.length - 1
-                    ? "last-child"
-                    : "border-end-yellow"
+                  ? "last-child"
+                  : "border-end-yellow"
                   }`}
               >
                 <div
@@ -69,7 +69,7 @@ const Nextlevel = () => {
                     {levelsub.icon}
                   </div>
                   <p
-                    className={`ffBarlow fs-base fw-normal text-black text-center text-md-start mb-0
+                    className={`ff-barlow fs-base fw-normal text-black text-center text-md-start mb-0
                    ${show ? "pt-2 mb-0" : ""}
                    ${edatashow && columnindex !== 0
                         ? "pe-xl-4 pb-2 me-xxl-4"

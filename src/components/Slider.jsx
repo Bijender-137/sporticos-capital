@@ -39,7 +39,7 @@ const Slider = () => {
           <h5 className="text-center fs-xxl ff-fontspring fw-semibold text-black mb-0">
             Driving Value with Our Integrated Approach
           </h5>
-          <p className="text-center fs-base fw-normal text-black opacity-07 ffBarlow mb-0 pt-1">
+          <p className="text-center fs-base fw-normal text-black opacity-07 ff-barlow mb-0 pt-1">
             Through diversified verticals focused on the football industry, we
             empower investors,{" "}
             <span className="d-md-block">
@@ -84,7 +84,7 @@ const Slider = () => {
                       <p className="pt-3 mb-0 ff-fontspring fs-base fw-semibold">
                         {data.sliderHeading}
                       </p>
-                      <p className="pt-2 mb-0 ffBarlow fs-base fw-normal text-black opacity-07 pe-xl-3 pe-xxl-4 me-xxl-3">
+                      <p className="pt-2 mb-0 ff-barlow fs-base fw-normal text-black opacity-07 pe-xl-3 pe-xxl-4 me-xxl-3">
                         {data.sliderpara}
                       </p>
                     </div>
@@ -118,7 +118,7 @@ const Slider = () => {
           <div className="d-flex justify-content-center pt_lg_0">
             <Link
               to="/about-us"
-              className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ffBarlow"
+              className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow"
             >
               reach out
             </Link>

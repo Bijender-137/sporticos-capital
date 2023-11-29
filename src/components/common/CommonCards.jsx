@@ -18,7 +18,7 @@ const CommonCards = () => {
                   </p>
                   <p
                     style={{ maxWidth: dreamsplayer.maxW }}
-                    className={`ffBarlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
+                    className={`ff-barlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
                   >
                     {dreamsplayer.para}{" "}
                     <span className="fw-bold">{dreamsplayer.para1}</span>
@@ -41,7 +41,7 @@ const CommonCards = () => {
                         <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
                           {dreamsplayer.subHead}
                         </h2>
-                        <p className="fw-normal ffBarlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 mb-0">
+                        <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 mb-0">
                           {dreamsplayer.paragraph}
                         </p>
                       </div>
@@ -63,7 +63,7 @@ const CommonCards = () => {
                         <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
                           {dreamsplayer.subHead2}
                         </h2>
-                        <p className="fw-normal ffBarlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
+                        <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
                           {dreamsplayer.paragraph2}
                         </p>
                       </div>
@@ -85,7 +85,7 @@ const CommonCards = () => {
                         <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
                           {dreamsplayer.subHead3}
                         </h2>
-                        <p className="fw-normal ffBarlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
+                        <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
                           {dreamsplayer.paragraph3}
                         </p>
                       </div>
