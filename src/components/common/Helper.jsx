@@ -34,6 +34,24 @@ import homepageImg from "../../assets/images/webp/herohomepage-img.webp";
 import sliderimg1 from "../../assets/images/webp/club-drivingslider-image.webp";
 import sliderimg2 from "../../assets/images/webp/debt-drivingslider-image.webp";
 import sliderimg3 from "../../assets/images/webp/player-drivingslider-image.webp";
+// helper_2
+import PlayerFirst from "../../assets/images/webp/player-dreamscard-club-image.webp";
+import PlayerSecond from "../../assets/images/webp/player-dreamscard-enchanced-image.webp";
+import PlayerThird from "../../assets/images/webp/player-dreamscard-playerascensions-image.webp";
+import ManagmentPlay1 from "../../assets/images/webp/wealth-offeringcard-risk-image.webp";
+import ManagmentPlay2 from "../../assets/images/webp/wealth-offeringcard-flexible-image.webp";
+import ManagmentPlay3 from "../../assets/images/webp/wealth-offeringcard-shariah-image.webp";
+import Mentoring1 from "../../assets/images/webp/ementoring-puttingcard-resiliency-image.webp";
+import Mentoring2 from "../../assets/images/webp/ementoring-puttingcard-learning-image.webp";
+import Mentoring3 from "../../assets/images/webp/ementoring-puttingcard-optimal-image.webp";
+import Investment1 from "../../assets/images/webp/club-upsidecard-minimized-image.webp";
+import Investment2 from "../../assets/images/webp/club-upsidecard-meticulous-image.webp";
+import Investment3 from "../../assets/images/webp/club-upsidecard-holistic-image.webp";
+import Funding1 from "../../assets/images/webp/debfunding-ongoingclub-financing-image.webp";
+import Funding2 from "../../assets/images/webp/debfunding-ongoingclub-sharing-image.webp";
+import Funding3 from "../../assets/images/webp/debfunding-ongoingclub-underwrite-image.webp";
+import TeamMember1 from "../../assets/images/webp/wael-khattab-team-image.webp";
+import TeamMember2 from "../../assets/images/webp/dr-hussa-team-image.webp";
 
 export const accordionItems = [
   {
@@ -271,7 +289,12 @@ export const heroData = [
     maxW: "628px",
     maxW1: "550px",
     className: "homepageImg ",
-    heading: <>Unlocking High Impact Sports <span className="clr-yellow">Investment</span> Opportunities </>,
+    heading: (
+      <>
+        Unlocking High Impact Sports{" "}
+        <span className="clr-yellow">Investment</span> Opportunities{" "}
+      </>
+    ),
     subheading:
       "With a global reach, Sporticos Capital offers solutions for growth in the sports industry with players and clubs at heart.",
     button: "Book Appointment",
@@ -283,7 +306,13 @@ export const heroData = [
     path: "/about-us",
     maxW: "625px",
     className: "abotusImg",
-    heading: <>A Thriving <span className="clr-yellow">Ecosystem</span> of <span className="clr-yellow">Sports</span> Investment <span className="clr-yellow">Opportunities</span> </>,
+    heading: (
+      <>
+        A Thriving <span className="clr-yellow">Ecosystem</span> of{" "}
+        <span className="clr-yellow">Sports</span> Investment{" "}
+        <span className="clr-yellow">Opportunities</span>{" "}
+      </>
+    ),
 
     subheading:
       "At Sporticos Capital, we embrace decades of combined private equity and sports management expertise to put previously inaccessible sports investment opportunities within reach for those we serve.",
@@ -297,7 +326,12 @@ export const heroData = [
     path: "/debt-funding",
     maxW: "525px",
     className: "debtImg",
-    heading: <><span className="clr-yellow">Facilitating</span> Seamless Club <span className="clr-yellow">Operations</span> </>,
+    heading: (
+      <>
+        <span className="clr-yellow">Facilitating</span> Seamless Club{" "}
+        <span className="clr-yellow">Operations</span>{" "}
+      </>
+    ),
     subheading:
       "We support key operational expenses, player transfers, and beyond by making working capital available through our debt funding solutions.",
     button: "Book Appointment",
@@ -308,7 +342,11 @@ export const heroData = [
     path: "/club-investments",
     maxW: "516px",
     className: "culbImg",
-    heading: <>Invest In <span className="clr-yellow">Vetted Football</span> Clubs</>,
+    heading: (
+      <>
+        Invest In <span className="clr-yellow">Vetted Football</span> Clubs
+      </>
+    ),
     subheading:
       "Our portfolio of high-potential clubs, leagues, and adjacent real estate drives ROI for investors while making a noteworthy impact.",
     button: "Book Appointment",
@@ -319,7 +357,12 @@ export const heroData = [
     path: "/e-mentoring",
     maxW: "600px",
     className: "ementoringImg",
-    heading: <>Bringing <span className="clr-yellow">Players</span> and <span className="clr-yellow">Mentors</span> Together </>,
+    heading: (
+      <>
+        Bringing <span className="clr-yellow">Players</span> and{" "}
+        <span className="clr-yellow">Mentors</span> Together{" "}
+      </>
+    ),
     subheading:
       "Through the power of unity, our e-mentorship platform sparks significant player growth with connections to professionals and former players who have been in their shoes.",
     button: "Book Appointment",
@@ -330,7 +373,12 @@ export const heroData = [
     path: "/wealth-management",
     maxW: "525px",
     className: "wealthImg",
-    heading: <>Investments <span className="clr-yellow">Tailored</span> to Your Financial <span className="clr-yellow">Goals</span> </>,
+    heading: (
+      <>
+        Investments <span className="clr-yellow">Tailored</span> to Your
+        Financial <span className="clr-yellow">Goals</span>{" "}
+      </>
+    ),
     subheading:
       "We empower football players, executives, and staff alike to invest with confidence through our personalized wealth management solutions.",
     button: "Book Appointment",
@@ -341,7 +389,15 @@ export const heroData = [
     path: "/player-pathwa",
     maxW: "571px",
     className: "playerImg",
-    heading: <>Proudly <span className="d-lg-block"><span className="clr-yellow">Prioritizing</span> Player</span> Performance </>,
+    heading: (
+      <>
+        Proudly{" "}
+        <span className="d-lg-block">
+          <span className="clr-yellow">Prioritizing</span> Player
+        </span>{" "}
+        Performance{" "}
+      </>
+    ),
     subheading:
       "We believe in the power of well-rounded players both on and off the field to support thriving football clubs.",
     button: "Book Appointment",
@@ -352,7 +408,11 @@ export const heroData = [
     path: "/faq",
     maxW: "548px",
     className: "faqImg",
-    mainheading: <>Frequently <span className="clr-yellow">Asked</span> Questions</>,
+    mainheading: (
+      <>
+        Frequently <span className="clr-yellow">Asked</span> Questions
+      </>
+    ),
     img: faqImg,
   },
   {
@@ -360,7 +420,11 @@ export const heroData = [
     path: "/contact",
     maxW: "545px",
     className: "contactImg",
-    mainheading: <>Talk to The <span className="clr-yellow">Team</span></>,
+    mainheading: (
+      <>
+        Talk to The <span className="clr-yellow">Team</span>
+      </>
+    ),
     button: "Book Appointment",
     img: talkImg,
   },
@@ -423,5 +487,231 @@ export const sliderData = [
     sliderHeading: "Debt Funding",
     sliderpara:
       "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
+  },
+];
+// form submission data heading
+
+export const formdata = [
+  {
+    id: 1,
+    heading:
+      "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
+    path: "/contact",
+  },
+  {
+    id: 2,
+    heading: "Unlock Each Player’s Full Potential",
+    para: "To get in touch about our player pathways, we encourage you to submit the form below.",
+    path: "/player-pathwa",
+  },
+  {
+    id: 3,
+    maxW: "600px",
+    heading: "Leave Your Portfolio In Trusted Hands",
+    para: "Take the first step toward our wealth management solutions by submitting the form below.",
+    path: "/wealth-management",
+  },
+  {
+    id: 4,
+    heading: "Discover the Advantage of E-Mentoring",
+    para: "For more information about joining our e-mentoring program, simply fill out the form below.",
+    path: "/e-mentoring",
+  },
+  {
+    id: 5,
+    heading: "Winning Investment Portfolios Start Here",
+    para: "Fill out the form below to learn more about our club investment opportunities.",
+    path: "/club-investments",
+  },
+  {
+    id: 6,
+    heading: "Secure Favorable Debt Funding Terms",
+    para: "Submit the form below for more information about our debt funding solutions.",
+    path: "/debt-funding",
+  },
+];
+// form submission enputs
+export const inputdata = [
+  {
+    id: 1,
+    email: "Email*",
+    name: "Name",
+    subject: "Subject",
+    apointment: "Set an Appointment",
+    path: "/contact",
+  },
+  {
+    id: 2,
+    email: "Email*",
+    name: "Name",
+    subject: "Subject",
+    apointment: "Player Pathway - Potential",
+    path: "/player-pathwa",
+  },
+  {
+    id: 3,
+    email: "Email*",
+    name: "Name",
+    subject: "Subject",
+    apointment: "Wealth Management - Potential",
+    path: "/wealth-management",
+  },
+  {
+    id: 4,
+    email: "Email*",
+    name: "Name",
+    subject: "Subject",
+    apointment: "Mentoring - Potential",
+    path: "/e-mentoring",
+  },
+  {
+    id: 5,
+    email: "Email*",
+    name: "Name",
+    subject: "Subject",
+    apointment: "Club Investment - Potential",
+    path: "/club-investments",
+  },
+  {
+    id: 6,
+    email: "Email*",
+    name: "Name",
+    subject: "Subject",
+    apointment: "Private Lending - Potential",
+    path: "/debt-funding",
+  },
+];
+// common cards data
+export const dreams = [
+  {
+    maxW: "500px",
+    id: 1,
+    path: "/player-pathwa",
+    heading: "Bringing Player Dreams to Fruition",
+    para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
+    dremImg: PlayerFirst,
+    dremImg2: PlayerSecond,
+    dremImg3: PlayerThird,
+    subHead: "Club Synergies",
+    paragraph:
+      "Improving the ROI of our club investments by connecting budding players with opportunities for measurable growth.",
+    subHead2: "Enhanced Exposure",
+    paragraph2:
+      "Training players on media engagements while leveraging our marketing packages to improve public sentiment, scouting potential, and club branding.",
+    subHead3: "Player Ascensions",
+    paragraph3:
+      "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
+  },
+  {
+    id: 2,
+    maxW: "600px",
+    path: "/wealth-management",
+    heading: "Offering a Mosaic of Investment Options",
+    para: "We believe in finding the right investment solutions to make the most of the compensation you’ve received from the football industry.",
+    dremImg: ManagmentPlay1,
+    dremImg2: ManagmentPlay2,
+    dremImg3: ManagmentPlay3,
+    subHead: "Shariah-Compliant Options",
+    paragraph:
+      "Supporting the ever-expanding base of Muslim and conservative players through value-aligned, Shariah-compliant investment options.",
+    subHead2: "Flexible Products",
+    paragraph2:
+      "Pairing our clients with the optimal investment products, whether that’s real estate, fixed income, or frontier investments.",
+    subHead3: "Risk Protection",
+    paragraph3:
+      "Mitigating risk while elevating potential returns through reputable, diversified investments with a track record of high performance.",
+  },
+  {
+    id: 3,
+    maxW: "620px",
+    path: "/e-mentoring",
+    heading: "Putting Wisdom Within Reach",
+    para: "Our network of experts, coaches, and former players unite for the betterment of the players we serve.",
+    dremImg: Mentoring1,
+    dremImg2: Mentoring2,
+    dremImg3: Mentoring3,
+    subHead: "Resiliency Building",
+    paragraph:
+      "Priming players to not only endure, but also thrive throughout the most competitive levels of football.",
+    subHead2: "Accelerated Learning",
+    paragraph2:
+      "Cultivating off-field skills for more impactful players while building a sense of community among our clubs.",
+    subHead3: "Optimal Performance",
+    paragraph3:
+      "Fortifying player mental health, recovery and growth through our dedicated network of leading sports professionals.",
+  },
+  {
+    id: 4,
+    maxW: "750px",
+    path: "/club-investments",
+    heading: "Maximizing Your Upside Potential",
+    para: "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
+    para1: " Here’s what you can expect.",
+    dremImg: Investment1,
+    dremImg2: Investment2,
+    dremImg3: Investment3,
+    subHead: "Minimized Risk",
+    paragraph:
+      "Establishing diverse positions in under-exposed clubs with immense untapped value to minimize financial risks.",
+    subHead2: "Meticulous Research",
+    paragraph2:
+      "Conducting extensive due diligence to ensure the performance potential of each investment before buying a stake.",
+    subHead3: "Holistic Growth",
+    paragraph3:
+      "Leveraging synergies to develop players, cultivate exposure, and engage fans in an ecosystem of sustainable growth.",
+  },
+  {
+    id: 5,
+    maxW: "680px",
+    path: "/debt-funding",
+    heading: "Ensuring Ongoing Club Growth",
+    para: "Through fair rates for clubs and attractive interest income for our investors, we facilitate mutually agreeable debt funding terms.",
+    dremImg: Funding1,
+    dremImg2: Funding2,
+    dremImg3: Funding3,
+    subHead: "Strategic Financing",
+    paragraph:
+      "Supporting high-impact activities such as player transfers to sharpen the competitive edge of the clubs we work with.",
+    subHead2: "Revenue Sharing",
+    paragraph2:
+      "Allocating working capital into revenue-generating operations to secure meaningful value for both parties.",
+    subHead3: "Reputable Underwriters",
+    paragraph3:
+      "Leaning on our partnerships with vetted underwriters to evaluate risk and determine the appropriate terms.",
+  },
+];
+// sporticose team data
+export const sporticoseTeam = [
+  {
+    id: 1,
+    path: "/about-us",
+    mainheading: "The Sporticos Team",
+    mainpara: "",
+    manimg: TeamMember1,
+    heading: "Wael Khattab",
+    subheading: "Founder & Executive Director",
+    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
+    girlImg: TeamMember2,
+    heading2: "Dr. Hussa K. Al-Khalifa",
+    subheading2: "Founder & Executive Director",
+    para2:
+      "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
+  },
+  {
+    id: 2,
+    path: "/",
+    mainheading: "Founding Team",
+    mainpara:
+      "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
+    manimg: TeamMember1,
+    heading: "Wael Khattab",
+    subheading: "Founder & Executive Director",
+    para: "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
+    girlImg: TeamMember2,
+    heading2: "Dr. Hussa K. Al-Khalifa",
+    subheading2: "Founder & Executive Director",
+    btn: "about us",
+    para2:
+      "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions.",
   },
 ];

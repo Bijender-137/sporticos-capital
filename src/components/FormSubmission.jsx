@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
-import { formdata, inputdata } from "./common/Helper2";
+import { formdata, inputdata } from "./common/Helper";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import { DropDown } from "./common/Icons";

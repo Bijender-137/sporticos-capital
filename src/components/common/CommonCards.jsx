@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { dreams } from "./Helper2";
+import { dreams } from "./Helper";
 import { useLocation } from "react-router-dom";
 const CommonCards = () => {
   const location = useLocation();
