@@ -1,14 +1,14 @@
 import React from "react";
-import Nextlevel from "../components/Nextlevel";
 import ContactUs from "../components/ContactUs";
 import CommonTeam from "../components/common/CommonTeam";
 import Location from "../components/Location";
+import CommonBorderCards from "../components/common/CommonBorderCards";
 
 const AboutUs = () => {
   return (
     <>
       <div className="position-relative backgroundImg">
-        <Nextlevel />
+        <CommonBorderCards />
         <Location />
         <CommonTeam />
         <ContactUs />
