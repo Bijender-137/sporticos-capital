@@ -1,6 +1,6 @@
 import React from "react";
 import CommonCards from "../components/common/CommonCards";
-import Nextlevel from "../components/Nextlevel";
+import CommonBorderCards from "../components/common/CommonBorderCards";
 import FormSubmission from "../components/FormSubmission";
 
 const Ementoring = () => {
@@ -8,7 +8,7 @@ const Ementoring = () => {
     <>
       <div className="position-relative backgroundImg">
         <CommonCards />
-        <Nextlevel />
+        <CommonBorderCards />
         <FormSubmission />
       </div>
     </>

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { nextlevelData } from "./common/Helper";
 import { useLocation } from "react-router-dom";
+import { nextlevelData } from "./Helper";
 
-const Nextlevel = () => {
+const CommonBorderCards = () => {
   const location = useLocation();
   const currentPathname = location.pathname;
   const currentData = nextlevelData.find((e) => e.path === currentPathname);
@@ -102,4 +102,4 @@ const Nextlevel = () => {
   );
 };
 
-export default Nextlevel;
+export default CommonBorderCards;
