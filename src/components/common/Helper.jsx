@@ -270,8 +270,8 @@ export const heroData = [
     className: "homepageImg ",
     heading: (
       <>
-        Unlocking High Impact Sports{" "}
-        <span className="clr-yellow">Investment</span> Opportunities{" "}
+        Unlocking High Impact Sports
+        <span className="clr-yellow">Investment</span> Opportunities
       </>
     ),
     subheading:
@@ -286,9 +286,9 @@ export const heroData = [
     className: "abotusImg",
     heading: (
       <>
-        A Thriving <span className="clr-yellow">Ecosystem</span> of{" "}
-        <span className="clr-yellow">Sports</span> Investment{" "}
-        <span className="clr-yellow">Opportunities</span>{" "}
+        A Thriving <span className="clr-yellow">Ecosystem</span> of
+        <span className="clr-yellow">Sports</span> Investment
+        <span className="clr-yellow">Opportunities</span>
       </>
     ),
 
@@ -305,8 +305,8 @@ export const heroData = [
     className: "debtImg",
     heading: (
       <>
-        <span className="clr-yellow">Facilitating</span> Seamless Club{" "}
-        <span className="clr-yellow">Operations</span>{" "}
+        <span className="clr-yellow">Facilitating</span> Seamless Club
+        <span className="clr-yellow">Operations</span>
       </>
     ),
     subheading:
@@ -334,8 +334,8 @@ export const heroData = [
     className: "ementoringImg",
     heading: (
       <>
-        Bringing <span className="clr-yellow">Players</span> and{" "}
-        <span className="clr-yellow">Mentors</span> Together{" "}
+        Bringing <span className="clr-yellow">Players</span> and
+        <span className="clr-yellow">Mentors</span> Together
       </>
     ),
     subheading:
@@ -350,7 +350,7 @@ export const heroData = [
     heading: (
       <>
         Investments <span className="clr-yellow">Tailored</span> to Your
-        Financial <span className="clr-yellow">Goals</span>{" "}
+        Financial <span className="clr-yellow">Goals</span>
       </>
     ),
     subheading:
@@ -364,11 +364,11 @@ export const heroData = [
     className: "playerImg",
     heading: (
       <>
-        Proudly{" "}
+        Proudly
         <span className="d-lg-block">
           <span className="clr-yellow">Prioritizing</span> Player
-        </span>{" "}
-        Performance{" "}
+        </span>
+        Performance
       </>
     ),
     subheading:
