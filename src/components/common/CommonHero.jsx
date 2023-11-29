@@ -1,6 +1,6 @@
 import React from 'react'
 import { heroData } from './Helper';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import "../../assets/style/Commonhero.css"
 import { Container } from 'react-bootstrap';
 
@@ -11,8 +11,8 @@ const CommonHero = () => {
 
     return (
         <>
-            <Container className='pb-md-5 mb-md-5'>
-                <div style={{ maxWidth: currentData.maxW }} className='pb-md-4'>
+            <Container className='pb-md-5 mb-md-5 pb-lg-0 mb-lg-0'>
+                <div style={{ maxWidth: currentData.maxW }} className='pb-md-4 pb-xl-0'>
                     {currentData?.mainheading && <h1 className="fs-6xl ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 ">
                         {currentData.mainheading}
                     </h1>
@@ -26,17 +26,17 @@ const CommonHero = () => {
                             {currentData.subheading}
                         </p>
                     }
-                    <div className="d-flex">
+                    <div className="d-flex gap-2 gap-sm-3">
                         {currentData?.button &&
-                            <div className="position-relative pt-2 z-2 pb-sm-0">
-                                <button className="transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ff-barlow" type="button">
+                            <div className="pt-3 mt-md-3">
+                                <Link className="transition_300 fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ff-barlow" type="button">
                                     {currentData.button}
-                                </button>
+                                </Link>
                             </div>
                         }
                         {currentData?.buttonhero &&
-                            <div className="position-relative pt-2 z-2 pb-sm-0 ms-2 ms-sm-3">
-                                <button className="transition_300 mt-sm-3 mt-lg-4 fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ff-barlow" type="button">
+                            <div className="pt-3 mt-md-3">
+                                <button className="transition_300 fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ff-barlow" type="button">
                                     {currentData.buttonhero}
                                 </button>
                             </div>
