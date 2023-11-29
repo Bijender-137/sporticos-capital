@@ -27,16 +27,14 @@ const Footer = () => {
               <Row className="justify-content-between">
                 <Col lg={5}>
                   <div>
-                    <Link to="/">
-                      <img
-                        onClick={handleLogoClick}
-                        width={237}
-                        height={47}
-                        className="footer-logo-w  w-100"
-                        src={FooterLogo}
-                        alt="FooterLogo"
-                      />
-                    </Link>
+                    <img
+                      onClick={handleLogoClick}
+                      width={237}
+                      height={47}
+                      className="footer-logo-w cursor_pointer w-100"
+                      src={FooterLogo}
+                      alt="FooterLogo"
+                    />
                     <p className="text-white opacity-07 max-w-453 fs-sm fw-normal ff-barlow mt-3">
                       Sporticos Capital is a registered LLC with offices in
                       Bahrain, US and the UK. Our combined experience and

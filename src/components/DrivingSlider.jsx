@@ -7,7 +7,7 @@ import { sliderData } from "./common/Helper";
 import { NextIcon, PrevIcon } from "./common/Icons";
 import { Link } from "react-router-dom";
 
-const Slider = () => {
+const DrivingSlider = () => {
   let prevButtonRef = null;
   let nextButtonRef = null;
   const handlePrev = () => {
@@ -129,4 +129,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default DrivingSlider;
