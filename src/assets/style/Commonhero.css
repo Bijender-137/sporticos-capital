@@ -76,20 +76,6 @@
     color: black !important;
 }
 
-/* @media (min-width:370px) {
-    .faq-image {
-        max-width: 530px;
-        transform: translate(80px, 30px);
-    }
-}
-
-@media (min-width:385px) {
-    .faq-image {
-        max-width: 530px;
-        transform: translate(65px, 30px);
-    }
-} */
-
 @media (min-width:400px) {
     .homepage-image {
         max-width: 610px;
@@ -260,6 +246,44 @@
     .navLinkButton-navsidebar,
     .hero-outlineBtn {
         padding: 15px 14px;
+    }
+}
+
+@media (min-width:1024px) {
+    .homepage-image {
+        max-width: 790px;
+    }
+
+    .abotus-image {
+        max-width: 610px;
+    }
+
+    .debt-image {
+        max-width: 880px;
+    }
+
+    .culb-image {
+        max-width: 870px;
+    }
+
+    .ementoring-image {
+        max-width: 790px;
+    }
+
+    .wealth-image {
+        max-width: 900px;
+    }
+
+    .player-image {
+        max-width: 730px;
+    }
+
+    .faq-image {
+        max-width: 580px;
+    }
+
+    .contact-image {
+        max-width: 750px;
     }
 }
 
