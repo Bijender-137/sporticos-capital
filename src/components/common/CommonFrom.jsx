@@ -84,7 +84,7 @@ const CommonFrom = () => {
             </h2>
             {currentheading?.para && (
               <p
-                style={{ maxWidth: currentheading.maxW }}
+                style={{ maxWidth: currentheading.paramaxwidth }}
                 className="ff-barlow fs-base text-black fw-normal mb-0 pt-1 opacity-07 m-auto"
               >
                 {currentheading.para}

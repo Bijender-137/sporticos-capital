@@ -265,8 +265,8 @@ export const nextlevelData = [
 export const heroData = [
   {
     path: "/",
-    maxW: "628px",
-    maxW1: "550px",
+    headingwidth: "628px",
+    headingwidth1: "550px",
     className: "homepage-image ",
     heading: (
       <>
@@ -282,7 +282,7 @@ export const heroData = [
   },
   {
     path: "/about-us",
-    maxW: "625px",
+    headingwidth: "625px",
     className: "abotus-image",
     heading: (
       <>
@@ -301,7 +301,7 @@ export const heroData = [
 
   {
     path: "/debt-funding",
-    maxW: "525px",
+    headingwidth: "525px",
     className: "debt-image",
     heading: (
       <>
@@ -316,7 +316,7 @@ export const heroData = [
   },
   {
     path: "/club-investments",
-    maxW: "516px",
+    headingwidth: "516px",
     className: "culb-image",
     heading: (
       <>
@@ -330,7 +330,7 @@ export const heroData = [
   },
   {
     path: "/e-mentoring",
-    maxW: "600px",
+    headingwidth: "600px",
     className: "ementoring-image",
     heading: (
       <>
@@ -345,7 +345,7 @@ export const heroData = [
   },
   {
     path: "/wealth-management",
-    maxW: "525px",
+    headingwidth: "525px",
     className: "wealth-image",
     heading: (
       <>
@@ -360,7 +360,7 @@ export const heroData = [
   },
   {
     path: "/player-pathwa",
-    maxW: "571px",
+    headingwidth: "571px",
     className: "player-image",
     headingStyle: "pe-lg-5",
     heading: (
@@ -377,7 +377,7 @@ export const heroData = [
   },
   {
     path: "/faq",
-    maxW: "548px",
+    headingwidth: "548px",
     className: "faq-image",
     mainheading: (
       <>
@@ -388,7 +388,7 @@ export const heroData = [
   },
   {
     path: "/contact",
-    maxW: "545px",
+    headingwidth: "545px",
     className: "contact-image",
     mainheading: (
       <>
@@ -466,7 +466,7 @@ export const formdata = [
     path: "/player-pathwa",
   },
   {
-    maxW: "600px",
+    paramaxwidth: "600px",
     heading: "Leave Your Portfolio In Trusted Hands",
     para: "Take the first step toward our wealth management solutions by submitting the form below.",
     path: "/wealth-management",
@@ -535,7 +535,7 @@ export const inputdata = [
 // common cards data
 export const dreams = [
   {
-    maxW: "500px",
+    parawidth: "500px",
     path: "/player-pathwa",
     heading: "Bringing Player Dreams to Fruition",
     para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
@@ -553,7 +553,7 @@ export const dreams = [
       "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
   },
   {
-    maxW: "600px",
+    parawidth: "600px",
     path: "/wealth-management",
     heading: "Offering a Mosaic of Investment Options",
     para: "We believe in finding the right investment solutions to make the most of the compensation you’ve received from the football industry.",
@@ -571,7 +571,7 @@ export const dreams = [
       "Mitigating risk while elevating potential returns through reputable, diversified investments with a track record of high performance.",
   },
   {
-    maxW: "620px",
+    parawidth: "620px",
     path: "/e-mentoring",
     heading: "Putting Wisdom Within Reach",
     para: "Our network of experts, coaches, and former players unite for the betterment of the players we serve.",
@@ -589,7 +589,7 @@ export const dreams = [
       "Fortifying player mental health, recovery and growth through our dedicated network of leading sports professionals.",
   },
   {
-    maxW: "750px",
+    parawidth: "750px",
     path: "/club-investments",
     heading: "Maximizing Your Upside Potential",
     para: "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
@@ -608,7 +608,7 @@ export const dreams = [
       "Leveraging synergies to develop players, cultivate exposure, and engage fans in an ecosystem of sustainable growth.",
   },
   {
-    maxW: "680px",
+    parawidth: "680px",
     path: "/debt-funding",
     heading: "Ensuring Ongoing Club Growth",
     para: "Through fair rates for clubs and attractive interest income for our investors, we facilitate mutually agreeable debt funding terms.",

@@ -17,7 +17,7 @@ const CommonCards = () => {
                     {dreamsplayer.heading}
                   </p>
                   <p
-                    style={{ maxWidth: dreamsplayer.maxW }}
+                    style={{ maxWidth: dreamsplayer.parawidth }}
                     className={`ff-barlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
                   >
                     {dreamsplayer.para}{" "}
