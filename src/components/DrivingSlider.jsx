@@ -77,9 +77,10 @@ const DrivingSlider = () => {
                   <SwiperSlide key={index} className="pt-4 pb-5 py-sm-4 py-md-5 d-flex gap-2">
                     <div className="dreamplayer-shadow bg-white p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
                       <img
+                        loading="lazy"
                         src={data.img}
                         alt="sliderImg"
-                        className="w-100 img-br-7 transition_300"
+                        className="w-100 h-100 img-br-7 transition_300"
                       />
                       <p className="pt-3 mb-0 ff-fontspring fs-base fw-semibold">
                         {data.sliderHeading}

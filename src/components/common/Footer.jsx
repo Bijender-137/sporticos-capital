@@ -28,6 +28,7 @@ const Footer = () => {
                 <Col lg={5}>
                   <div>
                     <img
+                      loading="lazy"
                       onClick={handleLogoClick}
                       width={237}
                       height={47}

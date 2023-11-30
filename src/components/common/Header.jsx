@@ -71,7 +71,7 @@ const Header = () => {
                           } navlink`}
                         to={navlink.path}
                       >
-                        {navlink.NavName}
+                        {navlink.navLink}
                       </Link>
                     </div>
                   );

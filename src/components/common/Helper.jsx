@@ -99,31 +99,31 @@ export const accordionItems = [
 
 export const navLinks = [
   {
-    NavName: "Club Investments",
+    navLink: "Club Investments",
     path: "/club-investments",
   },
   {
-    NavName: "E-Mentoring",
+    navLink: "E-Mentoring",
     path: "/e-mentoring",
   },
   {
-    NavName: "About Us",
+    navLink: "About Us",
     path: "/about-us",
   },
   {
-    NavName: "FAQ",
+    navLink: "FAQ",
     path: "/faq",
   },
   {
-    NavName: "Player Pathwa",
+    navLink: "Player Pathwa",
     path: "/player-pathwa",
   },
   {
-    NavName: "Wealth Management",
+    navLink: "Wealth Management",
     path: "/wealth-management",
   },
   {
-    NavName: "Debt Funding",
+    navLink: "Debt Funding",
     path: "/debt-funding",
   },
 ];

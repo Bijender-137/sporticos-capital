@@ -57,7 +57,8 @@ const CommonTeam = () => {
                         <div className="d-flex align-items-center">
                           <div className="common_team_border transition_300 common_img_w">
                             <img
-                              className="transition-300 w-100"
+                              loading="lazy"
+                              className="transition-300 w-100 h-100"
                               src={data.image}
                               alt="founder img"
                             />
@@ -86,7 +87,8 @@ const CommonTeam = () => {
                         <div className="d-flex align-items-center">
                           <div className="common_team_border transition_300 common_img_w">
                             <img
-                              className="transition-300 w-100"
+                              loading="lazy"
+                              className="transition-300 w-100 h-100"
                               src={data.imageGirl}
                               alt="founder img"
                             />
