@@ -69,10 +69,10 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    -webkit-background-clip: transparent !important;
-    -webkit-text-fill-color: black;
-    background-color: transparent !important;
-    -webkit-transition: background-color 5000s ease-in-out 0s;
+    -webkit-background-clip: #fcfcfc !important;
+    -webkit-text-fill-color: black !important;
+    background-color: #FCFCFC !important;
+    transition: background-color 5000s ease-in-out 0s !important;
 }
 
 /* footer */
