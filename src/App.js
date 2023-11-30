@@ -16,7 +16,7 @@ import AboutUs from "./pages/AboutUs";
 import Home from "./pages/Home";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import { Preloader } from "./components/Preloader";
+import { Preloader } from "./components/common/Preloader";
 import CommonFrom from "./components/common/CommonFrom";
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
   }, [pathname]);
   return (
     <>
-      {/* <Preloader/> */}
+      <Preloader />
       <Header />
       <Routes>
         <Route exact path="/" Component={Home} />

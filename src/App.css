@@ -231,6 +231,25 @@ input:-webkit-autofill:active {
     position: fixed;
 }
 
+.preloaderimg {
+    width: 250px;
+    animation: scaleAnimation 2s infinite;
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 /* media quarry */
 @media (min-width:576px) {
     .dreamplayer-shadow {
@@ -247,6 +266,10 @@ input:-webkit-autofill:active {
 
     .common_img_w {
         max-width: 90px;
+    }
+
+    .preloaderimg {
+        width: 350px;
     }
 }
 
@@ -282,6 +305,10 @@ input:-webkit-autofill:active {
     .chatbox_width {
         width: 60px;
         height: 60px;
+    }
+
+    .preloaderimg {
+        width: 450px;
     }
 }
 
@@ -326,6 +353,10 @@ input:-webkit-autofill:active {
     .chatbox_width {
         width: 81px;
         height: 81px;
+    }
+
+    .preloaderimg {
+        width: 550px;
     }
 }
 
