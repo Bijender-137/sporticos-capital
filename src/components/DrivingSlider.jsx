@@ -75,7 +75,7 @@ const DrivingSlider = () => {
               {sliderData.map((data, index) => {
                 return (
                   <SwiperSlide key={index} className="pt-4 pb-5 py-sm-4 py-md-5 d-flex gap-2">
-                    <div className="dreamPlayer-shadow p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
+                    <div className="dreamplayer-shadow bg-white p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
                       <img
                         src={data.img}
                         alt="sliderImg"

@@ -32,7 +32,7 @@ const CommonCards = () => {
                       data-aos-ease="linear"
                       className="d-flex justify-content-center"
                     >
-                      <div className="dreamPlayer-shadow p-3 h-100">
+                      <div className="dreamplayer-shadow bg-white transition_300 p-3 h-100">
                         <img
                           className="w-100 overflow-hidden transition_300"
                           src={dreamsplayer.dremImg}
@@ -54,7 +54,7 @@ const CommonCards = () => {
                       lg={4}
                       className="pt-4 pt-sm-0 d-flex justify-content-center"
                     >
-                      <div className="dreamPlayer-shadow p-3 h-100 ">
+                      <div className="dreamplayer-shadow bg-white transition_300 p-3 h-100 ">
                         <img
                           className="w-100 overflow-hidden transition_300"
                           src={dreamsplayer.dremImg2}
@@ -76,7 +76,7 @@ const CommonCards = () => {
                       data-aos-ease="linear"
                       className="pt-4 pt-lg-0 d-flex justify-content-center"
                     >
-                      <div className="dreamPlayer-shadow p-3 h-100 transition_300">
+                      <div className="dreamplayer-shadow bg-white p-3 h-100 transition_300">
                         <img
                           className="w-100 overflow-hidden transition_300"
                           src={dreamsplayer.dremImg3}

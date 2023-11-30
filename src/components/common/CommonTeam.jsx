@@ -53,9 +53,9 @@ const CommonTeam = () => {
                       data-aos-delay="200"
                       data-aos-ease="linear"
                     >
-                      <div className="common_team_card_shadow p-4 h-100 transition-300 common_card_w m-auto">
+                      <div className="common_team_card_shadow bg-white p-4 h-100 transition-300 common_card_w m-auto">
                         <div className="d-flex align-items-center">
-                          <div className="common_team_border common_img_w">
+                          <div className="common_team_border transition_300 common_img_w">
                             <img
                               className="transition-300 w-100"
                               src={data.image}
@@ -82,9 +82,9 @@ const CommonTeam = () => {
                       data-aos-delay="400"
                       data-aos-ease="linear"
                     >
-                      <div className="common_team_card_shadow p-4 transition-300 mt-4 mt-lg-0 common_card_w m-auto">
+                      <div className="common_team_card_shadow bg-white p-4 transition-300 mt-4 mt-lg-0 common_card_w m-auto">
                         <div className="d-flex align-items-center">
-                          <div className="common_team_border common_img_w">
+                          <div className="common_team_border transition_300 common_img_w">
                             <img
                               className="transition-300 w-100"
                               src={data.imageGirl}

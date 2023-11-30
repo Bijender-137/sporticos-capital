@@ -135,33 +135,22 @@ input:-webkit-autofill:active {
 }
 
 /* DREAM PLAYERS */
-.dreamPlayer-shadow {
+.dreamplayer-shadow {
     border-radius: 16px;
     border: 1px solid rgba(0, 0, 0, 0.20);
-    background: #FFF;
-    -webkit-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
     max-width: 360px;
 }
 
-.dreamPlayer-shadow:hover {
+.dreamplayer-shadow:hover {
     -webkit-box-shadow: 0px 0px 33px -4px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 0px 23px -4px rgba(0, 0, 0, 0.12);
     border: 1px solid transparent;
 }
 
-.dreamPlayer-shadow:hover img {
+.dreamplayer-shadow:hover img {
     -ms-transform: scale(0.97);
     transform: scale(0.97);
     -webkit-transform: scale(0.97);
-}
-
-.dreamPlayer-shadow,
-.dreamPlayer-shadow:hover {
-    -webkit-transition: all .3s linear !important;
-    -o-transition: all .3s linear !important;
-    transition: all .3s linear !important;
 }
 
 /* commom team */
@@ -176,10 +165,6 @@ input:-webkit-autofill:active {
 .common_team_card_shadow {
     border-radius: 16px;
     border: 1px solid rgba(0, 0, 0, 0.08);
-    background: #FFF;
-    -webkit-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
 }
 
 .common_team_card_shadow:hover {
@@ -192,9 +177,6 @@ input:-webkit-autofill:active {
     border-radius: 142px;
     border: 3px solid rgba(0, 117, 242, 0.38);
     background: lightgray 50% / cover no-repeat;
-    -webkit-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
 }
 
 .common_team_card_shadow:hover .common_team_border {
@@ -251,7 +233,7 @@ input:-webkit-autofill:active {
 
 /* media quarry */
 @media (min-width:576px) {
-    .dreamPlayer-shadow {
+    .dreamplayer-shadow {
         max-width: 100%;
     }
 
