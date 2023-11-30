@@ -75,11 +75,12 @@ const DrivingSlider = () => {
               {sliderData.map((data, index) => {
                 return (
                   <SwiperSlide key={index} className="pt-4 pb-5 py-sm-4 py-md-5 d-flex gap-2">
-                    <div className="dreamPlayer-shadow p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
+                    <div className="dreamplayer-shadow bg-white p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
                       <img
+                        loading="lazy"
                         src={data.img}
                         alt="sliderImg"
-                        className="w-100 img-br-7 transition_300"
+                        className="w-100 h-100 img-br-7 transition_300"
                       />
                       <p className="pt-3 mb-0 ff-fontspring fs-base fw-semibold">
                         {data.sliderHeading}
@@ -114,7 +115,7 @@ const DrivingSlider = () => {
           <div className="d-flex justify-content-center pt-4 pt-sm-0">
             <Link
               to="/about-us"
-              className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow"
+              className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button transition_300 ff-barlow"
             >
               reach out
             </Link>

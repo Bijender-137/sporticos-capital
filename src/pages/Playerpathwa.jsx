@@ -6,7 +6,7 @@ import CommonFrom from "../components/common/CommonFrom";
 const Playerpathwa = () => {
   return (
     <>
-      <div className="position-relative backgroundImg">
+      <div className="position-relative dotted-background">
         <CommonCards />
         <CommonBorderCards />
         <CommonFrom />

@@ -20,7 +20,7 @@ export const MenuIcons = () => {
 export const CrossIcons = () => {
   return (
     <svg
-      className="opacity-50 coursor-pointer navlink"
+      className="opacity-50 cursor_pointer cross-iconhover transition_300"
       width="30"
       height="30"
       viewBox="0 0 44 44"
@@ -108,7 +108,7 @@ export const DropDown = () => {
 export const PlusIcon = () => {
   return (
     <svg
-      className="groupiconplus-nagetive"
+      className="groupiconplus-nagetive w-100"
       width="32"
       height="32"
       viewBox="0 0 32 32"
@@ -126,7 +126,7 @@ export const PlusIcon = () => {
 export const NegativeIcon = () => {
   return (
     <svg
-      className="groupiconplus-nagetive"
+      className="groupiconplus-nagetive w-100"
       width="32"
       height="32"
       viewBox="0 0 32 32"

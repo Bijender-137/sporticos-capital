@@ -77,6 +77,7 @@ const CommonFrom = () => {
   return (
     <>
       <div className="py-5 backgroundImg">
+        <div className={`${currentheading.paddingStyle}`}></div>
         <Container className="py-lg-5 mt-md-3 mb-md-5">
           <div className="pb-sm-2 pb-md-3 text-center">
             <h2 className="fw-bold ff-fontspring fs-xxl text-black max-w-810  m-auto">
@@ -84,7 +85,7 @@ const CommonFrom = () => {
             </h2>
             {currentheading?.para && (
               <p
-                style={{ maxWidth: currentheading.maxW }}
+                style={{ maxWidth: currentheading.paramaxwidth }}
                 className="ff-barlow fs-base text-black fw-normal mb-0 pt-1 opacity-07 m-auto"
               >
                 {currentheading.para}
@@ -202,19 +203,17 @@ const CommonFrom = () => {
                   >
                     I agree to Sporticos-Capital
                     <span>
-                      <a
+                      {" "}<a
                         href="#"
-                        className="fw-semibold clr-blue opacityHover transition_300"
+                        className="fw-semibold clr-blue from-opacity transition_300"
                       >
                         Terms of Use
                       </a>
                     </span>
-                    and
+                    {" "}and{" "}
                     <span>
-                      <a
-                        href="#"
-                        className="fw-semibold clr-blue opacityHover transition_300 tc"
-                      >
+                      <a href="#"
+                        className="fw-semibold clr-blue from-opacity transition_300">
                         Privacy Policy<span className="text-danger">*</span>
                       </a>
                     </span>
@@ -222,7 +221,7 @@ const CommonFrom = () => {
                 </div>
                 <div className="mt-4 mt-md-5 pt-lg-3">
                   <input
-                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 navLink-button"
+                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 navLink-button transition_300"
                     type="submit"
                     required
                     value="Submit"

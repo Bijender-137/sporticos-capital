@@ -53,11 +53,12 @@ const CommonTeam = () => {
                       data-aos-delay="200"
                       data-aos-ease="linear"
                     >
-                      <div className="common_team_card_shadow p-4 h-100 transition-300 common_card_w m-auto">
+                      <div className="common_team_card_shadow bg-white p-4 h-100 transition-300 common_card_w m-auto">
                         <div className="d-flex align-items-center">
-                          <div className="common_team_border common_img_w">
+                          <div className="common_team_border transition_300 common_img_w">
                             <img
-                              className="transition-300 w-100"
+                              loading="lazy"
+                              className="transition-300 w-100 h-100"
                               src={data.image}
                               alt="founder img"
                             />
@@ -82,11 +83,12 @@ const CommonTeam = () => {
                       data-aos-delay="400"
                       data-aos-ease="linear"
                     >
-                      <div className="common_team_card_shadow p-4 transition-300 mt-4 mt-lg-0 common_card_w m-auto">
+                      <div className="common_team_card_shadow bg-white p-4 transition-300 mt-4 mt-lg-0 common_card_w m-auto">
                         <div className="d-flex align-items-center">
-                          <div className="common_team_border common_img_w">
+                          <div className="common_team_border transition_300 common_img_w">
                             <img
-                              className="transition-300 w-100"
+                              loading="lazy"
+                              className="transition-300 w-100 h-100"
                               src={data.imageGirl}
                               alt="founder img"
                             />
@@ -110,7 +112,7 @@ const CommonTeam = () => {
                     <div className="d-flex justify-content-center pt-4 mt-md-2 mt-lg-0 pt-lg-5">
                       <Link
                         to="/about-us"
-                        className="fw-normal text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow"
+                        className="fw-normal text-uppercase text-black fs-sm bg-yellow transition_300 navLink-button ff-barlow"
                       >
                         {data.buttonAbout}
                       </Link>

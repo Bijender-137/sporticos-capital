@@ -21,7 +21,7 @@ const CommonContactUs = () => {
                                 {currentData.paragraph}
                                 <span className="d-md-block">{currentData.paragraph1}</span>
                             </p>
-                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow navLink-button ff-barlow">
+                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow transition_300 navLink-button ff-barlow">
                                 {currentData.btn}
                             </Link>
                         </div>

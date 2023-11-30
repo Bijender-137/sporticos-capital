@@ -8,9 +8,7 @@ const Wealth = () => {
     <>
       <CommonCards />
       <CommonBorderCards />
-      <div className="pt-xl-5 mt-lg-3">
-        <CommonFrom />
-      </div>
+      <CommonFrom />
     </>
   );
 };

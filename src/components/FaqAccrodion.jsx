@@ -35,7 +35,7 @@ const FaqAccrodion = () => {
                   </span>
                 </div>
                 <div
-                  className={`accordion-content transition_300 ${index === activeIndex ? "open" : ""
+                  className={`accordion-content overflow-hidden transition_300 ${index === activeIndex ? "open" : ""
                     }`}
                 >
                   <p className="mb-0 ff-barlow fs-sm fw-normal text-black opacity-08">

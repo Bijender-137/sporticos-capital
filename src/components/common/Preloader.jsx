@@ -1,9 +1,10 @@
-import React from "react";
+import React from "react";               
+import preloaderimg from "../../assets/images/webp/page-logo.webp";               
 export const Preloader = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("d-none");
     document.body.classList.remove("overflow-hidden");
-  }, 4000);
+  }, 3000);
 
   return (
     <div
@@ -12,12 +13,7 @@ export const Preloader = () => {
     >
       <div className="d-flex justify-content-center align-items-center min-vh-100">
         <div className="z-10 d-inline-block">
-          <h1 className="cozy_text_shadow fw-normal fs_8xl clr_orange ff_bomb line_h_103 mb-0 heroHeading2 headingSame py-5">
-            <span className="clr_orange"> Sporticose</span>
-            <span className=" clr_green ff_soda cozy_text_shadow ms-2">
-              Capital
-            </span>
-          </h1>
+          <img src={preloaderimg} alt="preloaderimg" className="preloaderimg" />
         </div>
       </div>
     </div>
