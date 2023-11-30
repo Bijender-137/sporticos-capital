@@ -188,7 +188,14 @@ body {
   opacity: 1 !important;
 }
 
-.hero-bg-image {
+.heroall-background-image {
+  background: url("./assets/images/webp/hero-main-img-academy.webp");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.heroall-background-image-contact {
+  background: url("./assets/images/webp/hero-main-img.webp");
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }

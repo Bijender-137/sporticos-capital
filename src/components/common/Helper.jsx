@@ -485,7 +485,7 @@ export const formdata = [
     heading: "Secure Favorable Debt Funding Terms",
     para: "Submit the form below for more information about our debt funding solutions.",
     path: "/debt-funding",
-    paddingStyle:"pt-xl-5 mt-lg-3"
+    paddingStyle: "pt-xl-5 mt-lg-3"
   },
 ];
 // form submission enputs
@@ -663,3 +663,42 @@ export const sporticoseTeam = [
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions.",
   },
 ];
+export const heroBackground = [
+  {
+    path: "/",
+    backgroundImage: "heroall-background-image",
+  },
+  {
+    path: "/about-us",
+    backgroundImage: "heroall-background-image",
+  },
+  {
+    backgroundImage: "heroall-background-image",
+    path: "/club-investments",
+  },
+  {
+    backgroundImage: "heroall-background-image",
+    path: "/e-mentoring",
+  },
+  {
+    backgroundImage: "heroall-background-image",
+    path: "/faq",
+  },
+  {
+    backgroundImage: "heroall-background-image",
+    path: "/player-pathwa",
+  },
+  {
+    backgroundImage: "heroall-background-image",
+    path: "/wealth-management",
+  },
+  {
+    backgroundImage: "heroall-background-image",
+    path: "/debt-funding",
+  },
+  {
+    backgroundImage: "heroall-background-image-contact",
+    path: "/contact",
+  },
+];
+
