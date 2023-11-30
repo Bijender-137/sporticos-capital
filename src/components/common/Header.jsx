@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { CrossIcons, MenuIcons } from "../common/Icons";
 import pagelogo from "../../assets/images/webp/page-logo.webp";
