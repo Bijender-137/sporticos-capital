@@ -5,7 +5,7 @@ import CommonFrom from "../components/common/CommonFrom";
 const ClubInvestment = () => {
   return (
     <>
-      <div className="position-relative backgroundImg">
+      <div className="position-relative dotted-background">
         <CommonFrom />
         <Captical />
         <CommonFrom />

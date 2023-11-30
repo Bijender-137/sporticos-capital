@@ -101,6 +101,11 @@ input:-webkit-autofill:active {
     transform: translateY(-4px)
 }
 
+.from-opacity:hover {
+    opacity: 0.7;
+    color: red;
+}
+
 /* dropdown css */
 .custom_dropdown:hover {
     background-color: var(--clr-gray) !important;
@@ -234,7 +239,7 @@ input:-webkit-autofill:active {
     border-radius: 50%;
 }
 
-/* PRELOADER */
+/* ------PRELOADER------- */
 .loading {
     z-index: 2000;
     min-height: 100vh;
@@ -263,7 +268,7 @@ input:-webkit-autofill:active {
     }
 }
 
-@media (min-width:767.98px) {
+@media (min-width:768px) {
     .performance_img_h {
         min-height: 225px;
     }
@@ -298,7 +303,7 @@ input:-webkit-autofill:active {
     }
 }
 
-@media (min-width:991.98px) {
+@media (min-width:992px) {
     .max_w_535 {
         max-width: 535px;
     }
@@ -342,7 +347,7 @@ input:-webkit-autofill:active {
     }
 }
 
-@media (min-width:1199.98px) {
+@media (min-width:1200px) {
     .performance_img_w {
         max-width: 380px;
     }

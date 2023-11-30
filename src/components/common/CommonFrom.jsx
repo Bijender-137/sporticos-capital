@@ -202,19 +202,17 @@ const CommonFrom = () => {
                   >
                     I agree to Sporticos-Capital
                     <span>
-                      <a
+                      {" "}<a
                         href="#"
-                        className="fw-semibold clr-blue opacityHover transition_300"
+                        className="fw-semibold clr-blue from-opacity transition_300"
                       >
                         Terms of Use
                       </a>
                     </span>
-                    and
+                    {" "}and{" "}
                     <span>
-                      <a
-                        href="#"
-                        className="fw-semibold clr-blue opacityHover transition_300 tc"
-                      >
+                      <a href="#"
+                        className="fw-semibold clr-blue from-opacity transition_300">
                         Privacy Policy<span className="text-danger">*</span>
                       </a>
                     </span>

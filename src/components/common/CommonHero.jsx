@@ -13,11 +13,11 @@ const CommonHero = () => {
         <>
             <Container className='pb-md-5 mb-md-5 pb-lg-0 mb-lg-0'>
                 <div style={{ maxWidth: currentData.maxW }} className='pb-md-4 pb-xl-0'>
-                    {currentData?.mainheading && <h1 className="fs-6xl ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 ">
+                    {currentData?.mainheading && <h1 className="fs-6xl fw-bold ff-fontspring text-white lh-lg-84 z-2 position-relative lh-md-60 mb-0 ">
                         {currentData.mainheading}
                     </h1>
                     }
-                    {currentData?.heading && <h2 className={`fs-5xl ff-fontspring text-white z-2 position-relative mb-0 ${currentData.headingStyle}`}>
+                    {currentData?.heading && <h2 className={`fs-5xl fw-bold ff-fontspring text-white z-2 position-relative mb-0 ${currentData.headingStyle}`}>
                         {currentData.heading}
                     </h2>
                     }

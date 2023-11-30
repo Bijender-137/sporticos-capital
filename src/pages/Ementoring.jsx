@@ -6,10 +6,10 @@ import CommonFrom from "../components/common/CommonFrom";
 const Ementoring = () => {
   return (
     <>
-      <div className="position-relative backgroundImg">
+      <div className="position-relative dotted-background">
         <CommonCards />
         <CommonBorderCards />
-        <CommonFrom/>
+        <CommonFrom />
       </div>
     </>
   );
