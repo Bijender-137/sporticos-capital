@@ -485,6 +485,7 @@ export const formdata = [
     heading: "Secure Favorable Debt Funding Terms",
     para: "Submit the form below for more information about our debt funding solutions.",
     path: "/debt-funding",
+    paddingStyle:"pt-xl-5 mt-lg-3"
   },
 ];
 // form submission enputs
