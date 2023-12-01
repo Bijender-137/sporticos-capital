@@ -205,7 +205,7 @@ const CommonFrom = () => {
                     <span>
                       {" "}<a
                         href="#"
-                        className="fw-semibold clr-blue from-opacity transition_300"
+                        className="fw-semibold clr-blue form-opacity transition_300"
                       >
                         Terms of Use
                       </a>
@@ -213,7 +213,7 @@ const CommonFrom = () => {
                     {" "}and{" "}
                     <span>
                       <a href="#"
-                        className="fw-semibold clr-blue from-opacity transition_300">
+                        className="fw-semibold clr-blue form-opacity transition_300">
                         Privacy Policy<span className="text-danger">*</span>
                       </a>
                     </span>
