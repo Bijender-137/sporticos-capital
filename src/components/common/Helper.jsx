@@ -266,7 +266,7 @@ export const borderCardData = [
   },
   {
     path: "/wealth-management",
-    heading: "Combining Expertise and Personalization",
+    title: "Combining Expertise and Personalization",
     description: "Through our tailored wealth management solutions, we:",
     Style: "pt-xl-3",
     submap: [
