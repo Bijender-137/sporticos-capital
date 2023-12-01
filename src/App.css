@@ -354,10 +354,6 @@ input:-webkit-autofill:active {
         width: 81px;
         height: 81px;
     }
-
-    .preloaderimg {
-        width: 550px;
-    }
 }
 
 @media (min-width:1200px) {
