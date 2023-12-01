@@ -6,7 +6,7 @@ import CommonFrom from "../components/common/CommonFrom";
 const Ementoring = () => {
   return (
     <>
-      <div className="position-relative dotted-background">
+      <div className="position-relative dotted_background_image">
         <CommonCards />
         <CommonBorderCards />
         <CommonFrom />

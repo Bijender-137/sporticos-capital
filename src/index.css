@@ -188,6 +188,9 @@ body {
   opacity: 1 !important;
 }
 
+/* NAV-SIDEBAR CSS END */
+
+/* HERO SECTION CSS START */
 .heroall-background-image {
   background: url("./assets/images/webp/hero-main-img-academy.webp");
   background-size: cover !important;
@@ -200,8 +203,7 @@ body {
   background-repeat: no-repeat !important;
 }
 
-/* NAV-SIDEBAR CSS END */
-
+/* HERO SECTION CSS END */
 /* -----Common Classes------ */
 .cursor_pointer {
   cursor: pointer;
@@ -229,7 +231,7 @@ body {
   z-index: 100 !important;
 }
 
-.dotted-background {
+.dotted_background_image {
   background-image: url("./assets/images/webp/dotted-background-img.webp");
   background-size: 100%;
 }
@@ -365,8 +367,6 @@ body {
   width: 17px;
   height: 28px;
 }
-
-
 
 @media (min-width:400px) {
   .swiper-button-next {
