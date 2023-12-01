@@ -21,8 +21,8 @@ export const BackTop = () => {
             onClick={() => onTop()}
             className={
               first
-                ? "d-none end-0 bottom-0 me-md-4 me-2 mb-md-4 mb-sm-2 back_to_top_spacing border-0 position-fixed bactotopHover"
-                : "d-block end-0 bottom-0 me-md-4 me-2 mb-md-4 mb-sm-2 back_to_top_spacing border-0 position-fixed bactotopHover"
+                ? "d-none end-0 bottom-0 me-md-4 me-2 mb-md-4 mb-sm-2 back_to_top_spacing border-0 position-fixed back_to_top"
+                : "d-block end-0 bottom-0 me-md-4 me-2 mb-md-4 mb-sm-2 back_to_top_spacing border-0 position-fixed back_to_top"
             }
           >
             <BacktoTopIcon />
