@@ -70,7 +70,7 @@ const CommonTeam = () => {
                             </p>
                           </div>
                         </div>
-                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 max_w_535 pt-4 pb-md-3 mb-0">
+                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 common_team_para_width pt-4 pb-md-3 mb-0">
                           {data.subdescription}
                         </p>
                       </div>
@@ -101,7 +101,7 @@ const CommonTeam = () => {
                             </p>
                           </div>
                         </div>
-                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 max_w_535 pt-4 pb-md-3 mb-0">
+                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 common_team_para_width pt-4 pb-md-3 mb-0">
                           {data.descriptionpara}
                         </p>
                       </div>

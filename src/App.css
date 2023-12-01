@@ -72,6 +72,11 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s !important;
 }
 
+.form-opacity:hover {
+    opacity: 0.7;
+    color: red;
+}
+
 /* FORM SUBMISSION CSS END */
 
 /* COMMON CLASSES */
@@ -85,12 +90,12 @@ input:-webkit-autofill:active {
     background: url('./assets/images/webp/Footer_bg_img.webp');
 }
 
-.footer-logo-w {
+.footer_logo {
     max-width: 237px;
     height: 47px;
 }
 
-.icons-bg {
+.footer_icons {
     height: 38px;
     width: 38px;
     background-color: var(--clr-yellow);
@@ -98,18 +103,13 @@ input:-webkit-autofill:active {
     border: 2px transparent;
 }
 
-.icons-bg:hover {
+.footer_icons:hover {
     -webkit-transform: translateY(-4px);
     -ms-transform: translateY(-4px);
     transform: translateY(-4px)
 }
 
-.form-opacity:hover {
-    opacity: 0.7;
-    color: red;
-}
-
-/* dropdown css */
+/* DROPDOWN CSS START */
 .custom_dropdown:hover {
     background-color: var(--clr-gray) !important;
     cursor: pointer;
@@ -121,7 +121,9 @@ input:-webkit-autofill:active {
     transform: rotate(180deg);
 }
 
-/* back to top */
+/* DROPDOWN CSS END */
+
+/* BACK TO TOP CSS START*/
 .bactotopHover {
     height: 46px;
     width: 46px;
@@ -136,6 +138,8 @@ input:-webkit-autofill:active {
     -webkit-box-shadow: 1px 2px 10px 2px var(--clr-gray) !important;
     box-shadow: 1px 2px 10px 2px var(--clr-gray) !important;
 }
+
+/* BACK TO TOP CSS END */
 
 /* DREAM PLAYERS CSS START*/
 .dreamplayer-shadow {
@@ -201,6 +205,7 @@ input:-webkit-autofill:active {
 }
 
 /* COMMON TEAM CSS END */
+
 /* PERFORMANCE CSS START*/
 .bg_clr_performance {
     background-color: #F9FBE9;
@@ -210,7 +215,7 @@ input:-webkit-autofill:active {
     max-width: 230px;
 }
 
-.performance_icons_width {
+.performance_icons_mobile_screen {
     max-width: 42px !important;
     height: 47px;
 }
@@ -292,16 +297,12 @@ input:-webkit-autofill:active {
         border: 6px solid rgba(66, 158, 166, 0.38);
     }
 
-    .max-w-453 {
+    .footer_para_width {
         max-width: 453px;
     }
 
-    .max-w-810 {
+    .form_heading_setup {
         max-width: 810px;
-    }
-
-    .max-w-500 {
-        max-width: 500px;
     }
 
     .chat_box {
@@ -315,7 +316,7 @@ input:-webkit-autofill:active {
 }
 
 @media (min-width:992px) {
-    .max_w_535 {
+    .common_team_para_width {
         max-width: 535px;
     }
 
