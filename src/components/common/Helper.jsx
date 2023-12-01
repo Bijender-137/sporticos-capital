@@ -34,7 +34,7 @@ import homepageimage from "../../assets/images/webp/herohomepage-img.webp";
 import clubslider from "../../assets/images/webp/club-drivingslider-image.webp";
 import debtslider from "../../assets/images/webp/debt-drivingslider-image.webp";
 import playerslider from "../../assets/images/webp/player-drivingslider-image.webp";
-// helper_2
+
 //COMMON CARDS IMAGES
 import PlayerClub from "../../assets/images/webp/player-dreamscard-club-image.webp";
 import PlayerEnchanced from "../../assets/images/webp/player-dreamscard-enchanced-image.webp";
@@ -56,6 +56,7 @@ import Fundingunderwrite from "../../assets/images/webp/debfunding-ongoingclub-u
 import wealImage from "../../assets/images/webp/wael-khattab-team-image.webp";
 import drHussaImage from "../../assets/images/webp/dr-hussa-team-image.webp";
 
+// ACCORDIANS DATA START
 export const accordionItems = [
   {
     title: "What is the primary focus of your club investments?",
@@ -99,7 +100,8 @@ export const accordionItems = [
       "We provide working capital for operational expenses and player transfers through fair and attractive debt funding solutions checked by reputable underwriters",
   },
 ];
-
+// ACCORDIANS DATA END
+// NAVLINK DATA START
 export const navLinks = [
   {
     navLink: "Club Investments",
@@ -130,18 +132,25 @@ export const navLinks = [
     path: "/debt-funding",
   },
 ];
-
+// NAVLINK DATA END
+// BORDER CARDS DATA START
 export const borderCardData = [
   {
     path: "/player-pathwa",
     title: "Guiding Players to the Next Level",
-    description: <>While players within our athlete network focus on honing their <span className="d-lg-block">{" "}football skills, we:</span></>,
+    description: (
+      <>
+        While players within our athlete network focus on honing their{" "}
+        <span className="d-lg-block"> football skills, we:</span>
+      </>
+    ),
     submap: [
       {
         cardstyle: "ms-xxl-3 px-xxl-3",
         aosDelay: "200",
         image: <PositiveIcon />,
-        description: "Maintain positive exposure through our marketing packages",
+        description:
+          "Maintain positive exposure through our marketing packages",
         descriptionStyle: "py-3 mt-lg-2 py-md-4",
       },
       {
@@ -189,7 +198,8 @@ export const borderCardData = [
         cardstyle: "px-xl-3 mx-xl-2 mx-xxl-3",
         aosDelay: "800",
         image: <PreventIcon />,
-        description: "Prevent mental health obstacles from derailing player focus",
+        description:
+          "Prevent mental health obstacles from derailing player focus",
         descriptionStyle: "pe-xl-4 pb-2 me-xxl-4",
       },
     ],
@@ -197,7 +207,12 @@ export const borderCardData = [
   {
     path: "/debt-funding",
     title: "Going Beyond Capital Alone",
-    description: <>Our background in private equity and sports management uniquely<span className="d-lg-block">positions us to:</span></>,
+    description: (
+      <>
+        Our background in private equity and sports management uniquely
+        <span className="d-lg-block">positions us to:</span>
+      </>
+    ),
     submap: [
       {
         cardstyle: "mx-xxl-4 px-xxl-4",
@@ -232,34 +247,57 @@ export const borderCardData = [
     path: "/about-us",
     sectionClass: "py-5 my-lg-5",
     title: "United By Our Mission",
-    description: "Our mission is to make a lasting positive impact on the clubs, players, fans, and communities we invest in. We couple our proven managerial and operational strategies with our commitment to preserving club traditions, upholding responsible ESG practices, and developing underserved areas such as women’s football. Our core values include:",
+    description:
+      "Our mission is to make a lasting positive impact on the clubs, players, fans, and communities we invest in. We couple our proven managerial and operational strategies with our commitment to preserving club traditions, upholding responsible ESG practices, and developing underserved areas such as women’s football. Our core values include:",
     submap: [
       {
         cardstyle: "px-xl-4 mx-xl-4",
         aosDelay: "200",
         image: <TransparencyIcon />,
-        description: <><span className="fw-medium">Transparency</span>{" "}for those we serve</>,
+        description: (
+          <>
+            <span className="fw-medium">Transparency</span> for those we serve
+          </>
+        ),
         descriptionStyle: "pe-xl-5 pt-2 pb-3 pb-md-4",
       },
       {
         cardstyle: "px-xl-4 mx-xl-4",
         aosDelay: "400",
         image: <ArrangeIcon />,
-        description: <> <span className="fw-medium">Integrity</span>{" "}with our value-driven approach</>,
+        description: (
+          <>
+            {" "}
+            <span className="fw-medium">Integrity</span> with our value-driven
+            approach
+          </>
+        ),
         descriptionStyle: "pe-xl-4 pt-2 pb-3 pb-md-4",
       },
       {
         cardstyle: "px-xl-4 mx-xl-4",
         aosDelay: "600",
         image: <CommunicationIcon />,
-        description: <> <span className="fw-medium">Communication</span>{" "} with the utmost respect</>,
+        description: (
+          <>
+            {" "}
+            <span className="fw-medium">Communication</span> with the utmost
+            respect
+          </>
+        ),
         descriptionStyle: "pe-xl-4 pt-2 pb-3 pb-md-4",
       },
       {
         cardstyle: "px-xl-4 mx-xl-4",
         aosDelay: "800",
         image: <AccountabilityIcon />,
-        description: <> <span className="fw-medium">Accountability</span>{" "} through measurable performance</>,
+        description: (
+          <>
+            {" "}
+            <span className="fw-medium">Accountability</span> through measurable
+            performance
+          </>
+        ),
         descriptionStyle: "pt-2 pb-3 pb-md-4",
       },
     ],
@@ -301,6 +339,8 @@ export const borderCardData = [
     ],
   },
 ];
+// BORDER CARDS DATA END
+// HERO SECTION DATA START
 export const heroData = [
   {
     path: "/",
@@ -310,7 +350,7 @@ export const heroData = [
     heading: (
       <>
         Unlocking High Impact Sports
-        <span className="clr-yellow">{" "}Investment</span> Opportunities
+        <span className="clr-yellow"> Investment</span> Opportunities
       </>
     ),
     description:
@@ -325,9 +365,9 @@ export const heroData = [
     imageStyle: "abotus-image",
     heading: (
       <>
-        A Thriving <span className="clr-yellow">{" "}Ecosystem</span> of
-        <span className="clr-yellow">{" "}Sports</span> Investment
-        <span className="clr-yellow">{" "}Opportunities</span>
+        A Thriving <span className="clr-yellow"> Ecosystem</span> of
+        <span className="clr-yellow"> Sports</span> Investment
+        <span className="clr-yellow"> Opportunities</span>
       </>
     ),
 
@@ -345,7 +385,7 @@ export const heroData = [
     heading: (
       <>
         <span className="clr-yellow">Facilitating</span> Seamless Club
-        <span className="clr-yellow">{" "}Operations</span>
+        <span className="clr-yellow"> Operations</span>
       </>
     ),
     description:
@@ -374,7 +414,7 @@ export const heroData = [
     heading: (
       <>
         Bringing <span className="clr-yellow">Players</span> and
-        <span className="clr-yellow">{" "}Mentors</span> Together
+        <span className="clr-yellow"> Mentors</span> Together
       </>
     ),
     description:
@@ -405,8 +445,7 @@ export const heroData = [
     heading: (
       <>
         Proudly
-        <span className="clr-yellow">{" "}Prioritizing</span> Player
-        Performance
+        <span className="clr-yellow"> Prioritizing</span> Player Performance
       </>
     ),
     description:
@@ -438,7 +477,8 @@ export const heroData = [
     image: talkimage,
   },
 ];
-
+// HERO SECTION DATA END
+// CONTACT US DATA START
 export const contactData = [
   {
     path: "/",
@@ -460,11 +500,13 @@ export const contactData = [
     path: "/faq",
     descriptionStyle: "faq-contact-us-description",
     title: "My question isn’t listed above...",
-    description: "We encourage you to reach out using the button below for additional questions. Thank you",
+    description:
+      "We encourage you to reach out using the button below for additional questions. Thank you",
     button: "CONTACT  US",
   },
 ];
-
+// CONTACT US DATA END
+// SLIDER DATA START
 export const sliderData = [
   {
     image: clubslider,
@@ -491,43 +533,49 @@ export const sliderData = [
       "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
   },
 ];
-// form submission data heading
-
+// SLIDER DATA END
+// FORM SUBMISSION DATA START
 export const formdata = [
   {
-    title: "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
+    title:
+      "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
     path: "/contact",
   },
   {
     title: "Unlock Each Player’s Full Potential",
-    description: "To get in touch about our player pathways, we encourage you to submit the form below.",
+    description:
+      "To get in touch about our player pathways, we encourage you to submit the form below.",
     path: "/player-pathwa",
   },
   {
     paramaxwidth: "600px",
     title: "Leave Your Portfolio In Trusted Hands",
-    description: "Take the first step toward our wealth management solutions by submitting the form below.",
+    description:
+      "Take the first step toward our wealth management solutions by submitting the form below.",
     path: "/wealth-management",
-    paddingStyle: "pt-xl-5 mt-lg-3"
+    paddingStyle: "pt-xl-5 mt-lg-3",
   },
   {
     title: "Discover the Advantage of E-Mentoring",
-    description: "For more information about joining our e-mentoring program, simply fill out the form below.",
+    description:
+      "For more information about joining our e-mentoring program, simply fill out the form below.",
     path: "/e-mentoring",
   },
   {
     title: "Winning Investment Portfolios Start Here",
-    description: "Fill out the form below to learn more about our club investment opportunities.",
+    description:
+      "Fill out the form below to learn more about our club investment opportunities.",
     path: "/club-investments",
   },
   {
     title: "Secure Favorable Debt Funding Terms",
-    description: "Submit the form below for more information about our debt funding solutions.",
+    description:
+      "Submit the form below for more information about our debt funding solutions.",
     path: "/debt-funding",
-
   },
 ];
-// form submission enputs
+// FORM SUBMISSION DATA END
+// FORM SUBMISSION INPUTS START
 export const inputdata = [
   {
     email: "Email*",
@@ -572,105 +620,113 @@ export const inputdata = [
     path: "/debt-funding",
   },
 ];
-// common cards data
-export const dreams = [
+// FORM SUBMISSION DATA END
+// COMMON CARDS DATA START
+export const commonCardData = [
   {
     parawidth: "500px",
     cardStyle: "mt-md-2",
     path: "/player-pathwa",
-    heading: "Bringing Player Dreams to Fruition",
-    para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
-    dremImg: PlayerClub,
-    dremImg2: PlayerEnchanced,
-    dremImg3: Playerascensions,
-    subHead: "Club Synergies",
-    paragraph:
+    title: "Bringing Player Dreams to Fruition",
+    description:
+      "Our player pathways achieve two key outcomes, including player development and overarching club success.",
+    cardImage1: PlayerClub,
+    cardImage2: PlayerEnchanced,
+    cardImage3: Playerascensions,
+    subtitle: "Club Synergies",
+    subdescription:
       "Improving the ROI of our club investments by connecting budding players with opportunities for measurable growth.",
-    subHead2: "Enhanced Exposure",
-    paragraph2:
+    subtitle2: "Enhanced Exposure",
+    subdescription2:
       "Training players on media engagements while leveraging our marketing packages to improve public sentiment, scouting potential, and club branding.",
-    subHead3: "Player Ascensions",
-    paragraph3:
+    subtitle3: "Player Ascensions",
+    subdescription3:
       "Coordinating with our global network of partner agencies and football industry contacts to ascend players into elite leagues.",
   },
   {
     parawidth: "600px",
     path: "/wealth-management",
-    heading: "Offering a Mosaic of Investment Options",
-    para: "We believe in finding the right investment solutions to make the most of the compensation you’ve received from the football industry.",
-    dremImg: wealthrisk,
-    dremImg2: wealthflexible,
-    dremImg3: wealthshariah,
-    subHead: "Shariah-Compliant Options",
-    paragraph:
+    title: "Offering a Mosaic of Investment Options",
+    description:
+      "We believe in finding the right investment solutions to make the most of the compensation you’ve received from the football industry.",
+    cardImage1: wealthrisk,
+    cardImage2: wealthflexible,
+    cardImage3: wealthshariah,
+    subtitle: "Shariah-Compliant Options",
+    subdescription:
       "Supporting the ever-expanding base of Muslim and conservative players through value-aligned, Shariah-compliant investment options.",
-    subHead2: "Flexible Products",
-    paragraph2:
+    subtitle2: "Flexible Products",
+    subdescription2:
       "Pairing our clients with the optimal investment products, whether that’s real estate, fixed income, or frontier investments.",
-    subHead3: "Risk Protection",
-    paragraph3:
+    subtitle3: "Risk Protection",
+    subdescription3:
       "Mitigating risk while elevating potential returns through reputable, diversified investments with a track record of high performance.",
   },
   {
     parawidth: "620px",
     path: "/e-mentoring",
-    heading: "Putting Wisdom Within Reach",
-    para: "Our network of experts, coaches, and former players unite for the betterment of the players we serve.",
-    dremImg: Mentoringresiliency,
-    dremImg2: Mentoringlearing,
-    dremImg3: Mentoringoptimal,
-    subHead: "Resiliency Building",
-    paragraph:
+    title: "Putting Wisdom Within Reach",
+    description:
+      "Our network of experts, coaches, and former players unite for the betterment of the players we serve.",
+    cardImage1: Mentoringresiliency,
+    cardImage2: Mentoringlearing,
+    cardImage3: Mentoringoptimal,
+    subtitle: "Resiliency Building",
+    subdescription:
       "Priming players to not only endure, but also thrive throughout the most competitive levels of football.",
-    subHead2: "Accelerated Learning",
-    paragraph2:
+    subtitle2: "Accelerated Learning",
+    subdescription2:
       "Cultivating off-field skills for more impactful players while building a sense of community among our clubs.",
-    subHead3: "Optimal Performance",
-    paragraph3:
+    subtitle3: "Optimal Performance",
+    subdescription3:
       "Fortifying player mental health, recovery and growth through our dedicated network of leading sports professionals.",
   },
   {
     parawidth: "750px",
     path: "/club-investments",
     cardStyle: "mt-md-2",
-    heading: "Maximizing Your Upside Potential",
-    para: "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
+    title: "Maximizing Your Upside Potential",
+    description:
+      "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
     para1: " Here’s what you can expect.",
-    dremImg: Investmentminimized,
-    dremImg2: Investmentmeticulous,
-    dremImg3: Investmentholistic,
-    subHead: "Minimized Risk",
-    paragraph:
+    cardImage1: Investmentminimized,
+    cardImage2: Investmentmeticulous,
+    cardImage3: Investmentholistic,
+    subtitle: "Minimized Risk",
+    subdescription:
       "Establishing diverse positions in under-exposed clubs with immense untapped value to minimize financial risks.",
-    subHead2: "Meticulous Research",
-    paragraph2:
+    subtitle2: "Meticulous Research",
+    subdescription2:
       "Conducting extensive due diligence to ensure the performance potential of each investment before buying a stake.",
-    subHead3: "Holistic Growth",
-    paragraph3:
+    subtitle3: "Holistic Growth",
+    subdescription3:
       "Leveraging synergies to develop players, cultivate exposure, and engage fans in an ecosystem of sustainable growth.",
   },
   {
     parawidth: "680px",
     path: "/debt-funding",
     cardStyle: "mt-md-3",
-    heading: "Ensuring Ongoing Club Growth",
-    para: "Through fair rates for clubs and attractive interest income for our investors, we facilitate mutually agreeable debt funding terms.",
-    dremImg: Fundingfinancing,
-    dremImg2: Fundingsharing,
-    dremImg3: Fundingunderwrite,
-    subHead: "Strategic Financing",
-    paragraph:
+    title: "Ensuring Ongoing Club Growth",
+    description:
+      "Through fair rates for clubs and attractive interest income for our investors, we facilitate mutually agreeable debt funding terms.",
+    cardImage1: Fundingfinancing,
+    cardImage2: Fundingsharing,
+    cardImage3: Fundingunderwrite,
+    subtitle: "Strategic Financing",
+    subdescription:
       "Supporting high-impact activities such as player transfers to sharpen the competitive edge of the clubs we work with.",
-    subHead2: "Revenue Sharing",
-    paragraph2:
+    subtitle2: "Revenue Sharing",
+    subdescription2:
       "Allocating working capital into revenue-generating operations to secure meaningful value for both parties.",
-    subHead3: "Reputable Underwriters",
-    paragraph3:
+    subtitle3: "Reputable Underwriters",
+    subdescription3:
       "Leaning on our partnerships with vetted underwriters to evaluate risk and determine the appropriate terms.",
   },
 ];
-// sporticose team data
+// COMMON CARDS DATA END
+// SPORTICOSE TEAM DATA START
 export const sporticoseTeam = [
+  // ABOUS US DATA
   {
     path: "/about-us",
     title: "The Sporticos Team",
@@ -680,13 +736,17 @@ export const sporticoseTeam = [
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
     imageGirl: drHussaImage,
-    titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
+    titlename2: (
+      <>
+        Dr. Hussa K. Al<span>&#8209;</span>Khalifa
+      </>
+    ),
     subtitle: "Founder & Executive Director",
     descriptionpara:
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions. Published thought leader focused on the role of sports in achieving development goals within the UN framework.",
   },
 
-  // home
+  // HOME PAGE DATA
   {
     path: "/",
     title: "Founding Team",
@@ -698,13 +758,19 @@ export const sporticoseTeam = [
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
     imageGirl: drHussaImage,
-    titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
+    titlename2: (
+      <>
+        Dr. Hussa K. Al<span>&#8209;</span>Khalifa
+      </>
+    ),
     subtitle: "Founder & Executive Director",
     buttonAbout: "about us",
     descriptionpara:
       "Award-winning leader and women’s sports advocate with over two decades of board experience for Arabian Gulf and international football institutions.",
   },
 ];
+// SPORTICOSE TEAM DATA END
+// HERO BACKGROUND IMAGE DATA START
 export const heroBackground = [
   {
     path: "/",
@@ -743,4 +809,4 @@ export const heroBackground = [
     path: "/contact",
   },
 ];
-
+// HERO BACKGROUND IMAGE DATA END
