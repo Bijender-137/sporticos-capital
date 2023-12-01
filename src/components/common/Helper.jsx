@@ -134,7 +134,7 @@ export const navLinks = [
 export const borderCardData = [
   {
     path: "/player-pathwa",
-    heading: "Guiding Players to the Next Level",
+    title: "Guiding Players to the Next Level",
     description: <>While players within our athlete network focus on honing their <span className="d-lg-block">{" "}football skills, we:</span></>,
     submap: [
       {
@@ -162,7 +162,7 @@ export const borderCardData = [
   },
   {
     path: "/e-mentoring",
-    heading: "Fostering Community, One Player at a Time",
+    title: "Fostering Community, One Player at a Time",
     description: "Our e-mentorship platform connects mentors with mentees who",
     submap: [
       {
@@ -196,7 +196,7 @@ export const borderCardData = [
   },
   {
     path: "/debt-funding",
-    heading: "Going Beyond Capital Alone",
+    title: "Going Beyond Capital Alone",
     description: <>Our background in private equity and sports management uniquely<span className="d-lg-block">positions us to:</span></>,
     submap: [
       {
@@ -231,7 +231,7 @@ export const borderCardData = [
   {
     path: "/about-us",
     sectionClass: "py-5 my-lg-5",
-    heading: "United By Our Mission",
+    title: "United By Our Mission",
     description: "Our mission is to make a lasting positive impact on the clubs, players, fans, and communities we invest in. We couple our proven managerial and operational strategies with our commitment to preserving club traditions, upholding responsible ESG practices, and developing underserved areas such as women’s football. Our core values include:",
     submap: [
       {
@@ -467,27 +467,27 @@ export const contactData = [
 
 export const sliderData = [
   {
-    img: clubslider,
-    sliderHeading: "Club Investments",
-    sliderpara:
+    image: clubslider,
+    title: "Club Investments",
+    description:
       "Delivering meaningful returns to investors by taking a direct stake in a network of under-exposed clubs with high potential.",
   },
   {
-    img: debtslider,
-    sliderHeading: "Debt Funding",
-    sliderpara:
+    image: debtslider,
+    title: "Debt Funding",
+    description:
       "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
   },
   {
-    img: playerslider,
-    sliderHeading: "Player Pathways",
-    sliderpara:
+    image: playerslider,
+    title: "Player Pathways",
+    description:
       "Nurturing holistic player development to support each club’s success, creating a win-win for players and investors alike.",
   },
   {
-    img: debtslider,
-    sliderHeading: "Debt Funding",
-    sliderpara:
+    image: debtslider,
+    title: "Debt Funding",
+    description:
       "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
   },
 ];
@@ -495,35 +495,34 @@ export const sliderData = [
 
 export const formdata = [
   {
-    heading:
-      "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
+    title: "Submit your Information and a Member of our Team will Follow Up As Soon As Possible",
     path: "/contact",
   },
   {
-    heading: "Unlock Each Player’s Full Potential",
-    para: "To get in touch about our player pathways, we encourage you to submit the form below.",
+    title: "Unlock Each Player’s Full Potential",
+    description: "To get in touch about our player pathways, we encourage you to submit the form below.",
     path: "/player-pathwa",
   },
   {
     paramaxwidth: "600px",
-    heading: "Leave Your Portfolio In Trusted Hands",
-    para: "Take the first step toward our wealth management solutions by submitting the form below.",
+    title: "Leave Your Portfolio In Trusted Hands",
+    description: "Take the first step toward our wealth management solutions by submitting the form below.",
     path: "/wealth-management",
     paddingStyle: "pt-xl-5 mt-lg-3"
   },
   {
-    heading: "Discover the Advantage of E-Mentoring",
-    para: "For more information about joining our e-mentoring program, simply fill out the form below.",
+    title: "Discover the Advantage of E-Mentoring",
+    description: "For more information about joining our e-mentoring program, simply fill out the form below.",
     path: "/e-mentoring",
   },
   {
-    heading: "Winning Investment Portfolios Start Here",
-    para: "Fill out the form below to learn more about our club investment opportunities.",
+    title: "Winning Investment Portfolios Start Here",
+    description: "Fill out the form below to learn more about our club investment opportunities.",
     path: "/club-investments",
   },
   {
-    heading: "Secure Favorable Debt Funding Terms",
-    para: "Submit the form below for more information about our debt funding solutions.",
+    title: "Secure Favorable Debt Funding Terms",
+    description: "Submit the form below for more information about our debt funding solutions.",
     path: "/debt-funding",
 
   },

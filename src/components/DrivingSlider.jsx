@@ -78,15 +78,15 @@ const DrivingSlider = () => {
                     <div className="dreamplayer-shadow bg-white p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
                       <img
                         loading="lazy"
-                        src={data.img}
+                        src={data.image}
                         alt="sliderImg"
                         className="w-100 h-100 img-br-7 transition_300"
                       />
                       <p className="pt-3 mb-0 ff-fontspring fs-base fw-semibold">
-                        {data.sliderHeading}
+                        {data.title}
                       </p>
                       <p className="pt-2 mb-0 ff-barlow fs-base fw-normal text-black opacity-07 pe-md-2 pe-xl-3 pe-xxl-3 me-xxl-3">
-                        {data.sliderpara}
+                        {data.description}
                       </p>
                     </div>
                   </SwiperSlide>
