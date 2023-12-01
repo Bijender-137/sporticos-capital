@@ -22,7 +22,7 @@ const CommonBorderCards = () => {
       <div className={`${data.sectionClass}`}>
         <Container className={` ${about ? "pt-lg-4" : ""}`}>
           <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1">
-            {data.heading}
+            {data.title}
           </p>
           <p
             className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center max-w-750 mb-4 mx-auto ${data.className}`}

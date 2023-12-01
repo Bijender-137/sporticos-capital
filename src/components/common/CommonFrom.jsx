@@ -81,14 +81,14 @@ const CommonFrom = () => {
         <Container className="py-lg-5 my-xl-4">
           <div className="text-center">
             <h2 className="fw-bold ff-fontspring fs-xxl text-black form_heading_setup m-auto">
-              {currentheading?.heading}
+              {currentheading?.title}
             </h2>
-            {currentheading?.para && (
+            {currentheading?.description && (
               <p
                 style={{ maxWidth: currentheading.paramaxwidth }}
                 className="ff-barlow fs-base text-black fw-normal mb-0 pt-1 opacity-07 m-auto"
               >
-                {currentheading.para}
+                {currentheading.description}
               </p>
             )}
           </div>
