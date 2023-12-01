@@ -142,19 +142,19 @@ input:-webkit-autofill:active {
 /* BACK TO TOP CSS END */
 
 /* DREAM PLAYERS CSS START*/
-.dreamplayer-shadow {
+.common_cards_shadow {
     border-radius: 16px;
     border: 1px solid rgba(0, 0, 0, 0.20);
     max-width: 360px;
 }
 
-.dreamplayer-shadow:hover {
+.common_cards_shadow:hover {
     -webkit-box-shadow: 0px 0px 33px -4px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 0px 23px -4px rgba(0, 0, 0, 0.12);
     border: 1px solid transparent;
 }
 
-.dreamplayer-shadow:hover img {
+.common_cards_shadow:hover img {
     -ms-transform: scale(0.97);
     transform: scale(0.97);
     -webkit-transform: scale(0.97);
@@ -241,6 +241,7 @@ input:-webkit-autofill:active {
 
 .preloader_img {
     width: 250px;
+    height: 50px;
     animation: scaleAnimation 2s infinite;
 }
 
@@ -262,7 +263,7 @@ input:-webkit-autofill:active {
 
 /* MEDIA QUARRY START */
 @media (min-width:576px) {
-    .dreamplayer-shadow {
+    .common_cards_shadow {
         max-width: 100%;
     }
 
@@ -280,6 +281,7 @@ input:-webkit-autofill:active {
 
     .preloader_img {
         width: 350px;
+        height: 65px;
     }
 }
 
@@ -311,7 +313,8 @@ input:-webkit-autofill:active {
     }
 
     .preloader_img {
-        width: 450px;
+        width: 400px;
+        height: 75px;
     }
 }
 

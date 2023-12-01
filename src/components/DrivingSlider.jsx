@@ -74,8 +74,11 @@ const DrivingSlider = () => {
             >
               {sliderData.map((data, index) => {
                 return (
-                  <SwiperSlide key={index} className="pt-4 pb-5 py-sm-4 py-md-5 d-flex gap-2">
-                    <div className="dreamplayer-shadow bg-white p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
+                  <SwiperSlide
+                    key={index}
+                    className="pt-4 pb-5 py-sm-4 py-md-5 d-flex gap-2"
+                  >
+                    <div className="common_cards_shadow bg-white p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
                       <img
                         loading="lazy"
                         src={data.image}
@@ -94,7 +97,9 @@ const DrivingSlider = () => {
               })}
             </Swiper>
             <div
-              ref={(ref) => { prevButtonRef = ref; }}
+              ref={(ref) => {
+                prevButtonRef = ref;
+              }}
               className="swiper-button-prev transition_300 d-flex justify-content-center"
               onClick={handlePrev}
             >
@@ -103,7 +108,9 @@ const DrivingSlider = () => {
               </div>
             </div>
             <div
-              ref={(ref) => { nextButtonRef = ref; }}
+              ref={(ref) => {
+                nextButtonRef = ref;
+              }}
               className="swiper-button-next transition_300 d-flex justify-content-center"
               onClick={handleNext}
             >
