@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { dreams } from "./Helper";
+import { commonCardData } from "./Helper";
 import { useLocation } from "react-router-dom";
 const CommonCards = () => {
   const location = useLocation();
@@ -9,21 +9,23 @@ const CommonCards = () => {
       <div className="py-5">
         <Container className="py-lg-5">
           <div className="py-xl-3">
-            {dreams.map((dreamsplayer, index) => {
+            {commonCardData.map((dreamsplayer, index) => {
               const dreamplayerchange = location.pathname === dreamsplayer.path;
               return dreamplayerchange ? (
                 <div key={index}>
                   <p className="ff-fontspring fw-semibold fs-xxl lh-42 text-center text-capitalize mb-0">
-                    {dreamsplayer.heading}
+                    {dreamsplayer.title}
                   </p>
                   <p
                     style={{ maxWidth: dreamsplayer.parawidth }}
                     className={`ff-barlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
                   >
-                    {dreamsplayer.para}{" "}
+                    {dreamsplayer.description}{" "}
                     <span className="fw-bold">{dreamsplayer.para1}</span>
                   </p>
-                  <Row className={`pt-4 pt-lg-5 justify-content-center ${dreamsplayer.cardStyle} `}>
+                  <Row
+                    className={`pt-4 pt-lg-5 justify-content-center ${dreamsplayer.cardStyle} `}
+                  >
                     <Col
                       sm={6}
                       lg={4}
@@ -35,14 +37,14 @@ const CommonCards = () => {
                       <div className="dreamplayer-shadow bg-white transition_300 p-3 h-100">
                         <img
                           className="w-100 overflow-hidden transition_300"
-                          src={dreamsplayer.dremImg}
+                          src={dreamsplayer.cardImage1}
                           alt="dream img"
                         />
                         <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
-                          {dreamsplayer.subHead}
+                          {dreamsplayer.subtitle}
                         </h2>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 mb-0">
-                          {dreamsplayer.paragraph}
+                          {dreamsplayer.subdescription}
                         </p>
                       </div>
                     </Col>
@@ -57,14 +59,14 @@ const CommonCards = () => {
                       <div className="dreamplayer-shadow bg-white transition_300 p-3 h-100 ">
                         <img
                           className="w-100 overflow-hidden transition_300"
-                          src={dreamsplayer.dremImg2}
+                          src={dreamsplayer.cardImage2}
                           alt="dream img"
                         />
                         <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
-                          {dreamsplayer.subHead2}
+                          {dreamsplayer.subtitle2}
                         </h2>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
-                          {dreamsplayer.paragraph2}
+                          {dreamsplayer.subdescription2}
                         </p>
                       </div>
                     </Col>
@@ -79,14 +81,14 @@ const CommonCards = () => {
                       <div className="dreamplayer-shadow bg-white p-3 h-100 transition_300">
                         <img
                           className="w-100 overflow-hidden transition_300"
-                          src={dreamsplayer.dremImg3}
+                          src={dreamsplayer.cardImage3}
                           alt="dream img"
                         />
                         <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
-                          {dreamsplayer.subHead3}
+                          {dreamsplayer.subtitle3}
                         </h2>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
-                          {dreamsplayer.paragraph3}
+                          {dreamsplayer.subdescription3}
                         </p>
                       </div>
                     </Col>
