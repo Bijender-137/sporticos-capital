@@ -149,15 +149,13 @@ const CommonFrom = () => {
                   <div className="position-relative">
                     <div
                       onClick={buttonClick}
-                      className={`w-100 cursor_pointer ff-barlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1  form_input transition_300 ${
-                        selectedOption ? "text-black" : "clr-gray"
-                      }`}
+                      className={`w-100 cursor_pointer ff-barlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1  form_input transition_300 ${selectedOption ? "text-black" : "clr-gray"
+                        }`}
                     >
                       {selectedOption || "Which best describes you?"}
                       <span
-                        className={`${
-                          open ? "dropdown-open" : "dropdown-closed"
-                        }`}
+                        className={`${open ? "dropdown-open" : "dropdown-closed"
+                          }`}
                       >
                         <DropDown />
                       </span>
@@ -167,9 +165,8 @@ const CommonFrom = () => {
                         <ul className="p-0">
                           {data.map((i, index) => (
                             <li
-                              className={`option transition_300 w-100 p form_input transition_300 ff-barlow fw-medium fs-sm text-start cursor_pointer ${
-                                selectedOption === i ? "" : ""
-                              }`}
+                              className={`option transition_300 w-100 p form_input transition_300 ff-barlow fw-medium fs-sm text-start cursor_pointer ${selectedOption === i ? "" : ""
+                                }`}
                               key={index}
                               onClick={() => optionClick(i)}
                             >
@@ -206,20 +203,17 @@ const CommonFrom = () => {
                   >
                     I agree to Sporticos-Capital
                     <span>
-                      {" "}
-                      <a
+                      {" "}<a
                         href="#"
                         className="fw-semibold clr-blue form-opacity transition_300"
                       >
                         Terms of Use
                       </a>
-                    </span>{" "}
-                    and{" "}
+                    </span>
+                    {" "}and{" "}
                     <span>
-                      <a
-                        href="#"
-                        className="fw-semibold clr-blue form-opacity transition_300"
-                      >
+                      <a href="#"
+                        className="fw-semibold clr-blue form-opacity transition_300">
                         Privacy Policy<span className="text-danger">*</span>
                       </a>
                     </span>
@@ -227,7 +221,7 @@ const CommonFrom = () => {
                 </div>
                 <div className="mt-4 mt-md-5 pt-lg-3">
                   <input
-                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 navLink-button transition_300"
+                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 common_fill_button transition_300"
                     type="submit"
                     required
                     value="Submit"
