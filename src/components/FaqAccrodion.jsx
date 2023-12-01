@@ -13,11 +13,11 @@ const FaqAccrodion = () => {
   return (
     <>
       <Container className="py-5 mb-3 mb-md-1 my-lg-2">
-        <div className="max-w-1000 mx-auto py-md-4 py-lg-5">
+        <div className="faq-box mx-auto pb-md-4 py-lg-5">
           <h5 className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-md-3 pb-lg-4 mb-0">
             Frequently Asked Questions
           </h5>
-          {accordionItems.map((item, index) => (
+          {accordionItems.map((data, index) => (
             <div className="pt-3" key={index}>
               <div
                 className={`accordion transition_300 p-2 py-3 p-sm-3 p-md-4 w-100 ${index === activeIndex ? "active transition_300" : ""
@@ -28,7 +28,7 @@ const FaqAccrodion = () => {
                   onClick={() => handleItemClick(index)}
                 >
                   <p className="mb-0 text-black ff-barlow fw-semibold fs-base pe-1">
-                    {item.title}
+                    {data.title}
                   </p>
                   <span className="accordion-toggle transition_300">
                     {index === activeIndex ? <NegativeIcon /> : <PlusIcon />}
@@ -39,7 +39,7 @@ const FaqAccrodion = () => {
                     }`}
                 >
                   <p className="mb-0 ff-barlow fs-sm fw-normal text-black opacity-08">
-                    {item.content}
+                    {data.description}
                   </p>
                 </div>
               </div>
