@@ -470,6 +470,7 @@ export const formdata = [
     heading: "Leave Your Portfolio In Trusted Hands",
     para: "Take the first step toward our wealth management solutions by submitting the form below.",
     path: "/wealth-management",
+    paddingStyle: "pt-xl-5 mt-lg-3"
   },
   {
     heading: "Discover the Advantage of E-Mentoring",
@@ -485,7 +486,7 @@ export const formdata = [
     heading: "Secure Favorable Debt Funding Terms",
     para: "Submit the form below for more information about our debt funding solutions.",
     path: "/debt-funding",
-    paddingStyle: "pt-xl-5 mt-lg-3"
+
   },
 ];
 // form submission enputs
@@ -537,6 +538,7 @@ export const inputdata = [
 export const dreams = [
   {
     parawidth: "500px",
+    cardStyle: "mt-md-2",
     path: "/player-pathwa",
     heading: "Bringing Player Dreams to Fruition",
     para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
@@ -592,6 +594,7 @@ export const dreams = [
   {
     parawidth: "750px",
     path: "/club-investments",
+    cardStyle: "mt-md-2",
     heading: "Maximizing Your Upside Potential",
     para: "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
     para1: " Here’s what you can expect.",
@@ -611,6 +614,7 @@ export const dreams = [
   {
     parawidth: "680px",
     path: "/debt-funding",
+    cardStyle: "mt-md-3",
     heading: "Ensuring Ongoing Club Growth",
     para: "Through fair rates for clubs and attractive interest income for our investors, we facilitate mutually agreeable debt funding terms.",
     dremImg: Funding1,
