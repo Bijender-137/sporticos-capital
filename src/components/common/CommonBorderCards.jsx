@@ -8,28 +8,19 @@ const CommonBorderCards = () => {
   const currentPathname = location.pathname;
   const data = borderCardData.find((e) => e.path === currentPathname);
 
-  const [show, setShow] = useState(false);
-  const [edatashow, setEdatashow] = useState(false);
-  const [wealth, setWealth] = useState(false);
   const [player, setPlayer] = useState(false);
   const [about, setAbout] = useState(false);
-  const [funding, setFunding] = useState(false);
+
 
   useEffect(() => {
-    setShow(
-      location.pathname === "/about-us" || location.pathname === "/debt-funding"
-    );
-    setEdatashow(location.pathname === "/e-mentoring");
-    setWealth(location.pathname === "/wealth-management");
     setPlayer(location.pathname === "/player-pathwa");
     setAbout(location.pathname === "/about-us");
-    setFunding(location.pathname === "/debt-funding");
   }, [location.pathname]);
 
   return (
     <>
-      <div className={`${about ? "py-lg-5 mt-md-4" : ""}`}>
-        <Container className={` ${about ? "py-5" : ""}`}>
+      <div className={`${data.sectionClass}`}>
+        <Container className={` ${about ? "pt-lg-4" : ""}`}>
           <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1">
             {data.heading}
           </p>
@@ -38,7 +29,7 @@ const CommonBorderCards = () => {
           >
             {data.description}
           </p>
-          <div className={`${wealth ? "pt-xl-3" : ""}`}></div>
+          <div className={`${data.Style}`}></div>
           <Row className={`d-flex justify-content-center pt-lg-4`}>
             {data.submap.map((subdata, columnindex, index) => (
               <Col
@@ -50,35 +41,14 @@ const CommonBorderCards = () => {
                 lg={player ? 3 : 3}
                 xs={6}
                 className={`pt-3 pt-md-0 ${columnindex === data.submap.length - 1 ? "last-child" : "border-end-yellow"
-                  }`}
-              >
-                <div
-                  className={`pt-2
-                   ${show ? "px-xl-4 mx-xl-3" : ""}
-                   ${wealth && columnindex !== 1 ? "mx-xl-3 px-xl-4" : ""}
-                   ${wealth && columnindex === 1 ? "ms-xl-3 px-xl-4" : ""}
-                   ${wealth ? "px-xxl-5" : ""}
-                   ${subdata.cardstyle}
-                   `}
-                >
+                  }`} >
+                <div className={`pt-2 ${subdata.cardstyle}`} >
                   <div className="d-flex justify-content-center justify-content-md-start">
                     {subdata.image}
                   </div>
-                  <p
-                    className={`ff-barlow fs-base fw-normal text-black text-center text-md-start mb-0
-                   ${show ? "pt-2 mb-0" : ""}
-                   ${subdata.descriptionStyle}
-                   ${wealth ? "py-3 py-xl-4" : ""}
-                   ${player ? "py-3 pt-lg-4 mt-2" : ""}
-                   ${about ? "pb-3 pb-lg-4 " : ""}
-                   ${about && columnindex !== 3 ? "pe-xl-5" : ""}
-                  
-                  `}
-                  >
-                    <span className={`${about ? "fw-medium" : ""}`}>
-                      {subdata.description.split(" ")[0]}{" "}
-                    </span>
-                    {subdata.description.slice(subdata.description.indexOf(" ") + 1)}
+                  <p className={`ff-barlow fs-base fw-normal text-black text-center text-md-start mb-0
+                   ${subdata.descriptionStyle} `}>
+                    {subdata.description}
                   </p>
                 </div>
               </Col>
