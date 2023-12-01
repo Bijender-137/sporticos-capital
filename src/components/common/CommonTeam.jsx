@@ -17,7 +17,7 @@ const CommonTeam = () => {
     <>
       <div className="position-relative">
         {isChatBoxVisible && (
-          <div className="position-absolute position_chat_box">
+          <div className="position-absolute chat_box">
             <ChatBox />
           </div>
         )}

@@ -162,6 +162,7 @@ body {
 }
 
 /* ------Navsiderbar-------- */
+
 .mt-62 {
   margin-top: 62px;
 }
@@ -484,6 +485,10 @@ body {
 }
 
 @media (min-width:768px) {
+  .homepage-image {
+    max-width: 700px !important;
+  }
+
   .footer-space {
     gap: 100px !important;
   }
