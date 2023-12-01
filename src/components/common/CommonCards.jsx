@@ -8,12 +8,12 @@ const CommonCards = () => {
     <>
       <div className="py-5">
         <Container className="py-lg-5">
-          <div className="py-md-3">
+          <div className="py-xl-3">
             {dreams.map((dreamsplayer, index) => {
               const dreamplayerchange = location.pathname === dreamsplayer.path;
               return dreamplayerchange ? (
                 <div key={index}>
-                  <p className="ff-fontspring fw-normal fs-xxl lh-42 text-center text-capitalize mb-0">
+                  <p className="ff-fontspring fw-semibold fs-xxl lh-42 text-center text-capitalize mb-0">
                     {dreamsplayer.heading}
                   </p>
                   <p
@@ -23,7 +23,7 @@ const CommonCards = () => {
                     {dreamsplayer.para}{" "}
                     <span className="fw-bold">{dreamsplayer.para1}</span>
                   </p>
-                  <Row className="pt-4 pt-lg-5 justify-content-center">
+                  <Row className={`pt-4 pt-lg-5 justify-content-center ${dreamsplayer.cardStyle} `}>
                     <Col
                       sm={6}
                       lg={4}

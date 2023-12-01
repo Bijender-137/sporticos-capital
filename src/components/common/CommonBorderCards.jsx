@@ -30,11 +30,11 @@ const CommonBorderCards = () => {
     <>
       <div className={`${about ? "py-lg-5 mt-md-4" : ""}`}>
         <Container className={` ${about ? "py-5" : ""}`}>
-          <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-1">
+          <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1">
             {currentData.heading}
           </p>
           <p
-            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center max-w-750 mx-auto ${currentData.className}`}
+            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center max-w-750 mb-4 mx-auto ${currentData.className}`}
           >
             {currentData.para}
             <span className="d-lg-block">{currentData.spanpara}</span>

@@ -34,7 +34,7 @@ const CommonTeam = () => {
                   }`}
                   key={index}
                 >
-                  <div className="text-center pb-4 pb-lg-5">
+                  <div className="text-center pb-4 pb-lg-4">
                     <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
                       {data.title}
                     </h5>
@@ -109,7 +109,7 @@ const CommonTeam = () => {
                     </Col>
                   </Row>
                   {home && (
-                    <div className="d-flex justify-content-center pt-4 mt-md-2 mt-lg-0 pt-lg-5">
+                    <div className="d-flex justify-content-center py-lg-4">
                       <Link
                         to="/about-us"
                         className="fw-normal text-uppercase text-black fs-sm bg-yellow transition_300 navLink-button ff-barlow"

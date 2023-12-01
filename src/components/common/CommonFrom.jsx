@@ -78,8 +78,8 @@ const CommonFrom = () => {
     <>
       <div className="py-5 backgroundImg">
         <div className={`${currentheading.paddingStyle}`}></div>
-        <Container className="py-lg-5 mt-md-3 mb-md-5">
-          <div className="pb-sm-2 pb-md-3 text-center">
+        <Container className="py-lg-5 my-xl-4">
+          <div className="text-center">
             <h2 className="fw-bold ff-fontspring fs-xxl text-black max-w-810  m-auto">
               {currentheading?.heading}
             </h2>
