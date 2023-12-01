@@ -443,6 +443,7 @@ export const contactData = [
   {
     path: "/",
     title: "Discover the Advantage of Sporticos Capital",
+    descriptionStyle: "home-contact-us-description",
     description:
       "We invite growth-minded investors, club executives, and players to reach out today for  accelerated growth tomorrow.",
     button: "CONTACT  US",
@@ -450,12 +451,14 @@ export const contactData = [
   {
     path: "/about-us",
     title: "Reach Out",
+    descriptionStyle: "aboutus-contact-us-description",
     description:
       "For inquiries, investment opportunities, and general questions, we invite you to get in touch today.",
     button: "CONTACT  US",
   },
   {
     path: "/faq",
+    descriptionStyle: "faq-contact-us-description",
     title: "My question isn’t listed above...",
     description: "We encourage you to reach out using the button below for additional questions. Thank you",
     button: "CONTACT  US",
