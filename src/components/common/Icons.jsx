@@ -147,7 +147,7 @@ export const NegativeIcon = () => {
 export const PositiveIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -229,7 +229,7 @@ export const PositiveIcon = () => {
 export const PeopleIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -267,7 +267,7 @@ export const PeopleIcon = () => {
 export const GrowIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -339,7 +339,7 @@ export const BacktoTopIcon = () => {
 export const TransparencyIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -377,7 +377,7 @@ export const TransparencyIcon = () => {
 export const IntegrityIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -419,7 +419,7 @@ export const IntegrityIcon = () => {
 export const CommunicationIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="84"
       viewBox="0 0 85 84"
@@ -469,7 +469,7 @@ export const CommunicationIcon = () => {
 export const AccountabilityIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="84"
       viewBox="0 0 85 84"
@@ -511,7 +511,7 @@ export const AccountabilityIcon = () => {
 export const IdentifyIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -545,7 +545,7 @@ export const IdentifyIcon = () => {
 export const ArrangeIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -587,7 +587,7 @@ export const ArrangeIcon = () => {
 export const MitigateIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="84"
       viewBox="0 0 85 84"
@@ -633,7 +633,7 @@ export const MitigateIcon = () => {
 export const ServeIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="84"
       viewBox="0 0 85 84"
@@ -667,7 +667,7 @@ export const ServeIcon = () => {
 export const SupportIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="86"
       height="85"
       viewBox="0 0 86 85"
@@ -705,7 +705,7 @@ export const SupportIcon = () => {
 export const DevelopIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="86"
       height="85"
       viewBox="0 0 86 85"
@@ -747,7 +747,7 @@ export const DevelopIcon = () => {
 export const SherpenIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="84"
       viewBox="0 0 85 84"
@@ -797,7 +797,7 @@ export const SherpenIcon = () => {
 export const PreventIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="84"
       viewBox="0 0 85 84"
@@ -839,7 +839,7 @@ export const PreventIcon = () => {
 export const UnderStandIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -873,7 +873,7 @@ export const UnderStandIcon = () => {
 export const FactorIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -911,7 +911,7 @@ export const FactorIcon = () => {
 export const BulbIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
@@ -977,7 +977,7 @@ export const BulbIcon = () => {
 export const MaintainIcon = () => {
   return (
     <svg
-      className="icons-h-w"
+      className="border-cards-icon"
       width="85"
       height="85"
       viewBox="0 0 85 85"
