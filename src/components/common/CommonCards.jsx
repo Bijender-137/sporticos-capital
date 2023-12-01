@@ -13,9 +13,9 @@ const CommonCards = () => {
               const dreamplayerchange = location.pathname === dreamsplayer.path;
               return dreamplayerchange ? (
                 <div key={index}>
-                  <p className="ff-fontspring fw-semibold fs-xxl lh-42 text-center text-capitalize mb-0">
+                  <h3 className="ff-fontspring fw-semibold fs-xxl lh-42 text-center text-capitalize mb-0">
                     {dreamsplayer.title}
-                  </p>
+                  </h3>
                   <p
                     style={{ maxWidth: dreamsplayer.parawidth }}
                     className={`ff-barlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}

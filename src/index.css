@@ -29,7 +29,7 @@ body {
 }
 
 :root {
-  /* ------ FONT SIZE ------*/
+  /* ------ font size ------*/
   --fs-xs: 14px;
   --fs-sm: 16px;
   --fs-base: 18px;
@@ -37,10 +37,8 @@ body {
   --fs-lg: 24px;
   --fs-xl: 30px;
   --fs-xxl: 32px;
-  --fs-3xl: 37px;
-  --fs-4xl: 46px;
-  --fs-5xl: 50px;
-  --fs-6xl: 80px;
+  --fs-3xl: 50px;
+  --fs-4xl: 80px;
 
   /* ------ ALL COLOR ------*/
   --clr-gray: #979797;
@@ -62,10 +60,8 @@ body {
     --fs-lg: 17px;
     --fs-xl: 28px;
     --fs-xxl: 30px;
-    --fs-3xl: 32px;
-    --fs-4xl: 40px;
-    --fs-5xl: 42px;
-    --fs-6xl: 60px;
+    --fs-3xl: 42px;
+    --fs-4xl: 60px;
   }
 }
 
@@ -75,10 +71,8 @@ body {
     --fs-md: 16px;
     --fs-xl: 25px;
     --fs-xxl: 26px;
-    --fs-3xl: 28px;
-    --fs-4xl: 30px;
-    --fs-5xl: 38px;
-    --fs-6xl: 50px;
+    --fs-3xl: 38px;
+    --fs-4xl: 50px;
   }
 }
 
@@ -89,10 +83,8 @@ body {
     --fs-lg: 14px;
     --fs-xl: 20px;
     --fs-xxl: 22px;
-    --fs-3xl: 24px;
-    --fs-4xl: 26px;
-    --fs-5xl: 28px;
-    --fs-6xl: 36px;
+    --fs-3xl: 28px;
+    --fs-4xl: 36px;
   }
 }
 
@@ -130,14 +122,6 @@ body {
 
 .fs-4xl {
   font-size: var(--fs-4xl) !important;
-}
-
-.fs-5xl {
-  font-size: var(--fs-5xl) !important;
-}
-
-.fs-6xl {
-  font-size: var(--fs-6xl) !important;
 }
 
 .clr-yellow {
