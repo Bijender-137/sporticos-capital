@@ -565,6 +565,18 @@ body {
   .max-w-790 {
     max-width: 790px;
   }
+
+  .home-contact-us-description {
+    max-width: 690px;
+  }
+
+  .aboutus-contact-us-description {
+    max-width: 550px;
+  }
+
+  .faq-contact-us-description {
+    max-width: 500px;
+  }
 }
 
 @media (min-width:1200px) {

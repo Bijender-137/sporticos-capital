@@ -17,9 +17,8 @@ const CommonContactUs = () => {
                             <h5 className='fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1'>
                                 {data.title}
                             </h5>
-                            <p className='text-center text-black opacity-07 ff-barlow fs-base fw-normal'>
+                            <p className={`text-center text-black opacity-07 ff-barlow fs-base fw-normal ${data.descriptionStyle}`}>
                                 {data.description}
-                                <span className="d-md-block">{data.paragraph1}</span>
                             </p>
                             <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow transition_300 common_fill_button ff-barlow">
                                 {data.button}
