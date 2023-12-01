@@ -80,7 +80,7 @@ const CommonFrom = () => {
         <div className={`${currentheading.paddingStyle}`}></div>
         <Container className="py-lg-5 my-xl-4">
           <div className="text-center">
-            <h2 className="fw-bold ff-fontspring fs-xxl text-black max-w-810  m-auto">
+            <h2 className="fw-bold ff-fontspring fs-xxl text-black form_heading_setup m-auto">
               {currentheading?.heading}
             </h2>
             {currentheading?.para && (
@@ -149,13 +149,15 @@ const CommonFrom = () => {
                   <div className="position-relative">
                     <div
                       onClick={buttonClick}
-                      className={`w-100 cursor_pointer ff-barlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1  form_input transition_300 ${selectedOption ? "text-black" : "clr-gray"
-                        }`}
+                      className={`w-100 cursor_pointer ff-barlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1  form_input transition_300 ${
+                        selectedOption ? "text-black" : "clr-gray"
+                      }`}
                     >
                       {selectedOption || "Which best describes you?"}
                       <span
-                        className={`${open ? "dropdown-open" : "dropdown-closed"
-                          }`}
+                        className={`${
+                          open ? "dropdown-open" : "dropdown-closed"
+                        }`}
                       >
                         <DropDown />
                       </span>
@@ -165,8 +167,9 @@ const CommonFrom = () => {
                         <ul className="p-0">
                           {data.map((i, index) => (
                             <li
-                              className={`option transition_300 w-100 p form_input transition_300 ff-barlow fw-medium fs-sm text-start cursor_pointer ${selectedOption === i ? "" : ""
-                                }`}
+                              className={`option transition_300 w-100 p form_input transition_300 ff-barlow fw-medium fs-sm text-start cursor_pointer ${
+                                selectedOption === i ? "" : ""
+                              }`}
                               key={index}
                               onClick={() => optionClick(i)}
                             >
@@ -203,17 +206,20 @@ const CommonFrom = () => {
                   >
                     I agree to Sporticos-Capital
                     <span>
-                      {" "}<a
+                      {" "}
+                      <a
                         href="#"
-                        className="fw-semibold clr-blue from-opacity transition_300"
+                        className="fw-semibold clr-blue form-opacity transition_300"
                       >
                         Terms of Use
                       </a>
-                    </span>
-                    {" "}and{" "}
+                    </span>{" "}
+                    and{" "}
                     <span>
-                      <a href="#"
-                        className="fw-semibold clr-blue from-opacity transition_300">
+                      <a
+                        href="#"
+                        className="fw-semibold clr-blue form-opacity transition_300"
+                      >
                         Privacy Policy<span className="text-danger">*</span>
                       </a>
                     </span>

@@ -1089,7 +1089,7 @@ export const NextIcon = () => {
 export const FootballIcon = () => {
   return (
     <svg
-      className="performance_icons_width"
+      className="performance_icons_mobile_screen"
       width="65"
       height="66"
       viewBox="0 0 65 66"
@@ -1107,7 +1107,7 @@ export const FootballIcon = () => {
 export const DollarbulbIcon = () => {
   return (
     <svg
-      className="performance_icons_width"
+      className="performance_icons_mobile_screen"
       width="78"
       height="79"
       viewBox="0 0 78 79"
@@ -1157,7 +1157,7 @@ export const DollarbulbIcon = () => {
 export const HandspeopleIcon = () => {
   return (
     <svg
-      className="performance_icons_width"
+      className="performance_icons_mobile_screen"
       width="85"
       height="82"
       viewBox="0 0 85 82"
@@ -1177,7 +1177,7 @@ export const HandspeopleIcon = () => {
 export const GrowthIcon = () => {
   return (
     <svg
-      className="performance_icons_width"
+      className="performance_icons_mobile_screen"
       width="65"
       height="65"
       viewBox="0 0 49 49"

@@ -13,7 +13,7 @@ export const Preloader = () => {
     >
       <div className="d-flex justify-content-center align-items-center min-vh-100">
         <div className="z-10 d-inline-block">
-          <img src={preloaderimg} alt="preloaderimg" className="preloaderimg" />
+          <img src={preloaderimg} alt="preloaderimg" className="preloader_img" />
         </div>
       </div>
     </div>

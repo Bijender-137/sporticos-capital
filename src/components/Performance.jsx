@@ -47,7 +47,7 @@ const Performance = () => {
               </div>
             </div>
             <div className="col-md-4 d-none d-md-block">
-              <div className="performance_img_w m-auto">
+              <div className="performance_image m-auto">
                 <img
                   loading="lazy"
                   data-aos="zoom-in"

@@ -28,9 +28,7 @@ const CommonTeam = () => {
               return commonteamchange ? (
                 <div
                   className={`${
-                    about
-                      ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-2"
-                      : "pt-lg-2"
+                    about ? "pb-3 pb-sm-4 pb-md-1 pb-lg-5 mb-lg-2" : "pt-lg-2"
                   }`}
                   key={index}
                 >
@@ -39,7 +37,7 @@ const CommonTeam = () => {
                       {data.title}
                     </h5>
                     <p
-                      className={`fw-normal ff-barlow fs-base text-black opacity-07 mb-0 home_mainpara_w m-auto ${
+                      className={`fw-normal ff-barlow fs-base text-black opacity-07 mb-0 common_team_paragraph m-auto ${
                         home ? "pt-2 mt-1  " : ""
                       }`}
                     >
@@ -53,12 +51,12 @@ const CommonTeam = () => {
                       data-aos-delay="200"
                       data-aos-ease="linear"
                     >
-                      <div className="common_team_card_shadow bg-white p-4 h-100 transition-300 common_card_w m-auto">
+                      <div className="common_team_card_shadow bg-white p-4 h-100 transition_300 common_card_w m-auto">
                         <div className="d-flex align-items-center">
-                          <div className="common_team_border transition_300 common_img_w">
+                          <div className="common_team_border transition_300 common_team_image">
                             <img
                               loading="lazy"
-                              className="transition-300 w-100 h-100"
+                              className="transition_300 w-100 h-100"
                               src={data.image}
                               alt="founder img"
                             />
@@ -72,7 +70,7 @@ const CommonTeam = () => {
                             </p>
                           </div>
                         </div>
-                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 max_w_535 pt-4 pb-md-3 mb-0">
+                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 common_team_para_width pt-4 pb-md-3 mb-0">
                           {data.subdescription}
                         </p>
                       </div>
@@ -83,12 +81,13 @@ const CommonTeam = () => {
                       data-aos-delay="400"
                       data-aos-ease="linear"
                     >
-                      <div className="common_team_card_shadow bg-white p-4 transition-300 mt-4 mt-lg-0 common_card_w m-auto">
+                      <div className="common_team_card_shadow bg-white p-4 transition_300 mt-4 mt-lg-0 common_card_w m-auto">
                         <div className="d-flex align-items-center">
-                          <div className="common_team_border transition_300 common_img_w">
+                          <div className="common_team_border transition_300 common_team_image {
+">
                             <img
                               loading="lazy"
-                              className="transition-300 w-100 h-100"
+                              className="transition_300 w-100 h-100"
                               src={data.imageGirl}
                               alt="founder img"
                             />
@@ -102,7 +101,7 @@ const CommonTeam = () => {
                             </p>
                           </div>
                         </div>
-                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 max_w_535 pt-4 pb-md-3 mb-0">
+                        <p className="ff-barlow fw-normal fs-base text-black opacity-07 lh-24 common_team_para_width pt-4 pb-md-3 mb-0">
                           {data.descriptionpara}
                         </p>
                       </div>

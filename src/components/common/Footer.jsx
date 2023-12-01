@@ -32,11 +32,11 @@ const Footer = () => {
                       onClick={handleLogoClick}
                       width={237}
                       height={47}
-                      className="footer-logo-w cursor_pointer w-100"
+                      className="footer_logo cursor_pointer w-100"
                       src={FooterLogo}
                       alt="FooterLogo"
                     />
-                    <p className="text-white opacity-07 max-w-453 fs-sm fw-normal ff-barlow mt-3">
+                    <p className="text-white opacity-07 footer_para_width fs-sm fw-normal ff-barlow mt-3">
                       Sporticos Capital is a registered LLC with offices in
                       Bahrain, US and the UK. Our combined experience and
                       diverse team gives us an important vantage point to
@@ -47,21 +47,21 @@ const Footer = () => {
                       <a
                         target="blank"
                         href="https://www.linkedin.com/company/sporticos-capital/"
-                        className="icons-bg d-flex justify-content-center align-items-center transition_300"
+                        className="footer_icons d-flex justify-content-center align-items-center transition_300"
                       >
                         <Linkdin />
                       </a>
                       <a
                         target="blank"
                         href="https://www.twitter.com/SporticosCapital"
-                        className="icons-bg d-flex justify-content-center align-items-center transition_300"
+                        className="footer_icons d-flex justify-content-center align-items-center transition_300"
                       >
                         <Twitter />
                       </a>
                       <a
                         target="blank"
                         href="https://www.instagram.com/sporticoscapital/"
-                        className="icons-bg d-flex justify-content-center align-items-center transition_300"
+                        className="footer_icons d-flex justify-content-center align-items-center transition_300"
                       >
                         <Instagram />
                       </a>
