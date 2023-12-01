@@ -131,26 +131,28 @@ export const navLinks = [
   },
 ];
 
-export const nextlevelData = [
+export const borderCardData = [
   {
     path: "/player-pathwa",
     heading: "Guiding Players to the Next Level",
-    para: "While players within our athlete network focus on honing their ",
-    spanpara: "football skills, we:",
+    description: <>While players within our athlete network focus on honing their <span className="d-lg-block">{" "}football skills, we:</span></>,
     submap: [
       {
+        cardstyle: "ms-xxl-3 px-xxl-3",
         aosDelay: "200",
-        icon: <PositiveIcon />,
+        image: <PositiveIcon />,
         paraBox: "Maintain positive exposure through our marketing packages",
       },
       {
+        cardstyle: "ms-xxl-3 px-xxl-3",
         aosDelay: "400",
-        icon: <PeopleIcon />,
+        image: <PeopleIcon />,
         paraBox: "Outline the road to playing in international leagues",
       },
       {
+        cardstyle: "ms-xxl-3 px-xxl-3",
         aosDelay: "600",
-        icon: <GrowIcon />,
+        image: <GrowIcon />,
         paraBox: "Grow our clubs by focusing on existing talent",
       },
     ],
@@ -162,22 +164,22 @@ export const nextlevelData = [
     submap: [
       {
         aosDelay: "200",
-        icon: <SupportIcon />,
+        image: <SupportIcon />,
         paraBox: "Support new player acquisitions and transfers alike",
       },
       {
         aosDelay: "400",
-        icon: <DevelopIcon />,
+        image: <DevelopIcon />,
         paraBox: "Develop versatile players on and off the field",
       },
       {
         aosDelay: "600",
-        icon: <SherpenIcon />,
+        image: <SherpenIcon />,
         paraBox: "Sharpen the competitive edge of our clubs",
       },
       {
         aosDelay: "800",
-        icon: <PreventIcon />,
+        image: <PreventIcon />,
         paraBox: "Prevent mental health obstacles from derailing player focus",
       },
     ],
@@ -190,22 +192,22 @@ export const nextlevelData = [
     submap: [
       {
         aosDelay: "200",
-        icon: <IdentifyIcon />,
+        image: <IdentifyIcon />,
         paraBox: "Identify and cover essential club operations",
       },
       {
         aosDelay: "400",
-        icon: <ArrangeIcon />,
+        image: <ArrangeIcon />,
         paraBox: "Arrange win-win financing solutions",
       },
       {
         aosDelay: "600",
-        icon: <MitigateIcon />,
+        image: <MitigateIcon />,
         paraBox: "Mitigate and manage financing risks",
       },
       {
         aosDelay: "800",
-        icon: <ServeIcon />,
+        image: <ServeIcon />,
         paraBox: "Serve in the best interests of both clubs and investors",
       },
     ],
@@ -217,22 +219,22 @@ export const nextlevelData = [
     submap: [
       {
         aosDelay: "200",
-        icon: <TransparencyIcon />,
+        image: <TransparencyIcon />,
         paraBox: "Transparency for those we serve",
       },
       {
         aosDelay: "400",
-        icon: <ArrangeIcon />,
+        image: <ArrangeIcon />,
         paraBox: "Integrity with our value-driven approach",
       },
       {
         aosDelay: "600",
-        icon: <CommunicationIcon />,
+        image: <CommunicationIcon />,
         paraBox: "Communication with the utmost respect",
       },
       {
         aosDelay: "800",
-        icon: <AccountabilityIcon />,
+        image: <AccountabilityIcon />,
         paraBox: "Accountability through measurable performance",
       },
     ],
@@ -244,22 +246,22 @@ export const nextlevelData = [
     submap: [
       {
         aosDelay: "200",
-        icon: <UnderStandIcon />,
+        image: <UnderStandIcon />,
         paraBox: "Understand your unique financial aspirations",
       },
       {
         aosDelay: "400",
-        icon: <FactorIcon />,
+        image: <FactorIcon />,
         paraBox: "Factor your time horizon into each investment decision",
       },
       {
         aosDelay: "600",
-        icon: <BulbIcon />,
+        image: <BulbIcon />,
         paraBox: "Maximize your ROI through strategic products",
       },
       {
         aosDelay: "800",
-        icon: <MaintainIcon />,
+        image: <MaintainIcon />,
         paraBox: "Maintain a diversified and well-balanced portfolio",
       },
     ],

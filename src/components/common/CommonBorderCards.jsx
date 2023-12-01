@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
-import { nextlevelData } from "./Helper";
+import { borderCardData } from "./Helper";
 
 const CommonBorderCards = () => {
   const location = useLocation();
   const currentPathname = location.pathname;
-  const currentData = nextlevelData.find((e) => e.path === currentPathname);
+  const data = borderCardData.find((e) => e.path === currentPathname);
 
   const [show, setShow] = useState(false);
   const [edatashow, setEdatashow] = useState(false);
@@ -31,28 +31,25 @@ const CommonBorderCards = () => {
       <div className={`${about ? "py-lg-5 mt-md-4" : ""}`}>
         <Container className={` ${about ? "py-5" : ""}`}>
           <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1">
-            {currentData.heading}
+            {data.heading}
           </p>
           <p
-            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center max-w-750 mb-4 mx-auto ${currentData.className}`}
+            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center max-w-750 mb-4 mx-auto ${data.className}`}
           >
-            {currentData.para}
-            <span className="d-lg-block">{currentData.spanpara}</span>
+            {data.description}
           </p>
           <div className={`${wealth ? "pt-xl-3" : ""}`}></div>
           <Row className={`d-flex justify-content-center pt-lg-4`}>
-            {currentData.submap.map((levelsub, columnindex) => (
+            {data.submap.map((subdata, columnindex, index) => (
               <Col
-                key={columnindex}
+                key={index}
                 data-aos="fade-down"
-                data-aos-delay={levelsub.aosDelay}
+                data-aos-delay={subdata.aosDelay}
                 data-aos-ease="linear"
                 md={player ? 4 : 3}
                 lg={player ? 3 : 3}
                 xs={6}
-                className={`pt-3 pt-md-0 ${columnindex === currentData.submap.length - 1
-                  ? "last-child"
-                  : "border-end-yellow"
+                className={`pt-3 pt-md-0 ${columnindex === data.submap.length - 1 ? "last-child" : "border-end-yellow"
                   }`}
               >
                 <div
@@ -62,11 +59,11 @@ const CommonBorderCards = () => {
                    ${wealth && columnindex !== 1 ? "mx-xl-3 px-xl-4" : ""}
                    ${wealth && columnindex === 1 ? "ms-xl-3 px-xl-4" : ""}
                    ${wealth ? "px-xxl-5" : ""}
-                   ${player ? "ms-xxl-3 px-xxl-3" : ""}
+                   ${subdata.cardstyle}
                    `}
                 >
                   <div className="d-flex justify-content-center justify-content-md-start">
-                    {levelsub.icon}
+                    {subdata.image}
                   </div>
                   <p
                     className={`ff-barlow fs-base fw-normal text-black text-center text-md-start mb-0
@@ -88,9 +85,9 @@ const CommonBorderCards = () => {
                   `}
                   >
                     <span className={`${about ? "fw-medium" : ""}`}>
-                      {levelsub.paraBox.split(" ")[0]}{" "}
+                      {subdata.paraBox.split(" ")[0]}{" "}
                     </span>
-                    {levelsub.paraBox.slice(levelsub.paraBox.indexOf(" ") + 1)}
+                    {subdata.paraBox.slice(subdata.paraBox.indexOf(" ") + 1)}
                   </p>
                 </div>
               </Col>
