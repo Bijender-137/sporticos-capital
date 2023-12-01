@@ -21,9 +21,9 @@ const CommonHero = () => {
                         {currentData.heading}
                     </h2>
                     }
-                    {currentData?.subheading &&
+                    {currentData?.description &&
                         <p style={{ maxWidth: currentData.headingwidth1 }} className="mb-0 opacity-07 ff-barlow text-white z-2 position-relative pt-2 fw-normal fs-lg">
-                            {currentData.subheading}
+                            {currentData.description}
                         </p>
                     }
                     <div className="d-flex gap-2 gap-sm-3">
@@ -34,20 +34,20 @@ const CommonHero = () => {
                                 </Link>
                             </div>
                         }
-                        {currentData?.buttonhero &&
+                        {currentData?.transparentButton &&
                             <div className="pt-3 mt-md-3">
                                 <button className="transition_300 fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ff-barlow" type="button">
-                                    {currentData.buttonhero}
+                                    {currentData.transparentButton}
                                 </button>
                             </div>
                         }
                     </div>
                 </div>
             </Container>
-            {currentData?.img &&
+            {currentData?.image &&
                 <div className="mt-5 mt-lg-0 d-flex justify-content-end">
-                    <img className={`end-0 bottom-0 position-absolute z-0 ${currentData.className}`}
-                        src={currentData.img} alt="hero-right-charactors"></img>
+                    <img className={`end-0 bottom-0 position-absolute z-0 ${currentData.bgImageStyle}`}
+                        src={currentData.image} alt="hero-right-charactors"></img>
                 </div>
             }
         </>

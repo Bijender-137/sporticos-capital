@@ -306,23 +306,23 @@ export const heroData = [
     path: "/",
     headingwidth: "628px",
     headingwidth1: "550px",
-    className: "homepage-image ",
+    bgImageStyle: "homepage-image ",
     heading: (
       <>
         Unlocking High Impact Sports
         <span className="clr-yellow">{" "}Investment</span> Opportunities
       </>
     ),
-    subheading:
+    description:
       "With a global reach, Sporticos Capital offers solutions for growth in the sports industry with players and clubs at heart.",
     button: "Book Appointment",
-    buttonhero: "Get in touch",
-    img: homepageimage,
+    transparentButton: "Get in touch",
+    image: homepageimage,
   },
   {
     path: "/about-us",
     headingwidth: "625px",
-    className: "abotus-image",
+    bgImageStyle: "abotus-image",
     heading: (
       <>
         A Thriving <span className="clr-yellow">{" "}Ecosystem</span> of
@@ -331,76 +331,76 @@ export const heroData = [
       </>
     ),
 
-    subheading:
+    description:
       "At Sporticos Capital, we embrace decades of combined private equity and sports management expertise to put previously inaccessible sports investment opportunities within reach for those we serve.",
     button: "Book Appointment",
-    buttonhero: "Get in touch",
-    img: aboutUsimage,
+    transparentButton: "Get in touch",
+    image: aboutUsimage,
   },
 
   {
     path: "/debt-funding",
     headingwidth: "525px",
-    className: "debt-image",
+    bgImageStyle: "debt-image",
     heading: (
       <>
         <span className="clr-yellow">Facilitating</span> Seamless Club
         <span className="clr-yellow">{" "}Operations</span>
       </>
     ),
-    subheading:
+    description:
       "We support key operational expenses, player transfers, and beyond by making working capital available through our debt funding solutions.",
     button: "Book Appointment",
-    img: debtfundingimage,
+    image: debtfundingimage,
   },
   {
     path: "/club-investments",
     headingwidth: "516px",
-    className: "culb-image",
+    bgImageStyle: "culb-image",
     heading: (
       <>
         Invest In <span className="clr-yellow">Vetted Football</span> Clubs
       </>
     ),
-    subheading:
+    description:
       "Our portfolio of high-potential clubs, leagues, and adjacent real estate drives ROI for investors while making a noteworthy impact.",
     button: "Book Appointment",
-    img: clubimage,
+    image: clubimage,
   },
   {
     path: "/e-mentoring",
     headingwidth: "600px",
-    className: "ementoring-image",
+    bgImageStyle: "ementoring-image",
     heading: (
       <>
         Bringing <span className="clr-yellow">Players</span> and
         <span className="clr-yellow">{" "}Mentors</span> Together
       </>
     ),
-    subheading:
+    description:
       "Through the power of unity, our e-mentorship platform sparks significant player growth with connections to professionals and former players who have been in their shoes.",
     button: "Book Appointment",
-    img: ememtoringimage,
+    image: ememtoringimage,
   },
   {
     path: "/wealth-management",
     headingwidth: "525px",
-    className: "wealth-image",
+    bgImageStyle: "wealth-image",
     heading: (
       <>
         Investments <span className="clr-yellow">Tailored</span> to Your
         Financial <span className="clr-yellow">Goals</span>
       </>
     ),
-    subheading:
+    description:
       "We empower football players, executives, and staff alike to invest with confidence through our personalized wealth management solutions.",
     button: "Book Appointment",
-    img: wealthimage,
+    image: wealthimage,
   },
   {
     path: "/player-pathwa",
     headingwidth: "571px",
-    className: "player-image",
+    bgImageStyle: "player-image",
     headingStyle: "pe-lg-5 me-lg-3",
     heading: (
       <>
@@ -409,33 +409,33 @@ export const heroData = [
         Performance
       </>
     ),
-    subheading:
+    description:
       "We believe in the power of well-rounded players both on and off the field to support thriving football clubs.",
     button: "Book Appointment",
-    img: playpathwaimage,
+    image: playpathwaimage,
   },
   {
     path: "/faq",
     headingwidth: "548px",
-    className: "faq-image",
+    bgImageStyle: "faq-image",
     mainheading: (
       <>
         Frequently <span className="clr-yellow">Asked</span> Questions
       </>
     ),
-    img: faqimage,
+    image: faqimage,
   },
   {
     path: "/contact",
     headingwidth: "545px",
-    className: "contact-image",
+    bgImageStyle: "contact-image",
     mainheading: (
       <>
         Talk to The <span className="clr-yellow">Team</span>
       </>
     ),
     button: "Book Appointment",
-    img: talkimage,
+    image: talkimage,
   },
 ];
 
