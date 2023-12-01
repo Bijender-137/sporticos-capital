@@ -23,7 +23,7 @@ const Footer = () => {
       <div className={`footer-bg-img bg_img_property ${footerPaddingActive ? 'footer-padding-active' : ''}`}>
         <div className="py-5">
           <div className="py-sm-4">
-            <Container className={`pb-md-4 pb-lg-5 mb-sm-3 ${show ? 'homepaddingtop' : ''}`}>
+            <Container className={`pb-md-4 pb-lg-5 mb-sm-3 ${show ? 'footer-paddingtop' : ''}`}>
               <Row className="justify-content-between">
                 <Col lg={5}>
                   <div>

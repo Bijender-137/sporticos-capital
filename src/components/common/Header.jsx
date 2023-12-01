@@ -98,7 +98,7 @@ const Header = () => {
             </div>
           </Container>
         </nav>
-        <div className="flex-grow-1 h-100 d-flex flex-column justify-content-around flex-md-row align-items-md-center position-relative z-1 common_navbar mt-sm-69 mt-md-80">
+        <div className="flex-grow-1 h-100 d-flex flex-column justify-content-around flex-md-row align-items-md-center position-relative z-1 common_navbar">
           <CommonHero />
         </div>
       </div>

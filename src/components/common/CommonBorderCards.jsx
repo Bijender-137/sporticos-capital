@@ -25,7 +25,7 @@ const CommonBorderCards = () => {
             {data.title}
           </p>
           <p
-            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center max-w-750 mb-4 mx-auto ${data.className}`}
+            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center border-card-paragraph mb-4 mx-auto ${data.className}`}
           >
             {data.description}
           </p>
