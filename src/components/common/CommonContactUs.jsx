@@ -6,7 +6,7 @@ import { contactData } from './Helper';
 const CommonContactUs = () => {
     const location = useLocation();
     const currentPathname = location.pathname;
-    const currentData = contactData.find((e) => e.path === currentPathname);
+    const data = contactData.find((e) => e.path === currentPathname);
 
     return (
         <>
@@ -15,14 +15,14 @@ const CommonContactUs = () => {
                     <div className="contactus-box bg-white py-3 py-sm-4 px-2">
                         <div className="py-3 d-flex flex-column align-items-center px-1">
                             <h5 className='fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1'>
-                                {currentData.heading}
+                                {data.title}
                             </h5>
                             <p className='text-center text-black opacity-07 ff-barlow fs-base fw-normal'>
-                                {currentData.paragraph}
-                                <span className="d-md-block">{currentData.paragraph1}</span>
+                                {data.description}
+                                <span className="d-md-block">{data.paragraph1}</span>
                             </p>
-                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow transition_300 navLink-button ff-barlow">
-                                {currentData.btn}
+                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow transition_300 common_fill_button ff-barlow">
+                                {data.button}
                             </Link>
                         </div>
                     </div>
