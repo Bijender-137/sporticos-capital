@@ -21,9 +21,9 @@ const CommonBorderCards = () => {
     <>
       <div className={`${data.sectionClass}`}>
         <Container className={` ${about ? "pt-lg-4" : ""}`}>
-          <p className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1">
+          <h3 className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1">
             {data.title}
-          </p>
+          </h3>
           <p
             className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center border-card-paragraph mb-4 mx-auto ${data.className}`}
           >

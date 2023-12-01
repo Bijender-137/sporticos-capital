@@ -80,9 +80,9 @@ const CommonFrom = () => {
         <div className={`${currentheading.paddingStyle}`}></div>
         <Container className="py-lg-5 my-xl-4">
           <div className="text-center">
-            <h2 className="fw-bold ff-fontspring fs-xxl text-black form_heading_setup m-auto">
+            <h3 className="fw-bold ff-fontspring fs-xxl text-black form_heading_setup m-auto">
               {currentheading?.title}
-            </h2>
+            </h3>
             {currentheading?.description && (
               <p
                 style={{ maxWidth: currentheading.paramaxwidth }}

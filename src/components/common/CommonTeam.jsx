@@ -33,9 +33,9 @@ const CommonTeam = () => {
                   key={index}
                 >
                   <div className="text-center pb-4 pb-lg-4">
-                    <h5 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
+                    <h3 className="ff-fontspring fw-semibold fs-xxl text-black mb-0">
                       {data.title}
-                    </h5>
+                    </h3>
                     <p
                       className={`fw-normal ff-barlow fs-base text-black opacity-07 mb-0 common_team_paragraph m-auto ${
                         home ? "pt-2 mt-1  " : ""

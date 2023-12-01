@@ -14,9 +14,9 @@ const CommonContactUs = () => {
                 <Container className='z-2 position-relative'>
                     <div className="contactus-box bg-white py-3 py-sm-4 px-2">
                         <div className="py-3 d-flex flex-column align-items-center px-1">
-                            <h5 className='fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1'>
+                            <h3 className='fs-xxl fw-semibold ff-fontspring text-center text-black mb-2 pb-1'>
                                 {data.title}
-                            </h5>
+                            </h3>
                             <p className={`text-center text-black opacity-07 ff-barlow fs-base fw-normal ${data.descriptionStyle}`}>
                                 {data.description}
                             </p>

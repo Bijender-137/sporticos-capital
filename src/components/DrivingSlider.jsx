@@ -36,9 +36,9 @@ const DrivingSlider = () => {
     <>
       <div className="py-5">
         <Container className="my-lg-5">
-          <h5 className="text-center fs-xxl ff-fontspring fw-semibold text-black mb-0">
+          <h3 className="text-center fs-xxl ff-fontspring fw-semibold text-black mb-0">
             Driving Value with Our Integrated Approach
-          </h5>
+          </h3>
           <p className="text-center fs-base fw-normal text-black opacity-07 ff-barlow mb-0 pt-1">
             Through diversified verticals focused on the football industry, we
             empower investors,{" "}

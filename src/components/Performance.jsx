@@ -12,9 +12,9 @@ const Performance = () => {
       <div className="bg_clr_performance py-5 overflow-hidden">
         <div className="container py-lg-4 my-lg-1">
           <div className="text-center">
-            <h5 className="fs-xxl ff-fontspring fw-semibold text-black mb-0">
+            <h3 className="fs-xxl ff-fontspring fw-semibold text-black mb-0">
               Where Passion Meets Performance
-            </h5>
+            </h3>
             <p className="fs-base fw-normal text-black opacity-07 ff-barlow mb-0 pt-1">
               Through our multi-disciplinary approach, we preserve the unique
               culture of the clubs we <span className="d-lg-block"></span> work

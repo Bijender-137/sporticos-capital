@@ -14,9 +14,9 @@ const FaqAccrodion = () => {
     <>
       <Container className="py-5 mb-3 mb-md-1 my-lg-2">
         <div className="faq-box mx-auto pb-md-4 py-lg-5">
-          <h5 className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-md-3 pb-lg-4 mb-0">
+          <h3 className="fs-xxl fw-semibold ff-fontspring text-center text-black mb-md-3 pb-lg-4 mb-0">
             Frequently Asked Questions
-          </h5>
+          </h3>
           {accordionItems.map((data, index) => (
             <div className="pt-3" key={index}>
               <div
