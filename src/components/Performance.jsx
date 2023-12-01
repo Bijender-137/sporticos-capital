@@ -51,7 +51,7 @@ const Performance = () => {
                 <img
                   loading="lazy"
                   data-aos="zoom-in"
-                  className="w-100 h-100 performance_img_h"
+                  className="w-100 h-100 "
                   src={PerformanceImg}
                   alt="PerformanceImg"
                 />

@@ -1196,7 +1196,7 @@ export const GrowthIcon = () => {
 export const ChatBox = () => {
   return (
     <svg
-      className="cursor_pointer chatbox_width"
+      className="cursor_pointer chat_box"
       width="81"
       height="81"
       viewBox="0 0 81 81"

@@ -101,7 +101,7 @@ const CommonFrom = () => {
               >
                 <div>
                   <input
-                    className="w-100 input-padding input-border transition_300 text-black ff-barlow fw-medium fs-sm"
+                    className="w-100 form_input transition_300 text-black ff-barlow fw-medium fs-sm"
                     type="email"
                     id="useremail"
                     name="useremail"
@@ -111,7 +111,7 @@ const CommonFrom = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border transition_300 ff-barlow fw-medium fs-sm"
+                    className="w-100 form_input transition_300 ff-barlow fw-medium fs-sm"
                     type="text"
                     id="name"
                     name="fname"
@@ -123,7 +123,7 @@ const CommonFrom = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border transition_300 ff-barlow fw-medium fs-sm"
+                    className="w-100 form_input transition_300 ff-barlow fw-medium fs-sm"
                     type="text"
                     id="subject"
                     name="fname"
@@ -135,7 +135,7 @@ const CommonFrom = () => {
                 </div>
                 <div className="pt-2 mt-1">
                   <input
-                    className="w-100 input-padding input-border transition_300 ff-barlow fw-medium fs-sm"
+                    className="w-100 form_input transition_300 ff-barlow fw-medium fs-sm"
                     type="text"
                     id="apointment"
                     name="fname"
@@ -149,7 +149,7 @@ const CommonFrom = () => {
                   <div className="position-relative">
                     <div
                       onClick={buttonClick}
-                      className={`w-100 cursor_pointer input-padding ff-barlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1 border-0 input-border transition_300 ${selectedOption ? "text-black" : "clr-gray"
+                      className={`w-100 cursor_pointer ff-barlow fw-medium fs-sm text-start d-flex justify-content-between pe-2 me-1  form_input transition_300 ${selectedOption ? "text-black" : "clr-gray"
                         }`}
                     >
                       {selectedOption || "Which best describes you?"}
@@ -165,7 +165,7 @@ const CommonFrom = () => {
                         <ul className="p-0">
                           {data.map((i, index) => (
                             <li
-                              className={`option transition_300 w-100 px-3 py-2 input-border transition_300 ff-barlow fw-medium fs-sm text-start cursor_pointer ${selectedOption === i ? "" : ""
+                              className={`option transition_300 w-100 p form_input transition_300 ff-barlow fw-medium fs-sm text-start cursor_pointer ${selectedOption === i ? "" : ""
                                 }`}
                               key={index}
                               onClick={() => optionClick(i)}
@@ -181,7 +181,7 @@ const CommonFrom = () => {
                 <div className="pt-2 mt-1">
                   <textarea
                     required
-                    className="w-100 text-black input-padding input-border transition_300 ff-barlow fw-medium fs-sm clr-gray textarea-resize"
+                    className="w-100 text-black form_input transition_300 ff-barlow fw-medium fs-sm clr-gray textarea-resize"
                     cols="0"
                     rows="5"
                     id="message"
