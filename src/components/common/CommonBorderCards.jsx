@@ -55,7 +55,6 @@ const CommonBorderCards = () => {
                 <div
                   className={`pt-2
                    ${show ? "px-xl-4 mx-xl-3" : ""}
-                   ${edatashow ? "px-xl-3 mx-xl-2 mx-xxl-3" : ""}
                    ${wealth && columnindex !== 1 ? "mx-xl-3 px-xl-4" : ""}
                    ${wealth && columnindex === 1 ? "ms-xl-3 px-xl-4" : ""}
                    ${wealth ? "px-xxl-5" : ""}
@@ -68,26 +67,18 @@ const CommonBorderCards = () => {
                   <p
                     className={`ff-barlow fs-base fw-normal text-black text-center text-md-start mb-0
                    ${show ? "pt-2 mb-0" : ""}
-                   ${edatashow && columnindex !== 0
-                        ? "pe-xl-4 pb-2 me-xxl-4"
-                        : ""
-                      }
-                   ${edatashow && columnindex !== 0 && columnindex !== 3
-                        ? "pe-xxl-5"
-                        : ""
-                      }
+                   ${subdata.descriptionStyle}
                    ${wealth ? "py-3 py-xl-4" : ""}
                    ${player ? "py-3 pt-lg-4 mt-2" : ""}
                    ${about ? "pb-3 pb-lg-4 " : ""}
                    ${about && columnindex !== 3 ? "pe-xl-5" : ""}
-                   ${funding && columnindex !== 3 ? "pe-xl-4" : ""}
-                   ${funding && columnindex === 3 ? "pe-xl-3 me-xl-1" : ""}
+                  
                   `}
                   >
                     <span className={`${about ? "fw-medium" : ""}`}>
-                      {subdata.paraBox.split(" ")[0]}{" "}
+                      {subdata.description.split(" ")[0]}{" "}
                     </span>
-                    {subdata.paraBox.slice(subdata.paraBox.indexOf(" ") + 1)}
+                    {subdata.description.slice(subdata.description.indexOf(" ") + 1)}
                   </p>
                 </div>
               </Col>
