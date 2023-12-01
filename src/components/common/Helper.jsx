@@ -362,7 +362,7 @@ export const heroData = [
     path: "/player-pathwa",
     headingwidth: "571px",
     className: "player-image",
-    headingStyle: "pe-lg-5",
+    headingStyle: "pe-lg-5 me-lg-3",
     heading: (
       <>
         Proudly
