@@ -306,7 +306,7 @@ export const heroData = [
     path: "/",
     headingwidth: "628px",
     headingwidth1: "550px",
-    bgImageStyle: "homepage-image ",
+    imageStyle: "homepage-image ",
     heading: (
       <>
         Unlocking High Impact Sports
@@ -322,7 +322,7 @@ export const heroData = [
   {
     path: "/about-us",
     headingwidth: "625px",
-    bgImageStyle: "abotus-image",
+    imageStyle: "abotus-image",
     heading: (
       <>
         A Thriving <span className="clr-yellow">{" "}Ecosystem</span> of
@@ -341,7 +341,7 @@ export const heroData = [
   {
     path: "/debt-funding",
     headingwidth: "525px",
-    bgImageStyle: "debt-image",
+    imageStyle: "debt-image",
     heading: (
       <>
         <span className="clr-yellow">Facilitating</span> Seamless Club
@@ -356,7 +356,7 @@ export const heroData = [
   {
     path: "/club-investments",
     headingwidth: "516px",
-    bgImageStyle: "culb-image",
+    imageStyle: "culb-image",
     heading: (
       <>
         Invest In <span className="clr-yellow">Vetted Football</span> Clubs
@@ -370,7 +370,7 @@ export const heroData = [
   {
     path: "/e-mentoring",
     headingwidth: "600px",
-    bgImageStyle: "ementoring-image",
+    imageStyle: "ementoring-image",
     heading: (
       <>
         Bringing <span className="clr-yellow">Players</span> and
@@ -385,7 +385,7 @@ export const heroData = [
   {
     path: "/wealth-management",
     headingwidth: "525px",
-    bgImageStyle: "wealth-image",
+    imageStyle: "wealth-image",
     heading: (
       <>
         Investments <span className="clr-yellow">Tailored</span> to Your
@@ -400,7 +400,7 @@ export const heroData = [
   {
     path: "/player-pathwa",
     headingwidth: "571px",
-    bgImageStyle: "player-image",
+    imageStyle: "player-image",
     headingStyle: "pe-lg-5 me-lg-3",
     heading: (
       <>
@@ -417,7 +417,7 @@ export const heroData = [
   {
     path: "/faq",
     headingwidth: "548px",
-    bgImageStyle: "faq-image",
+    imageStyle: "faq-image",
     mainheading: (
       <>
         Frequently <span className="clr-yellow">Asked</span> Questions
@@ -428,7 +428,7 @@ export const heroData = [
   {
     path: "/contact",
     headingwidth: "545px",
-    bgImageStyle: "contact-image",
+    imageStyle: "contact-image",
     mainheading: (
       <>
         Talk to The <span className="clr-yellow">Team</span>
@@ -442,26 +442,23 @@ export const heroData = [
 export const contactData = [
   {
     path: "/",
-    heading: "Discover the Advantage of Sporticos Capital",
-    paragraph:
-      "We invite growth-minded investors, club executives, and players to reach out today for ",
-    paragraph1: " accelerated growth tomorrow.",
-    btn: "CONTACT  US",
+    title: "Discover the Advantage of Sporticos Capital",
+    description:
+      "We invite growth-minded investors, club executives, and players to reach out today for  accelerated growth tomorrow.",
+    button: "CONTACT  US",
   },
   {
     path: "/about-us",
-    heading: "Reach Out",
-    paragraph:
-      "For inquiries, investment opportunities, and general questions, we ",
-    paragraph1: " invite you to get in touch today.",
-    btn: "CONTACT  US",
+    title: "Reach Out",
+    description:
+      "For inquiries, investment opportunities, and general questions, we invite you to get in touch today.",
+    button: "CONTACT  US",
   },
   {
     path: "/faq",
-    heading: "My question isn’t listed above...",
-    paragraph: "We encourage you to reach out using the button below for",
-    paragraph1: "additional questions. Thank you",
-    btn: "CONTACT  US",
+    title: "My question isn’t listed above...",
+    description: "We encourage you to reach out using the button below for additional questions. Thank you",
+    button: "CONTACT  US",
   },
 ];
 
