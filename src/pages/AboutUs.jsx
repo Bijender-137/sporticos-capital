@@ -7,7 +7,7 @@ import CommonContactUs from "../components/common/CommonContactUs";
 const AboutUs = () => {
   return (
     <>
-      <div className="position-relative dotted-background">
+      <div className="position-relative dotted_background_image">
         <CommonBorderCards />
         <Location />
         <CommonTeam />

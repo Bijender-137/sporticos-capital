@@ -6,7 +6,7 @@ import CommonCards from "../components/common/CommonCards";
 const ClubInvestment = () => {
   return (
     <>
-      <div className="position-relative dotted-background">
+      <div className="position-relative dotted_background_image">
         <CommonCards />
         <Captical />
         <CommonFrom />
