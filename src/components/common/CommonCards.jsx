@@ -40,9 +40,9 @@ const CommonCards = () => {
                           src={dreamsplayer.cardImage1}
                           alt="dream img"
                         />
-                        <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
+                        <p className="fw-semibold text-black fs-base ff-fontspring pt-4 mt-1 mb-0">
                           {dreamsplayer.subtitle}
-                        </h2>
+                        </p>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 mb-0">
                           {dreamsplayer.subdescription}
                         </p>
@@ -62,9 +62,9 @@ const CommonCards = () => {
                           src={dreamsplayer.cardImage2}
                           alt="dream img"
                         />
-                        <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
+                        <p className="fw-semibold text-black fs-base ff-fontspring pt-4 mt-1 mb-0">
                           {dreamsplayer.subtitle2}
-                        </h2>
+                        </p>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
                           {dreamsplayer.subdescription2}
                         </p>
@@ -84,9 +84,9 @@ const CommonCards = () => {
                           src={dreamsplayer.cardImage3}
                           alt="dream img"
                         />
-                        <h2 className="fw-sembild text-black fs-base ff-fontspring pt-4 mt-1">
+                        <p className="fw-semibold text-black fs-base ff-fontspring pt-4 mt-1 mb-0">
                           {dreamsplayer.subtitle3}
-                        </h2>
+                        </p>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
                           {dreamsplayer.subdescription3}
                         </p>
