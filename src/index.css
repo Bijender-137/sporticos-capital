@@ -245,7 +245,7 @@ body {
 }
 
 /* ------Faq Accrodion section------ */
-.max-w-1000 {
+.faq-box {
   max-width: 1000px !important;
 }
 
@@ -302,7 +302,7 @@ body {
 }
 
 /* --------location section width --------- */
-.max-w-1005 {
+.location-box {
   max-width: 1005px;
 }
 

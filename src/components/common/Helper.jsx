@@ -19,7 +19,7 @@ import {
   UnderStandIcon,
 } from "./Icons";
 
-//All Heros Pages Images
+//ALL HEROS PAGES IMAGES
 import talkimage from "../../assets/images/webp/hero-football.webp";
 import aboutUsimage from "../../assets/images/webp/hero-aboutus-img.webp";
 import clubimage from "../../assets/images/webp/hero-culbinvestment-img.webp";
@@ -30,69 +30,72 @@ import playpathwaimage from "../../assets/images/webp/hero-play-pathwa-img.webp"
 import faqimage from "../../assets/images/webp/hero-faq-img.webp";
 import homepageimage from "../../assets/images/webp/herohomepage-img.webp";
 
-//slider Images
-import sliderimg1 from "../../assets/images/webp/club-drivingslider-image.webp";
-import sliderimg2 from "../../assets/images/webp/debt-drivingslider-image.webp";
-import sliderimg3 from "../../assets/images/webp/player-drivingslider-image.webp";
+//SLIDER IMAGES
+import clubslider from "../../assets/images/webp/club-drivingslider-image.webp";
+import debtslider from "../../assets/images/webp/debt-drivingslider-image.webp";
+import playerslider from "../../assets/images/webp/player-drivingslider-image.webp";
 // helper_2
-import PlayerFirst from "../../assets/images/webp/player-dreamscard-club-image.webp";
-import PlayerSecond from "../../assets/images/webp/player-dreamscard-enchanced-image.webp";
-import PlayerThird from "../../assets/images/webp/player-dreamscard-playerascensions-image.webp";
-import ManagmentPlay1 from "../../assets/images/webp/wealth-offeringcard-risk-image.webp";
-import ManagmentPlay2 from "../../assets/images/webp/wealth-offeringcard-flexible-image.webp";
-import ManagmentPlay3 from "../../assets/images/webp/wealth-offeringcard-shariah-image.webp";
-import Mentoring1 from "../../assets/images/webp/ementoring-puttingcard-resiliency-image.webp";
-import Mentoring2 from "../../assets/images/webp/ementoring-puttingcard-learning-image.webp";
-import Mentoring3 from "../../assets/images/webp/ementoring-puttingcard-optimal-image.webp";
-import Investment1 from "../../assets/images/webp/club-upsidecard-minimized-image.webp";
-import Investment2 from "../../assets/images/webp/club-upsidecard-meticulous-image.webp";
-import Investment3 from "../../assets/images/webp/club-upsidecard-holistic-image.webp";
-import Funding1 from "../../assets/images/webp/debfunding-ongoingclub-financing-image.webp";
-import Funding2 from "../../assets/images/webp/debfunding-ongoingclub-sharing-image.webp";
-import Funding3 from "../../assets/images/webp/debfunding-ongoingclub-underwrite-image.webp";
-import TeamMember1 from "../../assets/images/webp/wael-khattab-team-image.webp";
-import TeamMember2 from "../../assets/images/webp/dr-hussa-team-image.webp";
+//COMMON CARDS IMAGES
+import PlayerClub from "../../assets/images/webp/player-dreamscard-club-image.webp";
+import PlayerEnchanced from "../../assets/images/webp/player-dreamscard-enchanced-image.webp";
+import Playerascensions from "../../assets/images/webp/player-dreamscard-playerascensions-image.webp";
+import wealthrisk from "../../assets/images/webp/wealth-offeringcard-risk-image.webp";
+import wealthflexible from "../../assets/images/webp/wealth-offeringcard-flexible-image.webp";
+import wealthshariah from "../../assets/images/webp/wealth-offeringcard-shariah-image.webp";
+import Mentoringresiliency from "../../assets/images/webp/ementoring-puttingcard-resiliency-image.webp";
+import Mentoringlearing from "../../assets/images/webp/ementoring-puttingcard-learning-image.webp";
+import Mentoringoptimal from "../../assets/images/webp/ementoring-puttingcard-optimal-image.webp";
+import Investmentminimized from "../../assets/images/webp/club-upsidecard-minimized-image.webp";
+import Investmentmeticulous from "../../assets/images/webp/club-upsidecard-meticulous-image.webp";
+import Investmentholistic from "../../assets/images/webp/club-upsidecard-holistic-image.webp";
+import Fundingfinancing from "../../assets/images/webp/debfunding-ongoingclub-financing-image.webp";
+import Fundingsharing from "../../assets/images/webp/debfunding-ongoingclub-sharing-image.webp";
+import Fundingunderwrite from "../../assets/images/webp/debfunding-ongoingclub-underwrite-image.webp";
+
+//COMMON TEAM IMAGE
+import wealImage from "../../assets/images/webp/wael-khattab-team-image.webp";
+import drHussaImage from "../../assets/images/webp/dr-hussa-team-image.webp";
 
 export const accordionItems = [
   {
     title: "What is the primary focus of your club investments?",
-    content:
+    description:
       "We invest in high-potential football clubs, leagues, and adjacent real estate with meaningful upside potential for investors. Fill out the form on our Club Investments page or book an appointment to learn more.",
   },
   {
     title: "How do you minimize risks for sports investors?",
-    content:
+    description:
       "We diversify positions in under-exposed clubs, conduct due diligence, and employ proven strategies to minimize financial risks.",
   },
   {
     title: "How does your e-mentoring platform work?",
-    content:
+    description:
       "By connecting players with a network of mentors, including staff and former players, we foster player growth, resiliency, and well-being.",
   },
   {
     title: "What is your philosophy in terms of wealth management?",
-    content:
+    description:
       "We understand the lifecycle of an athlete’s career. In turn, we tailor our approach to lifestyle goals, time horizon, and values.",
   },
   {
     title:
       "Which investments are included as part of your wealth management offering?",
-    content:
+    description:
       "We offer personalized wealth management, including Shariah-compliant products, real estate, and frontier investments tailored to financial goals",
   },
   {
     title: "Who can benefit from your wealth management solutions?",
-    content:
+    description:
       "Whether you’re a football player, executive, or staff member, we empower individuals across any stage of their career to invest with confidence",
   },
   {
     title: "What is the objective of your player pathways program?",
-    content:
+    description:
       "Our program supports well-rounded player development while factoring into the ecosystem we use to build more competitive clubs.",
   },
   {
     title: "How do your debt funding solutions work?",
-    content:
+    description:
       "We provide working capital for operational expenses and player transfers through fair and attractive debt funding solutions checked by reputable underwriters",
   },
 ];
@@ -428,25 +431,25 @@ export const contactData = [
 
 export const sliderData = [
   {
-    img: sliderimg1,
+    img: clubslider,
     sliderHeading: "Club Investments",
     sliderpara:
       "Delivering meaningful returns to investors by taking a direct stake in a network of under-exposed clubs with high potential.",
   },
   {
-    img: sliderimg2,
+    img: debtslider,
     sliderHeading: "Debt Funding",
     sliderpara:
       "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
   },
   {
-    img: sliderimg3,
+    img: playerslider,
     sliderHeading: "Player Pathways",
     sliderpara:
       "Nurturing holistic player development to support each club’s success, creating a win-win for players and investors alike.",
   },
   {
-    img: sliderimg2,
+    img: debtslider,
     sliderHeading: "Debt Funding",
     sliderpara:
       "Financing clubs to carry out key operations and player transfers while securing fair interest income for our investors.",
@@ -542,9 +545,9 @@ export const dreams = [
     path: "/player-pathwa",
     heading: "Bringing Player Dreams to Fruition",
     para: "Our player pathways achieve two key outcomes, including player development and overarching club success.",
-    dremImg: PlayerFirst,
-    dremImg2: PlayerSecond,
-    dremImg3: PlayerThird,
+    dremImg: PlayerClub,
+    dremImg2: PlayerEnchanced,
+    dremImg3: Playerascensions,
     subHead: "Club Synergies",
     paragraph:
       "Improving the ROI of our club investments by connecting budding players with opportunities for measurable growth.",
@@ -560,9 +563,9 @@ export const dreams = [
     path: "/wealth-management",
     heading: "Offering a Mosaic of Investment Options",
     para: "We believe in finding the right investment solutions to make the most of the compensation you’ve received from the football industry.",
-    dremImg: ManagmentPlay1,
-    dremImg2: ManagmentPlay2,
-    dremImg3: ManagmentPlay3,
+    dremImg: wealthrisk,
+    dremImg2: wealthflexible,
+    dremImg3: wealthshariah,
     subHead: "Shariah-Compliant Options",
     paragraph:
       "Supporting the ever-expanding base of Muslim and conservative players through value-aligned, Shariah-compliant investment options.",
@@ -578,9 +581,9 @@ export const dreams = [
     path: "/e-mentoring",
     heading: "Putting Wisdom Within Reach",
     para: "Our network of experts, coaches, and former players unite for the betterment of the players we serve.",
-    dremImg: Mentoring1,
-    dremImg2: Mentoring2,
-    dremImg3: Mentoring3,
+    dremImg: Mentoringresiliency,
+    dremImg2: Mentoringlearing,
+    dremImg3: Mentoringoptimal,
     subHead: "Resiliency Building",
     paragraph:
       "Priming players to not only endure, but also thrive throughout the most competitive levels of football.",
@@ -598,9 +601,9 @@ export const dreams = [
     heading: "Maximizing Your Upside Potential",
     para: "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
     para1: " Here’s what you can expect.",
-    dremImg: Investment1,
-    dremImg2: Investment2,
-    dremImg3: Investment3,
+    dremImg: Investmentminimized,
+    dremImg2: Investmentmeticulous,
+    dremImg3: Investmentholistic,
     subHead: "Minimized Risk",
     paragraph:
       "Establishing diverse positions in under-exposed clubs with immense untapped value to minimize financial risks.",
@@ -617,9 +620,9 @@ export const dreams = [
     cardStyle: "mt-md-3",
     heading: "Ensuring Ongoing Club Growth",
     para: "Through fair rates for clubs and attractive interest income for our investors, we facilitate mutually agreeable debt funding terms.",
-    dremImg: Funding1,
-    dremImg2: Funding2,
-    dremImg3: Funding3,
+    dremImg: Fundingfinancing,
+    dremImg2: Fundingsharing,
+    dremImg3: Fundingunderwrite,
     subHead: "Strategic Financing",
     paragraph:
       "Supporting high-impact activities such as player transfers to sharpen the competitive edge of the clubs we work with.",
@@ -636,12 +639,12 @@ export const sporticoseTeam = [
   {
     path: "/about-us",
     title: "The Sporticos Team",
-    image: TeamMember1,
+    image: wealImage,
     titlename: "Wael Khattab",
     subtitle: "Founder & Executive Director",
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
-    imageGirl: TeamMember2,
+    imageGirl: drHussaImage,
     titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
     subtitle: "Founder & Executive Director",
     descriptionpara:
@@ -654,12 +657,12 @@ export const sporticoseTeam = [
     title: "Founding Team",
     description:
       "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
-    image: TeamMember1,
+    image: wealImage,
     titlename: "Wael Khattab",
     subtitle: "Founder & Executive Director",
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
-    imageGirl: TeamMember2,
+    imageGirl: drHussaImage,
     titlename2: <>Dr. Hussa K. Al<span>&#8209;</span>Khalifa</>,
     subtitle: "Founder & Executive Director",
     buttonAbout: "about us",
