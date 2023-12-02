@@ -11,7 +11,6 @@ const CommonBorderCards = () => {
   const [player, setPlayer] = useState(false);
   const [about, setAbout] = useState(false);
 
-
   useEffect(() => {
     setPlayer(location.pathname === "/player-pathwa");
     setAbout(location.pathname === "/about-us");
