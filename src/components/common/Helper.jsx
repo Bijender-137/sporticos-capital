@@ -388,7 +388,7 @@ export const heroData = [
   {
     path: "/club-investments",
     headingStyle: "club-page-heading",
-    imageStyle: "culb-image transform-translate-sm",
+    imageStyle: "club-image transform-translate-sm",
     heading: (
       <>
         Invest In <span className="clr-yellow">Vetted Football</span> Clubs

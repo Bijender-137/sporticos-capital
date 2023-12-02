@@ -198,7 +198,7 @@ body {
   min-height: 280px;
 }
 
-.culb-image {
+.club-image {
   max-width: 520px;
   min-height: 200px;
 }
@@ -481,10 +481,6 @@ body {
     padding-top: 108px !important;
   }
 
-  .footer-paddingtop {
-    padding-top: 20px;
-  }
-
   /* ALL PAGES SIDERBAR */
   .side-nav-bar {
     width: 370px;
@@ -512,7 +508,7 @@ body {
     max-width: 630px;
   }
 
-  .culb-image {
+  .club-image {
     max-width: 680px;
     transform: translateX(18px);
   }
@@ -553,11 +549,6 @@ body {
 }
 
 @media (min-width:576px) {
-
-  /* ------FOOTER DATA------- */
-  .footer-paddingtop {
-    padding-top: 0px;
-  }
 
   /*---- DRIVING SLIDER BUTTON PREV NEXT----- */
   .swiper-button-next {
@@ -609,10 +600,6 @@ body {
     padding-top: 115px !important;
   }
 
-  .footer-space {
-    gap: 72px !important;
-  }
-
   /* ----------HERO CSS--------- */
   .homepage-image {
     max-width: 620px;
@@ -622,7 +609,7 @@ body {
     max-width: 480px;
   }
 
-  .culb-image {
+  .club-image {
     max-width: 730px;
   }
 
@@ -649,11 +636,6 @@ body {
 }
 
 @media (min-width:768px) {
-
-  /* ----------FOOTER --------- */
-  .footer-space {
-    gap: 100px !important;
-  }
 
   /* ----------SIDENAVBAR PAGES --------- */
   .common_navbar {
@@ -702,10 +684,7 @@ body {
     max-width: 530px;
   }
 
-  .culb-image {
-    max-width: 800px;
-  }
-
+  .club-image,
   .ementoring-image {
     max-width: 800px;
   }
@@ -791,7 +770,7 @@ body {
     max-width: 950px;
   }
 
-  .culb-image {
+  .club-image {
     max-width: 1000px;
   }
 
@@ -835,7 +814,7 @@ body {
     max-width: 880px;
   }
 
-  .culb-image {
+  .club-image {
     max-width: 870px;
   }
 
@@ -869,11 +848,8 @@ body {
     max-width: 690px;
   }
 
-  .debt-image {
-    max-width: 1000px;
-  }
-
-  .culb-image {
+  .debt-image,
+  .club-image {
     max-width: 1000px;
   }
 
@@ -910,10 +886,7 @@ body {
   }
 
   /*---- HERO CSS----- */
-  .homepage-image {
-    max-width: 900px;
-  }
-
+  .homepage-image,
   .about-us-image {
     max-width: 900px;
   }
@@ -922,10 +895,7 @@ body {
     max-width: 1100px;
   }
 
-  .wealth-image {
-    max-width: 1020px;
-  }
-
+  .wealth-image,
   .player-image {
     max-width: 1020px;
   }
@@ -948,23 +918,14 @@ body {
     max-width: 970px;
   }
 
-  .debt-image {
-    max-width: 1100px;
-  }
-
-  .culb-image {
-    max-width: 1170px;
-  }
-
+  .club-image,
   .ementoring-image {
     max-width: 1170px;
   }
 
-  .wealth-image {
-    max-width: 1100px;
-  }
-
-  .player-image {
+  .wealth-image,
+  .player-image,
+  .debt-image {
     max-width: 1100px;
   }
 
@@ -1012,18 +973,12 @@ body {
     max-width: 1215px;
   }
 
-  .culb-image {
-    max-width: 1250px;
-  }
-
+  .club-image,
   .ementoring-image {
     max-width: 1250px;
   }
 
-  .wealth-image {
-    max-width: 1140px;
-  }
-
+  .wealth-image,
   .player-image {
     max-width: 1140px;
   }
@@ -1039,33 +994,31 @@ body {
 
 @media (min-width:1900px) {
   .homepage-image {
-    max-width: 1450px !important;
+    max-width: 1450px;
+    height: 64%;
   }
 
-  .about-us-image {
-    max-width: 1340px;
+  .about-us-image,
+  .player-image {
+    max-width: 1440px;
   }
 
   .debt-image {
     max-width: 1500px;
   }
 
-  .culb-image {
+  .club-image {
     max-width: 1550px;
   }
 
   .ementoring-image {
     max-width: 1550px;
-    height: 70%;
+    height: 60%;
   }
 
   .wealth-image {
     max-width: 1440px;
-    height: 80%;
-  }
-
-  .player-image {
-    max-width: 1440px;
+    height: 70%;
   }
 
   .faq-image {
@@ -1073,6 +1026,7 @@ body {
   }
 
   .contact-image {
-    max-width: 1380px;
+    max-width: 1480px;
+    min-height: 60%;
   }
 }
