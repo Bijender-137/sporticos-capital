@@ -1,7 +1,6 @@
 import React from 'react'
 import { heroData } from './Helper';
 import { Link, useLocation } from 'react-router-dom';
-import "../../assets/style/Commonhero.css"
 import { Container } from 'react-bootstrap';
 
 const CommonHero = () => {
