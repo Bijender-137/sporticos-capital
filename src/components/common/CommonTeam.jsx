@@ -110,7 +110,7 @@ const CommonTeam = () => {
                     <div className="d-flex justify-content-center py-lg-4">
                       <Link
                         to="/about-us"
-                        className="fw-normal text-uppercase text-black fs-sm bg-yellow transition_300 common_fill_button ff-barlow"
+                        className="fw-normal text-uppercase text-black fs-sm bg-yellow transition_300 border-radius-6 common_fill_button ff-barlow"
                       >
                         {data.buttonAbout}
                       </Link>

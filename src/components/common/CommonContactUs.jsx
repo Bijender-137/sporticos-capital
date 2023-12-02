@@ -20,7 +20,7 @@ const CommonContactUs = () => {
                             <p className={`text-center text-black opacity-07 ff-barlow fs-base fw-normal ${data.descriptionStyle}`}>
                                 {data.description}
                             </p>
-                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow transition_300 common_fill_button ff-barlow">
+                            <Link to="/contact" className="fw-normal mt-md-2 mt-lg-3 mt-sm-1 text-uppercase text-black fs-sm bg-yellow transition_300 border-radius-6 common_fill_button ff-barlow">
                                 {data.button}
                             </Link>
                         </div>

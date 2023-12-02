@@ -219,7 +219,7 @@ const CommonFrom = () => {
                 </div>
                 <div className="mt-4 mt-md-5 pt-lg-3">
                   <input
-                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 common_fill_button transition_300"
+                    className="fw-normal text-uppercase fs-sm text-black bg-yellow ff-fontspring mt-1 border-radius-6 common_fill_button transition_300"
                     type="submit"
                     required
                     value="Submit"

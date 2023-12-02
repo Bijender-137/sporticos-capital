@@ -172,7 +172,7 @@ body {
 
 .page-logo-image {
   max-width: 170px;
-  width: 100%;
+  height: 31.88px;
 }
 
 .cross-iconhover:hover {
@@ -253,13 +253,11 @@ body {
 .hero-transparent-button,
 .navslidbar-button {
   border: 2px solid var(--clr-yellow);
-  border-radius: 6px;
   padding: 10px 8px;
 }
 
 .hero-fill-button {
   border: 2px solid white;
-  border-radius: 6px;
   padding: 10px 8px;
 }
 
@@ -268,11 +266,11 @@ body {
   color: white !important;
 }
 
-.navslidbar-button:hover {
-  background-color: white !important;
-  color: black !important;
+.border-radius-6 {
+  border-radius: 6px;
 }
 
+.navslidbar-button:hover,
 .hero-fill-button:hover {
   background-color: white !important;
   color: black !important;
@@ -345,7 +343,6 @@ body {
 /* -----COMMON BUTTON-------- */
 .common_fill_button {
   padding: 15px 29px;
-  border-radius: 6px;
   border: 2px solid var(--clr-yellow);
 }
 
@@ -453,22 +450,21 @@ body {
   height: 30px !important;
   width: 30px !important;
   border-radius: 50% !important;
-  position: absolute !important;
   top: 95% !important;
-  z-index: 2 !important;
 }
 
 .swiper-button-next {
   right: 38% !important;
-  margin-top: -10px !important;
-  background-color: var(--clr-yellow);
   border: 1px solid var(--clr-yellow);
 }
 
 .swiper-button-prev {
   left: 38% !important;
-  margin-top: -10px !important;
   border: 1px solid black;
+}
+
+.margin-top {
+  margin-top: -10px !important;
 }
 
 .icons-slider {
@@ -481,11 +477,14 @@ body {
   /*---- DRIVING SLIDER BUTTON PREV NEXT----- */
   .swiper-button-next {
     right: 40% !important;
-    margin-top: -5px !important;
+    ;
   }
 
   .swiper-button-prev {
     left: 40% !important;
+  }
+
+  .margin-top {
     margin-top: -5px !important;
   }
 
@@ -568,13 +567,11 @@ body {
   }
 
   .hero-transparent-button,
-  .navslidbar-button {
-    padding: 10px 10px;
+  .navslidbar-button,
+  .hero-fill-button {
+    padding: 10px;
   }
 
-  .hero-fill-button {
-    padding: 10px 10px;
-  }
 }
 
 @media (min-width:576px) {
@@ -608,7 +605,7 @@ body {
 
   .page-logo-image {
     max-width: 200px;
-    width: 100%;
+    height: 37.5px;
   }
 
   .side-nav-bar {
@@ -677,7 +674,7 @@ body {
 
   .page-logo-image {
     max-width: 261px;
-    width: 100%;
+    height: 48.95px;
   }
 
   .hero-heading-lh {
@@ -709,7 +706,8 @@ body {
   }
 
   /* ----------HERO CSS --------- */
-  .homepage-image {
+  .homepage-image,
+  .player-image {
     max-width: 700px;
   }
 
@@ -724,10 +722,6 @@ body {
 
   .wealth-image {
     max-width: 580px;
-  }
-
-  .player-image {
-    max-width: 700px;
   }
 
   .faq-image {
@@ -756,11 +750,6 @@ body {
   }
 
   /* ----------SIDEBAR PAGES --------- */
-  .page-logo-image {
-    max-width: 261px;
-    width: 100%;
-  }
-
   .hero-heading-lh {
     line-height: 84px;
   }
