@@ -28,14 +28,14 @@ const CommonHero = () => {
                     <div className="d-flex gap-2 gap-sm-3">
                         {data?.button &&
                             <div className="pt-3 mt-md-3">
-                                <Link className="transition_300 fw-normal text-uppercase text-black hero-inlineBtn fs-sm bg-yellow ff-barlow" type="button">
+                                <Link className="transition_300 fw-normal text-uppercase text-black hero-transparent-button fs-sm bg-yellow ff-barlow" type="button">
                                     {data.button}
                                 </Link>
                             </div>
                         }
                         {data?.transparentButton &&
                             <div className="pt-3 mt-md-3">
-                                <button className="transition_300 fw-normal text-uppercase text-white fs-sm hero-outlineBtn bg-transparent ff-barlow" type="button">
+                                <button className="transition_300 fw-normal text-uppercase text-white fs-sm hero-fill-button bg-transparent ff-barlow" type="button">
                                     {data.transparentButton}
                                 </button>
                             </div>
