@@ -388,7 +388,7 @@ export const heroData = [
   {
     path: "/club-investments",
     headingStyle: "club-page-heading",
-    imageStyle: "culb-image",
+    imageStyle: "culb-image transform-translate-sm",
     heading: (
       <>
         Invest In <span className="clr-yellow">Vetted Football</span> Clubs
@@ -402,7 +402,7 @@ export const heroData = [
   {
     path: "/e-mentoring",
     headingStyle: "ememtoring-page-heading",
-    imageStyle: "ementoring-image",
+    imageStyle: "ementoring-image transform-translate-sm",
     heading: (
       <>
         Bringing <span className="clr-yellow">Players</span> and
@@ -417,7 +417,7 @@ export const heroData = [
   {
     path: "/wealth-management",
     headingStyle: "wealth-page-heading",
-    imageStyle: "wealth-image",
+    imageStyle: "wealth-image transform-translate-sm",
     heading: (
       <>
         Investments <span className="clr-yellow">Tailored</span> to Your
@@ -431,7 +431,7 @@ export const heroData = [
   },
   {
     path: "/player-pathwa",
-    imageStyle: "player-image",
+    imageStyle: "player-image transform-translate-sm",
     headingStyle: "player-page-heading",
     headingClassName: "pe-lg-5 me-lg-3",
     heading: (

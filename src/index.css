@@ -233,30 +233,30 @@ body {
   min-height: 270px;
 }
 
-.hero-inlineBtn,
-.navLinkButton-navsidebar {
+.hero-transparent-button,
+.navslidbar-button {
   border: 2px solid var(--clr-yellow);
   border-radius: 6px;
   padding: 10px 8px;
 }
 
-.hero-outlineBtn {
+.hero-fill-button {
   border: 2px solid white;
   border-radius: 6px;
   padding: 10px 8px;
 }
 
-.hero-inlineBtn:hover {
+.hero-transparent-button:hover {
   background-color: transparent;
   color: white !important;
 }
 
-.navLinkButton-navsidebar:hover {
+.navslidbar-button:hover {
   background-color: white !important;
   color: black !important;
 }
 
-.hero-outlineBtn:hover {
+.hero-fill-button:hover {
   background-color: white !important;
   color: black !important;
 }
@@ -454,10 +454,6 @@ body {
   border: 1px solid black;
 }
 
-.border-radius-50 {
-  border-radius: 50% !important;
-}
-
 .icons-slider {
   width: 17px;
   height: 28px;
@@ -546,12 +542,12 @@ body {
     transform: translateX(80px);
   }
 
-  .hero-inlineBtn,
-  .navLinkButton-navsidebar {
+  .hero-transparent-button,
+  .navslidbar-button {
     padding: 10px 10px;
   }
 
-  .hero-outlineBtn {
+  .hero-fill-button {
     padding: 10px 10px;
   }
 }
@@ -628,27 +624,27 @@ body {
 
   .culb-image {
     max-width: 730px;
-    transform: translateX(0px);
   }
 
   .ementoring-image {
     max-width: 770px;
-    transform: translateX(0px);
   }
 
   .wealth-image {
     max-width: 600px;
-    transform: translateX(0px);
   }
 
   .player-image {
     max-width: 650px;
-    transform: translateX(0px);
   }
 
   .faq-image {
     max-width: 400px;
     transform: translate(0px);
+  }
+
+  .transform-translate-sm {
+    transform: translateX(0px);
   }
 }
 
@@ -731,9 +727,9 @@ body {
     transform: translateX(0px);
   }
 
-  .hero-inlineBtn,
-  .navLinkButton-navsidebar,
-  .hero-outlineBtn {
+  .hero-transparent-button,
+  .navslidbar-button,
+  .hero-fill-button {
     padding: 12px;
   }
 }
@@ -819,9 +815,9 @@ body {
     max-width: 760px;
   }
 
-  .hero-inlineBtn,
-  .navLinkButton-navsidebar,
-  .hero-outlineBtn {
+  .hero-transparent-button,
+  .navslidbar-button,
+  .hero-fill-button {
     padding: 15px 14px;
   }
 }

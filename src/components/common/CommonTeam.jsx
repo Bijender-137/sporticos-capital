@@ -83,8 +83,7 @@ const CommonTeam = () => {
                     >
                       <div className="common_team_card_shadow bg-white p-4 transition_300 mt-4 mt-lg-0 common_card_w m-auto">
                         <div className="d-flex align-items-center">
-                          <div className="common_team_border transition_300 common_team_image {
-">
+                          <div className="common_team_border transition_300 common_team_image">
                             <img
                               loading="lazy"
                               className="transition_300 w-100 h-100"

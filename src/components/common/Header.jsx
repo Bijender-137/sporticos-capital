@@ -68,14 +68,14 @@ const Header = () => {
                 })}
                 <Link
                   to="/contact"
-                  className="navLinkButton-navsidebar transition_300 mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow"
+                  className="navslidbar-button transition_300 mb-3 mb-md-4 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow"
                   onClick={() => setShow(false)}
                 >
                   contant Us
                 </Link>
                 <Link
                   to="/contact"
-                  className="navLinkButton-navsidebar transition_300 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow"
+                  className="navslidbar-button transition_300 px-3 px-sm-4 fw-normal text-uppercase text-black fs-sm bg-yellow ff-barlow"
                   onClick={() => setShow(false)}
                 >
                   set an appointment
