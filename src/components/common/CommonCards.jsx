@@ -9,22 +9,22 @@ const CommonCards = () => {
       <div className="py-5">
         <Container className="py-lg-5">
           <div className="py-xl-3">
-            {commonCardData.map((dreamsplayer, index) => {
-              const dreamplayerchange = location.pathname === dreamsplayer.path;
+            {commonCardData.map((data, index) => {
+              const dreamplayerchange = location.pathname === data.path;
               return dreamplayerchange ? (
                 <div key={index}>
                   <h3 className="ff-fontspring fw-semibold fs-xxl lh-42 text-center text-capitalize mb-0">
-                    {dreamsplayer.title}
+                    {data.title}
                   </h3>
                   <p
-                    style={{ maxWidth: dreamsplayer.parawidth }}
+                    style={{ maxWidth: data.parawidth }}
                     className={`ff-barlow opacity-07 fw-normal fs-base text-black text-center mb-0 pt-1 m-auto`}
                   >
-                    {dreamsplayer.description}{" "}
-                    <span className="fw-bold">{dreamsplayer.para1}</span>
+                    {data.description}{" "}
+                    <span className="fw-bold">{data.para1}</span>
                   </p>
                   <Row
-                    className={`pt-4 pt-lg-5 justify-content-center ${dreamsplayer.cardStyle} `}
+                    className={`pt-4 pt-lg-5 justify-content-center ${data.cardStyle} `}
                   >
                     <Col
                       sm={6}
@@ -36,15 +36,16 @@ const CommonCards = () => {
                     >
                       <div className="common_cards_shadow bg-white transition_300 p-3 h-100">
                         <img
+                          loading="lazy"
                           className="w-100 overflow-hidden transition_300"
-                          src={dreamsplayer.cardImage1}
+                          src={data.cardImage1}
                           alt="dream img"
                         />
                         <p className="fw-semibold text-black fs-base ff-fontspring pt-4 mt-1 mb-0">
-                          {dreamsplayer.subtitle}
+                          {data.subtitle}
                         </p>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 mb-0">
-                          {dreamsplayer.subdescription}
+                          {data.subdescription}
                         </p>
                       </div>
                     </Col>
@@ -58,15 +59,16 @@ const CommonCards = () => {
                     >
                       <div className="common_cards_shadow bg-white transition_300 p-3 h-100 ">
                         <img
+                          loading="lazy"
                           className="w-100 overflow-hidden transition_300"
-                          src={dreamsplayer.cardImage2}
+                          src={data.cardImage2}
                           alt="dream img"
                         />
                         <p className="fw-semibold text-black fs-base ff-fontspring pt-4 mt-1 mb-0">
-                          {dreamsplayer.subtitle2}
+                          {data.subtitle2}
                         </p>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
-                          {dreamsplayer.subdescription2}
+                          {data.subdescription2}
                         </p>
                       </div>
                     </Col>
@@ -80,15 +82,16 @@ const CommonCards = () => {
                     >
                       <div className="common_cards_shadow bg-white p-3 h-100 transition_300">
                         <img
+                          loading="lazy"
                           className="w-100 overflow-hidden transition_300"
-                          src={dreamsplayer.cardImage3}
+                          src={data.cardImage3}
                           alt="dream img"
                         />
                         <p className="fw-semibold text-black fs-base ff-fontspring pt-4 mt-1 mb-0">
-                          {dreamsplayer.subtitle3}
+                          {data.subtitle3}
                         </p>
                         <p className="fw-normal ff-barlow fs-base text-black opacity-07 pt-2 pe-xl-5 pe-lg-3 me-xl-1 mb-0">
-                          {dreamsplayer.subdescription3}
+                          {data.subdescription3}
                         </p>
                       </div>
                     </Col>
