@@ -617,7 +617,7 @@ export const inputdata = [
 export const commonCardData = [
   {
     parawidth: "500px",
-    cardStyle: "mt-md-2",
+    cardStyle: "mt-lg-2",
     path: "/player-pathwa",
     title: "Bringing Player Dreams to Fruition",
     description:
@@ -676,7 +676,7 @@ export const commonCardData = [
   {
     parawidth: "750px",
     path: "/club-investments",
-    cardStyle: "mt-md-2",
+    cardStyle: "mt-lg-2",
     title: "Maximizing Your Upside Potential",
     description:
       "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
