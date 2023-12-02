@@ -624,27 +624,27 @@ body {
 
   .culb-image {
     max-width: 730px;
-    transform: translateX(0px);
   }
 
   .ementoring-image {
     max-width: 770px;
-    transform: translateX(0px);
   }
 
   .wealth-image {
     max-width: 600px;
-    transform: translateX(0px);
   }
 
   .player-image {
     max-width: 650px;
-    transform: translateX(0px);
   }
 
   .faq-image {
     max-width: 400px;
     transform: translate(0px);
+  }
+
+  .transform-translate-sm {
+    transform: translateX(0px);
   }
 }
 
