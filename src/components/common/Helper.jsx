@@ -617,7 +617,7 @@ export const inputdata = [
 export const commonCardData = [
   {
     parawidth: "500px",
-    cardStyle: "mt-md-2",
+    cardStyle: "mt-lg-2",
     path: "/player-pathwa",
     title: "Bringing Player Dreams to Fruition",
     description:
@@ -676,7 +676,7 @@ export const commonCardData = [
   {
     parawidth: "750px",
     path: "/club-investments",
-    cardStyle: "mt-md-2",
+    cardStyle: "mt-lg-2",
     title: "Maximizing Your Upside Potential",
     description:
       "As we expand our portfolio of  clubs , we drive exceptional value through proven operational, managerial, and PR strategies.",
@@ -746,7 +746,6 @@ export const sporticoseTeam = [
       "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
     image: wealImage,
     titlename: "Wael Khattab",
-    subtitle: "Founder & Executive Director",
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
     imageGirl: drHussaImage,

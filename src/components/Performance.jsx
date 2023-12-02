@@ -24,7 +24,7 @@ const Performance = () => {
               Here’s what investors can expect:
             </p>
           </div>
-          <div className="row mt-md-5 pt-4">
+          <div className="row mt-lg-5 mt-md-2 pt-4">
             <div className="col-md-4 pe-md-0" data-aos="fade-right">
               <div className="d-flex flex-column justify-content-md-between h-100">
                 <div className="d-flex align-items-center">

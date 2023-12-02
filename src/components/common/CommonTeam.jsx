@@ -44,7 +44,7 @@ const CommonTeam = () => {
                       {data.description}
                     </p>
                   </div>
-                  <Row className="py-4">
+                  <Row className="py-lg-4 pb-4">
                     <Col
                       lg={6}
                       data-aos="fade-down"

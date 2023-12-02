@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Barlow', sans-serif; */
 
@@ -205,30 +212,40 @@ body {
 
 .ementoring-image {
   max-width: 570px;
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
   transform: translateX(30px);
   min-height: 220px;
 }
 
 .wealth-image {
   max-width: 530px;
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
   transform: translateX(20px);
   min-height: 270px;
 }
 
 .player-image {
   max-width: 550px;
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
   transform: translateX(20px);
   min-height: 250px;
 }
 
 .faq-image {
   max-width: 430px;
+  -webkit-transform: translateX(45px);
+  -ms-transform: translateX(45px);
   transform: translateX(45px);
   min-height: 330px;
 }
 
 .contact-image {
   max-width: 560px;
+  -webkit-transform: translateX(80px);
+  -ms-transform: translateX(80px);
   transform: translateX(80px);
   min-height: 270px;
 }
@@ -510,31 +527,43 @@ body {
 
   .club-image {
     max-width: 680px;
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
     transform: translateX(18px);
   }
 
   .ementoring-image {
     max-width: 770px;
+    -webkit-transform: translateX(60px);
+    -ms-transform: translateX(60px);
     transform: translateX(60px);
   }
 
   .wealth-image {
     max-width: 600px;
+    -webkit-transform: translateX(40px);
+    -ms-transform: translateX(40px);
     transform: translateX(40px);
   }
 
   .player-image {
     max-width: 650px;
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
     transform: translateX(50px);
   }
 
   .faq-image {
     max-width: 480px;
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
     transform: translateX(10px);
   }
 
   .contact-image {
     max-width: 670px;
+    -webkit-transform: translateX(80px);
+    -ms-transform: translateX(80px);
     transform: translateX(80px);
   }
 
@@ -627,10 +656,14 @@ body {
 
   .faq-image {
     max-width: 400px;
+    -webkit-transform: translate(0px);
+    -ms-transform: translate(0px);
     transform: translate(0px);
   }
 
   .transform-translate-sm {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
     transform: translateX(0px);
   }
 }
@@ -703,6 +736,8 @@ body {
 
   .contact-image {
     max-width: 740px;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
     transform: translateX(0px);
   }
 

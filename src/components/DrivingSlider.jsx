@@ -76,7 +76,7 @@ const DrivingSlider = () => {
                 return (
                   <SwiperSlide
                     key={index}
-                    className="pt-4 pb-5 py-sm-4 py-md-5 d-flex gap-2"
+                    className="pt-4 pb-5 py-sm-4 py-lg-5 d-flex gap-2"
                   >
                     <div className="common_cards_shadow bg-white p-3 p-md-2 p-lg-3 h-100 transition_300 mx-auto">
                       <img
