@@ -78,7 +78,6 @@ input:-webkit-autofill:active {
 }
 
 /* FORM SUBMISSION CSS END */
-
 /* COMMON CLASSES */
 .bg_img_property {
     background-size: cover !important;
@@ -86,7 +85,7 @@ input:-webkit-autofill:active {
 }
 
 /* FOOTER CSS START */
-.footer-bg-img {
+.footer_bg_image {
     background: url('./assets/images/webp/Footer_bg_img.webp');
 }
 
@@ -263,22 +262,28 @@ input:-webkit-autofill:active {
 
 /* MEDIA QUARRY START */
 @media (min-width:576px) {
+
+    /* COMMON CARDS */
     .common_cards_shadow {
         max-width: 100%;
     }
 
+    /* PERFORMANCE SECTION */
     .performance_image {
         max-width: 280px;
     }
 
+    /* FORM SUBMISSIONS */
     .form_input {
         padding: 16px 8px 16px 13px;
     }
 
+    /* COMMON TEAM */
     .common_team_image {
         max-width: 90px;
     }
 
+    /* PRELOADER */
     .preloader_img {
         width: 350px;
         height: 65px;
@@ -287,6 +292,7 @@ input:-webkit-autofill:active {
 
 @media (min-width:768px) {
 
+    /* COMMON TEAM CSS */
     .common_team_border {
         border: 6px solid rgba(0, 117, 242, 0.38);
     }
@@ -299,12 +305,13 @@ input:-webkit-autofill:active {
         border: 6px solid rgba(66, 158, 166, 0.38);
     }
 
-    .footer_para_width {
-        max-width: 453px;
-    }
-
+    /* FORM SUBMISSIONS */
     .form_heading_setup {
         max-width: 810px;
+    }
+
+    .footer_para_width {
+        max-width: 453px;
     }
 
     .chat_box {
@@ -323,12 +330,16 @@ input:-webkit-autofill:active {
         max-width: 535px;
     }
 
+    .common_team_image {
+        max-width: 142px;
+    }
+
     .form_input {
         padding: 20px 8px 18px 13px;
     }
 
-    .performance_image {
-        max-width: 320px;
+    .common_card_w {
+        max-width: 100%;
     }
 
     .chat_box {
@@ -338,8 +349,9 @@ input:-webkit-autofill:active {
         height: 81px;
     }
 
-    .common_team_image {
-        max-width: 142px;
+    /* PERFORMANCE MEDIA QUARRY */
+    .performance_image {
+        max-width: 320px;
     }
 
     .performance_text_w {
@@ -352,10 +364,6 @@ input:-webkit-autofill:active {
 
     .performance_text_width {
         max-width: 270px;
-    }
-
-    .common_card_w {
-        max-width: 100%;
     }
 }
 

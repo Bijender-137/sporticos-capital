@@ -20,7 +20,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className={`footer-bg-img bg_img_property ${footerPaddingActive ? 'footer-padding-active' : ''}`}>
+      <div className={`footer_bg_image bg_img_property ${footerPaddingActive ? 'footer-padding-active' : ''}`}>
         <div className="py-5">
           <div className="py-sm-4">
             <Container className={`pb-md-4 pb-lg-5 mb-sm-3 ${show ? 'footer-paddingtop' : ''}`}>
