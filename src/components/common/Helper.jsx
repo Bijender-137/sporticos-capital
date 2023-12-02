@@ -746,7 +746,6 @@ export const sporticoseTeam = [
       "Sporticos Capital combines decades of experience across private equity, professional sport management and impact-making to deliver meaningful gains across our portfolio",
     image: wealImage,
     titlename: "Wael Khattab",
-    subtitle: "Founder & Executive Director",
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East.",
     imageGirl: drHussaImage,

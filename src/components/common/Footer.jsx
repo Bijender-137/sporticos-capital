@@ -45,21 +45,21 @@ const Footer = () => {
                     </p>
                     <div className="d-flex align-items-center gap-2 mt-3">
                       <a
-                        target="_blank"
+                        target="blank"
                         href="https://www.linkedin.com/company/sporticos-capital/"
                         className="footer_icons d-flex justify-content-center align-items-center transition_300"
                       >
                         <Linkdin />
                       </a>
                       <a
-                        target="_blank"
+                        target="blank"
                         href="https://www.twitter.com/SporticosCapital"
                         className="footer_icons d-flex justify-content-center align-items-center transition_300"
                       >
                         <Twitter />
                       </a>
                       <a
-                        target="_blank"
+                        target="blank"
                         href="https://www.instagram.com/sporticoscapital/"
                         className="footer_icons d-flex justify-content-center align-items-center transition_300"
                       >

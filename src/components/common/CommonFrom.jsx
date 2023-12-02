@@ -37,11 +37,10 @@ const CommonFrom = () => {
     setOpen(!open);
     // console.log(setOpen(!open));
   };
-  const [option, setOption] = useState("");
+
   const [selectedOption, setSelectedOption] = useState(null);
   const data = ["option 1", "option 2"];
   const optionClick = (i) => {
-    setOption(i);
     setSelectedOption(i);
     setOpen(false);
   };
@@ -50,7 +49,6 @@ const CommonFrom = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setSelectedOption(null);
-    setOption("");
     setSubject("");
     setName("");
     setApointment("");
