@@ -76,6 +76,31 @@
     color: black !important;
 }
 
+.home-page-heading,
+.about-us-page-heading {
+    max-width: 628px;
+}
+
+.debt-page-heading,
+.wealth-page-heading {
+    max-width: 525px;
+}
+
+.club-page-heading {
+    max-width: 516px;
+}
+
+.ememtoring-page-heading {
+    max-width: 600px;
+}
+.player-page-heading{
+    max-width: 571px;
+}
+.contact-page-heading,
+.faq-page-heading{
+    max-width: 546px;
+}
+
 @media (min-width:400px) {
     .homepage-image {
         max-width: 610px;

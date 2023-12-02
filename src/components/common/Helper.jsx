@@ -344,8 +344,8 @@ export const borderCardData = [
 export const heroData = [
   {
     path: "/",
-    headingwidth: "628px",
-    headingwidth1: "550px",
+    headingStyle: "home-page-heading",
+    descriptionStyle: "pe-sm-5 me-md-5",
     imageStyle: "homepage-image ",
     heading: (
       <>
@@ -361,7 +361,7 @@ export const heroData = [
   },
   {
     path: "/about-us",
-    headingwidth: "625px",
+    headingStyle: "about-us-page-heading",
     imageStyle: "abotus-image",
     heading: (
       <>
@@ -380,7 +380,7 @@ export const heroData = [
 
   {
     path: "/debt-funding",
-    headingwidth: "525px",
+    headingStyle: "debt-page-heading",
     imageStyle: "debt-image",
     heading: (
       <>
@@ -395,7 +395,7 @@ export const heroData = [
   },
   {
     path: "/club-investments",
-    headingwidth: "516px",
+    headingStyle: "club-page-heading",
     imageStyle: "culb-image",
     heading: (
       <>
@@ -409,7 +409,7 @@ export const heroData = [
   },
   {
     path: "/e-mentoring",
-    headingwidth: "600px",
+    headingStyle: "ememtoring-page-heading",
     imageStyle: "ementoring-image",
     heading: (
       <>
@@ -424,7 +424,7 @@ export const heroData = [
   },
   {
     path: "/wealth-management",
-    headingwidth: "525px",
+    headingStyle: "wealth-page-heading",
     imageStyle: "wealth-image",
     heading: (
       <>
@@ -439,9 +439,9 @@ export const heroData = [
   },
   {
     path: "/player-pathwa",
-    headingwidth: "571px",
     imageStyle: "player-image",
-    headingStyle: "pe-lg-5 me-lg-3",
+    headingStyle: "player-page-heading",
+    headingClassName: "pe-lg-5 me-lg-3",
     heading: (
       <>
         Proudly
@@ -455,7 +455,7 @@ export const heroData = [
   },
   {
     path: "/faq",
-    headingwidth: "548px",
+    headingStyle: "faq-page-heading",
     imageStyle: "faq-image",
     mainheading: (
       <>
@@ -466,7 +466,7 @@ export const heroData = [
   },
   {
     path: "/contact",
-    headingwidth: "545px",
+    headingStyle: "contact-page-heading",
     imageStyle: "contact-image",
     mainheading: (
       <>
