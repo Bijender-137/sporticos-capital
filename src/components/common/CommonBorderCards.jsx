@@ -30,9 +30,9 @@ const CommonBorderCards = () => {
           </p>
           <div className={`${data.Style}`}></div>
           <Row className={`d-flex justify-content-center pt-lg-4`}>
-            {data.submap.map((subdata, columnindex, index) => (
+            {data.submap.map((subdata, columnindex) => (
               <Col
-                key={index}
+                key={columnindex}
                 data-aos="fade-down"
                 data-aos-delay={subdata.aosDelay}
                 data-aos-ease="linear"
