@@ -13,7 +13,7 @@ const CommonCards = () => {
               const dreamplayerchange = location.pathname === data.path;
               return dreamplayerchange ? (
                 <div key={index}>
-                  <h3 className="ff-fontspring fw-semibold fs-xxl lh-42 text-center text-capitalize mb-0">
+                  <h3 className="ff-fontspring fw-semibold fs-xxl common-card-lh text-center text-capitalize mb-0">
                     {data.title}
                   </h3>
                   <p

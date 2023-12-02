@@ -138,12 +138,8 @@ export const borderCardData = [
   {
     path: "/player-pathwa",
     title: "Guiding Players to the Next Level",
-    description: (
-      <>
-        While players within our athlete network focus on honing their{" "}
-        <span className="d-lg-block"> football skills, we:</span>
-      </>
-    ),
+    descriptionStyle: "border-cards-palyer-paragraph",
+    description: "While players within our athlete network focus on honing their  football skills, we:",
     submap: [
       {
         cardstyle: "ms-xxl-3 px-xxl-3",
@@ -207,12 +203,8 @@ export const borderCardData = [
   {
     path: "/debt-funding",
     title: "Going Beyond Capital Alone",
-    description: (
-      <>
-        Our background in private equity and sports management uniquely
-        <span className="d-lg-block">positions us to:</span>
-      </>
-    ),
+    descriptionStyle: "border-cards-debt-paragraph",
+    description: "Our background in private equity and sports management uniquely positions us to:",
     submap: [
       {
         cardstyle: "mx-xxl-4 px-xxl-4",
@@ -362,7 +354,7 @@ export const heroData = [
   {
     path: "/about-us",
     headingStyle: "about-us-page-heading",
-    imageStyle: "abotus-image",
+    imageStyle: "about-us-image",
     heading: (
       <>
         A Thriving <span className="clr-yellow"> Ecosystem</span> of

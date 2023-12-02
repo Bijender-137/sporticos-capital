@@ -24,7 +24,7 @@ const CommonBorderCards = () => {
             {data.title}
           </h3>
           <p
-            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center border-card-paragraph mb-4 mx-auto ${data.className}`}
+            className={`fs-base ff-barlow opacity-07 text-black fw-normal text-center border-card-paragraph mb-4 mx-auto ${data.descriptionStyle}`}
           >
             {data.description}
           </p>
@@ -39,7 +39,7 @@ const CommonBorderCards = () => {
                 md={player ? 4 : 3}
                 lg={player ? 3 : 3}
                 xs={6}
-                className={`pt-3 pt-md-0 ${columnindex === data.submap.length - 1 ? "last-child" : "border-end-yellow"
+                className={`pt-3 pt-md-0 ${columnindex === data.submap.length - 1 ? "last-child" : "common-border-card-end-yellow"
                   }`} >
                 <div className={`pt-2 ${subdata.cardstyle}`} >
                   <div className="d-flex justify-content-center justify-content-md-start">

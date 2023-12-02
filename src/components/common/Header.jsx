@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <>
       <div
-        className={`d-flex flex-column min-vh-100 overflow-hidden hero-bg-image ${data.backgroundImage}`}
+        className={`d-flex flex-column min-vh-100 overflow-hidden bg_img_property ${data.backgroundImage}`}
         onClick={() => setShow(false)}
       >
         <nav className="bg-yellow position-fixed top-0 w-100 z-100">
@@ -89,7 +89,7 @@ const Header = () => {
                   loading="lazy"
                   src={pagelogo}
                   alt="pagelogo-page"
-                  className="pagelogo-image"
+                  className="page-logo-image"
                 />
               </Link>
               <div onClick={handleMenuClick} className="cursor_pointer">
