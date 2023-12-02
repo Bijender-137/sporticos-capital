@@ -354,7 +354,7 @@ export const heroData = [
   {
     path: "/about-us",
     headingStyle: "about-us-page-heading",
-    imageStyle: "abotus-image",
+    imageStyle: "about-us-image",
     heading: (
       <>
         A Thriving <span className="clr-yellow"> Ecosystem</span> of

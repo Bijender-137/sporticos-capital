@@ -163,7 +163,7 @@ body {
   right: 20px;
 }
 
-.pagelogo-image {
+.page-logo-image {
   max-width: 170px;
   width: 100%;
 }
@@ -177,14 +177,10 @@ body {
 /* HERO SECTION CSS START */
 .heroall-background-image {
   background: url("./assets/images/webp/hero-main-img-academy.webp");
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
 }
 
 .heroall-background-image-contact {
   background: url("./assets/images/webp/hero-main-img.webp");
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
 }
 
 .homepage-image {
@@ -192,7 +188,7 @@ body {
   min-height: 230px;
 }
 
-.abotus-image {
+.about-us-image {
   max-width: 380px;
   min-height: 190px;
 }
@@ -512,7 +508,7 @@ body {
     max-width: 610px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 500px;
   }
 
@@ -594,7 +590,7 @@ body {
     margin-top: 69px;
   }
 
-  .pagelogo-image {
+  .page-logo-image {
     max-width: 200px;
     width: 100%;
   }
@@ -626,7 +622,7 @@ body {
     max-width: 620px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 480px;
   }
 
@@ -668,17 +664,17 @@ body {
     margin-top: 80px;
   }
 
-  .pagelogo-image {
+  .page-logo-image {
     max-width: 261px;
     width: 100%;
   }
 
-  .heaing-lh {
+  .hero-heading-lh {
     line-height: 60px;
   }
 
   /* ----------BORDER CARDS --------- */
-  .border-end-yellow {
+  .common-border-card-end-yellow {
     border-right: 1px solid var(--clr-yellow);
   }
 
@@ -706,7 +702,7 @@ body {
     max-width: 700px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 530px;
   }
 
@@ -750,16 +746,16 @@ body {
   }
 
   /* ----------SIDEBAR PAGES --------- */
-  .pagelogo-image {
+  .page-logo-image {
     max-width: 261px;
     width: 100%;
   }
 
-  .heaing-lh {
+  .hero-heading-lh {
     line-height: 84px;
   }
 
-  .lh-42 {
+  .common-card-lh {
     line-height: 42px;
   }
 
@@ -791,7 +787,7 @@ body {
     max-width: 830px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 620px;
   }
 
@@ -835,7 +831,7 @@ body {
     max-width: 790px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 610px;
   }
 
@@ -873,7 +869,7 @@ body {
     max-width: 870px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 690px;
   }
 
@@ -922,7 +918,7 @@ body {
     max-width: 900px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 900px;
   }
 
@@ -952,7 +948,7 @@ body {
     max-width: 950px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 970px;
   }
 
@@ -1012,7 +1008,7 @@ body {
     max-width: 1120px;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 1040px;
   }
 
@@ -1050,7 +1046,7 @@ body {
     max-width: 1450px !important;
   }
 
-  .abotus-image {
+  .about-us-image {
     max-width: 1340px;
   }
 

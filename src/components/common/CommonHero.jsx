@@ -12,7 +12,7 @@ const CommonHero = () => {
         <>
             <Container className='pb-md-5 mb-md-5 pb-lg-0 mb-lg-0 '>
                 <div className={`pb-md-4 pb-xl-0 ${data.headingStyle}`}>
-                    {data?.mainheading && <h1 className="fs-4xl fw-bold ff-fontspring text-white  z-2 position-relative heaing-lh mb-0 ">
+                    {data?.mainheading && <h1 className="fs-4xl fw-bold ff-fontspring text-white  z-2 position-relative hero-heading-lh mb-0 ">
                         {data.mainheading}
                     </h1>
                     }
