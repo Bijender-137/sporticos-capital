@@ -724,7 +724,6 @@ export const sporticoseTeam = [
     title: "The Sporticos Team",
     image: wealImage,
     titlename: "Wael Khattab",
-    subtitle: "Founder & Executive Director",
     subdescription:
       "Private equity veteran with over two decades of experience and approximately USD 1Bn of capital deployed throughout the Middle East, including 14 buyout transactions across six jurisdictions.",
     imageGirl: drHussaImage,

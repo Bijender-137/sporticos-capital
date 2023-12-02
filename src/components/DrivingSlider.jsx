@@ -100,7 +100,7 @@ const DrivingSlider = () => {
               ref={(ref) => {
                 prevButtonRef = ref;
               }}
-              className="swiper-button-prev transition_300 d-flex justify-content-center"
+              className="swiper-button-prev margin-top mt-sm-0 transition_300 d-flex justify-content-center"
               onClick={handlePrev}
             >
               <div className="icons-slider">
@@ -111,7 +111,7 @@ const DrivingSlider = () => {
               ref={(ref) => {
                 nextButtonRef = ref;
               }}
-              className="swiper-button-next transition_300 d-flex justify-content-center"
+              className="swiper-button-next bg-yellow margin-top mt-sm-0 transition_300 d-flex justify-content-center"
               onClick={handleNext}
             >
               <div className="icons-slider">
@@ -122,7 +122,7 @@ const DrivingSlider = () => {
           <div className="d-flex justify-content-center pt-4 pt-sm-0">
             <Link
               to="/about-us"
-              className="fw-normal text-uppercase text-black fs-sm bg-yellow common_fill_button transition_300 ff-barlow"
+              className="fw-normal text-uppercase text-black fs-sm bg-yellow border-radius-6 common_fill_button transition_300 ff-barlow"
             >
               reach out
             </Link>
