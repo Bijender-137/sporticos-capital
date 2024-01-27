@@ -162,7 +162,7 @@ body {
 }
 
 .nav-fix {
-  right: -301px;
+  right: -300px;
 }
 
 .cross-icon {
@@ -434,11 +434,7 @@ body {
 
 
 .swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-  content: '' !important;
-  width: 0px !important;
-}
-
+.swiper-rtl .swiper-button-prev:after,
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
   content: '' !important;
@@ -477,7 +473,6 @@ body {
   /*---- DRIVING SLIDER BUTTON PREV NEXT----- */
   .swiper-button-next {
     right: 40% !important;
-    ;
   }
 
   .swiper-button-prev {
